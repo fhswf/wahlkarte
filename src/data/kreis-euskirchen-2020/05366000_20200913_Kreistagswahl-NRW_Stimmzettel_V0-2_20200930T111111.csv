@@ -1,0 +1,9 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung;stimmzettel-position;partei-kurzname;partei-langname;partei-rgb-wert;partei-typ
+0.2;05366000;13.09.2020;Kreistagswahl NRW;;Kreistagswahl;1;CDU;Christlich Demokratische Union Deutschlands;#000000;P
+0.2;05366000;13.09.2020;Kreistagswahl NRW;;Kreistagswahl;2;SPD;Sozialdemokratische Partei Deutschlands;#D60029;P
+0.2;05366000;13.09.2020;Kreistagswahl NRW;;Kreistagswahl;3;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;#33CC00;P
+0.2;05366000;13.09.2020;Kreistagswahl NRW;;Kreistagswahl;4;FDP;Freie Demokratische Partei;#FBEE31;P
+0.2;05366000;13.09.2020;Kreistagswahl NRW;;Kreistagswahl;5;UWV;Unabhängige Wählervereinigung;#9E9E9E;P
+0.2;05366000;13.09.2020;Kreistagswahl NRW;;Kreistagswahl;6;AfD;Alternative für Deutschland;#009EE0;P
+0.2;05366000;13.09.2020;Kreistagswahl NRW;;Kreistagswahl;7;DIE LINKE;DIE LINKE;#D0238C;P
+0.2;05366000;13.09.2020;Kreistagswahl NRW;;Kreistagswahl;8;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;#CAE11B;P

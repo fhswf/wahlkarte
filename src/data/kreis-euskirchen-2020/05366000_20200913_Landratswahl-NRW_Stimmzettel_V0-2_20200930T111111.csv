@@ -1,0 +1,7 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung;stimmzettel-position;partei-kurzname;partei-langname;partei-rgb-wert;partei-typ
+0.2;05366000;13.09.2020;Landratswahl NRW;;Wahl des/der Landrats/Landrätin;1;CDU;Christlich Demokratische Union Deutschlands;#000000;P
+0.2;05366000;13.09.2020;Landratswahl NRW;;Wahl des/der Landrats/Landrätin;2;SPD;Sozialdemokratische Partei Deutschlands;#D60029;P
+0.2;05366000;13.09.2020;Landratswahl NRW;;Wahl des/der Landrats/Landrätin;3;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;#33CC00;P
+0.2;05366000;13.09.2020;Landratswahl NRW;;Wahl des/der Landrats/Landrätin;6;AfD;Alternative für Deutschland;#009EE0;P
+0.2;05366000;13.09.2020;Landratswahl NRW;;Wahl des/der Landrats/Landrätin;7;DIE LINKE;DIE LINKE;#D0238C;P
+0.2;05366000;13.09.2020;Landratswahl NRW;;Wahl des/der Landrats/Landrätin;9;ÖDP;Ökologisch-Demokratische Partei;#FFA338;P

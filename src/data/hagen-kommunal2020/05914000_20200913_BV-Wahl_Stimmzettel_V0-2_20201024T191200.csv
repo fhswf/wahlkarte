@@ -1,0 +1,49 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung;stimmzettel-position;partei-kurzname;partei-langname;partei-rgb-wert;partei-typ
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;1;SPD;Sozialdemokratische Partei Deutschlands;#d60029;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;2;CDU;Christlich Demokratische Union Deutschlands;#010101;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;3;GRÜNE;Bündnis 90/Die Grünen;#33cc00;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;4;;HAGEN AKTIV;#0000fc;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;5;FDP;Freie Demokratische Partei;#fbee31;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;6;DIE LINKE;Die Linke;#cc0066;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;7;AfD;Alternative für Deutschland;#21c5ff;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;8;PIRATEN;Piratenpartei Deutschland;#ff8800;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;9;REP;DIE REPUBLIKANER;#1640e8;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Mitte;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Mitte;10;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;#a50021;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Nord;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Nord;1;CDU;Christlich Demokratische Union Deutschlands;#010101;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Nord;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Nord;2;SPD;Sozialdemokratische Partei Deutschlands;#d60029;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Nord;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Nord;3;;HAGEN AKTIV;#0000fc;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Nord;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Nord;4;GRÜNE;Bündnis 90/Die Grünen;#33cc00;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Nord;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Nord;5;DIE LINKE;Die Linke;#cc0066;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Nord;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Nord;6;FDP;Freie Demokratische Partei;#fbee31;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Nord;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Nord;7;PIRATEN;Piratenpartei Deutschland;#ff8800;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Nord;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Nord;8;AfD;Alternative für Deutschland;#21c5ff;P
+0.2;05914000;13.09.2020;BV-Wahl;Hagen-Nord;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hagen-Nord;9;REP;DIE REPUBLIKANER;#1640e8;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;1;CDU;Christlich Demokratische Union Deutschlands;#010101;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;2;SPD;Sozialdemokratische Partei Deutschlands;#d60029;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;3;BfHo;Freie Wähler - Bürger für Hohenlimburg;#9fe1d6;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;4;GRÜNE;Bündnis 90/Die Grünen;#33cc00;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;5;;HAGEN AKTIV;#0000fc;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;6;DIE LINKE;Die Linke;#cc0066;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;7;FDP;Freie Demokratische Partei;#fbee31;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;8;PIRATEN;Piratenpartei Deutschland;#ff8800;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;9;AfD;Alternative für Deutschland;#21c5ff;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;10;HAK;Hagener Aktivisten-Kreis;#000000;P
+0.2;05914000;13.09.2020;BV-Wahl;Hohenlimburg;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Hohenlimburg;11;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;#a50021;P
+0.2;05914000;13.09.2020;BV-Wahl;Eilpe/Dahl;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Eilpe/Dahl;1;SPD;Sozialdemokratische Partei Deutschlands;#d60029;P
+0.2;05914000;13.09.2020;BV-Wahl;Eilpe/Dahl;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Eilpe/Dahl;2;CDU;Christlich Demokratische Union Deutschlands;#010101;P
+0.2;05914000;13.09.2020;BV-Wahl;Eilpe/Dahl;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Eilpe/Dahl;3;GRÜNE;Bündnis 90/Die Grünen;#33cc00;P
+0.2;05914000;13.09.2020;BV-Wahl;Eilpe/Dahl;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Eilpe/Dahl;4;;HAGEN AKTIV;#0000fc;P
+0.2;05914000;13.09.2020;BV-Wahl;Eilpe/Dahl;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Eilpe/Dahl;5;FDP;Freie Demokratische Partei;#fbee31;P
+0.2;05914000;13.09.2020;BV-Wahl;Eilpe/Dahl;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Eilpe/Dahl;6;AfD;Alternative für Deutschland;#21c5ff;P
+0.2;05914000;13.09.2020;BV-Wahl;Eilpe/Dahl;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Eilpe/Dahl;7;DIE LINKE;Die Linke;#cc0066;P
+0.2;05914000;13.09.2020;BV-Wahl;Eilpe/Dahl;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Eilpe/Dahl;8;REP;DIE REPUBLIKANER;#1640e8;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;1;SPD;Sozialdemokratische Partei Deutschlands;#d60029;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;2;CDU;Christlich Demokratische Union Deutschlands;#010101;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;3;;HAGEN AKTIV;#0000fc;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;4;GRÜNE;Bündnis 90/Die Grünen;#33cc00;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;5;DIE LINKE;Die Linke;#cc0066;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;6;FDP;Freie Demokratische Partei;#fbee31;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;7;PIRATEN;Piratenpartei Deutschland;#ff8800;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;8;AfD;Alternative für Deutschland;#21c5ff;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;9;REP;DIE REPUBLIKANER;#1640e8;P
+0.2;05914000;13.09.2020;BV-Wahl;Haspe;Stimmzettel für die Wahl der Bezirksvertretung des Stadtbezirks Haspe;10;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;#a50021;P

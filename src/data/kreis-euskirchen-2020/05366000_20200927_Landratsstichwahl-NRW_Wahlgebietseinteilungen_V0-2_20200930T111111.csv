@@ -1,0 +1,287 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;wahl-leiter-gs;wahl-leiter-name;gebiet-ebene-5-nr;gebiet-ebene-5-name;gebiet-ebene-4-nr;gebiet-ebene-4-name;gebiet-ebene-3-nr;gebiet-ebene-3-name;gebiet-ebene-2-nr;gebiet-ebene-2-name;bezirk-nr;bezirk-name;bezirk-art;bezirk-repräsentativ;kandidat-gebiet-nr;kandidat-gebiet-bezeichnung;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;1;Arloff;01.1;01.1 Arloff;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;1;Arloff;01.2;01.2 Briefwahlbezirk Arloff;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;2;Kirspenich;02.1;02.1 Kirspenich;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;2;Kirspenich;02.2;02.2 Briefwahlbezirk Kirspenich;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;3;Iversheim I, Kalkar;03.1;03.1 Iversheim I, Kalkar;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;3;Iversheim I, Kalkar;03.2;03.2 Briefwahlbezirk Iversheim I, Kalkar;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;4;Iversheim II, Eschweiler;04.1;04.1 Iversheim II, Eschweiler;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;4;Iversheim II, Eschweiler;04.2;04.2 Briefwahlbezirk Iversheim II, Eschweiler;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;5;Nöthen, Hohn;05.1;05.1 Nöthen, Hohn;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;5;Nöthen, Hohn;05.2;05.2 Briefwahlbezirk Nöthen, Hohn;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;6;Rodert, Bad Münstereifel I;06.1;06.1 Rodert, Bad Münstereifel I;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;6;Rodert, Bad Münstereifel I;06.2;06.2 Briefwahlbezirk Rodert, Bad Münstereifel I;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;7;Bad Münstereifel II;07.1;07.1 Bad Münstereifel II;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;7;Bad Münstereifel II;07.2;07.2 Briefwahlbezirk Bad Münstereifel II;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;8;Bad Münstereifel III;08.1;08.1 Bad Münstereifel III;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;8;Bad Münstereifel III;08.2;08.2 Briefwahlbezirk Bad Münstereifel III;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;9;Bad Münstereifel IV;09.1;09.1 Bad Münstereifel IV;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;012;12 Bad Münstereifel;9;Bad Münstereifel IV;09.2;09.2 Briefwahlbezirk Bad Münstereifel IV;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;10;Eicherscheid;10.1;10.1 Eicherscheid;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;10;Eicherscheid;10.2;10.2 Briefwahlbezirk Eicherscheid;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;11;Schönau;11.1;11.1 Schönau;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;11;Schönau;11.2;11.2 Briefwahlbezirk Schönau;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;12;Mahlberg;12.1;12.1 Mahlberg;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;12;Mahlberg;12.2;12.2 Briefwahlbezirk Mahlberg;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;13;Mutscheid, Esch;13.1;13.1 Mutscheid,  Esch;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;13;Mutscheid, Esch;13.2;13.2 Briefwahlbezirk Mutscheid, Esch;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;14;Rupperath, Hardtbrücke;14.1;14.1 Rupperath, Hardtbrücke;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;14;Rupperath, Hardtbrücke;14.2;14.2 Briefwahlbezirk Rupperath, Hardtbrücke;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;15;Effelsberg, Wald;15.1;15.1 Effelsberg, Wald;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;15;Effelsberg, Wald;15.2;15.2 Briefwahlbezirk Effelsberg, Wald;B;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;16;Houverath;16.1;16.1 Houverath;W;N;;;;Stichwahl des Landrats
+0.2;05366004;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;013;13 Bad Münstereifel;16;Houverath;16.2;16.2 Briefwahlbezirk Houverath;B;N;;;;Stichwahl des Landrats
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;001;Blankenheim I;001-1;Blankenheim I;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;002;Blankenheim II;002-1;Blankenheim II;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;003;Blankenheimerdorf I / Blankenheim III;003-1;Blankenheim III;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;003;Blankenheimerdorf I / Blankenheim III;003-2;Blankenheimerdorf I;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;004;Blankenheimerdorf II;004-1;Blankenheimerdorf II;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;005;Rohr / Lindweiler / Reetz I;005-1;Rohr;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;005;Rohr / Lindweiler / Reetz I;005-2;Lindweiler;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;005;Rohr / Lindweiler / Reetz I;005-3;Reetz I;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;006;Mülheim / Reetz II;006-1;Mülheim;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;006;Mülheim / Reetz II;006-2;Reetz II;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;007;Freilingen;007-1;Freilingen;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;008;Lommersdorf;008-1;Lommersdorf;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;009;Ahrdorf / Ahrhütte / Uedelhoven;009-1;Ahrdorf;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;009;Ahrdorf / Ahrhütte / Uedelhoven;009-2;Ahrhütte;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;009;Ahrdorf / Ahrhütte / Uedelhoven;009-3;Uedelhoven;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;010;Dollendorf;010-1;Dollendorf;W;J;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;011;Hüngersdorf;011-1;Hüngersdorf;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;012;Ripsdorf;012-1;Ripsdorf;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;013;Alendorf / Waldorf / Nonnenbach;013-1;Alendorf;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;013;Alendorf / Waldorf / Nonnenbach;013-2;Waldorf;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;021;21 Blankenheim;013;Alendorf / Waldorf / Nonnenbach;013-3;Nonnenbach;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;014-1;Briefwahl I;B;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366008;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;014-2;Briefwahl II;B;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;1;1 Baasem;01.0;01.0 Baasem;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;2;2 Berk/Frauenkron;02.1;02.1 Berk;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;2;2 Berk/Frauenkron;02.2;02.2 Frauenkron 1;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;3;3 Dahlem 1;03.0;03.0 Dahlem 1;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;4;4 Dahlem 2;04.0;04.0 Dahlem 2;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;5;5 Dahlem 3;05.0;05.0 Dahlem 3;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;6;6 Dahlem 4;06.0;06.0 Dahlem 4;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;7;7 Kronenburg/Frauenkron;07.1;07.1 Kronenburg;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;7;7 Kronenburg/Frauenkron;07.2;07.2 Frauenkron 2;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;8;8 Schmidtheim 1;08.0;08.0 Schmidtheim 1;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;9;9 Schmidtheim 2;09.0;09.0 Schmidtheim 2;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366012;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;10;10 Schmidtheim 3;10.0;10.0 Schmidtheim 3;W;N;;;;Wahl des/der Landrats/Landrätin
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;005;5 Euskirchen;01;01 Kernstadt;1;Briefwahl I;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;005;5 Euskirchen;01;01 Kernstadt;011;01.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;005;5 Euskirchen;02;02 Kernstadt;2;Briefwahl II;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;005;5 Euskirchen;02;02 Kernstadt;021;02.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;005;5 Euskirchen;03;03 Kernstadt;3;Briefwahl III;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;005;5 Euskirchen;03;03 Kernstadt;031;03.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;004;4 Euskirchen;04;04 Kernstadt;4;Briefwahl IV;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;004;4 Euskirchen;04;04 Kernstadt;041;04.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;004;4 Euskirchen;05;05 Kernstadt;5;Briefwahl V;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;004;4 Euskirchen;05;05 Kernstadt;051;05.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;004;4 Euskirchen;06;06 Kernstadt;6;Briefwahl VI;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;004;4 Euskirchen;06;06 Kernstadt;061;06.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;004;4 Euskirchen;07;07 Kernstadt;7;Briefwahl VII;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;004;4 Euskirchen;07;07 Kernstadt;071;07.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;009;9 Euskirchen;08;08 Kernstadt;8;Briefwahl VIII;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;009;9 Euskirchen;08;08 Kernstadt;081;08.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;009;9 Euskirchen;09;09 Kernstadt;9;Briefwahl IX;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;009;9 Euskirchen;09;09 Kernstadt;091;09.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;009;9 Euskirchen;10;10 Kernstadt;10;Briefwahl X;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;009;9 Euskirchen;10;10 Kernstadt;101;10.1 Kernstadt;W;J;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;009;9 Euskirchen;11;11 Kernstadt;11;Briefwahl XI;B;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;009;9 Euskirchen;11;11 Kernstadt;111;11.1 Kernstadt;W;J;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;008;8 Euskirchen;12;12 Kernstadt;121;12.1 Kernstadt;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;13;13 Frauenberg/Oberwichterich, Euenheim, Elsig;131;13.1 Frauenberg/Oberwichterich;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;13;13 Frauenberg/Oberwichterich, Euenheim, Elsig;132;13.2 Elsig;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;13;13 Frauenberg/Oberwichterich, Euenheim, Elsig;133;13.3 Euenheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;14;14 Wißkirchen, Billig, Kreuzweingarten/Rheder;141;14.1 Wißkirchen;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;14;14 Wißkirchen, Billig, Kreuzweingarten/Rheder;142;14.2 Billig;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;14;14 Wißkirchen, Billig, Kreuzweingarten/Rheder;143;14.3 Kreuzweingarten/Rheder;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;006;6 Euskirchen;15;15 Stotzheim Süd, Niederkastenholz;151;15.1 Stotzheim-Süd;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;006;6 Euskirchen;15;15 Stotzheim Süd, Niederkastenholz;152;15.2 Niederkastenholz;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;006;6 Euskirchen;16;16 Stotzheim Nord, Roitzheim;161;16.1 Stotzheim-Nord;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;006;6 Euskirchen;16;16 Stotzheim Nord, Roitzheim;162;16.2 Roitzheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;007;7 Euskirchen;17;17 Flamersheim;171;17.1 Flamersheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;006;6 Euskirchen;18;18 Kirchheim;181;18.1 Kirchheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;007;7 Euskirchen;19;19 Kuchenheim;191;19.1 Kuchenheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;007;7 Euskirchen;20;20 Weidesheim, Kuchenheim-Süd, Palmersheim, Schweinh.;201;20.1 Kuchenheim-Süd;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;007;7 Euskirchen;20;20 Weidesheim, Kuchenheim-Süd, Palmersheim, Schweinh.;202;20.2 Palmersheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;007;7 Euskirchen;20;20 Weidesheim, Kuchenheim-Süd, Palmersheim, Schweinh.;203;20.3 Weidesheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;007;7 Euskirchen;20;20 Weidesheim, Kuchenheim-Süd, Palmersheim, Schweinh.;204;20.4 Schweinheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;008;8 Euskirchen;21;21 Großbüllesheim, Wüschheim;211;21.1 Großbüllesheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;008;8 Euskirchen;21;21 Großbüllesheim, Wüschheim;212;21.2 Wüschheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;008;8 Euskirchen;22;22 Kleinbüllesheim, Dom-Esch;221;22.1 Kleinbüllesheim;W;N;;;;Stichwahl des Landrats
+0.2;05366016;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;008;8 Euskirchen;22;22 Kleinbüllesheim, Dom-Esch;222;22.2 Dom-Esch;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;01;Hellenthal I;01.1;Hellenthal I;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;01;Hellenthal I;17.1;Briefwahl IV für 01.1 - Hellenthal I;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;02;Hellenthal II;02.1;Hellenthal II;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;02;Hellenthal II;16.1;Briefwahl III für 02.1 - Hellenthal II;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;03;Hellenthal III;03.1;Hellenthal III;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;03;Hellenthal III;14.1;Briefwahl I für 03.1 - Hellenthal III;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;04;Blumenthal;04.1;Blumenthal;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;04;Blumenthal;17.2;Briefwahl IV für 04.1 - Blumenthal;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;05;Wollenberg-Wiesen-Manscheid;05.1;Wollenberg-Wiesen-Manscheid;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;05;Wollenberg-Wiesen-Manscheid;14.2;Briefwahl I für 05.1 - Wollenberg-Wiesen-Manscheid;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;06;Reifferscheid;06.1;Reifferscheid;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;06;Reifferscheid;15.1;Briefwahl II für 06.1 - Reifferscheid;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;07;Oberreifferscheid;07.1;Oberreifferscheid;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;07;Oberreifferscheid;16.2;Briefwahl III für 07.1 - Oberreifferscheid;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;08;Ländchen;08.1;Ländchen;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;08;Ländchen;16.3;Briefwahl III für 08.1 - Ländchen;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;09;Wolfert-Sieberath;09.1;Wolfert-Sieberath;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;09;Wolfert-Sieberath;15.2;Briefwahl II für 09.1 - Wolfert-Sieberath;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;10;Rescheid;10.1;Rescheid;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;10;Rescheid;15.3;Briefwahl II für 10.1 - Rescheid;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;11;Hollerath;11.1;Hollerath;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;11;Hollerath;17.3;Briefwahl IV für 11.1 - Hollerath;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;12;Ramscheid-Losheim;12.1;Ramscheid;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;12;Ramscheid-Losheim;12.2;Losheim;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;12;Ramscheid-Losheim;14.3;Briefwahl I für 12.1+12.2 - Ramscheid-Losheim;B;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;13;Udenbreth-Miescheid;13.1;Udenbreth-Miescheid;W;N;;;;Stichwahl des Landrats
+0.2;05366020;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;022;22 Dahlem/Hellenthal;13;Udenbreth-Miescheid;15.4;Briefwahl II für 13.1 - Udenbreth-Miescheid;B;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;1;1 Kall I;01.0;1 Kall I;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;2;2 Kall II;02.0;2 Kall II;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;3;3 Kall III;03.0;3 Kall III;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;4;4 Kall IV;04.0;4 Kall IV;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;5;5 Kall V;05.0;5 Kall V;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;6;6 Kall VI;06.0;6 Kall VI;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;7;7 Kall VII/Golbach;07.1;7/1 Kall VII;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;7;7 Kall VII/Golbach;07.2;7/2 Golbach;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;8;8 Sötenich;08.0;8 Sötenich;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;9;9 Rinnen/Urft;09.1;9/1 Rinnen;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;9;9 Rinnen/Urft;09.2;9/2 Urft;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;10;10 Sistig;10.0;10 Sistig;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;11;11 Krekel;11.1;11/1 Krekel;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;11;11 Krekel;11.2;11/2 Steinfelderheistert;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;12;12 Wahlen;12.1;12/1 Wahlen;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;023;23 Hellenthal/Kall;12;12 Wahlen;12.2;12/2 Steinfeld;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;13;13 Keldenich;13.0;13 Keldenich;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;14;14 Scheven;14.1;14/1 Scheven;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;14;14 Scheven;14.2;14/2 Wallenthal;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;017;17 Kall;14;14 Scheven;14.3;14/3 Dottel;W;N;;;;Stichwahl des Landrats
+0.2;05366024;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;99.9;Briefwahlbezirk;B;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;001;001 Bergbuir, Bleibuir, Bescheid u.a.;001/1;001.1 Bergbuir;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;001;001 Bergbuir, Bleibuir, Bescheid u.a.;001/2;001.2 Bleibuir, Bescheid, Wielspütz;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;001;001 Bergbuir, Bleibuir, Bescheid u.a.;001/3;001.3 Voissel;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;001;001 Bergbuir, Bleibuir, Bescheid u.a.;001/4;001.4 Schützendorf;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;001;001 Bergbuir, Bleibuir, Bescheid u.a.;001/5;001.5 Lückerath;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;001;001 Bergbuir, Bleibuir, Bescheid u.a.;001/6;001.6 Hostel;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;002;002 Berg, Floisdorf, Eicks, Kommern tw., Glehn;002/1;002.1 Berg;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;002;002 Berg, Floisdorf, Eicks, Kommern tw., Glehn;002/2;002.2 Floisdorf;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;002;002 Berg, Floisdorf, Eicks, Kommern tw., Glehn;002/3;002.3 Eicks, Kommern (umf. Eickser Str. 30 und 36);W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;002;002 Berg, Floisdorf, Eicks, Kommern tw., Glehn;002/4;002.4 Glehn;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;016;16 Mechernich;003;003 Strempt, Heufahrtshütte, Roggendorf u.a.;003/1;003.1 Strempt, Heufahrtshütte, Denrath, Weißenbr.;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;016;16 Mechernich;003;003 Strempt, Heufahrtshütte, Roggendorf u.a.;003/2;003.2 Roggendorf;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;016;16 Mechernich;004;004 Mechernich tw.;004/1;004.1 Mechernich tw.;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;016;16 Mechernich;005;005 Mechernich tw.;005/1;005.1 Mechernich tw.;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;016;16 Mechernich;006;006 Mechernich tw.;006/1;006.1 Mechernich tw.;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;016;16 Mechernich;007;007 Mechernich tw.;007/1;007.1 Mechernich tw.;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;008;008 Kalenberg, Kallmuth, Lorbach, Bergheim;008/1;008.1 Kalenberg;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;008;008 Kalenberg, Kallmuth, Lorbach, Bergheim;008/2;008.2 Kallmuth;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;008;008 Kalenberg, Kallmuth, Lorbach, Bergheim;008/3;008.3 Lorbach;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;008;008 Kalenberg, Kallmuth, Lorbach, Bergheim;008/4;008.4 Bergheim;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;009;009 Vussem, Breitenbenden, Holzheim;009/1;009.1 Vussem;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;009;009 Vussem, Breitenbenden, Holzheim;009/2;009.2 Breitenbenden;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;009;009 Vussem, Breitenbenden, Holzheim;009/3;009.3 Holzheim;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;010;010 Weyer, Urfey, Eiserfey, Vollem, Harzheim u.a.;010/1;010.1 Weyer, Urfey;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;010;010 Weyer, Urfey, Eiserfey, Vollem, Harzheim u.a.;010/2;010.2 Eiserfey, Vollem, Dreimühlen;W;J;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;010;010 Weyer, Urfey, Eiserfey, Vollem, Harzheim u.a.;010/3;010.3 Harzheim;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;011;011 Satzvey, Lessenich;011/1;011.1 Satzvey;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;011;011 Satzvey, Lessenich;011/2;011.2 Lessenich;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;012;012 Firmenich, Obergartzem;012/1;012.1 Firmenich;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;012;012 Firmenich, Obergartzem;012/2;012.2 Obergartzem;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;013;013 Antweiler, Wachendorf, Rißdorf, Weiler a.B.;013/1;013.1 Antweiler;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;013;013 Antweiler, Wachendorf, Rißdorf, Weiler a.B.;013/2;013.2 Wachendorf;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;013;013 Antweiler, Wachendorf, Rißdorf, Weiler a.B.;013/3;013.3 Rißdorf;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;015;15 Mechernich;013;013 Antweiler, Wachendorf, Rißdorf, Weiler a.B.;013/4;013.4 Weiler am Berge;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;014;014 Gehn, Kommern tw.;014/1;014.1 Gehn, Kommern tw.;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;015;015 Kommern-Süd, Katzvey, Schaven, Kommern tw.;015/1;015.1 Kommern-Süd, Katzvey;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;015;015 Kommern-Süd, Katzvey, Schaven, Kommern tw.;015/2;015.2 Schaven;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;015;015 Kommern-Süd, Katzvey, Schaven, Kommern tw.;015/3;015.3 Kommern tw.;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;014;14 Mechernich;016;016 Kommern tw.;016/1;016.1 Kommern tw.;W;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;999/1;999.1 Briefwahlbezirk I;B;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;999/2;999.2 Briefwahlbezirk II;B;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;999/3;999.3 Briefwahlbezirk III;B;N;;;;Stichwahl des Landrats
+0.2;05366028;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;999/4;999.4 Briefwahlbezirk IV;B;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;001;Bouderath/Roderath/Holzmülheim;001.1;001.1 Bouderath;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;001;Bouderath/Roderath/Holzmülheim;001.2;001.2 Roderath;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;001;Bouderath/Roderath/Holzmülheim;001.3;001.3 Holzmülheim;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;002;Engelgau;002.0;002.0 Engelgau;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;003;Frohngau/Buir;003.1;003.1 Frohngau;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;003;Frohngau/Buir;003.2;003.2 Buir;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;004;Marmagen 1;004.0;004.0 Marmagen 1;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;005;Marmagen 2;005.0;005.0 Marmagen 2;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;006;Nettersheim 1;006.0;006.0 Nettersheim 1;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;007;Nettersheim 2;007.0;007.0 Nettersheim 2;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;008;Pesch/Teilbereich Nettersheim;008.1;008.1 Pesch;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;008;Pesch/Teilbereich Nettersheim;008.2;008.2 Teilbereich Nettersheim;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;009;Tondorf;009.0;009.0 Tondorf;W;N;;;;Stichwahl des Landrats
+0.2;05366032;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;020;20 Nettersheim;010;Zingsheim;010.0;010.0 Zingsheim;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;01;Bronsfeld Oberhausen;011;Bronsfeld;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;01;Bronsfeld Oberhausen;012;Oberhausen;W;J;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;02;Dreiborn Berescheid;021;Dreiborn Berescheid;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;03;Harperscheid Schöneseiffen Ettelscheid;031;Harperscheid Schöneseiffen;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;03;Harperscheid Schöneseiffen Ettelscheid;032;Ettelscheid;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;04;Herhahn Morsbach Scheuren;041;Herhahn Morsbach;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;04;Herhahn Morsbach Scheuren;042;Scheuren;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;05;Gemünd 1;051;Gemünd 1;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;06;Gemünd 2;061;Gemünd 2;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;018;18 Schleiden/Mechernich;07;Gemünd 3 Wolfgarten;071;Gemünd 3 Wolfgarten;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;08;Nierfeld Broich Kerperscheid Wintzen;081;Nierfeld;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;08;Nierfeld Broich Kerperscheid Wintzen;082;Broich Kerperscheid Wintzen;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;09;Olef;091;Olef;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;10;Schleiden 1;101;Schleiden 1;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;019;19 Schleiden/Kall;11;Schleiden 2;111;Schleiden 2;W;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;998;Briefwahl 1;B;N;;;;Stichwahl des Landrats
+0.2;05366036;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;999;Briefwahl 2;B;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;101;101 Weilerswist (Nord-West);101;101 Weilerswist (Nord-West);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;101;101 Weilerswist (Nord-West);916;916 Briefwahlbezirk I;B;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;102;102 Weilerswist (Nord-Ost);102;102 Weilerswist (Nord-Ost);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;102;102 Weilerswist (Nord-Ost);917;917 Briefwahlbezirk II;B;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;103;103 Weilerswist (WLW Süd-Nord);103;103 Weilerswist (WLW Süd-Nord);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;103;103 Weilerswist (WLW Süd-Nord);918;918 Briefwahlbezirk III;B;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;104;104 Weilerswist (WLW Süd-Süd);104;104 Weilerswist (WLW Süd-Süd);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;104;104 Weilerswist (WLW Süd-Süd);919;919 Briefwahlbezirk IV;B;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;105;105 Weilerswist (Süd-Ost);105;105 Weilerswist (Süd-Ost);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;105;105 Weilerswist (Süd-Ost);920;920 Briefwahlbezirk V;B;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;106;106 Weilerswist (Zentrum-West);106;106 Weilerswist (Zentrum-West);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;107;107 Weilerswist (Zentrum-Ost);107;107 Weilerswist (Zentrum-Ost);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;002;2 Weilerswist;208;208 Metternich (Nord);208;208 Metternich (Nord);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;002;2 Weilerswist;209;209 Metternich (Süd) / Müggenhausen;209.1;209.1 Metternich (Süd);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;002;2 Weilerswist;209;209 Metternich (Süd) / Müggenhausen;209.2;209.2 Müggenhausen;W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;002;2 Weilerswist;310;310 Lommersum (Nord) / Hausweiler (Nord);310;310 Lommersum (Nord) / Hausweiler (Nord);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;002;2 Weilerswist;311;311 Hausweiler (Süd) / Derkum / Ottenheim;311;311 Hausweiler (Süd) / Derkum / Ottenheim;W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;002;2 Weilerswist;312;312 Lommersum (Süd) / Bodenheim;312;312 Lommersum (Süd) / Bodenheim;W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;001;1 Weilerswist;413;413 Groß Vernich (Nord);413;413 Groß Vernich (Nord);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;002;2 Weilerswist;414;414 Groß Vernich (Süd);414;414 Groß Vernich (Süd);W;N;;;;Stichwahl des Landrats
+0.2;05366040;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;002;2 Weilerswist;415;415 Groß Vernich (West) / Klein Vernich;415;415 Groß Vernich (West) / Klein Vernich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;001;Wahlbezirk 01;0010;Stimmbezirk 0010, Zülpich 1 (Kernstadt);W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;002;Wahlbezirk 02;0020;Stimmbezirk 0020, Zülpich 2 (Kernstadt);W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;003;Wahlbezirk 03;0030;Stimmbezirk 0030, Zülpich 3 (Kernstadt);W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;004;Wahlbezirk 04;0040;Stimmbezirk 0040, Zülpich 4 (Kernstadt);W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;005;Wahlbezirk 05;0050;Stimmbezirk 0050, Geich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;005;Wahlbezirk 05;0051;Stimmbezirk 0051, Bessenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;006;Wahlbezirk 06;0060;Stimmbezirk 0060, Hoven;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;006;Wahlbezirk 06;0061;Stimmbezirk 0061, Kloster Marienborn;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;006;Wahlbezirk 06;0062;Stimmbezirk 0062, Zülpich 5 (Kernstadt);W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;007;Wahlbezirk 07;0070;Stimmbezirk 0070, Nemmenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;007;Wahlbezirk 07;0071;Stimmbezirk 0071, Rövenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;008;Wahlbezirk 08;0080;Stimmbezirk 0080, Weiler i.d.E;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;008;Wahlbezirk 08;0081;Stimmbezirk 0081, Oberelvenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;008;Wahlbezirk 08;0082;Stimmbezirk 0082, Niederelvenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;003;3 Euskirchen/Zülpich;009;Wahlbezirk 09;0090;Stimmbezirk 0090, Mülheim-Wichterich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;010;Wahlbezirk 10;0100;Stimmbezirk 0100, Ülpenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;011;Wahlbezirk 11;0110;Stimmbezirk 0110, Linzenich-Lövenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;011;Wahlbezirk 11;0111;Stimmbezirk 0111, Schwerfen I;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;012;Wahlbezirk 12;0120;Stimmbezirk 0120, Schwerfen II;W;J;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;013;Wahlbezirk 13;0130;Stimmbezirk 0130, Dürscheven;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;011;11 Zülpich;013;Wahlbezirk 13;0131;Stimmbezirk 0131, Enzen;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;014;Wahlbezirk 14;0140;Stimmbezirk 0140, Sinzenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;015;Wahlbezirk 15;0150;Stimmbezirk 0150, Bürvenich-Eppenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;015;Wahlbezirk 15;0151;Stimmbezirk 0151, Merzenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;016;Wahlbezirk 16;0160;Stimmbezirk 0160, Füssenich;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;016;Wahlbezirk 16;0161;Stimmbezirk 0161, Juntersdorf;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;010;10 Zülpich;016;Wahlbezirk 16;0162;Stimmbezirk 0162, Langendorf;W;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;995;Briefwahl I;B;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;996;Briefwahl II;B;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;997;Briefwahl III;B;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;998;Briefwahl IV;B;N;;;;Stichwahl des Landrats
+0.2;05366044;27.09.2020;Landratsstichwahl NRW;05366000;Kreis Euskirchen;;;;;;;;;999;Briefwahl V;B;N;;;;Stichwahl des Landrats

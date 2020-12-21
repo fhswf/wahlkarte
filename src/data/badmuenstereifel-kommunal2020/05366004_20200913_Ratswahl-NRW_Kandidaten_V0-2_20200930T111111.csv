@@ -1,0 +1,112 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;partei-kurzname;partei-langname;kandidat-name;kandidat-namensvorsatz;kandidat-vorname;kandidat-akadgrad;kandidat-geburtsjahr;kandidat-geschlecht;kandidat-beruf;kandidat-gebiet-nr;kandidat-listenplatz
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schneider;;Chavva;;1970;W;Lektorin, Übersetzerin;1;9
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Behringer;;Steffen;;1977;M;Dipl. Chemieingenieur (FH);2;0
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Terspecken;;Sabine;;1968;W;Erzieherin;3;5
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Fuchs;;Sebastian;;1979;M;Studienrat;4;0
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Kastenholz;;Susanne;;1983;W;Bachelor of Physical Engeneering;5;3
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Fuchs;;Inge;;1953;W;Pensionärin;6;7
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Grömping;;Christian;;1966;M;Physiotherapeut;7;2
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Saßenscheidt;;Heinrich Wolfgang;;1966;M;IT Fachmann;8;8
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Oerter;;Kerstin;Dr.;1958;W;Dipl. Biologin;9;1
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schallenberg;;Peter;;1955;M;Selbstständig;10;4
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Borsch;;Ingrid;;1950;W;Studienrätin a.D.;11;0
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Eiden;;Henning;;1974;M;Fachinformatiker / Projekt Manager;12;6
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Borsch;;Georg;;1947;M;Lehrer a.D.;13;0
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Pardey;;Andreas;Dr.;1959;M;Dipl. Biologe;14;0
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Fuchs;;Felizitas;;1980;W;Studienrätin;15;0
+0.2;05366004;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Puthen;;Marc;;1968;M;Arzt;16;0
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Jansen;;Reiner;;1968;M;Gärtner;1;9
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mehrens;;Martin;;1963;M;Vertriebsleiter;2;4
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Finder;;Martin;;1991;M;Referent Controlling;3;7
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schumacher;;Wilfried;;1959;M;Postdirektor;4;16
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Lubinsky;;Andreas;;1983;M;Bankangestellter;5;10
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Decker;;Alexander;;1977;M;Soldat;6;17
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Ohlert;;Bernhard;;1973;M;Schreinermeister;7;2
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mauel;;Arnd;;1962;M;Selbstständig;8;12
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hammes;;Florian;;1980;M;Prokurist;9;14
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Simon;;Wilfried;;1951;M;Rentner;10;15
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Gutt;;Pascal;;1982;M;Angestellter;11;8
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Müller;;Ludger;;1962;M;Zahnarzt;12;1
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Dürholt;;Horst;;1947;M;Dipl.Forst Ing.;13;5
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Manheller;;Manfred;;1954;M;Rentner;14;6
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Lamsfuß;;Michael;;1960;M;Kaufmann;15;11
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Dibowski;;Frank;;1969;M;Hausmann;16;13
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Homberg;;Kirsten;;1973;W;Dipl. Architektin;;3
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Klaesgen;;Horst Peter;;1967;M;Elektroinstallateur;;18
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Krebs;;Joachim;;1964;M;Geschäftsführer;;19
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Preiser;;Guido;;1964;M;Berufskraftfahrer;;20
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Ohlerth;;Franz-Josef;;1954;M;Rentner;;21
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Gilgenbach;;Astrid;;1975;W;med. Fachangestellte;;22
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Reitz;;Melanie;;1969;W;Schulbegleiterin;;23
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Blaeser;;Michael;;1980;M;Steuerfachangestellter;;24
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Göbbels;;Christian;;1982;M;Kaufmann;;25
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hintzen;;Elisabeth;;1970;W;Kauffrau;;26
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schulz;;Hermann-Josef;;1951;M;Bauingenieur;;27
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schmitz;;Josef;;1939;M;Kaufmann;;28
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Weiler;;Nikolaus;;1980;M;Lehrer;;29
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schmitz;;Christoph;;1972;M;Justizvollzugsbeamter;;30
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Grosch;;Beate;;1944;W;Rentnerin;;31
+0.2;05366004;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Metzen;;Bernd;;1972;M;Industriemechaniker;;32
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Kaya;;Elif;;2002;W;Schülerin;4;0
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Kendirlik;;Meral;;1976;W;Küchenhilfe;6;0
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Bell;;Thomas Alfred;;1966;M;Beamter;7;1
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Kendirlik;;Ismail;;1970;M;Kommisionierer;8;0
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Borger;;Maria;;1964;W;Krankenschwester;9;5
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Shekhan;;Shelan;;1977;W;Hausfrau;10;0
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Bell;;Jan Luca;;2001;M;Schüler;12;4
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Poneß;;Horst;;1962;M;Angestellter im öffentlichen Dienst;13;3
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Lockwood;;Christine;;1969;W;Mediatorin;14;2
+0.2;05366004;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Cremer;;Johann;;1949;M;Rentner;15;0
+0.2;05366004;13.09.2020;Ratswahl NRW;Einzelbewerber Willi Hoever;Einzelbewerber Willi Hoever;Hoever;;Willi;;1953;M;Fernmeldetechniker;10;0
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Schmock;;Patrick;;2000;M;Auszubildender Fachinformatiker Anwendungsentwicklung;1;15
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Maar;;Beate;;1976;W;Bürokauffrau;2;14
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Wirtz;;Stefan Andreas;;1980;M;Malermeister / Geschäftsführer;3;16
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Milz;;Markus;Dr.;1967;M;Zahnarzt;4;10
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Zimmermann;;André;;1978;M;Techniker;5;2
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Schlierf-Herborn;;Regina;;1953;W;Rentnerin;6;8
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Germann;;Wolfgang;;1947;M;Rentner;7;7
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Kirchner;;Günter;;1948;M;Rentner;8;4
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Erdle;;Thomas;;1963;M;Diplom-Kaufmann (univ.)  Geschäftsführer einer Studien- und Bildungsstiftung;9;6
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Lingscheidt;;Ralf;;1964;M;Finanzchef;10;11
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Hauptmann;;Jürgen;;1955;M;Rentner;11;9
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Schröder;;Sascha;;1977;M;Vertrieb;12;5
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Milischewski;;Christof;;1981;M;Head of CRM / Head of Sale;13;1
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Opitz;;Guido;;1973;M;Angestellter;14;13
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Thenhaus-Jakobi;;Ingrid;;1953;W;Beamtin im Ruhestand;15;3
+0.2;05366004;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Brittner;;Alexander;;1991;M;Anwendungsentwickler;16;12
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Sammet;;Sebastian;;1969;M;Realschullehrer;1;15
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Terschanski;;Frank;;1966;M;Selbstständig;2;2
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wucherpfennig;;Jens;;1983;M;Personalreferent;3;6
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Glatzel;;Sebastian;;1981;M;Jurist;4;10
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fuchs-Heinen;;Ida;;1963;W;MFA;5;8
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fuchs;;Brigitte;;1949;W;Diplom Rechtspflegerin;6;3
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Waasem;;Thilo;;1982;M;Volljurist/Steuerfachangestellter;7;11
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kohn;;Tobias;;1985;M;Rechtlicher Vereinsbetreuer;8;16
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Naktsang;;Tenzin;;1999;M;Medizinstudent;9;5
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Winter;;Rolf;;1961;M;Energieanlagenelektroniker;10;4
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Peters;;Angelika;;1959;W;Rentnerin;11;13
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schnichels;;Udo;;1966;M;Kaufmännischer Angestellter Vertrieb;12;7
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Waasem;;Rainer;;1951;M;Volljurist;13;12
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fulde;;Michael;;1945;M;Dozent;14;9
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Michalowski;;Karl;;1977;M;Geprüfter Verkehrsfachwirt;15;1
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Michalowski;;Anne;;1982;W;Gebietsverantwortliche im Einzelhandel;16;14
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Braun;;Michael;;1969;M;Freiberufler;;17
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Stolz;;Alois;;1948;M;Rentner;;18
+0.2;05366004;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Müller;;Sabine;;1986;W;Sozialwissenschaftlerin B.A;;19
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Daniel;;Michael Hermann;;1969;M;Dreher;1;10
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Kühne;;Alexandra;;1975;W;Erzieherin;2;4
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Klein;;Jacqueline;;1992;W;Studentin;3;14
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Kratz;;Manfred;;1966;M;Technischer Angestellter;4;16
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Wagner;;Philipp;;1982;M;Fach- und Wirtschaftsinformatiker;5;5
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Hartmann;;Jörg;;1969;M;Ver- und Entsorger;6;9
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Palm-Zumbé;;Ursula;;1967;W;Goldschmiedemeisterin;7;8
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Bühl;;Hannelore;;1955;W;Arzthelferin;8;11
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Bühl;;Andreas;;1951;M;Konditor;9;2
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Mendel;;Merlin;;1982;M;Geschäftsführer;10;13
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Daniel;;Jakob Edmund;;1963;M;Beamter;11;1
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Daniel;;Tobias;;2001;M;Auszubildender Mechatroniker;12;12
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Ostermann;;Kurt;;1972;M;Geschäftsführer;13;3
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Daniel;;Elke;;1968;W;Seniorenarbeit;14;15
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Klein;;Diana;;1969;W;Verkäuferin;15;6
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Demary;;Gregor;;1959;M;Bauingenieur;16;7
+0.2;05366004;13.09.2020;Ratswahl NRW;UWV;Unabhängige Wählervereinigung;Daniel;;Julia;;1999;W;PIA-Ausbildung zur Erzieherin;;17

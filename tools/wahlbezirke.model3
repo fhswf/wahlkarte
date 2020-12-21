@@ -1,0 +1,584 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:clip_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:clip" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="557" type="double" name="component_pos_x"/>
+        <Option value="367.5" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Verschneidung mit dem übergeordneten Polygon-Feature (Clip)" type="QString" name="component_description"/>
+      <Option value="63.000000000000014" type="double" name="component_height"/>
+      <Option value="381.3473593073591" type="double" name="component_pos_x"/>
+      <Option value="435.10585814185816" type="double" name="component_pos_y"/>
+      <Option value="203" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="qgis:voronoipolygons_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:dissolve_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:joinattributesbylocation_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbyexpression_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="native:clip_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Bezirke">
+          <Option value="native:clip_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="color"/>
+          <Option type="Map" name="comment">
+            <Option value="" type="QString" name="color"/>
+            <Option value="" type="QString" name="component_description"/>
+            <Option value="60" type="double" name="component_height"/>
+            <Option value="0" type="double" name="component_pos_x"/>
+            <Option value="0" type="double" name="component_pos_y"/>
+            <Option value="100" type="double" name="component_width"/>
+            <Option value="true" type="bool" name="outputs_collapsed"/>
+            <Option value="true" type="bool" name="parameters_collapsed"/>
+          </Option>
+          <Option value="Bezirke" type="QString" name="component_description"/>
+          <Option value="30" type="double" name="component_height"/>
+          <Option value="588.607359307359" type="double" name="component_pos_x"/>
+          <Option value="477.84985814185825" type="double" name="component_pos_y"/>
+          <Option value="200" type="double" name="component_width"/>
+          <Option type="Map" name="default_value">
+            <Option value="QgsProcessingOutputLayerDefinition" type="QString" name="class"/>
+            <Option type="Map" name="create_options">
+              <Option value="System" type="QString" name="fileEncoding"/>
+            </Option>
+            <Option type="Map" name="sink">
+              <Option value="true" type="bool" name="active"/>
+              <Option value="1" type="int" name="type"/>
+              <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
+            </Option>
+          </Option>
+          <Option value="true" type="bool" name="mandatory"/>
+          <Option value="Bezirke" type="QString" name="name"/>
+          <Option value="OUTPUT" type="QString" name="output_name"/>
+          <Option value="true" type="bool" name="outputs_collapsed"/>
+          <Option value="true" type="bool" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="native:dissolve_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option value="PolygonFeatures" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:dissolve_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:dissolve" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="420.5" type="double" name="component_pos_x"/>
+        <Option value="317" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Verschmelzung anhand der Bezirks-ID (Dissolve)" type="QString" name="component_description"/>
+      <Option value="45.49999999999999" type="double" name="component_height"/>
+      <Option value="381.53897968697964" type="double" name="component_pos_x"/>
+      <Option value="338.3502437562438" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="qgis:voronoipolygons_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:joinattributesbylocation_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbyexpression_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="native:dissolve_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option value="BezirksID" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="qgis:voronoipolygons_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:extractbyexpression_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:extractbyexpression" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="652" type="double" name="component_pos_x"/>
+        <Option value="180" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Berücksichtige nur die Hausnummern, bei denen die angegebene ü-Bezirks-ID mit der soeben geographisch verknüpften übereinstimmt (Extract by expression)" type="QString" name="component_description"/>
+      <Option value="69.5" type="double" name="component_height"/>
+      <Option value="382.17133333333334" type="double" name="component_pos_x"/>
+      <Option value="163.262" type="double" name="component_pos_y"/>
+      <Option value="281.5" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="native:joinattributesbylocation_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="native:extractbyexpression_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="EXPRESSION">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value=" attribute($currentfeature, @bergeordneteBezirksID) = attribute($currentfeature, @bergeordneteBezirksIDPolygone)" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="native:joinattributesbylocation_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:joinattributesbylocation_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:joinattributesbylocation" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="277" type="double" name="component_pos_x"/>
+        <Option value="91" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Gebe Hausnummern zusätzliches Feld ü-Bezirks-ID anhand ihres Ortes (Join attributes by location)" type="QString" name="component_description"/>
+      <Option value="69" type="double" name="component_height"/>
+      <Option value="382.17133333333334" type="double" name="component_pos_x"/>
+      <Option value="62.012000000000015" type="double" name="component_pos_y"/>
+      <Option value="211.5" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:joinattributesbylocation_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="true" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="Points" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN">
+          <Option type="Map">
+            <Option value="PolygonFeatures" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_FIELDS">
+          <Option type="Map">
+            <Option value="bergeordneteBezirksIDPolygone" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREDICATE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="List" name="static_value">
+              <Option value="0" type="int"/>
+              <Option value="1" type="int"/>
+              <Option value="5" type="int"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="PREFIX">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:voronoipolygons_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="qgis:voronoipolygons" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="560.5" type="double" name="component_pos_x"/>
+        <Option value="137.5" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Voronoi polygons" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="382.0389796869796" type="double" name="component_pos_x"/>
+      <Option value="252.60024375624374" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="native:joinattributesbylocation_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:extractbyexpression_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="qgis:voronoipolygons_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="BUFFER">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="500" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="native:extractbyexpression_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option type="Map" name="designerParameterValues">
+    <Option value="Stimmbezirk" type="QString" name="BezirksID"/>
+    <Option value="opendata_zuordnung_mit_wahlbezirk_9571b8e1_5dae_450e_8567_6d7ac95b333f" type="QString" name="Points"/>
+    <Option type="QgsProcessingFeatureSourceDefinition" name="PolygonFeatures">
+      <Option type="Map">
+        <Option value="1" type="qlonglong" name="feature_limit"/>
+        <Option value="2" type="int" name="flags"/>
+        <Option value="2" type="int" name="geometry_check"/>
+        <Option value="false" type="bool" name="selected_only"/>
+        <Option type="Map" name="source">
+          <Option value="true" type="bool" name="active"/>
+          <Option value="1" type="int" name="type"/>
+          <Option value="wahlbezirke84_43f4db78_5471_4f0d_af81_34d02f4ad950" type="QString" name="val"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option value="true" type="bool" name="VERBOSE_LOG"/>
+    <Option value="WahlbezirkId" type="QString" name="bergeordneteBezirksID"/>
+    <Option value="Wahlbezirk" type="QString" name="bergeordneteBezirksIDPolygone"/>
+    <Option type="QgsProcessingOutputLayerDefinition" name="native:mergevectorlayers_1:Bezirke">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option value="System" type="QString" name="fileEncoding"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option value="true" type="bool" name="active"/>
+          <Option value="1" type="int" name="type"/>
+          <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="groupBoxes"/>
+  <Option type="Map" name="help">
+    <Option value="" type="QString" name="ALG_CREATOR"/>
+    <Option value="Generate districts using voronoi &amp; dissolve &amp; clip for features (iterate) while accounting for higher level district boundaries &amp; filtering input points inside the &quot;wrong&quot; higher level district&#x9;.&#xa;&#xa;Based on https://gis.stackexchange.com/a/323013" type="QString" name="ALG_DESC"/>
+    <Option value="" type="QString" name="ALG_HELP_CREATOR"/>
+    <Option value="" type="QString" name="ALG_VERSION"/>
+    <Option value="Field of lower level district id in points layer" type="QString" name="BezirksID"/>
+    <Option value="" type="QString" name="HELP_URL"/>
+    <Option value="Layer with input house points" type="QString" name="Points"/>
+    <Option value="higher layer polygon (iterate)" type="QString" name="PolygonFeatures"/>
+    <Option value="Generate districts using voronoi &amp; dissolve &amp; clip for features (iterate) while accounting for higher level district boundaries &amp; filtering input points inside the &quot;wrong&quot; higher level district" type="QString" name="SHORT_DESCRIPTION"/>
+    <Option value="Field of higher level district id in points layer" type="QString" name="bergeordneteBezirksID"/>
+    <Option value="Field of higher level district id in polygon&#x9;" type="QString" name="bergeordneteBezirksIDPolygone"/>
+  </Option>
+  <Option name="modelVariables"/>
+  <Option value="" type="QString" name="model_group"/>
+  <Option value="Wahl-Bezirkserstellung" type="QString" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="BezirksID">
+      <Option value="false" type="bool" name="allow_multiple"/>
+      <Option value="-1" type="int" name="data_type"/>
+      <Option value="" type="QString" name="default"/>
+      <Option value="false" type="bool" name="default_to_all_fields"/>
+      <Option value="Feld Bezirks-ID" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="BezirksID" type="QString" name="name"/>
+      <Option value="field" type="QString" name="parameter_type"/>
+      <Option value="Points" type="QString" name="parent_layer"/>
+    </Option>
+    <Option type="Map" name="Points">
+      <Option type="List" name="data_types">
+        <Option value="0" type="int"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option value="Hausnummern-Layer" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="Points" type="QString" name="name"/>
+      <Option value="vector" type="QString" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="PolygonFeatures">
+      <Option type="List" name="data_types">
+        <Option value="2" type="int"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option value="Übergeordnetes Polygon-Feature" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="PolygonFeatures" type="QString" name="name"/>
+      <Option value="source" type="QString" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="VERBOSE_LOG">
+      <Option value="false" type="bool" name="default"/>
+      <Option value="Verbose logging" type="QString" name="description"/>
+      <Option value="12" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="VERBOSE_LOG" type="QString" name="name"/>
+      <Option value="boolean" type="QString" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="bergeordneteBezirksID">
+      <Option value="false" type="bool" name="allow_multiple"/>
+      <Option value="-1" type="int" name="data_type"/>
+      <Option value="" type="QString" name="default"/>
+      <Option value="false" type="bool" name="default_to_all_fields"/>
+      <Option value="Feld Bezirks-ID des übergeordneten Bezirks" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="bergeordneteBezirksID" type="QString" name="name"/>
+      <Option value="field" type="QString" name="parameter_type"/>
+      <Option value="Points" type="QString" name="parent_layer"/>
+    </Option>
+    <Option type="Map" name="bergeordneteBezirksIDPolygone">
+      <Option value="false" type="bool" name="allow_multiple"/>
+      <Option value="-1" type="int" name="data_type"/>
+      <Option value="" type="QString" name="default"/>
+      <Option value="false" type="bool" name="default_to_all_fields"/>
+      <Option value="Feld Bezirks-ID des übergeordneten Features" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="bergeordneteBezirksIDPolygone" type="QString" name="name"/>
+      <Option value="field" type="QString" name="parameter_type"/>
+      <Option value="PolygonFeatures" type="QString" name="parent_layer"/>
+    </Option>
+    <Option type="Map" name="native:clip_1:Bezirke">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option value="-1" type="int" name="data_type"/>
+      <Option type="QgsProcessingOutputLayerDefinition" name="default">
+        <Option type="Map">
+          <Option type="Map" name="create_options">
+            <Option value="System" type="QString" name="fileEncoding"/>
+          </Option>
+          <Option type="Map" name="sink">
+            <Option value="true" type="bool" name="active"/>
+            <Option value="1" type="int" name="type"/>
+            <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option value="Bezirke" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="native:clip_1:Bezirke" type="QString" name="name"/>
+      <Option value="sink" type="QString" name="parameter_type"/>
+      <Option value="false" type="bool" name="supports_append"/>
+      <Option value="true" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+  </Option>
+  <Option type="StringList" name="parameterOrder">
+    <Option value="Points" type="QString"/>
+    <Option value="BezirksID" type="QString"/>
+    <Option value="bergeordneteBezirksID" type="QString"/>
+    <Option value="PolygonFeatures" type="QString"/>
+    <Option value="bergeordneteBezirksIDPolygone" type="QString"/>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="BezirksID">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="544.5" type="double" name="component_pos_x"/>
+        <Option value="-21.5" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="BezirksID" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="99.40580219780222" type="double" name="component_pos_x"/>
+      <Option value="128.21825774225775" type="double" name="component_pos_y"/>
+      <Option value="145" type="double" name="component_width"/>
+      <Option value="BezirksID" type="QString" name="name"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="Points">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="266" type="double" name="component_pos_x"/>
+        <Option value="82.5" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Points" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="109.16133333333332" type="double" name="component_pos_x"/>
+      <Option value="85.56266666666664" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option value="Points" type="QString" name="name"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="PolygonFeatures">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="342" type="double" name="component_pos_x"/>
+        <Option value="30" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="PolygonFeatures" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="630.957587079587" type="double" name="component_pos_x"/>
+      <Option value="22.304311688311657" type="double" name="component_pos_y"/>
+      <Option value="233.50000000000003" type="double" name="component_width"/>
+      <Option value="PolygonFeatures" type="QString" name="name"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="bergeordneteBezirksID">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="749.4790209790209" type="double" name="component_pos_x"/>
+        <Option value="-7.104895104895107" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="bergeordneteBezirksID" type="QString" name="component_description"/>
+      <Option value="37" type="double" name="component_height"/>
+      <Option value="135.3623949383948" type="double" name="component_pos_x"/>
+      <Option value="173.42139993339987" type="double" name="component_pos_y"/>
+      <Option value="214.67352647352646" type="double" name="component_width"/>
+      <Option value="bergeordneteBezirksID" type="QString" name="name"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="bergeordneteBezirksIDPolygone">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="690.4709290709291" type="double" name="component_pos_x"/>
+        <Option value="100.62547452547452" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="bergeordneteBezirksIDPolygone" type="QString" name="component_description"/>
+      <Option value="41" type="double" name="component_height"/>
+      <Option value="636.7108731268728" type="double" name="component_pos_x"/>
+      <Option value="76.61739060939061" type="double" name="component_pos_y"/>
+      <Option value="196.24515484515481" type="double" name="component_width"/>
+      <Option value="bergeordneteBezirksIDPolygone" type="QString" name="name"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+    </Option>
+  </Option>
+</Option>

@@ -1,0 +1,33 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;wahl-leiter-gs;wahl-leiter-name;gebiet-ebene-5-nr;gebiet-ebene-5-name;gebiet-ebene-4-nr;gebiet-ebene-4-name;gebiet-ebene-3-nr;gebiet-ebene-3-name;gebiet-ebene-2-nr;gebiet-ebene-2-name;bezirk-nr;bezirk-name;bezirk-art;bezirk-repräsentativ;kandidat-gebiet-nr;kandidat-gebiet-bezeichnung;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Nord;OT-Nord;1;Arloff;01.1;01.1 Arloff;W;N;1;Arloff;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;1;Arloff;01.2;01.2 Briefwahlbezirk Arloff;B;N;1;Arloff;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Nord;OT-Nord;2;Kirspenich;02.1;02.1 Kirspenich;W;N;2;Kirspenich;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;2;Kirspenich;02.2;02.2 Briefwahlbezirk Kirspenich;B;N;2;Kirspenich;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Nord;OT-Nord;3;Iversheim I, Kalkar;03.1;03.1 Iversheim I, Kalkar;W;N;3;Iversheim I, Kalkar;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;3;Iversheim I, Kalkar;03.2;03.2 Briefwahlbezirk Iversheim I, Kalkar;B;N;3;Iversheim I, Kalkar;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Nord;OT-Nord;4;Iversheim II, Eschweiler;04.1;04.1 Iversheim II, Eschweiler;W;N;4;Iversheim II, Eschweiler;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;4;Iversheim II, Eschweiler;04.2;04.2 Briefwahlbezirk Iversheim II, Eschweiler;B;N;4;Iversheim II, Eschweiler;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Nord;OT-Nord;5;Nöthen, Hohn;05.1;05.1 Nöthen, Hohn;W;N;5;Nöthen, Hohn;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;5;Nöthen, Hohn;05.2;05.2 Briefwahlbezirk Nöthen, Hohn;B;N;5;Nöthen, Hohn;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Kernstadt;Kernstadt;6;Rodert, Bad Münstereifel I;06.1;06.1 Rodert, Bad Münstereifel I;W;N;6;Rodert, Bad Münstereifel I;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;6;Rodert, Bad Münstereifel I;06.2;06.2 Briefwahlbezirk Rodert, Bad Münstereifel I;B;N;6;Rodert, Bad Münstereifel I;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Kernstadt;Kernstadt;7;Bad Münstereifel II;07.1;07.1 Bad Münstereifel II;W;N;7;Bad Münstereifel II;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;7;Bad Münstereifel II;07.2;07.2 Briefwahlbezirk Bad Münstereifel II;B;N;7;Bad Münstereifel II;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Kernstadt;Kernstadt;8;Bad Münstereifel III;08.1;08.1 Bad Münstereifel III;W;N;8;Bad Münstereifel III;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;8;Bad Münstereifel III;08.2;08.2 Briefwahlbezirk Bad Münstereifel III;B;N;8;Bad Münstereifel III;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Kernstadt;Kernstadt;9;Bad Münstereifel IV;09.1;09.1 Bad Münstereifel IV;W;N;9;Bad Münstereifel IV;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;9;Bad Münstereifel IV;09.2;09.2 Briefwahlbezirk Bad Münstereifel IV;B;N;9;Bad Münstereifel IV;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Sued;OT-Sued;10;Eicherscheid;10.1;10.1 Eicherscheid;W;N;10;Eicherscheid;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;10;Eicherscheid;10.2;10.2 Briefwahlbezirk Eicherscheid;B;N;10;Eicherscheid;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Sued;OT-Sued;11;Schönau;11.1;11.1 Schönau;W;N;11;Schönau;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;11;Schönau;11.2;11.2 Briefwahlbezirk Schönau;B;N;11;Schönau;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Sued;OT-Sued;12;Mahlberg;12.1;12.1 Mahlberg;W;N;12;Mahlberg;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;12;Mahlberg;12.2;12.2 Briefwahlbezirk Mahlberg;B;N;12;Mahlberg;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Sued;OT-Sued;13;Mutscheid, Esch;13.1;13.1 Mutscheid,  Esch;W;N;13;Mutscheid, Esch;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;13;Mutscheid, Esch;13.2;13.2 Briefwahlbezirk Mutscheid, Esch;B;N;13;Mutscheid, Esch;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Sued;OT-Sued;14;Rupperath, Hardtbrücke;14.1;14.1 Rupperath, Hardtbrücke;W;N;14;Rupperath, Hardtbrücke;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;14;Rupperath, Hardtbrücke;14.2;14.2 Briefwahlbezirk Rupperath, Hardtbrücke;B;N;14;Rupperath, Hardtbrücke;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Sued;OT-Sued;15;Effelsberg, Wald;15.1;15.1 Effelsberg, Wald;W;N;15;Effelsberg, Wald;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;15;Effelsberg, Wald;15.2;15.2 Briefwahlbezirk Effelsberg, Wald;B;N;15;Effelsberg, Wald;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;OT-Sued;OT-Sued;16;Houverath;16.1;16.1 Houverath;W;N;16;Houverath;;Ratswahl
+0.2;05366004;13.09.2020;Ratswahl NRW;05366004;Stadt Bad Münstereifel;;;;;Briefwahl;Briefwahl;16;Houverath;16.2;16.2 Briefwahlbezirk Houverath;B;N;16;Houverath;;Ratswahl

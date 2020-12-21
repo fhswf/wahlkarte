@@ -1,0 +1,754 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;partei-kurzname;partei-langname;kandidat-name;kandidat-namensvorsatz;kandidat-vorname;kandidat-akadgrad;kandidat-geburtsjahr;kandidat-geschlecht;kandidat-beruf;kandidat-gebiet-nr;kandidat-gebiet-bezeichnung;kandidat-listenplatz
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Kraljic;;Andrea;;1963;;Kaufmännische Angestellte;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Kuppe;;Stefan;;1967;;Projektmanager;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Schneider;;Petra;;1958;;Kauffrau;10;Stadtbezirk 10;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Stanojevic;;Zoran;;1968;;Kaufmann;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Blinova;;Tamara;;1951;;Büroangestellte;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Jörres;;Wolf-Rüdiger;;1967;;Student;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Hoffmann;;Florian;;1946;;Rechtsanwalt;4;Stadtbezirk 4;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Toepffer;;Hendrik Christian;;1963;;Betriebswirt BA;4;Stadtbezirk 4;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Wozny;;Pierre Nikolaj;;1969;;Versicherungsangestellter;6;Stadtbezirk 6;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Kuhles;;Peter;;1948;;Landwirt;7;Stadtbezirk 7;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Opelt;;Uta;;1970;;Dipl.-Kfm.;7;Stadtbezirk 7;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Salinger;;Elmar;;1975;;Diplom-Kulturwissenschaftler;9;Stadtbezirk 9;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;AfD;Alternative für Deutschland;Mertes-Ernst;;Margret;;1949;;Rentnerin;9;Stadtbezirk 9;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Klinke;;Annette;;1964;;Bildungsreferentin;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Hartmann;;Frederik F.;;1988;;Studienrat;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Haßend;van gen;Helene;;1968;;Architektin;1;Stadtbezirk 1;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Gail;;Jan Christoph;;1975;;Bildungsreferent (HPM);1;Stadtbezirk 1;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Wagner;;Dagmar;;1961;;freie Bildungsanbieterin;1;Stadtbezirk 1;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Müller;;Stefan;;1972;;Projekt-Manager;1;Stadtbezirk 1;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Loer;;Gerhild;;1967;;Verbraucherberaterin;1;Stadtbezirk 1;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Möllers;;Boris;;1974;;Kaufmann im Gesundheitswesen;1;Stadtbezirk 1;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Möller;;Frederike;Dr.;1983;;Kulturmanagerin;1;Stadtbezirk 1;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Stummer;;Dietmar;;1965;;Friseur;1;Stadtbezirk 1;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Cordes;;Mirja;;1978;;Projekt-Koordinatorin;1;Stadtbezirk 1;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ruß;;Peter;;1990;;City Manager;1;Stadtbezirk 1;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Wodrig;;Carolin;;1987;;kaufm. Angestellte;1;Stadtbezirk 1;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Bursian;;Olaf;;1974;;Unternehmensberater;1;Stadtbezirk 1;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Graf;;Nina;;1991;;Personalreferentin;1;Stadtbezirk 1;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Osenberg;;Ralf;;1963;;Architekt;1;Stadtbezirk 1;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Neubaur;;Mona;;1977;;Landesvorsitzende;1;Stadtbezirk 1;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Klahn;;Cordula;;1956;;Rentnerin;10;Stadtbezirk 10;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Warnecke;;Uwe Marold;;1963;;Rechtsanwalt;10;Stadtbezirk 10;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Nübold;;Anke;;1962;;Krankenschwester;10;Stadtbezirk 10;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schippers;;Karin;;1959;;Arbeitslos;10;Stadtbezirk 10;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Klahn;;Henry;;1948;;Pensionär;10;Stadtbezirk 10;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Jahn-Lutkewitz;;Ingrid;;1969;;Frühpädagogin;10;Stadtbezirk 10;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Sassin;;Ulrike;;1966;;Hotelkauffrau;10;Stadtbezirk 10;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schwerdtner-Hüyng;;Petra;;1959;;Lehrerin;10;Stadtbezirk 10;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Reich;;Brigitte;;1960;;Germanistin;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schwenk;;Harald;;1964;;Geoinformatiker;2;Stadtbezirk 2;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Hinkenhuis;;Marla;;1997;;Organisationsberaterin;2;Stadtbezirk 2;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schlee;;Philipp;;1980;;Projektleiter;2;Stadtbezirk 2;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Obersteiner;;Christina;;1953;;Rentnerin;2;Stadtbezirk 2;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schiffer;;Patrick;;1973;;Medien-Designer;2;Stadtbezirk 2;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Scaglione;;Angela;Dr.;1958;;Hochschuldozentin;2;Stadtbezirk 2;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Fischer;;Jürgen;;1956;;Referent;2;Stadtbezirk 2;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Landau;;Ingrid;;1936;;Apothekerin;2;Stadtbezirk 2;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Giesinger;;Philipp Sean;;1992;;Lehrer;2;Stadtbezirk 2;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Fuchs;;Hannah Sophie;;1998;;Studentin;2;Stadtbezirk 2;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Eggeling;;Kurt-Joachim;;1952;;Rentner;2;Stadtbezirk 2;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Esders;;Vera;;1954;;wissenschaftl. Mitarbeiterin;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Wolf;;Dietmar;;1958;;Reiseverkehrskfm.;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Zippel;;Anne-Kristina;;1990;;Büroleiterin;3;Stadtbezirk 3;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Graeßner;;Thorsten;Dr.;1966;;Business Analyst;3;Stadtbezirk 3;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ott;;Annegret;;1982;;Büroleiterin;3;Stadtbezirk 3;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Bilsen;van;Thomas;;1965;;Zahntechnikermeister;3;Stadtbezirk 3;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Lukas;;Marina;;1962;;Veranstaltungskauffrau;3;Stadtbezirk 3;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Konietzny;;Patrick Benjamin;;1991;;wissenschaftlicher Mitarbeiter;3;Stadtbezirk 3;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Bovenkerk;;Marie-Louise;;1975;;Juristin;3;Stadtbezirk 3;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Laaper;;Stéphane;;1972;;Dipl. Oec. troph.;3;Stadtbezirk 3;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Rochow;;Silvia;;1982;;Fachsachbearbeiterin;3;Stadtbezirk 3;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Arndt;;Jannik;;1991;;Regierungsinspektor;3;Stadtbezirk 3;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Heinemann;;Simone Jeannine;;1977;;Oberstudienrätin;3;Stadtbezirk 3;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Becker;;Patrick;;1987;;Verhandlungsberater;3;Stadtbezirk 3;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Wigbels;;Daniela;;1983;;Projektmanagerin;3;Stadtbezirk 3;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Biermann;;Lukas;;1995;;Student;3;Stadtbezirk 3;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Seidel;;Christine;;1978;;Angestellte im ÖD;3;Stadtbezirk 3;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Blank;;Nicole;;1972;;kfm. Ang.;3;Stadtbezirk 3;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Wiesendorf;;Astrid;;1968;;Referentin Telekommunikation;4;Stadtbezirk 4;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Loh;;Markus;;1962;;Dipl. Ing. Landespflege;4;Stadtbezirk 4;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Kröger;;Nane;;1967;;Management Assistant Personalberatung;4;Stadtbezirk 4;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schmitt;;Alexander;;1979;;Unternehmensberater;4;Stadtbezirk 4;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Bohner;;Astrid;;1964;;Informationssicherheitsbeauftragte;4;Stadtbezirk 4;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Weinreich;;Thomas;;1974;;Rechtsanwalt;4;Stadtbezirk 4;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Reimann;;Martina;;1967;;Freelancer Strategische Kommunikation;4;Stadtbezirk 4;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Helmke;;Gerald;;1970;;Solution Manager;4;Stadtbezirk 4;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Waldert;;Nele;;1964;;Künstlerin;4;Stadtbezirk 4;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Syffus;;Björn;;1969;;Architekt;4;Stadtbezirk 4;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Fröhlich;;Waldemar;;1962;;Dipl. Ing. Raumplanung;5;Stadtbezirk 5;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Gocht;;Jürgen;;1947;;Angestellter;5;Stadtbezirk 5;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Gelbke-Mößmer;;Claudia;;1969;;Prozeßmanagerin;5;Stadtbezirk 5;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Dorprigter;;Ulrich;;1952;;Pensionär;5;Stadtbezirk 5;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Chalmovsky;;Martina;;1965;;kfm. Angestellte;5;Stadtbezirk 5;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Rafflenbeul-Schaub;;Claudius;;1977;;Unternehmer;5;Stadtbezirk 5;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Vogel;;Markus;Dr. med.;1971;;Arzt;5;Stadtbezirk 5;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Heyden;;Kira;;1978;;Richterin;6;Stadtbezirk 6;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Molnar;;Ralf;;1954;;Mediator;6;Stadtbezirk 6;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ouammar;;Saliha;;1964;;Dolmetscherin;6;Stadtbezirk 6;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ries;;Florian;;1971;;PR-Berater;6;Stadtbezirk 6;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Heymann;;Alexandra;;1989;;Finanz-Coach;6;Stadtbezirk 6;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Mielczarek;;Lukas;;2000;;Student;6;Stadtbezirk 6;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ngo-Oum;;Jacqueline;;1967;;Sozialberaterin;6;Stadtbezirk 6;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ladwig;;Thomas;;1965;;Informatiker;6;Stadtbezirk 6;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Frey;;Antonia;;1955;;Abteilungsleiterin;6;Stadtbezirk 6;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Scheffler;;Wolfgang;;1944;;Pensionär;6;Stadtbezirk 6;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Veeser;;Claudia;;1978;;Diplom-Kauffrau;6;Stadtbezirk 6;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Mörger;;Eva;;1943;;Bibliothekarin;7;Stadtbezirk 7;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Huppertz;;Marco;;1958;;Selbstständig;7;Stadtbezirk 7;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Icking;;Maria;Dr.;1950;;Sozialwissenschaftlerin;7;Stadtbezirk 7;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Scheinhardt;;Ulrich;;1965;;Architekt;7;Stadtbezirk 7;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Böhm;;Renate;;1957;;Abfallberaterin;7;Stadtbezirk 7;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Baier;;Tino;;1974;;Dipl. Wirtschaftsjurist (FH);7;Stadtbezirk 7;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Nabert de Lobo;;Heike;;1969;;Dipl.-Volkswirtin;7;Stadtbezirk 7;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Beerbom;;Hendrik;;1983;;Customer Experience Manager;7;Stadtbezirk 7;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schaper-Falc'hon;;Ségolène;;1987;;Architektin;7;Stadtbezirk 7;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Richli;;Martine;;1963;;Dipl.-Sozialpädagogin;7;Stadtbezirk 7;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ott;;Susanne;;1960;;Sparkassenfachwirtin;8;Stadtbezirk 8;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Arndt;;Holger-Michael;;1971;;Rechtsanwalt;8;Stadtbezirk 8;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Sieger;;Birgit;;1964;;Rechtsanwältin;8;Stadtbezirk 8;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Römer;;Arno;;1967;;Projektmanager;8;Stadtbezirk 8;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Bödeker;;Inga;;1963;;Pfarrerin;8;Stadtbezirk 8;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Peroski;;Goce;;1981;;Lehrer;8;Stadtbezirk 8;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Kato;;Takuro;;1982;;Chemiker;8;Stadtbezirk 8;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Charchira;;Samy;;1972;;Dipl.Soz.Päd.;8;Stadtbezirk 8;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Majewski;;Christine;;1973;;Mitarbeiterin;9;Stadtbezirk 9;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Welski;;Ernst;;1957;;Rentner;9;Stadtbezirk 9;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ohligschläger;;Evelyn;;1956;;Rentnerin;9;Stadtbezirk 9;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schardt;;Andreas;;1964;;Immobilienverwalter;9;Stadtbezirk 9;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Kürten;;Josef;;1955;;Rentner;9;Stadtbezirk 9;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Hollstein;;Michael;;1948;;Rentner;9;Stadtbezirk 9;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Celebi;;Ciwana;;1998;;Studentin;9;Stadtbezirk 9;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ohligschläger;;Udo;;1953;;Pensionär;9;Stadtbezirk 9;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Willemsen;;Annette;;1973;;Schulsekretärin;9;Stadtbezirk 9;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Kucken;;Bernhard;;1960;;Künstler;9;Stadtbezirk 9;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schmidt;;Sabine;;1963;;Betriebswirtin der Grundstücks- und Wohnungswirtschaft;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Ernesti;;Margarete;;1955;;Friseurmeisterin;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Ghasemi;;Missagh;;1988;;Jurist;1;Stadtbezirk 1;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Nieburg;;Gudrun;;1961;;Unternehmensberaterin;1;Stadtbezirk 1;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schendel;;Andreas;;1965;;Beamter;1;Stadtbezirk 1;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Soth;;Heinz;;1944;;Freiberufler;1;Stadtbezirk 1;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mansheim;;Aletta;;1983;;Versicherungsfachwirtin;1;Stadtbezirk 1;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Bintz;;Constantin;;1996;;Student;1;Stadtbezirk 1;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schaefer;;Johannes;;1991;;Student;1;Stadtbezirk 1;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Conzen;;Friedrich G.;;1946;;Kaufmann;1;Stadtbezirk 1;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Herzmann;;Dominique;;1991;;Angestellte;1;Stadtbezirk 1;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Moßmann;;Markus;;1989;;Referendar;1;Stadtbezirk 1;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Lange;;Frank;;1974;;Rechtsreferendar;1;Stadtbezirk 1;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Bärsch;;Helmut;;1969;;-;1;Stadtbezirk 1;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mayer;;David Christopher;;1997;;Kaufmann;1;Stadtbezirk 1;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Nieburg;;Beatrice;;2001;;Schülerin;1;Stadtbezirk 1;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Jäger;;Alfred W.;;1967;;Techniker;1;Stadtbezirk 1;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Libront;;Sebastian;;1981;;Beamter;1;Stadtbezirk 1;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hartwig;;Jens Sigurd;;1972;;Vertriebsingeneur;1;Stadtbezirk 1;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Dobberstein;;Markus;;1976;;Verwaltungsjurist;1;Stadtbezirk 1;20
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Linden;;Bernd;;1951;;Pensionär;1;Stadtbezirk 1;21
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Frontzek;;Laura;;1990;;Beamtin;1;Stadtbezirk 1;22
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Jonen;;Anna;;1986;;Angestellte;1;Stadtbezirk 1;23
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Nieburg;;Wolfgang;Dr.;1957;;Angestellter;1;Stadtbezirk 1;24
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schneider;;Christian;;1990;;Beamter;1;Stadtbezirk 1;25
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Simon;;André;;1976;;Selbständig;1;Stadtbezirk 1;27
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Erkelenz;;Klaus;;1952;;Kaufmann;10;Stadtbezirk 10;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Bos;;Monika;;1955;;Sozialarbeiterin;10;Stadtbezirk 10;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schliwa;;Adelheid;;1946;;Betriebswirtin;10;Stadtbezirk 10;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mauersberger;;Corinna;;1993;;Studentin;10;Stadtbezirk 10;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Dietrich;;Jörg;;1963;;Richter;10;Stadtbezirk 10;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Oelbracht;;Tim;;1986;;Berufssoldat;10;Stadtbezirk 10;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;August;;Olga;;1958;;Mathematiklehrerin;10;Stadtbezirk 10;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Bunte;;Franz Josef;;1935;;Stadtplaner a.D.;10;Stadtbezirk 10;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mauersberger;;Klaus;;1963;;Sparkassenbetriebswirt;10;Stadtbezirk 10;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Labouvie;;Peter;;1952;;Schulleiter;10;Stadtbezirk 10;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Vogel;;Pascal;;1999;;Student;10;Stadtbezirk 10;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Goldmann;;Rüdiger;;1941;;Lehrer a.D.;10;Stadtbezirk 10;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Brall;;Wolfgang;;1956;;Dipl. Ökonom;10;Stadtbezirk 10;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schmidt;;Klaus;;1960;;Stadtreiniger;10;Stadtbezirk 10;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Böcker;;Annelies;;1939;;Kauffrau;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Graf;;Achim;;1977;;Diplom-Finanzwirt;2;Stadtbezirk 2;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Berth;;Lutz Thomas;;1969;;Lehrer;2;Stadtbezirk 2;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kriescher;;Karin;;1944;;IT-Projekt-Administratorin;2;Stadtbezirk 2;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Silbach;;Dominik;;1996;;Student;2;Stadtbezirk 2;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schröder;;Andreas;Dr.;1985;;Analyst;2;Stadtbezirk 2;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Goßner;;Thomas;;1985;;Bankkaufmann;2;Stadtbezirk 2;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schmitt;;Annett;;1964;;Bürokauffrau;2;Stadtbezirk 2;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Philipps;;Matthias;;1991;;Steuerassistent;2;Stadtbezirk 2;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Draxler;;Daniel;Dr.;1974;;selbständig;2;Stadtbezirk 2;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Fils;;Alexander;Dr.;1955;;Kunstverleger;2;Stadtbezirk 2;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Stengel;;Irene;;1943;;Sekretärin;2;Stadtbezirk 2;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Jackstädt;;Milan;;1990;;Volkswirt;2;Stadtbezirk 2;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Burmakins;;Vit?lijs;;1983;;Projektleiter;2;Stadtbezirk 2;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schulz;;Yvonne;;1982;;Assistentin der Geschäftsführung;2;Stadtbezirk 2;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Zilis;;Lambros;;1988;;Lehrer;2;Stadtbezirk 2;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Laflör;;Sylvia;;1959;;Beamtin;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Müller;;Wolfgang;;1964;;Marketingreferent;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Knell;;Tobias;;1989;;Theologe;3;Stadtbezirk 3;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Optensteinen;;Frank;;1965;;Kaufmann;3;Stadtbezirk 3;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Klein;;Ralf;;1967;;Handwerksgeselle Maler und Lackierer;3;Stadtbezirk 3;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Berkenheide;;Markus;Dr.;1968;;Unternehmensberater;3;Stadtbezirk 3;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Stempel;;Bruno;;1961;;Rechtsanwalt;3;Stadtbezirk 3;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Eßer;;Johannes;;1950;;Rentner;3;Stadtbezirk 3;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Eichenauer;;Barbara;;1956;;Lehrerin Li.T;3;Stadtbezirk 3;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wissen;;Volker;;1965;;Dipl.-Kfm.;3;Stadtbezirk 3;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Krzyzanowski;;Sarah;;1991;;Ärztin;3;Stadtbezirk 3;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Pröpper;;Heike;;1981;;Sozialversicherungsfachangestellte;3;Stadtbezirk 3;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hölscher;;Silvia;;1964;;Steuerberaterin;3;Stadtbezirk 3;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Konen;;Christian;;1985;;Ingenieur;3;Stadtbezirk 3;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Pott;;Jonathan;;1990;;Jurist;3;Stadtbezirk 3;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kwasniewski;;Stefan;;1969;;Dezernent;3;Stadtbezirk 3;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Goy;;Babette;;1960;;Erzieherin;3;Stadtbezirk 3;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Esser;;Markus;;1975;;selbständig;3;Stadtbezirk 3;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kirschbaum;;Jürgen R.;;1969;;Sozialversicherungsfachangestellter;3;Stadtbezirk 3;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Tups;;Rolf;;1956;;Geschäftsführer;4;Stadtbezirk 4;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Saitta;;Giuseppe;;1960;;Kaufmann;4;Stadtbezirk 4;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Baumann;;Maik André;;1975;;Unternehmensberater selbständig;4;Stadtbezirk 4;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Holly;;Sven;;1987;;Lehrer;4;Stadtbezirk 4;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schmittmann;;Michael;;1958;;Rechtsanwalt;4;Stadtbezirk 4;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Weill;;Tim;;1992;;Rechtsreferendar;4;Stadtbezirk 4;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Perzborn;;Philipp;Dr.;1948;;Arzt;4;Stadtbezirk 4;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Blume;;Christoph;;1960;;Bankkaufmann;4;Stadtbezirk 4;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Grütter;;Joachim;;1980;;Ingenieur;4;Stadtbezirk 4;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Krauskopf;;Claudia;;1964;;Rechtsanwältin;4;Stadtbezirk 4;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Theuringer;;Gisela;;1941;;Rentnerin;4;Stadtbezirk 4;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Leinenbach;;Heidrun;;1968;;Projektleiterin;4;Stadtbezirk 4;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wiegrewe;;Michael;;1969;;Referent (Insolvenz);4;Stadtbezirk 4;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Lienau;;Anna-Maria;;1953;;Betriebswirtin;4;Stadtbezirk 4;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Rickes;;Daniel;;1991;;Key-Account-Manager;4;Stadtbezirk 4;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Jansen;;Falk;;1941;;Stahlkaufmann;4;Stadtbezirk 4;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kontny;;Andreas;;1993;;Student der Medizin;4;Stadtbezirk 4;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kroke;;Antonia;;1990;;Wissensch. Mitarbeiterin;4;Stadtbezirk 4;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Maisch;;Uasa;;1972;;Beamtin;4;Stadtbezirk 4;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Willemsen;;Jasmin Carina;;1992;;Studentin;4;Stadtbezirk 4;20
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Gabrysch;;David;Dr.;1971;;Geschäftsführer;4;Stadtbezirk 4;21
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Arens;;Maria-Louise;;1949;;Rentnerin;4;Stadtbezirk 4;22
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Orthey;;Beate;;1959;;Personalberaterin;4;Stadtbezirk 4;24
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Friedrich;;Erik;;1974;;Kaufmann;4;Stadtbezirk 4;25
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Walgenbach;;Bernd;;1961;;Geschäftsführer;4;Stadtbezirk 4;26
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Erning;;Johannes;Dr.;1969;;leitender Angestellter;4;Stadtbezirk 4;27
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Linnenbrink;;Sebastian;;1970;;Rechtsanwalt;4;Stadtbezirk 4;28
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Koch;;Wolfgang;Dr.;1952;;Wirtschaftsprüfer;4;Stadtbezirk 4;29
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Golißa;;Stefan;;1978;;Dachdeckermeister;5;Stadtbezirk 5;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Stieber;;Benedict;;1992;;Student;5;Stadtbezirk 5;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Biermann;;Norbert;;1956;;Kaufmann;5;Stadtbezirk 5;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schilling;;Martin;;1952;;Dachdeckermeister;5;Stadtbezirk 5;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Dimmendaal;;Dominik;;1988;;Referent;5;Stadtbezirk 5;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hartmann;;Florian;Dr.;1976;;Rechtsanwalt;5;Stadtbezirk 5;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Scardino;;Maurizio;;1971;;Speditionskaufmann/Verkehrsfachwirt;5;Stadtbezirk 5;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Förster;;Oliver;;1969;;Kaufm. Angestellter;5;Stadtbezirk 5;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Perger;;Nicole;;1978;;Industriekauffrau;5;Stadtbezirk 5;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Fries;de;Babette;;1964;;Erzieherin;5;Stadtbezirk 5;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Blüming;;Mirko;;1971;;Physiker;5;Stadtbezirk 5;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Eicker;;Jörg;;1965;;Finanzvorstand;5;Stadtbezirk 5;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Fellmerk;;Thomas;;1958;;Rechtsanwalt;5;Stadtbezirk 5;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Weckelmann;;Andreas;Dr.;1978;;Arzt;5;Stadtbezirk 5;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Thomas;;Ekkehard;;1967;;Rechtsanwalt;5;Stadtbezirk 5;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Grube;;Torsten;;1966;;Informatiker;5;Stadtbezirk 5;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Gemeinder;;Marc;;1966;;Bankkaufmann;5;Stadtbezirk 5;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Negwer;;Frank;;1962;;Immobilienkaufmann;5;Stadtbezirk 5;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hoymann;;Siegfried;;1940;;Rentner;5;Stadtbezirk 5;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Spiolek;;Alexandra;;1984;;Politikwissenschaftlerin;5;Stadtbezirk 5;20
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Einhaus;;Christian;Dr.;1976;;Bankdirektor;5;Stadtbezirk 5;21
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Giannakis;;Alexander;Dr.;1986;;Arzt;5;Stadtbezirk 5;22
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Melchert;;Florian;Dr.;1973;;Verwaltungsdirektor;5;Stadtbezirk 5;23
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Pawig;;Petra;;1963;;Betreibswirtin;5;Stadtbezirk 5;24
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Stieber;;Andreas-Paul;;1965;;Geschäftsführer;5;Stadtbezirk 5;25
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Thiele;;Tanja;;1980;;Immobilienmaklerin;5;Stadtbezirk 5;26
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Niederberger;;Yannick;;1994;;Vertriebler;5;Stadtbezirk 5;27
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Diemert;;Jörg;Dr.;1954;;Arzt;5;Stadtbezirk 5;28
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schentek;;Birgit;;1965;;Verwaltungsleiterin;6;Stadtbezirk 6;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Münter;;Marcus;;1967;;Beamter;6;Stadtbezirk 6;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Sültenfuß;;Dirk Peter;;1958;;Betriebswirt;6;Stadtbezirk 6;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Charisius;;Yvonne;;1952;;Rentnerin;6;Stadtbezirk 6;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kals;;Karl-Heinz;;1954;;Angestellter;6;Stadtbezirk 6;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Sültenfuß;;Christa;;1953;;Industriekauffrau;6;Stadtbezirk 6;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schnieders;;Oliver;;1978;;Leitender Angestellter;6;Stadtbezirk 6;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Tauschke;;Karl;;1959;;Immobilienmanager;6;Stadtbezirk 6;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Maul;;Christoph;;1983;;Erzieher;6;Stadtbezirk 6;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schlemmer;;Christian;;1974;;Bankkaufmann;6;Stadtbezirk 6;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Matern;;Angelika;;1953;;Rentnerin;6;Stadtbezirk 6;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Balters;;Jörg;;1967;;Kaufmann;6;Stadtbezirk 6;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Meier;;Rainer;;1967;;Versicherungsfachwirt;6;Stadtbezirk 6;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Pessing;;Victor;;2000;;Azubi;6;Stadtbezirk 6;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Melcher;;Elisabeth;;1956;;Rechtsanwaltsgehilfin;6;Stadtbezirk 6;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Holzhauser;;Stefanie;;1988;;Erzieherin;6;Stadtbezirk 6;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Reeken;;Andreas;;1962;;Mathematisch-technischer Assistent;6;Stadtbezirk 6;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Gnidowski;;Gisbert;;1946;;Rentner;6;Stadtbezirk 6;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Deisenroth;;Marc;;1996;;Altenpfleger;6;Stadtbezirk 6;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Neunzig;;Natascha;;1987;;Rechtsanwältin;7;Stadtbezirk 7;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Rayermann;;Ingolf;;1958;;Dipl. Kfm. Bankkfm.;7;Stadtbezirk 7;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Nolten;;Thorsten;;1975;;Steuerberater;7;Stadtbezirk 7;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Falkenberg;;René;;1973;;Fleischermeister;7;Stadtbezirk 7;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Nießen;;Edeltraud;;1950;;Rentnerin;7;Stadtbezirk 7;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Klein;;Martin;;1955;;Oberst a. D.;7;Stadtbezirk 7;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Tappe;;Hans-Ulrich;Dr.;1961;;Unternehmensberater;7;Stadtbezirk 7;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Fluck;;Andreas;;1998;;WEG-Verwalter;7;Stadtbezirk 7;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Rübsam;;Markus;;1965;;Kaufmann;7;Stadtbezirk 7;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Menke-Hollenberg;;Sylvia;;1968;;ltd. Angestellte;7;Stadtbezirk 7;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Malambre;;Ralph;;1969;;Beamter;7;Stadtbezirk 7;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wiesehöfer;;Rolf;;1966;;Kaufmann;7;Stadtbezirk 7;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Heuser;;Jürgen;;1955;;Kaufmann;7;Stadtbezirk 7;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Opfermann;;Norbert;;1963;;Journalist;7;Stadtbezirk 7;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Giertz;;Heribert;;1946;;Rentner;7;Stadtbezirk 7;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Malambre;;Svenja-Anna;;1993;;Beamtin;7;Stadtbezirk 7;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Söffing;;Constantin;;1983;;Unternehmer;7;Stadtbezirk 7;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Grychtol;;Claudia;;1960;;Reiseverkehrskauffrau;7;Stadtbezirk 7;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Bremer;;Hanno;;1944;;Rentner;7;Stadtbezirk 7;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Penack-Bielor;;Angelika;;1962;;Rechtsanwältin;7;Stadtbezirk 7;20
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Dahlen;von;Dagmar;;1960;;Werbekauffrau;8;Stadtbezirk 8;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Rütz;;Christian;;1978;;Richter am Landgericht;8;Stadtbezirk 8;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Barkemeyer;;Jens;;1990;;Steuerfachangestellter;8;Stadtbezirk 8;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wedekind;;Konrad;;1954;;Installateur-Meister;8;Stadtbezirk 8;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wo?ongiewicz;;Krzysztof;;1953;;Dipl.-Ingenieur;8;Stadtbezirk 8;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Fuchs;;Renate;;1960;;Erzieherin;8;Stadtbezirk 8;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Zotter;;Annkatrin;;1997;;Studentin;8;Stadtbezirk 8;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Reinold;;Dieter;;1946;;Schriftsetzer;8;Stadtbezirk 8;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Müller-Tönnissen;;Volker;;1961;;Beamter;8;Stadtbezirk 8;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Backens;;Ralf;;1968;;Handwerksmeister;8;Stadtbezirk 8;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Thöne;;Franz Josef;;1961;;Angestellter;8;Stadtbezirk 8;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Brinkmann;;Daniel;;1978;;Beamter;8;Stadtbezirk 8;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Büscher;;Stefan;;1998;;Student;8;Stadtbezirk 8;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Zaremba;;Ulrike;Dr.;1974;;Polizeibeamtin;8;Stadtbezirk 8;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Terbuyken;;Stephan;;1966;;Angestellter;8;Stadtbezirk 8;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Laval;;Karl-Ulrich;Dr.;1944;;Arzt;8;Stadtbezirk 8;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Rall;;Yannick;;2000;;Student;8;Stadtbezirk 8;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kube;;Hermann;;1951;;Techniker;8;Stadtbezirk 8;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Sigulla;;Detlef;;1958;;Dipl.-Ingenieur;8;Stadtbezirk 8;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Holzberg;;Frank;;1981;;Angestellter;8;Stadtbezirk 8;20
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Gladilin;;David;;1999;;Student;8;Stadtbezirk 8;21
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Knudsen;;Walburga;;1948;;Rentnerin;8;Stadtbezirk 8;22
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Koch;;Herbert;;1956;;Kraftfahrer;8;Stadtbezirk 8;23
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Fink;;Marc-Philipp;;1998;;Auszubildender;8;Stadtbezirk 8;24
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Godde;;Sabine;;1959;;Steuerberaterin;8;Stadtbezirk 8;25
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Laval;;Beatrix;;1949;;Rentnerin;8;Stadtbezirk 8;26
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wedekind;;Brigitta;;1954;;Erzieherin;8;Stadtbezirk 8;27
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Graf;;Karl-Heinz;Dr.;1948;;Arzt;9;Stadtbezirk 9;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hümmerich;;Ines;;1954;;selbständig;9;Stadtbezirk 9;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Angerhausen;;Dirk;;1967;;Steuerberater;9;Stadtbezirk 9;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hampe;;Ulrich;;1966;;Wirtschaftsprüfer;9;Stadtbezirk 9;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schwanke;;Melina-Tana;;1978;;Vorstandsvorsitzende AGB;9;Stadtbezirk 9;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Diesing;;Detlef;;1963;;Chemiker;9;Stadtbezirk 9;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Gencer;;Ilyas;;2001;;?;9;Stadtbezirk 9;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Grafen;;Karl-Heinz;;1950;;Rentner;9;Stadtbezirk 9;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Lange;;Claudia;;1966;;Industriekauffrau;9;Stadtbezirk 9;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Bößem;;Arantzazu Concepcion;;1990;;Wissenschaftliche Mitarbeiterin;9;Stadtbezirk 9;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Merklinger;;Anton;;1988;;Leiter Qualitätsmanagement und Revision;9;Stadtbezirk 9;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Verhofen;;Ursula;;1947;;Buchhalterin;9;Stadtbezirk 9;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Füth;;Jürgen;Dr.;1943;;Arzt;9;Stadtbezirk 9;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Ringleb;;Klaus;;1951;;Fernmeldetechniker;9;Stadtbezirk 9;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kremer;;Uwe;;1955;;Bürokaufmann;9;Stadtbezirk 9;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Rybak;;Richard;;1960;;Dipl.-Ökonom;9;Stadtbezirk 9;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schwanke;;Oliver;;1977;;Vertriebsleiter;9;Stadtbezirk 9;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Feller;;Andreas;;1970;;kaufm. Angestellter;9;Stadtbezirk 9;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Meixner;;Tatjana;;1973;;Betriebspädagogin;9;Stadtbezirk 9;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DSP;Deutsche Sportpartei;Möller;;Michael;;1962;;Redakteur;7;Stadtbezirk 7;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DSP;Deutsche Sportpartei;Daams;;Franz-Wilhelm;;1949;;Rentner;7;Stadtbezirk 7;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DSP;Deutsche Sportpartei;Jansen;;Stefan;;1971;;Sozialversicherungsfachangestellter;7;Stadtbezirk 7;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DSP;Deutsche Sportpartei;Möller;;Mike;;1996;;Redakteur;7;Stadtbezirk 7;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DSP;Deutsche Sportpartei;Möller;;Anke;;1966;;exam. Krankenschwester;7;Stadtbezirk 7;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DSP;Deutsche Sportpartei;Dyguda;;Oliver;;1997;;Student;7;Stadtbezirk 7;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DSP;Deutsche Sportpartei;Brakonier;;Markus;;1970;;Lagerist;7;Stadtbezirk 7;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DSP;Deutsche Sportpartei;Brakonier;;Maria;;1970;;Lagermitarbeiterin;7;Stadtbezirk 7;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DSP;Deutsche Sportpartei;Wylezol;;Christoph;;1961;;Selbständig;9;Stadtbezirk 9;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Klein;;Peter;;1956;;Architekt;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Bernhard;;Tanja;;1962;;Chemielaborantin;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Obst;;Thomas;;1957;;Koch;1;Stadtbezirk 1;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Brandau;;Ute;;1965;;Fotografin;1;Stadtbezirk 1;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Kraft-Dlangamandla;;Angelika;;1950;;Rentnerin;10;Stadtbezirk 10;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Dlangamandla;;Mbulelo;;1959;;MTRA;10;Stadtbezirk 10;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Kiefer;;Marcel;;1990;;Frontend-Entwickler;10;Stadtbezirk 10;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Müller-Klar;;Monika;Dr.;1952;;Ärztin;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Ackert;;Maikel;;1999;;Student;2;Stadtbezirk 2;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Klar;;Ben;;1954;;Dipl.-Ingenieur;2;Stadtbezirk 2;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Flemming;;Marcus;;1986;;Marketing Manager;2;Stadtbezirk 2;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Freese;;Jost Guido;;1967;;Systemischer Familientherapeut;2;Stadtbezirk 2;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Sawalies;;Dieter;;1949;;Psychologischer Psychotherapeut;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Struwe;;Ursula;;1948;;Krankenschwester;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Götzinger;;Mareike;;1980;;Kulturmanagerin;3;Stadtbezirk 3;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Driesch;;Michael;;1994;;Student;3;Stadtbezirk 3;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Vorspel;;Anja;;1960;;Buchhändlerin;3;Stadtbezirk 3;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Wollnitz;;Manfred;;1971;;Grafiker;3;Stadtbezirk 3;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Schlemper;;Cornelia;;1960;;Rentnerin;3;Stadtbezirk 3;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Hofer;;Johannes;;1995;;Student;3;Stadtbezirk 3;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Blanchard;;Georg;;1942;;Pensionär;4;Stadtbezirk 4;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Wallerang-Dagou;;Anja;Dr.;1969;;Zahnärztin;4;Stadtbezirk 4;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Schwabedissen-Fertahi;;Olivia;;1957;;Verwaltungsangestellte;4;Stadtbezirk 4;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Nordsieck;;Olaf;;1970;;Kaufmännischer Angestellter;4;Stadtbezirk 4;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Mastrokoukos;;Emmanouil;;1958;;Taxifahrer;5;Stadtbezirk 5;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Böhlke;;Nils;;1979;;Gewerkschaftssekretär;5;Stadtbezirk 5;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Daxenberger;;Lothar;;1951;;Rentner;6;Stadtbezirk 6;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Maxen;;Dagmar;;1963;;Einzelhandelskauffrau;6;Stadtbezirk 6;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Born;;Helmut;;1952;;Rentner;6;Stadtbezirk 6;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Müller-Gehl;;Petra Elisabeth;;1951;;Oberstudienrätin im Ruhestand;7;Stadtbezirk 7;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Oliva;;Gianluca;;1993;;Auszubildender Eisenbahner;7;Stadtbezirk 7;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Mirschel;;Sebastian;;1955;;Dipl.-Ingenieur Architektur;7;Stadtbezirk 7;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Dörr;;Dominik;;1993;;Student;8;Stadtbezirk 8;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Detmers;;Kea;;1994;;Studentin;8;Stadtbezirk 8;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Würdemann;;Sophie;;2000;;Studentin;8;Stadtbezirk 8;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Kiwitt;;Rita;;1951;;Rentnerin;9;Stadtbezirk 9;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Reichert;;Lukas;;1986;;Beamter;9;Stadtbezirk 9;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Spahr;;Birgit;;1955;;Rentnerin;9;Stadtbezirk 9;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;DIE LINKE;DIE LINKE;Schönberger;;Ernest-Andrei;;1973;;Physiker;9;Stadtbezirk 9;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Jucknat;;Mario;;1964;;Maurer;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Porsch;;Norbert;;1956;;Elektriker;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Abraham;;Markus;;1964;;Maler;1;Stadtbezirk 1;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Neudorf;;Dijana;;1978;;Haushaltshilfe;1;Stadtbezirk 1;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Fischer;;Karl-Heinz;;1952;;Elektriker;10;Stadtbezirk 10;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Becker;;Andreas;;1975;;Rentner;10;Stadtbezirk 10;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Rütten;;Regina;;1958;;Hausfrau;10;Stadtbezirk 10;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Lattner;;Christof;;1974;;Elektriker;10;Stadtbezirk 10;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Maniera;;Andre;;1973;;Rechtsanwalt;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Beckmann;;Magdalene;;1951;;Hausfrau;2;Stadtbezirk 2;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Kruse;;Uwe;;1956;;Versicherungskaufmann;2;Stadtbezirk 2;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Rups;;Dietrich;;1988;;KFZ-Mechatroniker;2;Stadtbezirk 2;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Böckler;;Georg;;1946;;Rentner;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Fröhlich;;Viktor;;1940;;Rentner;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Carl;;Peter;;1959;;Rentner;3;Stadtbezirk 3;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Beckmann;;Hans-Heinz;;1951;;Rentner;4;Stadtbezirk 4;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Fröhlich;;Natalia;;1950;;Rentnerin;4;Stadtbezirk 4;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Riffel;;Robert;;1938;;Rentner;4;Stadtbezirk 4;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Meyer;;Svenja;;1996;;Studentin;5;Stadtbezirk 5;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Ewertz;;Gertraud;;1952;;Angestellte;5;Stadtbezirk 5;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Hack;;Dirk;;1973;;Unternehmer;6;Stadtbezirk 6;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Hatzenbühler;;Olga;;1985;;Angestellte;6;Stadtbezirk 6;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Bildat;;Tizian;;1997;;Steinmetz;6;Stadtbezirk 6;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Langen-Abrakat;;Norbert;;1950;;Dipl. Ingenieur;6;Stadtbezirk 6;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Beckmann;;Dominic;;1995;;Schüler;6;Stadtbezirk 6;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Degen;;Hans;;1945;;Regierungsoberinspektor a. D.;7;Stadtbezirk 7;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Meßing;;Markus;;1977;;Fachkraft für Gastgewerbe;7;Stadtbezirk 7;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Gabriel;;Hanna Lore;;1949;;Hotelfachfrau;7;Stadtbezirk 7;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Bahtiri;;Tatjana;;1977;;lt. Angestellte;8;Stadtbezirk 8;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Klingen;;Melanie;;1981;;Hausfrau;8;Stadtbezirk 8;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Senk;;Manuel;;2002;;Auzubildender;8;Stadtbezirk 8;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Ganz;;Alexander;;1960;;Rentner;8;Stadtbezirk 8;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Roediger;;Georg Michael;;1967;;Industrieelektriker;9;Stadtbezirk 9;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Becker;;Silvia;;1966;;Rentnerin;9;Stadtbezirk 9;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Beckmann;;Mike;;1978;;Lagerlogistiker;9;Stadtbezirk 9;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Avgeris;;Paraskevi;;1998;;Angestellte;9;Stadtbezirk 9;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;REP;DIE REPUBLIKANER;Pätzoldt;;Kevin;;1997;;Möbelpacker;9;Stadtbezirk 9;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Rehne;;Sebastian;;1974;;Referatsleiter im Rechenzentrum NRW;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Masberg-Eikelau;;Daniela;;1974;;Rechtsanwältin;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Jauck;;Gesa;;1973;;Rechtsanwältin;1;Stadtbezirk 1;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Spielberg;;Johanna Agnes;;1978;;selbständig;1;Stadtbezirk 1;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Held;;Marc Wilhelm;;1977;;Dipl. Kfm. Coach und Trainer;1;Stadtbezirk 1;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Shay;;Daniel;;1978;;Unternehmensberater;1;Stadtbezirk 1;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Killing;;Benedict;;1989;;Unternehmensberater;1;Stadtbezirk 1;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Cromme;;Edeltraud;;1949;;ehemalige Projektmanagerin;1;Stadtbezirk 1;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Saschek;;Dagmar;;1965;;Unternehmensberaterin;1;Stadtbezirk 1;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Pryla;;Barbara;;1949;;Rentnerin;1;Stadtbezirk 1;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Butzke;;Thomas;;1972;;Rechtsanwalt;10;Stadtbezirk 10;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Gutmann;;Jürgen;;1952;;Pensionär;10;Stadtbezirk 10;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Schliewe;;Rolf Günther;;1958;;Pensionär;10;Stadtbezirk 10;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Bachtenkirch;;Klaus;;1953;;Pensionär;10;Stadtbezirk 10;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Suchantke;;Fred;;1954;;Dipl. Ing.;10;Stadtbezirk 10;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Meyer;;Stephan;;1976;;Architekt;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Bölling;;Patrick;;1979;;Rechtsanwalt;2;Stadtbezirk 2;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Krähling;;Jan R.;Dr.;1983;;Apotheker;2;Stadtbezirk 2;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Balkenhol;;Ute;;1968;;Studentin;2;Stadtbezirk 2;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Pritzel;;Sarah;;1988;;PR-Beratungsmanagerin;2;Stadtbezirk 2;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Wegmann;;Marc;;1977;;Produktmanager für digitale Plattformen;2;Stadtbezirk 2;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Hegewald;;Ralf Thomas;;1950;;Dipl. Grafik-Designer;2;Stadtbezirk 2;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Feldmann;;Jan;;1982;;Vertriebsingenieur;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Witner;;André;;1991;;Chemietechniker;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Jablonowska;;Daria;;1985;;Regierungsrätin;3;Stadtbezirk 3;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Radde;;Michael;;1963;;Qualitäts- und Risikobeauftragter;3;Stadtbezirk 3;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Junghanns;;Gesa;;1982;;Angestellte;3;Stadtbezirk 3;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Korenkov;;Anne Tatjana;;2000;;Studentin;3;Stadtbezirk 3;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Baumüller;;Till;;1985;;Rechtsanwalt;3;Stadtbezirk 3;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Alessio;;Piero Alfonso;;1990;;Geschäftsführer;3;Stadtbezirk 3;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Lambert;;Matthias;;1982;;Büroleiter;3;Stadtbezirk 3;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Dorenz;;Brien;;1968;;Rechtsanwalt;4;Stadtbezirk 4;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Peters;;Ulrich;Dr.;1950;;Jurist;4;Stadtbezirk 4;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Plingen;;Johannes;Dr.;1955;;Arzt;4;Stadtbezirk 4;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Plingen;;Marie-Luise;Dr.;1956;;Ärztin;4;Stadtbezirk 4;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Schmidt-Menschner;;Klaus;Dr.;1944;;Rentner;4;Stadtbezirk 4;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Braun;;Karin-Verena;;1951;;Rentnerin;4;Stadtbezirk 4;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Pfeil;;Hans-Jürgen;;1944;;Rentner;4;Stadtbezirk 4;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Mißler-Strack;;Katharina;;1987;;Juristin;4;Stadtbezirk 4;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Hagen;;Marianne;Dr. Dr.;1958;;MKG Chirurgin;5;Stadtbezirk 5;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Nickel;;Tomas;;1990;;Versicherungskaufmann;5;Stadtbezirk 5;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Meyer;;Jan Hinnerk;;1965;;Architekt;5;Stadtbezirk 5;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Litzius;;Laura;;1994;;Gesundheits- und Krankenpflegerin;5;Stadtbezirk 5;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Lewkowicz;;Eva-Maria;Dr.;1964;;Professorin;5;Stadtbezirk 5;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Krüll;;Marcus;;1963;;Immobilienmakler;5;Stadtbezirk 5;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Hoffbauer;;Dietmar;;1955;;Unternehmensberater;5;Stadtbezirk 5;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Austmeyer;;Harald Friedrich;;1952;;Dipl.-Ing. Bauwesen;5;Stadtbezirk 5;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Bartl;;Helmut;;1970;;Montageleiter;5;Stadtbezirk 5;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Droste;;Felix;;1963;;Kaufmann;5;Stadtbezirk 5;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Weber;;Ferry;;1963;;kfm. Angestellter;6;Stadtbezirk 6;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Oppermann;;Georg;;1963;;Kommunikations-Manager;6;Stadtbezirk 6;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Henne;;Corinna;;1987;;Studentin;6;Stadtbezirk 6;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Schönberg;;Sebastian;;1992;;Student;6;Stadtbezirk 6;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Deterding;;Julian;;1993;;Doktorand Immunologie;7;Stadtbezirk 7;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Kiel;;Andre;;1973;;Regierungsbeschäftigter;7;Stadtbezirk 7;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Rachner;;Christine;Dr.;1968;;Ärztin;7;Stadtbezirk 7;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Bönte;;Markus;Dr.;1977;;Geschäftsführer;7;Stadtbezirk 7;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Boventer;;Christiane;;1969;;Marketing Direktor;7;Stadtbezirk 7;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Palik;;Andreas;;1997;;Journalist;7;Stadtbezirk 7;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Fliegel;;Tim;;1996;;Student;7;Stadtbezirk 7;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Nast-Kolb;;Ansgar;;1979;;Diplom-Betriebswirt;7;Stadtbezirk 7;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Nagel;;Renate;;1939;;Rentnerin;7;Stadtbezirk 7;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Schadrack;;Bodo;;1987;;Geschäftsführer;8;Stadtbezirk 8;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Dörges;;Karsten;;1976;;Software-Entwickler;8;Stadtbezirk 8;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Fuchs;;Norbert;;1959;;Tischler;8;Stadtbezirk 8;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Plass;;Matthias;;1971;;Wertpapierhändler;8;Stadtbezirk 8;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Storch;;Matthias;;1992;;Versicherungsvermittler;8;Stadtbezirk 8;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Schork;;Christoph;Dr.;1970;;Rechtsanwalt;8;Stadtbezirk 8;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Krastel;;Davina;;1992;;Regierungsbeschäftigte;9;Stadtbezirk 9;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Nicolin;;Thomas;;1961;;Politologe;9;Stadtbezirk 9;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Nüchter;;Laura;;1992;;Studentin;9;Stadtbezirk 9;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Henrich;;Sascha Dirk;;1988;;Politikwissenschaftler;9;Stadtbezirk 9;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Moser;;Torsten;;1981;;Wirtschaftsprüfer;9;Stadtbezirk 9;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Schneider;;Stephan;;1993;;Dipl. Bankbetriebswirt;9;Stadtbezirk 9;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Struck;;Joachim;;1952;;Pfandleiher;9;Stadtbezirk 9;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Neßmann;;Jannik;;1992;;Unternehmer;9;Stadtbezirk 9;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Pennekamp;;Lars;;1987;;Datenschutzbeauftragter;9;Stadtbezirk 9;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Klee;;Alexander;;1994;;Research Consultant;9;Stadtbezirk 9;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Koschmieder;;Dennis Thomas;;1996;;Student;9;Stadtbezirk 9;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FDP;Freie Demokratische Partei;Zwingmann;;Daniel;;1994;;Junior Business Analyst;9;Stadtbezirk 9;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;F.W.G./FREIE WÄHLER;Freie-Wähler-Gemeinschaft Garath/Hellerhof;Ries;;Peter;;1956;;Journalist;10;Stadtbezirk 10;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;F.W.G./FREIE WÄHLER;Freie-Wähler-Gemeinschaft Garath/Hellerhof;Grumbach;;Hans-Joachim;Dr.;1967;;Verwaltungsangestellter;10;Stadtbezirk 10;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;F.W.G./FREIE WÄHLER;Freie-Wähler-Gemeinschaft Garath/Hellerhof;Stark;;Lena;;1995;;Erzieherin;10;Stadtbezirk 10;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;F.W.G./FREIE WÄHLER;Freie-Wähler-Gemeinschaft Garath/Hellerhof;Labuwy;;Dirk;;1962;;Radio- und Fernsehtechnikermeister;10;Stadtbezirk 10;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;F.W.G./FREIE WÄHLER;Freie-Wähler-Gemeinschaft Garath/Hellerhof;Sondenheimer;;Julika;;1957;;Einzelhandelsverkäuferin;10;Stadtbezirk 10;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;;Klimaliste Düsseldorf;Bonke;;Michael;;1958;;Workshopleiter;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;;Klimaliste Düsseldorf;Jonas;;Hans-Rainer;;1949;;Selbständiger - private Hausverwaltung;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;;Klimaliste Düsseldorf;Job;;Stefan;;1964;;Schauspieler und Regisseur;4;Stadtbezirk 4;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;;Klimaliste Düsseldorf;Rother;;Dirk;;1971;;Maschinenbauingenieur;4;Stadtbezirk 4;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Schönborn;;Simon;;1980;;Personalberater;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Mengelkamp;;Oliver;;1972;;Meister für Veranstaltungstechnik;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Schulte;;Keno;;1982;;Student;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Zeitler;;Andrea;;1966;;Studienrätin;2;Stadtbezirk 2;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Mirus;;Dominique;;1988;;Künstlerin;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Somogyvari;;Thomas;;1972;;Personal Trainer;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;PIRATEN;Piratenpartei Deutschland;Olejak;;Marc;;1971;;IT-Consultant;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;PIRATEN;Piratenpartei Deutschland;Angemeer;;Michael;;1972;;Mediengestalter;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;PIRATEN;Piratenpartei Deutschland;Grenda;;Frank;;1967;;Bankkaufmann;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;PIRATEN;Piratenpartei Deutschland;Bauer;;Marius;;1973;;IT;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Spillner;;Marina;;1962;;Referentin;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Lorberg;;Rafael;;1984;;Dipl. Ingenieur;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Obendorf;;Moira;;1989;;Studentin Zahnmedizin;1;Stadtbezirk 1;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Tacer;;Philipp;;1983;;Referent;1;Stadtbezirk 1;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hund;;Ulrike;;1947;;Schulamtsdirektorin;1;Stadtbezirk 1;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Sarton;;Jens;;1972;;Hausmann;1;Stadtbezirk 1;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kromphardt;;Ina;;1958;;Herrengewandmeisterin;1;Stadtbezirk 1;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Zimmermann;;Christian;;1986;;Auslieferungsfahrer;1;Stadtbezirk 1;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Eidenmüller;;Kirsten;;1965;;Sekretärin;1;Stadtbezirk 1;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Selimi;;Adis;;1994;;Wissenschaftlicher Mitarbeiter;1;Stadtbezirk 1;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Widholm;;Stephanie;;1984;;Projektleiterin;1;Stadtbezirk 1;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hannappel;;Stefan;;1962;;Key-Account-Manager;1;Stadtbezirk 1;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Özgüç;;Nihan;;1988;;Assistenzärztin;1;Stadtbezirk 1;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Iyido?an;;Umut;;1988;;Trainer Bodenpersonal;1;Stadtbezirk 1;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Franzen;;Birgitta;;1972;;Dramaturgin;1;Stadtbezirk 1;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kreutzer;;Mario;;1988;;Jurist;1;Stadtbezirk 1;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Martens;;Torge;;1987;;Industriedesigner;1;Stadtbezirk 1;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Herz;;Matthias;;1966;;Referent Landtagsbüro;1;Stadtbezirk 1;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Raub;;Markus;;1966;;Rechtsanwalt;1;Stadtbezirk 1;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Sievers;;Uwe;;1945;;Pensionär;10;Stadtbezirk 10;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Sieghart-Edel;;Christiane;;1952;;Pensionärin;10;Stadtbezirk 10;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schnieder;;Burkhard;;1955;;Beamter;10;Stadtbezirk 10;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bohrmann;;Jürgen;;1960;;Angestellter;10;Stadtbezirk 10;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Brinkmann;;Dagmar;;1960;;Hausmeisterin;10;Stadtbezirk 10;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Tassone;;Giuseppe Antonio;;1963;;Prüfingenieur;10;Stadtbezirk 10;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Gilleßen-Schneider;;Edith;;1942;;Rentnerin;10;Stadtbezirk 10;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Jung;;Gregor;;1971;;Angestellter;10;Stadtbezirk 10;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Sanne;;Eva Maria;;1955;;Rentnerin;10;Stadtbezirk 10;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hülsen-Gärtner;;Birthe;;1984;;Controllerin;10;Stadtbezirk 10;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Weihe;;Klaus;;1955;;Ruheständler;10;Stadtbezirk 10;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Gärtner;;Etienne;Dr.;1983;;Softwareentwickler;10;Stadtbezirk 10;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Holtmann-Schnieder;;Ursula;;1955;;Dipl.-Pädagogin;10;Stadtbezirk 10;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Ristau;;Gerfried;;1941;;Rentner;10;Stadtbezirk 10;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Treudt;;Eberhard;;1949;;Rentner;10;Stadtbezirk 10;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Smyczek;;Wolfgang;;1954;;Pensionär;10;Stadtbezirk 10;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Eßer;;Renate;;1947;;Rentnerin;10;Stadtbezirk 10;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hiepe;;Jürgen;;1966;;arbeitslos;10;Stadtbezirk 10;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Lapkin;;Konstantin;;1948;;Hausmeister;10;Stadtbezirk 10;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Lindner;;Thorsten;;1968;;Chemikant;10;Stadtbezirk 10;20
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wagner;;Uwe;Dr.;1960;;Diplom-Psychologe;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bobbert;;Zora;;1990;;Lehrerin;2;Stadtbezirk 2;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kendura;;Michael;;1977;;Kaufmännischer Angestellter;2;Stadtbezirk 2;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bertram;;Andrea;;1963;;Consultantin;2;Stadtbezirk 2;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Zimmer-Hegmann;;Ralf;;1962;;Sozialwissenschaftler;2;Stadtbezirk 2;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Strand;;Dagmar;;1956;;Dipl. Chemikerin;2;Stadtbezirk 2;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Dreyer;;Sebastian;;1980;;Jurist;2;Stadtbezirk 2;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kabata;;Katharina;;1979;;Dipl.-Ökonomin;2;Stadtbezirk 2;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Zhang;;Jingmin;;1982;;Diplom-Ingeniur;2;Stadtbezirk 2;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Menges;;Annemarie;;1953;;Rechtsanwältin;2;Stadtbezirk 2;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Misango;;Assisi Josef Johnny;;1968;;Theologe;2;Stadtbezirk 2;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wallraff;;Lena Maria;;1989;;Referentin;2;Stadtbezirk 2;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Seidler;;Alicia;;1999;;Studentin;2;Stadtbezirk 2;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Puhl;;Thomas;;1963;;Produktionsarbeiter;2;Stadtbezirk 2;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Meinke;;Sanna Milena;;1971;;Diplom-Sozialarbeiterin;2;Stadtbezirk 2;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Lieblang;;Leon;;1990;;Wissenschaftlicher Mitarbeiter;2;Stadtbezirk 2;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Vogels;;Emil;;1964;;Straßenbahnfahrer;2;Stadtbezirk 2;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schmand;;Fabian Sinh;;1997;;Eventmanager;2;Stadtbezirk 2;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Siegesmund;;Marko;;1976;;Finanzberater;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Boltz;;Johanna Henriette Irmgard;;1950;;Rentnerin;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Goebels;;Lutz;;1963;;Angestellter;3;Stadtbezirk 3;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Henzler;;Simone Manuela;;1983;;Geschäftsführerin;3;Stadtbezirk 3;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schnieders;;Niels Christian;;1982;;Controller;3;Stadtbezirk 3;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Proschmann;;Sabrina;;1992;;Wissenschaftliche Mitarbeiterin;3;Stadtbezirk 3;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Gielen;;Jonas;;1989;;Verlagskaufmann;3;Stadtbezirk 3;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Goldberg-Hammon;;Katja Maria Victoria;;1978;;Referentin;3;Stadtbezirk 3;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Clooth;;Jan Philip;;1987;;Büroleiter;3;Stadtbezirk 3;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Goldenstein;;Katrin;;1971;;Dipl.-Übersetzerin;3;Stadtbezirk 3;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Mellinghaus;;Frank;;1966;;Architekt;3;Stadtbezirk 3;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Steinbeck;;Viola;;1971;;Anthropologin;3;Stadtbezirk 3;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Müssel;;Wolfgang;;1986;;Physiker;3;Stadtbezirk 3;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Doorn;van;Daphne;;1989;;Referentin;3;Stadtbezirk 3;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bouschen;;Werner;Dr.;1969;;Lehrer;3;Stadtbezirk 3;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Iggena;;Thalke Etta-Marie;;1993;;Rechtsreferendarin;3;Stadtbezirk 3;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Becker;;Daniel Fritz Walter;;1992;;Apotheker;3;Stadtbezirk 3;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Humpert-Kalb;;Sabine;;1967;;Kauffrau im Groß- und Außenhandel;3;Stadtbezirk 3;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Friedrichs;;Maximilian;;1995;;Student;3;Stadtbezirk 3;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Mondal;;Rajib;;1992;;Medizinstudent;3;Stadtbezirk 3;20
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Demmert;;Oliver;;1972;;Gebrauchtwarenhändler;3;Stadtbezirk 3;21
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Staack;;Marco;;1972;;Berufsbetreuer;4;Stadtbezirk 4;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Drossel;;Claudia;;1962;;Finanzbuchhalterin;4;Stadtbezirk 4;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kühbacher;;Tobias;;1970;;Bundesbankdirektor;4;Stadtbezirk 4;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Tarnow-Hamelmann;;Sabine;;1963;;Lehrerin;4;Stadtbezirk 4;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Warden;;Axel;;1949;;Ingenieur;4;Stadtbezirk 4;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kiourtsidou;;Anatoli;;1963;;Unternehmerin;4;Stadtbezirk 4;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Ritschel;;Wolfgang;;1951;;Industriekaufmann;4;Stadtbezirk 4;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Warden;;Louisa Christine;;2000;;Studentin;4;Stadtbezirk 4;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Klement;;Marc-Thomas;;1979;;Versicherungskaufmann;4;Stadtbezirk 4;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Reißner;;Margarete;;1937;;Hausfrau;4;Stadtbezirk 4;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Reese;;Wilhelm;;1961;;Angestellter;4;Stadtbezirk 4;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Krings;;Bettina;;1963;;Bankkauffrau;4;Stadtbezirk 4;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hußmann;;Rainer;;1968;;Beamter;4;Stadtbezirk 4;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Prang;;Tolke;;1962;;Groß- und Außenhandelskauffrau;4;Stadtbezirk 4;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bednorz;;Frank Erwin Jakob;Dr.;1965;;Gymnasiallehrer;4;Stadtbezirk 4;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Warden;;Marion;;1958;;Geschäftsführerin;4;Stadtbezirk 4;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Speier;;Frank Hans Walter;;1942;;Physiker;4;Stadtbezirk 4;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Reißner;;Manfred;;1937;;Rentner;4;Stadtbezirk 4;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Tscholl;;Benjamin;;1983;;Beamter;5;Stadtbezirk 5;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wisbrun-Irmer;;Nicola;;1959;;Künstlerin;5;Stadtbezirk 5;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Krüger;;Sebastian;;1982;;Beamter;5;Stadtbezirk 5;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fenger;;Sarah;;1990;;Gewerkschaftssekretärin;5;Stadtbezirk 5;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Vomweg;;Sebastian;;1987;;pharmazeutischer Dezernent;5;Stadtbezirk 5;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Seele;;Jörg;;1960;;Ingenieur;5;Stadtbezirk 5;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Jansen;;Andreas;;1986;;Gewerkschaftsekretär;5;Stadtbezirk 5;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bednarski;;Darius;;1995;;IT-Systemkaufmann;5;Stadtbezirk 5;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wacker;;Lukas;;1999;;Student;5;Stadtbezirk 5;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Steinert;;Boris;;1981;;Einzelhandelskaufmann;5;Stadtbezirk 5;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Reil;;Dirk;;1960;;Werkpädagoge;5;Stadtbezirk 5;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schnock;;Sebastian;;1992;;Verwaltungsfachangestellter;5;Stadtbezirk 5;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Thomas;;Ralf;;1958;;Dozent;6;Stadtbezirk 6;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Growe;;Monika;;1961;;Beamtin im Vorruhestand;6;Stadtbezirk 6;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Graf;;Jörg;;1974;;Krankenpfleger;6;Stadtbezirk 6;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Gesemann;;Diana;;1970;;Berufsschullehrerin;6;Stadtbezirk 6;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Richter;;Detlef;;1964;;Teamleiter EDV;6;Stadtbezirk 6;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Khumalo;;Yibanami;;1952;;Renterin;6;Stadtbezirk 6;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Gegic;;Vilson;;1980;;stell. Betriebsratsvorsitzender;6;Stadtbezirk 6;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kuschmiersz;;Melanie;;1970;;wissenschaftliche Mitarbeiterin;6;Stadtbezirk 6;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hoguth;;Florian;;1994;;Student;6;Stadtbezirk 6;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Düsedau;;Dorothea;;1954;;Buchhändlerin;6;Stadtbezirk 6;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Karras;;Georgios;;1961;;Arbeiter;6;Stadtbezirk 6;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fleckner-Olbermann;;Bergit Uta;;1957;;Diplom-Pädagogin;6;Stadtbezirk 6;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kreutler;;Peter;;1967;;Teamleiter im Bereich Monitoring;6;Stadtbezirk 6;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Martens;;Zanda;;1984;;Gewerkschaftssekretärin;6;Stadtbezirk 6;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Röseler;;Reinhard Hans Roland;;1951;;Unternehmensberater i.R.;6;Stadtbezirk 6;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kaiser;;Werner;;1953;;Rentner;6;Stadtbezirk 6;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Rasp;;Peter;;1958;;Privatier;6;Stadtbezirk 6;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Growe;;Kai;;1986;;Elektrotechnikermeister;6;Stadtbezirk 6;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Freitag;;Wolfgang;;1964;;Facharbeiter;6;Stadtbezirk 6;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Spielmann;;Frank Johann;;1971;;Abteilungsleiter;6;Stadtbezirk 6;20
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schulz;;Klaus;;1955;;Bundesbeamter a.D.;6;Stadtbezirk 6;21
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kunert;;Karsten;;1959;;Angestellter;7;Stadtbezirk 7;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fobbe;;Elke;;1968;;Volkswirtin;7;Stadtbezirk 7;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Haedecke;;Thors;;1968;;Angestellter;7;Stadtbezirk 7;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Heuter;;Joachim;;1962;;Angestellter;7;Stadtbezirk 7;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Deutsch;;Pia;;1987;;Wissenschaftliche Mitarbeiterin;7;Stadtbezirk 7;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Romich;;Jan Mathis;;1985;;Physiotherapeut;7;Stadtbezirk 7;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Thum;;Lukas Marvin;;1997;;Student;7;Stadtbezirk 7;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kluth;;Carsten;;1970;;Lehrer;7;Stadtbezirk 7;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kluth;;Alexander;;1991;;Softwareentwickler;7;Stadtbezirk 7;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Pattberg;;Simon;;1999;;Student der Rechtswissenschaften;7;Stadtbezirk 7;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Dickers;;Klaus;;1952;;Rentner;7;Stadtbezirk 7;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Ramm;;André;;1985;;Angestellter;7;Stadtbezirk 7;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Ott;;Holger;;1977;;Angestellter;7;Stadtbezirk 7;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Ramm;;Irina;;1981;;Lehrerin;7;Stadtbezirk 7;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Coenen;;Andreas;;1960;;Angestellter;7;Stadtbezirk 7;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Krems;;Karl-Heinz;;1955;;Verwaltungsjurist;7;Stadtbezirk 7;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Freiwald;;Norbert;;1954;;Pensionär;7;Stadtbezirk 7;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Beck-Freiwald;;Judith;;1955;;Angestellte;7;Stadtbezirk 7;19
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Voller;;Rudolf;Dr.;1952;;Rentner;7;Stadtbezirk 7;20
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Düsing-Krems;;Hildegard;;1958;;Angestellte;7;Stadtbezirk 7;21
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Dreist;;Markus;Dr.;1964;;Freiberuflicher Historiker;8;Stadtbezirk 8;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Albes;;Claudia-Irene;;1966;;Angestellte;8;Stadtbezirk 8;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Leifgen;;Wolfgang Peter;;1955;;Privatier;8;Stadtbezirk 8;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bönemann;;Astrid;;1966;;Verwaltungsangestellte;8;Stadtbezirk 8;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Albes;;BurkhardFranz Götz;;1963;;Maler- und Lackierermeister;8;Stadtbezirk 8;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Uhlig;;Julia;;1995;;Wissenschaftliche Mitarbeiterin;8;Stadtbezirk 8;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Albes;;Robin;;1992;;Maler;8;Stadtbezirk 8;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Gobiet;;Tobias;;1988;;Physiotherapeut;8;Stadtbezirk 8;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Heinz;;Philipp;;1991;;Sozialversicherungsfachangestellter;8;Stadtbezirk 8;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Weber;;Jane;;1998;;Studentin;8;Stadtbezirk 8;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Blödorn;;Sigrid Irene Maria;;1954;;Pflegefachkraft;8;Stadtbezirk 8;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Blödorn;;Gero;;1978;;Krankenpfleger;8;Stadtbezirk 8;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Labahn;;Joachim;;1957;;Elektriker;8;Stadtbezirk 8;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Pilis;;Konstantinos;;1952;;Dolmetscher;8;Stadtbezirk 8;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Itzigsohn;;Franko Günter;;1964;;Immobilien-Kaufmann;8;Stadtbezirk 8;15
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schmidt;;Boris Siegfried;;1976;;pers. Referent;8;Stadtbezirk 8;16
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Backhaus;;Klaus;;1956;;Pensionär;8;Stadtbezirk 8;17
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Weber;;Wolfgang;;1956;;Maschinenbautechniker;8;Stadtbezirk 8;18
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Skalnik;;Udo;;1950;;Pensionär;9;Stadtbezirk 9;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wegner;;Karin Gabriele;;1959;;Lehrerin i.T.;9;Stadtbezirk 9;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wolter;;Michael;Dr.;1959;;Chemiker;9;Stadtbezirk 9;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fockenbrock;;Martina Gertrud;;1957;;Lehrerin;9;Stadtbezirk 9;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Laugs;;Jan Christoph;;1983;;freiberuflicher Historiker;9;Stadtbezirk 9;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Willms-Ratajczak;;Brigitte;;1946;;Rentnerin;9;Stadtbezirk 9;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schulze-Wördemann;;Norbert;;1958;;Mitarbeiter Theaterkasse;9;Stadtbezirk 9;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Finke;;Michael;;1949;;Rentner;9;Stadtbezirk 9;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schneider;;Marc;Dr.;1981;;Logistik Manager;9;Stadtbezirk 9;9
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Mohrs;;Willi;;1955;;Redakteur;9;Stadtbezirk 9;10
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schmidt;;Jürgen;;1939;;rentner;9;Stadtbezirk 9;11
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bauer;;Konstantin Rafael;;1990;;Promotions Student;9;Stadtbezirk 9;12
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Peußer;;Thomas;;1989;;ONLINE Marketing Manager;9;Stadtbezirk 9;13
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fischer;;Norbert;;1951;;Rentner;9;Stadtbezirk 9;14
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Krüger;;Jürgen;;1964;;kfm. Angestellter;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Herzmann;;Alice;;1956;;Rechtsanwaltsfachangestellte;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Vidovic;;Mladenka;;1972;;Sekretärin;1;Stadtbezirk 1;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Rimedio;;Kerstin Cornelia;;1966;;Büroangestellte;1;Stadtbezirk 1;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Mirza;;Sascha;;1975;;Sachbearbeiter;2;Stadtbezirk 2;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Alles;;Karel;;1965;;Dipl.Ing. Autom.Technik;2;Stadtbezirk 2;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Pieper;;Rene;;1991;;Lieferant;2;Stadtbezirk 2;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Runkel;;Sonja;;1958;;Finanzbuchhalterin;2;Stadtbezirk 2;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Pieper;;Christine;;1960;;Reinigungskraft;2;Stadtbezirk 2;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Trajanovska;;Ana;;1989;;Lehrerin;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Haumann;;Nicole;;1992;;Studentin;3;Stadtbezirk 3;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Buljan;;Sandra;;1974;;Sachbearbeiterin;3;Stadtbezirk 3;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Vidovic;;Niko;;1976;;Logistikmitarbeiter;3;Stadtbezirk 3;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Trajanovski;;Sa?a;;1989;;Jurist;3;Stadtbezirk 3;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Buljan;;Bosiljka;;1950;;Rentnerin;3;Stadtbezirk 3;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Nowack;;Heinz-Georg;;1951;;Rentner;3;Stadtbezirk 3;8
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Stenger;;Birgit;;1969;;Dipl. Sportökonomin;4;Stadtbezirk 4;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Brösel;;Christiane;;1947;;Rentnerin;4;Stadtbezirk 4;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Führer;;Alexander;;1966;;Berater;5;Stadtbezirk 5;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Keil;;Frank;;1961;;Altenpfleger;5;Stadtbezirk 5;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Morlo-Graner;;Silvana;;1960;;kfm. Angestellte;5;Stadtbezirk 5;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Graner;;Achim;;1959;;Maler und Lackierer;5;Stadtbezirk 5;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Türkmen;;Kemal;;1971;;Straßenbahnfahrer;6;Stadtbezirk 6;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Herzmann;;Stefanie;;1979;;Rechtsanwaltsfachangestellte;6;Stadtbezirk 6;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Güde;;Lucie;;1998;;Rechnungsprüferin;6;Stadtbezirk 6;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Rimedio;;Patrizio;;1967;;Gastronom;6;Stadtbezirk 6;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Harting;;Burkhard;;1962;;Industriekaufmann;7;Stadtbezirk 7;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Brüggmann;;Wolfgang;;1949;;Demenz- und Seniorenbetreuer;7;Stadtbezirk 7;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Kaden;;Brigitte Christa;;1954;;Rentnerin;7;Stadtbezirk 7;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Sonntag;;Hans-Dietrich;;1935;;Rentner;7;Stadtbezirk 7;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Dischleid;;Luise;;1941;;Rentnerin;7;Stadtbezirk 7;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Westerich;;Mario;;1964;;Maler und Lackierer;7;Stadtbezirk 7;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Behrendt;;Berthold;;1966;;Angestellter;7;Stadtbezirk 7;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Lemmer;;Torsten;;1970;;Geschäftsführer;8;Stadtbezirk 8;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Noth;;Markus;;1964;;Regioleiter Parkraumbewirtschaftung;8;Stadtbezirk 8;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Knott;;Ina;;1962;;kfm. Angestellte;8;Stadtbezirk 8;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Lemmer;;Sascha;;1992;;Elektroniker für Energie- und Gebäudetechnik;8;Stadtbezirk 8;4
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Kara?;;Persa;;1987;;PR Managerin;8;Stadtbezirk 8;5
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Kos;;Silvestar;;1983;;Kaufmann;8;Stadtbezirk 8;6
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Lemmer;;Karin;;1941;;Rentnerin;8;Stadtbezirk 8;7
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Kloft;;Jürgen;;1954;;Kaufmann;9;Stadtbezirk 9;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Streck;;Rudolf;;1988;;Vertriebsleiter;9;Stadtbezirk 9;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Volt;Volt Deutschland;Dehn;;Winny;Dr.;1953;;Medienwissenschaftlerin;1;Stadtbezirk 1;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Volt;Volt Deutschland;Többen;;Florian;;1990;;Wirtschaftsingenieur;1;Stadtbezirk 1;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Volt;Volt Deutschland;Wagener;;Hans-Markus;;1993;;Wissenschaftlicher Mitarbeiter;1;Stadtbezirk 1;3
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Volt;Volt Deutschland;Göbel;;Tobias;;1993;;Rechtsreferendar;3;Stadtbezirk 3;1
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;Volt;Volt Deutschland;Söns;;Julia;;1988;;Digital Marketing Specialist;3;Stadtbezirk 3;2
+0.3;05111000;13.09.2020;Bezirksvertretungswahl NRW;;WIDERSTAND 2020 Wir für Düsseldorf;Schulz;;Uwe;;1969;;Energieanlagenelektroniker;10;Stadtbezirk 10;1

@@ -1,0 +1,3 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;partei-kurzname;partei-langname;kandidat-name;kandidat-namensvorsatz;kandidat-vorname;kandidat-akadgrad;kandidat-geburtsjahr;kandidat-geschlecht;kandidat-beruf;kandidat-gebiet-nr;kandidat-listenplatz
+0.3;05111000;27.09.2020;Oberbürgermeisterstichwahl NRW;CDU;Christlich Demokratische Union Deutschlands;Keller;;Stephan;Dr.;1970;M;Stadtdirektor;;
+0.3;05111000;27.09.2020;Oberbürgermeisterstichwahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Geisel;;Thomas;;1963;M;Oberbürgermeister;;

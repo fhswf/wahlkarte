@@ -1,0 +1,9 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung;stimmzettel-position;partei-kurzname;partei-langname;partei-rgb-wert;partei-typ
+0.2;05914000;13.09.2020;OB-Wahl;;;1;SPD;Sozialdemokratische Partei Deutschlands;#d60029;P
+0.2;05914000;13.09.2020;OB-Wahl;;;2;CDU, GRÜNE, FDP;Christlich Demokratische Union Deutschlands, Bündnis 90/Die Grünen, Freie Demokratische Partei;#448581;P
+0.2;05914000;13.09.2020;OB-Wahl;;;4;;HAGEN AKTIV;#0000fc;P
+0.2;05914000;13.09.2020;OB-Wahl;;;5;DIE LINKE;Die Linke;#cc0066;P
+0.2;05914000;13.09.2020;OB-Wahl;;;6;AfD;Alternative für Deutschland;#21c5ff;P
+0.2;05914000;13.09.2020;OB-Wahl;;;9;PIRATEN;Piratenpartei Deutschland;#ff8800;P
+0.2;05914000;13.09.2020;OB-Wahl;;;11;REP;DIE REPUBLIKANER;#1640e8;P
+0.2;05914000;13.09.2020;OB-Wahl;;;13;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;#a50021;P

@@ -1,0 +1,21 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;wahl-leiter-gs;wahl-leiter-name;gebiet-ebene-5-nr;gebiet-ebene-5-name;gebiet-ebene-4-nr;gebiet-ebene-4-name;gebiet-ebene-3-nr;gebiet-ebene-3-name;gebiet-ebene-2-nr;gebiet-ebene-2-name;bezirk-nr;bezirk-name;bezirk-art;bezirk-repräsentativ;kandidat-gebiet-nr;kandidat-gebiet-bezeichnung;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;1;1 Kall I;01.0;1 Kall I;W;N;1;1 Kall I;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;2;2 Kall II;02.0;2 Kall II;W;N;2;2 Kall II;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;3;3 Kall III;03.0;3 Kall III;W;N;3;3 Kall III;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;4;4 Kall IV;04.0;4 Kall IV;W;N;4;4 Kall IV;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;5;5 Kall V;05.0;5 Kall V;W;N;5;5 Kall V;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;6;6 Kall VI;06.0;6 Kall VI;W;N;6;6 Kall VI;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;7;7 Kall VII/Golbach;07.1;7/1 Kall VII;W;N;7;7 Kall VII/Golbach;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;7;7 Kall VII/Golbach;07.2;7/2 Golbach;W;N;7;7 Kall VII/Golbach;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;8;8 Sötenich;08.0;8 Sötenich;W;N;8;8 Sötenich;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;9;9 Rinnen/Urft;09.1;9/1 Rinnen;W;N;9;9 Rinnen/Urft;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;9;9 Rinnen/Urft;09.2;9/2 Urft;W;N;9;9 Rinnen/Urft;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;10;10 Sistig;10.0;10 Sistig;W;N;10;10 Sistig;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;11;11 Krekel;11.1;11/1 Krekel;W;N;11;11 Krekel;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;11;11 Krekel;11.2;11/2 Steinfelderheistert;W;N;11;11 Krekel;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;12;12 Wahlen;12.1;12/1 Wahlen;W;N;12;12 Wahlen;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;12;12 Wahlen;12.2;12/2 Steinfeld;W;N;12;12 Wahlen;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;13;13 Keldenich;13.0;13 Keldenich;W;N;13;13 Keldenich;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;14;14 Scheven;14.1;14/1 Scheven;W;N;14;14 Scheven;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;14;14 Scheven;14.2;14/2 Wallenthal;W;N;14;14 Scheven;;Gemeinderat
+0.2;05366024;13.09.2020;Ratswahl NRW;05366024;Gemeinde Kall;;;;;;;14;14 Scheven;14.3;14/3 Dottel;W;N;14;14 Scheven;;Gemeinderat

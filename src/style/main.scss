@@ -1,0 +1,61 @@
+@import "~weightless/style/base.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+$font-family: 'Fira Sans', helvetica, sans-serif;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+
+.leaflet-container{
+  font: 12px/1.5 $font-family;
+}
+
+.leaflet-popup-content {
+  margin: 0.4rem;
+}
+
+:root, * {
+  --title-font-family: $font-family;
+  --font-family-serif: $font-family;
+  --font-family-sans-serif: $font-family;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  // background: #fff;
+}
+
+#overlayContainer {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.7);
+  z-index: 9999;
+
+  &.hide {
+    display: none;
+  }
+}
+
+.gebietTooltip {
+  width: 300px;
+  h1, h2, h3, h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

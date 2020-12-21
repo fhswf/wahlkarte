@@ -1,0 +1,704 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;partei-kurzname;partei-langname;kandidat-name;kandidat-namensvorsatz;kandidat-vorname;kandidat-akadgrad;kandidat-geburtsjahr;kandidat-geschlecht;kandidat-beruf;kandidat-gebiet-nr;kandidat-listenplatz
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Krüger;;Fabian Jochen;;1997;;Auszubildender;001;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Stein;;Ingrid;;1944;;Rentnerin;002;7
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Bonmariage;;Margarete;;1936;;Tierpflegerin i.R.;003;3
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Hamidi;;Mehdi;;1952;;Gastronom;004;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Krüger;;Claudia;;1966;;Verwaltungswirtin;005;1
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Lichey;;Petra Heike;;1966;;Seniorenbetreuerin;006;14
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Forberg;;Heike;;1962;;Kaufmännische Angestellte;007;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Gdanietz;;Dagmar;;1963;;Kaufmännische Angestellte;008;18
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Hippmann;;Patrick;;1986;;Meister für Bäderbetriebe;009;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Schraven;;Dirk;;1979;;Fachangestellter für Bäderbetriebe;010;8
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Hermanns;;Brigitte;;1952;;Technische Zeichnerin;011;12
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Kemmerling;;Heike;;1964;;Servicekraft;012;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Hippmann-Brunder;;Maria;;1987;;Servicekraft;013;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Tambascia;;Agostino;;1964;;Gastronom;014;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Böning;;Ingrid Wilma;;1949;;Rentnerin;015;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Klempert;;Guido;;1966;;Elektromeister;016;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Pech;;Roswitha;;1942;;Rentnerin;017;2
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Szyszko;;Maria Beate;;1961;;Einzelhandelskauffrau;018;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Weber;;Margit;;1951;;Rentnerin;019;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Hermanns;;Walter;;1947;;Fotograf i.R.;020;5
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Kürten;;Kerstin;;1972;;Badleiterin;021;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Zaczyk;;Danuta;;1948;;Angestellte bei der Staatsanwaltschaft i.R.;022;6
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Joniaux;;Liliane;;1945;;Rentnerin;023;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Krüger;;Karin;;1942;;Rentnerin;024;16
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Lücke;;Alexander;;1992;;Auszubildender;025;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Langkabel;;Janette;;1987;;Einzelhandelskauffrau;026;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Zuther;;Karin;;1943;;Rentnerin;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Gielißen;;Dieter;;1958;;technischer Mitarbeiter;028;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Ober;;Angelika;Dr.;1976;;Zahnärztin;029;15
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Ober;;Franz Georg;;1965;;Elektromaschinenbaumeister;030;9
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Lichey;;Vivien;;1998;;Studentin;031;4
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Lemmer;;Saida;;1979;;Fraktionsassistentin;032;13
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Thissen;;Hans-Günter;;1957;;Maler und Lackierer;033;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Ruiz Quintanilla;;Jose-Ignacio;;1960;;Badewärter;034;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Reichmann;;Dagmar;;1965;;Badewärterin;035;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Grabenhorst;;Helga;;1944;;Rentnerin;036;11
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Ruiz Quintanilla;;Margret;;1958;;Faktoristin;037;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Azzahhafi;;Mohamed;;1993;;Student;038;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Waning;;Jan;;1994;;Auszubildender;039;0
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Krisch;;Sieglinde;;1943;;Rentnerin;040;17
+0.3;05111000;13.09.2020;Ratswahl NRW;TIERSCHUTZ hier!;Aktion Partei für Tierschutz;Gdanietz;;Jürgen;;1963;;Frisör;041;10
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Lanfermann;;Rainer;;1971;;Wirtschaftsjurist;001;15
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Kuppe;;Stefan;;1967;;Projektmanager;002;11
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Müller;;Adrian;;1974;;Vertriebsmitarbeiter;003;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Blinova;;Tamara;;1951;;Büroangestellte;004;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Mochrie;;Robert;;1996;;Angestellter;005;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Teichert;;Elly;;1996;;Flugbegleiterin;006;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Detlefs;;Simon;;1997;;Schüler;007;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Schaefer;;Dieter;;1948;;Rentner;008;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Stanojevic;;Zoran;;1968;;Kaufmann;009;6
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Ludes;;Holger;;1959;;Rentner;010;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Nilgen;;Dietmar;;1953;;Rentner;011;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Dietel;;Guido;;1963;;IKT-Berater;012;9
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Kocsis;;Isabel;;1944;;Oberstudienrätin;013;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Vogel;;Nic;;1967;;Mitglied des Landtags NRW;014;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Jörres;;Wolf-Rüdiger;;1967;;Student;015;2
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Hutmacher;;Hans-Peter;;1946;;Bauingenieur;016;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Gienke;;Roland;;1960;;Werkssicherheit;017;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Hoffmann;;Florian;;1946;;Rechtsanwalt;018;13
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Kanngießer;;Jürgen;;1942;;Rentner;019;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Toepffer;;Hendrik Christian;;1963;;Betriebswirt BA;020;12
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Schnabel;;Marek;;1994;;Student VWL;021;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Holtschke;;Felix;;1950;;Dipl. Ingenieur;022;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Kuhlmann;;Tobias;;1966;;IT Berater;023;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Wozny;;Pierre Nikolaj;;1969;;Versicherungsangestellter;024;7
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Bernhardt;;Dietmar;;1952;;Rentner;025;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Kuhles;;Peter;;1948;;Landwirt;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Opelt;;Uta;;1970;;Dipl. Kfm.;028;1
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Düssel;;Reimund;;1953;;Rentner;029;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Krämer;;Marcus;;1968;;Architekt;030;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Schulte-Trux;;Roland;;1945;;Exportkfm.;031;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Weßelmann;;Knut;;1963;;Dipl. Betriebswirt;033;8
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Kraljic;;Andrea;;1963;;Bürokffr.;034;3
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Knezovi?;;Mario;;1971;;Software-Entwickler;035;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Mertes-Ernst;;Margret;;1949;;Rentnerin;036;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Salinger;;Elmar;;1975;;Referent Marketing;037;5
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Heenen;;Andrea;;1957;;Krankenschwester;038;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Mausberg;;Walter;;1934;;Rentner;039;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Schneider;;Petra;;1958;;Kauffrau;040;4
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Düssel;;Margrit;;1950;;Rentnerin;041;0
+0.3;05111000;13.09.2020;Ratswahl NRW;AfD;Alternative für Deutschland;Fajjari;;Kim;;1986;;Bürokauffrau;;14
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Elsholz;;Paula;;1987;;Referentin;001;5
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Cordes;;Mirja;;1978;;Projekt-Koordinatorin;002;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Klinke;;Annette;;1964;;Bildungsreferentin;003;13
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Bursian;;Olaf;;1974;;Unternehmensberater;004;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Cardeneo;;Jörk;;1957;;Marketing-Manager;005;14
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Scaglione;;Angela;Dr.;1958;;Hochschuldozentin;006;49
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Fischer;;Jürgen;;1956;;Referent;007;26
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Reich;;Brigitte;;1960;;Germanistin;008;39
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schwenk;;Harald;;1964;;Geoinformatiker;009;10
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Czerwinski;;Norbert Klaus;;1963;;wiss. Mitarbeiter;010;4
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Gerlach;;Clara;;1976;;Lehrerin;011;3
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Wolf;;Dietmar;;1958;;Reiseverkehrskfm.;012;20
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Charchira;;Samy;;1972;;Dipl.Soz.Päd.;013;8
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Graeßner;;Thorsten;Dr.;1966;;Business-Analyst;014;16
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Esders;;Vera;;1954;;wiss. Mitarbeiterin;015;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Löffler;;Sarah;;1997;;Studentin;016;7
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Tonsen;;Leonie;;1984;;Doktorandin;017;17
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Kockmann;;Lukas;;1989;;Staatsanwalt;018;6
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Weinreich;;Thomas;;1974;;Rechtsanwalt;019;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Wiesendorf;;Astrid;;1968;;Referentin Telekommunikation;020;41
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Fröhlich;;Waldemar;;1962;;Dipl. Ing. Raumplanung;021;40
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Gelbke-Mößmer;;Claudia;;1969;;Prozessmanagerin;022;21
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ries;;Florian;;1971;;PR-Berater;023;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Mielczarek;;Lukas;;2000;;Student;024;2
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ouammar;;Saliha;;1964;;Dolmetscherin;025;15
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Heyden;;Kira;;1978;;Richterin;026;9
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Weiler;;Frederike;;1997;;Studentin;027;31
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Icking;;Maria;Dr.;1950;;Sozialwissenschaftlerin;028;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Scheinhardt;;Ulrich;;1965;;Architekt;029;34
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Arndt;;Holger-Michael;;1971;;Rechtsanwalt;030;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Sieger;;Birgit;;1964;;Rechtsanwältin;031;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ott;;Susanne;;1960;;Sparkassenfachwirtin;032;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Kato;;Takuro;;1982;;Chemiker;033;32
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Fritsch;;Christian;;1982;;Beamter;034;36
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Majewski;;Christine;;1973;;Mitarbeiterin;035;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Hebeler;;Angela;;1961;;Angestellte;036;1
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Welski;;Ernst;;1957;;Rentner;037;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schardt;;Andreas;;1964;;Immobilienverwalter;038;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Bellstedt;;Iris;;1966;;Geschäftsführerin;039;0
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Warnecke;;Uwe Marold;;1963;;Rechtsanwalt;040;12
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Klahn;;Cordula;;1956;;Rentnerin;041;43
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Frey;;Antonia;;1955;;Abteilungsleiterin;;11
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schulz;;Frank;Dr.;1979;;Dipl.-Ing. Raumplanung;;18
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Möller;;Frederike;Dr.;1983;;Kulturmanagerin;;19
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Hartmann;;Frederik F.;;1988;;Studienrat;;22
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Müller;;Annette;;1970;;Sängerin;;23
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Baier;;Tino;;1974;;Dipl. Wirtschaftsjurist (FH);;24
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Zippel;;Anne-Kristina;;1990;;Büroleiterin;;25
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Atzler;;Leonie;;1998;;Studentin;;27
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Moore;;Lukas;;1999;;Student;;28
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Richli;;Martine;;1963;;Dipl.-Sozialpädagogin;;29
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Alvermann;;Jörg Thomas;;1963;;Bildender Künstler;;30
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Celebi;;Ciwana;;1998;;Studentin;;33
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Eichhorn;;Michèle;;1985;;Regierungsbeschäftigte;;35
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Ngo-Oum;;Jacqueline;;1967;;Sozialberaterin;;37
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Druyen;;Daniel;;1996;;Student;;38
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Lange;;Thomas;;1991;;Kaufmänn. Mitarb.;;42
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Becker;;Patrick;;1987;;Verhandlungsberater;;44
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Engelhardt;;Claudia;;1961;;wissenschaftl. Angestellte;;45
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Laps;;Daniel;;1993;;Informatiker;;46
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Müller;;Birgit;;1967;;Referentin;;47
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;Schiffer;;Patrick;;1973;;Mediendesigner;;48
+0.3;05111000;13.09.2020;Ratswahl NRW;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;West;;Johannes;;1996;;Student;;50
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hinkel;;Josef;;1959;;Bäcker;001;32
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schmidt;;Sabine;;1963;;Betriebswirtin der Wohnungswirtschaft;002;4
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Simon;;André;;1976;;Selbständig;003;22
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mansheim;;Aletta;;1983;;Versicherungsfachwirtin;004;27
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kretschmann;;Rainer;;1962;;Steinmetz;005;28
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Fils;;Alexander;Dr.;1955;;Kunstverleger;006;6
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Böcker;;Annelies;;1939;;Kauffrau;007;9
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schröder;;Andreas;Dr.;1985;;Analyst;008;37
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Graf;;Achim;;1977;;Diplom-Finanzwirt;009;35
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wiedon;;Stefan;;1966;;Sportlehrer;010;8
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Klein;;Ralf;;1967;;Handwerksgeselle;011;29
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Krzyzanowski;;Sarah;;1991;;Ärztin;012;24
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Tussing;;Florian;;1977;;Lehrer;013;11
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wiechert;;Silvia;;1971;;Dipl.-Finanzwirtin;014;14
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schmidt;;Walter;;1959;;Dipl.-Agraringenieur;015;41
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Optensteinen;;Frank;;1965;;Kaufmann;016;33
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Kirschbaum;;Jürgen;;1969;;Sozialversicherungsfachangestellter;017;30
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Tups;;Rolf;;1956;;Geschäftsführer;018;7
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Saitta;;Giuseppe;;1960;;Kaufmann;019;20
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Speit;;Stephan;;1967;;Unternehmer;020;40
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Auler;;Andreas;;1964;;Rechtsanwalt;021;26
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Stieber;;Andreas-Paul;;1965;;Geschäftsführer;022;19
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Sültenfuß;;Dirk Peter;;1958;;Betriebswirt;023;15
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schentek;;Birgit;;1965;;Verwaltungsleiterin;024;21
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Münter;;Marcus;;1967;;Beamter;025;23
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Madzirov;;Pavle;;1978;;Sekundarschulleiter;026;17
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Bremer;;Hanno;;1944;;Rentner;027;42
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Buschhausen;;Rolf;;1954;;Speditionskaufmann;028;25
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Penack-Bielor;;Angelika;;1962;;Rechtsanwältin;029;2
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Backens;;Ralf;;1968;;Handwerksmeister;030;34
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Dahlen;von;Dagmar;;1960;;Werbekauffrau;031;18
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Rütz;;Christian;;1978;;Richter am Landgericht;032;10
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wensel;;Ulrich;;1986;;Angestellter;033;16
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Blumenrath;;Peter;;1984;;Geschäftsführer eines Handwerksbetriebs;034;5
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mucha;;Constanze;;1955;;Lehrerin;035;12
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Tischendorf;;André;;1992;;Student;036;39
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Thämer;;Philipp;;1984;;Physiker;037;36
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Angerhausen;;Dirk;;1967;;Steuerberater;038;31
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hartnigk;;Andreas;;1964;;Rechtsanwalt;039;3
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Labouvie;;Peter;;1952;;Schulleiter;040;38
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mauersberger;;Klaus;;1963;;Sparkassenbetriebswirt;041;13
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Keller;;Stephan;Dr.;1970;;Stadtdirektor;;1
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Müller;;Wolfgang;;1964;;Marketingreferent;;43
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schwanke;;Melina-Tana;;1978;;Vorstandsvorsitzende AGB;;44
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Neunzig;;Natascha;;1987;;Rechtsanwältin;;45
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Holly;;Sven;;1987;;Lehrer;;46
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Zaremba;;Ulrike;Dr.;1974;;Polizeibeamtin;;47
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Deisenroth;;Marc;;1996;;Altenpfleger;;48
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Förster;;Oliver;;1969;;Kaufm. Angestellter;;49
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Bos;;Monika;;1955;;Sozialarbeiterin;;50
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Laflör;;Sylvia;;1959;;Beamtin;;51
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Verhofen;;Ursula;;1947;;Buchhalterin;;52
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Terbuyken;;Stephan;;1966;;Zimmermann;;53
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Klein;;Martin;;1955;;Oberst a. D.;;54
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Sültenfuß;;Christa;;1953;;Industriekauffrau;;55
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Weckelmann;;Andreas;Dr. med.;1978;;Arzt;;56
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Krauskopf;;Claudia;;1964;;Rechtsanwältin;;57
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Mauersberger;;Corinna;;1993;;Studentin;;58
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Meißner;;Ilja Michael;;1975;;Verwaltungsjurist;;59
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Diesing;;Detlef;;1963;;Chemiker;;60
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Wo?ongiewicz;;Krzysztof;;1953;;Dipl.-Ingenieur;;61
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schnieders;;Oliver;;1978;;Leitender Angestellter;;62
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Pröpper;;Heike;;1981;;Sozialversicherungsangestellte;;63
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Knell;;Tobias;;1989;;Theologischer Referent;;64
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Lange;;Claudia;;1966;;Industriekauffrau;;65
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Brinkmann;;Daniel;;1978;;Beamter;;66
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Schliwa;;Adelheid;;1946;;Betriebswirtin;;67
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Pott;;Jonathan;;1990;;Jurist;;68
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Nothhelfer;;Sascha;;1977;;Verwaltungsfachwirt;;69
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Müller-Tönnissen;;Volker;;1961;;Beamter;;70
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Hümmerich;;Ines;;1954;;selbständig;;71
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Grafen;;Karl-Heinz;;1950;;Rentner;;72
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Scheren;;Antonia;;1996;;Studentin;;73
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Rybak;;Richard;;1960;;Dipl.-Ökonom;;74
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Menke-Hollenberg;;Sylvia;;1968;;Leitende Angestellte;;76
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Opfermann;;Norbert;;1963;;Journalist;;77
+0.3;05111000;13.09.2020;Ratswahl NRW;CDU;Christlich Demokratische Union Deutschlands;Zotter;;Annkatrin;;1997;;Studentin;;78
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Scheelen;;Wolfgang;;1944;;Musiker;002;9
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Funk;;Horst;;1952;;Lagerist;003;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Möller;;Michael;;1962;;Redakteur;006;1
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Brakonier;;Maria;;1970;;Lagermitarbeiterin;007;12
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Brakonier;;Alyssa;;1999;;Schülerin;009;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Schack;;Siegfried;;1962;;Stuckateur;010;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Boschke;;Birgit Gisela;;1963;;Berufskraftfahrerin;011;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Dyguda;;Oliver;;1997;;Student;012;7
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Dyguda;;Patrick;;1993;;Student;013;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Maibauer;;Claudia;;1985;;Pflegefachkraft für außerklinische Beatmung;014;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Werchau;;Reiner;;1965;;Trainer;023;6
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Werchau;;Melanie;;1984;;Zahnmed. Angestellte;024;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Kinkel;;Maike;;1990;;Buchbinder;025;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Bückendorf;;Andrè;;1963;;Angestellter;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Daams;;Franz-Wilhelm;;1949;;Rentner;028;3
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Brakonier;;Markus;;1970;;Lagerist;029;11
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Kinkel;;Patrick;;1990;;Angestellter;031;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Möller;;Anke;;1966;;exam. Krankenschwester;032;13
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Geile;;Nadine;;1979;;Hausfrau;033;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Vogel;;Niklas-Dirk;;1997;;Auszubildender;036;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Geile;;Christa;;1950;;Rentnerin;037;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Heilos;;Marcel;;2000;;Auszubildender;039;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Jansen;;Stefan;;1971;;Sozialversicherungsfachangestellter;;4
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Möller;;Mike;;1996;;Redakteur;;5
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Maltzahn;;Blasius;;1967;;Musiker;;8
+0.3;05111000;13.09.2020;Ratswahl NRW;DSP;Deutsche Sportpartei;Kranz;;Ulrich;;1955;;Kaufmann;;10
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Klein;;Peter;;1956;;Architekt;001;12
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Bonn;;Udo Adam;;1953;;Rentner;002;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Obst;;Thomas;;1957;;Koch;003;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Bernhard;;Tanja;;1962;;Chemielaborantin;004;9
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Brandau;;Ute;;1965;;Fotografin;005;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Ackert;;Maikel;;1999;;Student;006;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Flemming;;Marcus;;1986;;Marketing Manager;007;2
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Müller-Klar;;Monika;Dr. med.;1952;;Ärztin;008;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Klar;;Ben;;1954;;Dipl.-Ing.;009;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Vorspel;;Anja;;1960;;Buchhändlerin;010;3
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Marmulla;;Julia Susanne;;1988;;Tourismusberaterin;011;1
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Sawalies;;Dieter;;1949;;Psychologischer Psychotherapeut;012;8
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Bongen;;Josef;;1950;;Rentner;013;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Wollnitz;;Manfred;;1971;;Grafiker;014;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Götzinger;;Mareike;;1980;;Kultur- und Projektmanagerin;015;7
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Driesch;;Michael;;1994;;Student;016;17
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Schlemper;;Cornelia;;1960;;Rentnerin;017;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Blanchard;;Georg;;1942;;Pensionär;018;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Schwabedissen-Fertahi;;Olivia;;1957;;Verwaltungsangestellte;019;13
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Wallerang-Dagou;;Anja;Dr.;1969;;Zahnärztin;020;18
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Böhlke;;Nils;;1979;;Gewerkschaftssekretär;021;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Mastrokoukos;;Emmanouil;;1958;;Taxifahrer;022;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Daxenberger;;Lothar;;1951;;Rentner;023;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Born;;Helmut;;1952;;Rentner;024;4
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Maxen;;Dagmar;;1963;;Einzelhandelskauffrau;025;20
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Wähler;;Martin;;1992;;Student;026;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Oliva;;Gianluca;;1993;;Auszubildender Eisenbahner;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Mirschel;;Sebastian;;1955;;Dipl.-Ingenieur Architektur;028;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Müller-Gehl;;Petra Elisabeth;;1951;;Oberstudienrätin im Ruhestand;029;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Jäger;;Christian;;1971;;Geschäftsführer;030;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Würdemann;;Sophie;;2000;;Studentin;031;14
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Detmers;;Kea  Paula Ursula Sophie;;1994;;Studentin;032;11
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Dörr;;Dominik;;1993;;Student;033;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Kiwitt;;Rita;;1951;;Rentnerin;034;16
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Schönberger;;Ernest-Andrei;;1973;;Physiker;035;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Spahr;;Birgit;;1955;;Rentnerin;036;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Reichert;;Lukas;;1986;;Beamter;037;15
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Kiefer;;Marcel;;1990;;Frontend-Entwickler;038;6
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Kiefer;;Jacqueline;;1993;;Studentin;039;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Dlangamandla;;Mbulelo;;1959;;MTRA;040;10
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Kraft-Dlangamandla;;Angelika;;1950;;Rentnerin;041;0
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Lehmann;;Sigrid;;1969;;Physiotherapeutin;;5
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Janßen;;Ruth;;1961;;Dozentin f. Deutsch als Fremdsprache;;19
+0.3;05111000;13.09.2020;Ratswahl NRW;DIE LINKE;DIE LINKE;Nowitzki;;Marcel Dieter;;1983;;Betreuungspädagoge;;21
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Abraham;;Markus;;1964;;Maler;001;24
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Rups;;Dietrich;;1988;;KfZ-Mechatroniker;002;8
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Porsch;;Norbert;;1956;;Elektriker;003;18
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Jucknat;;Mario;;1964;;Maurer;004;25
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Neudorf;;Dijana;;1978;;Haushaltshilfe;005;27
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Kruse;;Uwe;;1956;;Versicherungskaufmann;006;35
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Giacovelli;;Rosemarie;;1940;;Rentnerin;007;26
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Maniera;;Andre;;1973;;Rechtsanwalt;008;1
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Langen-Abrakat;;Norbert;;1950;;Dipl. Ingenieur;009;9
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Rütten;;Regina;;1958;;Hausfrau;010;21
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Iwaschko;;Egor;;1995;;Student;011;0
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Carl;;Peter;;1959;;Rentner;012;12
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Riffel;;Robert;;1938;;Rentner;013;13
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Beckmann;;Magdalene;;1951;;Hausfrau;014;14
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Böckler;;Georg;;1946;;Rentner;015;15
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Fröhlich;;Viktor;;1940;;Rentner;016;16
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Eberhardt;;Alicia;;1992;;Heilerziehungshelferin;017;17
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Fröhlich;;Natalia;;1950;;Rentnerin;018;29
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Odendahl;;Markus;;1975;;Koch;019;19
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Beckmann;;Hans-Heinz;;1951;;Rentner;020;11
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Meyer;;Svenja;;1996;;Studentin;021;37
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Ewertz;;Gertraud;;1952;;Angestellte;022;22
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Beckmann;;Dominic;;1995;;Schüler;023;36
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Hatzenbühler;;Olga;;1985;;Angestellte;024;6
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Bildat;;Tizian;;1997;;Steinmetz;025;28
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Hack;;Dirk;;1973;;Unternehmer;026;4
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Degen;;Hans  Peter;;1945;;Regierungsoberinspektor a.D.;027;5
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Meßing;;Markus;;1977;;Fachkraft für Gastgewerbe;028;10
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Gabriel;;Hanna Lore;;1949;;Hotelfachfrau;029;20
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Ganz;;Alexander;;1960;;Rentner;030;30
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Senk;;Manuel;;2002;;Auszubildender;031;31
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Bahtiri;;Tatjana;;1977;;lt. Angestellte;032;2
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Klingen;;Melanie;;1981;;Hausfrau;033;33
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Roediger;;Georg Michael;;1967;;Industrieelektriker;034;34
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Becker;;Silvia;;1966;;Rentnerin;035;7
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Lattner;;Christof;;1974;;Elektriker;036;40
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Avgeris;;Paraskevi;;1998;;Angestellte;037;23
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Beckmann;;Mike;;1978;;Lagerlogistiker;038;38
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Pätzoldt;;Kevin;;1997;;Möbelpacker;039;39
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Fischer;;Karl-Heinz;;1952;;Elektriker;040;3
+0.3;05111000;13.09.2020;Ratswahl NRW;REP;DIE REPUBLIKANER;Becker;;Andreas;;1975;;Rentner;041;32
+0.3;05111000;13.09.2020;Ratswahl NRW;;Einzelbewerberin#Albertine Kallenbach;Kallenbach;;Albertine F. E.;;1948;;Sprechwissenschaftlerin/Pädagogin;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Strack-Zimmermann;;Marie-Agnes;Dr.;1958;;selbst. Verlagsrepräsentantin;001;1
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Held;;Marc Wilhelm;;1977;;Dipl. Kfm.;002;33
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Brück;;Jessica;;1976;;Unternehmerin;003;29
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Jauck;;Gesa;;1973;;Syndikusrechtsanwältin;004;25
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Rehne;;Sebastian;;1974;;Referatsleiter im Rechenzentrum NRW;005;8
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Montanus;;Ulf;;1961;;Schauspieler;006;7
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Bölling;;Patrick;;1979;;Rechtsanwalt;007;27
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Meyer;;Stephan;;1976;;Architekt;008;19
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Lambert;;Matthias;;1982;;Büroleiter;010;12
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Jablonowska;;Daria;;1985;;Regierungsrätin;011;26
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Mölders;;Felix;;1995;;Masterstudent Physik;012;32
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Junghanns;;Gesa;;1982;;Angestellte;013;43
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Feldmann;;Jan;;1982;;Vertriebsingenieur;014;31
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Alessio;;Piero Alfonso;;1990;;Geschäftsführer;015;28
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Witner;;André;;1991;;Chemietechniker;016;24
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Morys;;Ulf;;1966;;Finanzleiter;017;40
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Rohloff;;Mirko;;1985;;Geschäftsführer;018;4
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Dorenz;;Brien;;1968;;Rechtsanwalt;019;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Lehmhaus;;Monika;;1956;;Pädagogin;020;3
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Hagen;;Marianne;Dr. Dr.;1958;;MKG Chirurgin;021;14
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Droste;;Felix;;1963;;Kaufmann;022;9
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Litzius;;Laura;;1994;;Gesundheits- und Krankenpflegerin;023;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Palik;;Andreas;;1997;;Journalist;024;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Oppermann;;Georg;;1963;;Kommunikations-Manager;025;39
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Weber;;Ferry;;1963;;kaufm. Angestellter;026;17
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Rachner;;Christine;Dr.;1968;;Ärztin;027;5
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Kiel;;Andre;;1973;;Regierungsbeschäftigter;028;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Deterding;;Julian;;1993;;Doktorand Immunologie;029;18
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Schadrack;;Bodo;;1987;;Geschäftsführer;030;21
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Neuenhaus;;Manfred;;1959;;Geschäftsführer;031;2
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Schork;;Christoph Martin;Dr.;1970;;Rechtsanwalt;032;10
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Plass;;Matthias;;1971;;Wertpapierhändler;033;44
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Schneider;;Stephan;;1993;;Dipl. Bankbetriebswirt;034;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Henrich;;Sascha Dirk;;1988;;Politikwissenschaftler;035;6
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Moser;;Torsten;;1981;;Wirtschaftsprüfer;036;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Neßmann;;Jannik;;1992;;Unternehmer;037;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Krastel;;Davina;;1992;;Regierungsbeschäftigte;038;34
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Nicolin;;Thomas;;1961;;Politologe;039;16
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Suchantke;;Fred;;1954;;Dipl.-Bauing., Dipl.-Wirtschafting.;040;42
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Butzke;;Thomas;;1972;;Rechtsanwalt;041;35
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Jenöffy-Lochau;;Marek;Dr.;1968;;Wirtschaftsingenieur;;11
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Körner;;Karsten;;1972;;kfm. Angestellter;;13
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Masberg-Eikelau;;Daniela;;1974;;Rechtsanwältin;;15
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Helden;von;Katrin Marie;;1983;;Projektleiterin Fachtagungen;;20
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Degethoff;;Jürgen;Dr.;1959;;Unternehmensberater;;22
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Nüchter;;Laura;;1992;;Studentin;;23
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Dörges;;Karsten;;1976;;Software-Entwickler;;36
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Bönte;;Markus;Dr.;1977;;Geschäftsführer;;37
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Mayer;;Sabine;;1966;;Teamleiterin;;38
+0.3;05111000;13.09.2020;Ratswahl NRW;FDP;Freie Demokratische Partei;Fuchs;;Norbert;;1959;;Tischler;;41
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Müller;;Annette;;1980;;Theaterregisseurin;001;6
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Beck;;Christian;;1976;;Dozent;002;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Raida;;Simon;;1989;;Backofficemitarbeiter;003;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Kolassa;;Julie;;1996;;Studentin;004;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Spanholtz;;Sabrina;;1988;;Angestellte im Einzelhandel;005;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Sindelar;;Leonie;;1995;;Studentin;006;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Beck;;Eva;;1978;;Sozialpädagogin;007;9
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Johnson;;Nicole;;1979;;HR Administratorin;008;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Withöft;;Manee;;1991;;Lehrerin;009;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Bonke;;Michael;;1958;;Workshopleiter;010;12
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Schulte;;Franziska;;1996;;Studentin;011;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Thyssen;;Isabel;;1992;;Jura Studentin;012;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Jonas;;Hans-Rainer;;1949;;Selbständiger  - private Hausverwaltung;013;10
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Kiesow;;Lea;;1997;;Studentin;014;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Pleschberger;;Leonard;;1987;;Mathematiker;015;7
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Arends;;Lucia;;1998;;Studentin;016;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Kinne;;Lisa-Sophie;;1994;;Projektkoordinatorin;017;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Job;;Stefan;;1964;;Schauspieler und Regisseur;018;2
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Kostecka;;Oliver;;1965;;Bühnenbildner;019;8
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Mutzel-Job;;Stefanie Birgit;;1980;;HR-Administratorin;020;5
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Bien;;Stefan;;1980;;Headbarista;021;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Noguer Calabus;;Irina;;1994;;wissenschaftliche Mitarbeiterin;022;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Potratz;;Jonas;;2000;;Student der Physik;023;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Graf;;Nora;;1987;;Studentin;024;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Scholl;;Nina;;1987;;Küchenhilfe;025;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Scholl;;Oliver;;1985;;Assistent;026;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Koch;;Stephan;;1981;;Kirchenmusiker;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Schmidt;;Helena;;1993;;Studentin der Psychologie;028;4
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Huesca Pelaez;;Cristina;;1995;;Studentin im Master;029;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Zeitler;;Lola;;2001;;Kellnerin;030;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Zimmermann;;Rolf;;1980;;Diplombiologe/Klimaschützer;031;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Müller;;Aurelia;;2000;;Studentin;032;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Struwe;;Oliver;;1993;;Klavierbauer;033;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Fix;;Lukas;;1992;;Student;034;1
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Wagner;;Petra;;1959;;Diplom - Pädagogin;035;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Konietzny;;Monika Anke;;1965;;Beamtin;036;11
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Chrzan;;Paul;;1966;;tagesstrukturierende Maßnahmen in Fahrradwerkstatt;037;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Geuer;;Jonathan;;1995;;Ingenieur;038;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Krämer;;Julie;;1993;;Wissenschaftliche Mitarbeiterin;039;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Nowitzky;;Aurelius;;1997;;Student;040;13
+0.3;05111000;13.09.2020;Ratswahl NRW;;Klimaliste Düsseldorf;Baumanns;;Lara;;1999;;Studentin;041;3
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Hartmann;;Sebastian;;1981;;Manager Kultur;001;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Sorst;;Patric;;1987;;Life Coach;002;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Kraienhorst;;Jan;;1991;;Jurist;003;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Mengelkamp;;Oliver;;1972;;Meister für Veranstaltungstechnik;004;9
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Kenk;;Julian;;1996;;Student;005;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Masur;;Christian;;1984;;Kirchenmusiker;006;7
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Zeitler;;Paul;;1994;;Student;007;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Schulte;;Keno;;1982;;Student;008;1
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Zeitler;;Andrea;;1966;;Studienrätin;009;4
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Badzio;;Markus;;1972;;Beamter;010;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Schwarzbach;;Rainer;;1972;;IT-Systemadministrator;011;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Mirus;;Dominique;;1988;;Künstlerin;012;2
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Seemann;;Jonas;;1991;;Berater;013;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Fritzler Espada;;Stefan;;1985;;Sachbearbeiter;014;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Ollertz;;Mike;;1969;;staat. gep. Bautechniker;015;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Somogyvari;;Thomas;;1972;;Personal Trainer;016;3
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Bartz;;Robin;;1992;;Bierbrauer;017;5
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Kliemt;;Henri Cornelius;;2001;;Schüler;018;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Wiesemann;;Katrin;;1982;;Selbstständig;019;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Winterfeld;;Benedikt;;1990;;Student;020;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Muhlack;;Katharina;;1992;;Chemielaborantin;021;8
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Löffler;;Tobias;;1980;;Student;022;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Forsch;;Florian;;1981;;Filmregisseur;023;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Stirn;;Rebecca;;1987;;Pfarramtssekretärin;024;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Lindner;;Daniel;;1995;;Personalsachbearbeiter;025;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Mohr;;Kay;;1987;;Elektroniker für Betriebstechnik;026;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Wolf;;Heiko;;1984;;Medienpädagoge;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Stursberg;;David;;1991;;Notfallsanitäter;028;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Terporten;;Vanessa;;1993;;Sozialarbeiterin;029;6
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Veenker;;Holger Johannes;;1973;;Postbote;030;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Vogt;;Maike Nicola Barbara;;1987;;Rechtsanwaltsgehilfin;031;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Wiesen;;Ann Jasmin Sema;;1987;;Werbetexterin;032;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Rollersbroich;;Leon;;1993;;Student;033;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Kaspers;;Christoph;;1979;;Gärtnermeister in der Landschaftspflege;034;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Redeker;;Nils;;1987;;Schornsteinfeger;035;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Behring;;Vanessa;;2000;;Studentin;036;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Radloff;;Aline;;1986;;Sozialarbeiterin;037;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Schellenberg;;Roman;;1993;;Servicemonteur;038;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Geißler;;Katharina Gudrun Elfriede;;1987;;Studentin;039;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Schönborn;;Simon;;1980;;Personalberater;040;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative;Sheibika;;Adil;;1986;;Student Erziehungswissenschaften/Sozialwissenschaften;041;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Grenda;;Reiner;;1942;;Jazzmusiker;001;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Angemeer;;Michael;;1972;;Mediengestalter;002;6
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Krüger;;Tim;;1976;;Business Travel Advisor;003;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Sardar;;Omar;;1996;;Student;004;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Olejak;;Marc;;1971;;IT Consultant;005;2
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Thomas;;Martin;;1977;;Fachinformatiker;006;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Theine-Dimt;;Michael;;1966;;IT-Consultant;007;5
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Schmidt;;Heike;;1949;;Fachfrau f. PR-Öffentlichkeitsarbeit;008;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Wildemann;;Stephan;;1968;;Selbständig;009;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Strohmeyer;;Martin;;1980;;Systemadministrator;010;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Bauer;;Marius;;1973;;Softwareentwickler;011;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Roch;;Marianne;;1961;;Goldschmiedin;012;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Grenda;;Frank;;1967;;Bankkaufmann;013;1
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Naumann;;Birgit;;1971;;Einzelhandelskauffrau;014;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Gareis;;Alexander;;1980;;ADTech-Developer;015;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Schochow;;Martin;;1983;;Kommunikationsdesigner;016;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Weiß;;Divya;;1989;;kfm. Angestellte;017;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Großstück;;Manfred;;1941;;Selbständig;018;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Peters;;Svenja;;1964;;Lehrerin;019;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Hartstein;;Wolfgang;;1965;;kfm. Angestellter;020;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Großeberkenbusch;;Uwe;;1960;;Angestellter;021;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Wied;;Kilian;;1975;;IT-Berater;022;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Unkrig;;Tobias;;1978;;IT-Administrator;023;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Bayer;;Oliver;;1977;;IT Projektleiter;024;3
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Franke-Bayer;;Irene;;1977;;Lehrerin;025;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Renno;;Gernot;;1962;;Beamter i.R.;026;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Hürkens;;Maria Christine;;1950;;Architektin;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Urban;;Jens Udo;;1965;;Softwareentwickler;028;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Ovali;;John;;1969;;IT Manager;029;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Grenda;;Erika;;1950;;Kauffrau;030;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Bölte-Franke;;Irmgard;;1949;;Rentnerin;031;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Platzbecker;;Christian;;1972;;Einzelhandelskaufmann;032;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Platzbecker;;Achim;;1975;;Einzelhandelskaufmann;033;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Mayer;;Clemens;;1987;;Softwareentwickler;034;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Ringer;;Björn;;1983;;Bundespolizist;035;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Czicholas;;Jürgen Rainer;;1960;;Baubiologe;036;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Schön;;Ingo;;1973;;Rentner;037;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Dykta;;Cäcilia-Agnes;;1949;;Rentnerin;038;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Becker;;Sabine;;1968;;Fotografin;039;4
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Grenda;;Eva;;1974;;kfm. Angestellte;040;0
+0.3;05111000;13.09.2020;Ratswahl NRW;PIRATEN;Piratenpartei Deutschland;Zemlian;;Maria;;1986;;Rentnerin;041;0
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Herz;;Matthias;;1966;;Referent Landtagsbüro;001;21
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Spillner;;Marina;;1962;;Referentin;002;16
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Obendorf;;Moira;;1989;;Studentin;003;34
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Tacer;;Philipp;;1983;;Referent;004;23
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Raub;;Markus;;1966;;Rechtsanwalt;005;3
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Zepuntke;;Klaudia;;1963;;Gemeindeschwester;006;2
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wagner;;Uwe;Dr.;1960;;Psychologe;007;37
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kabata;;Katharina;;1979;;Dipl.-Ökonomin;008;30
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Volkenrath;;Martin;;1954;;Gewerkschaftssekretär i. R.;009;13
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Steinheider;;Ina;;1962;;Architektin;010;22
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Proschmann;;Sabrina;;1992;;Wissenschaftliche Mitarbeiterin;011;14
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Siegesmund;;Marko;;1976;;Finanzberater;012;25
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Goldberg-Hammon;;Katja Maria Victoria;;1978;;Referentin;013;6
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Figge;;Udo Karl-Heinz;;1964;;Kaufmann;014;15
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schürg;;Anke;;1971;;Rentnerin;015;36
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Humpert-Kalb;;Sabine;;1967;;Kauffrau im Groß- und Außenhandel;016;40
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Vatalis;;Ioannis;;1969;;Dozent;017;19
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kiourtsidou;;Anatoli;;1963;;Unternehmerin;018;32
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Staack;;Marco;;1972;;Dipl. Sozialwissenschaftler;019;43
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kühbacher;;Tobias;;1970;;Beamter;020;11
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bednarski;;Claudia Gudrun;;1961;;Dipl. Pädagogin;021;10
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Vomweg;;Sebastian;;1987;;Dezernent;022;41
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Rasp;;Peter Michael Eugen;;1958;;Privatier;023;5
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Martens;;Zanda;;1984;;Gewerkschaftssekretärin;024;26
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Richter;;Detlef Michael;;1964;;Angestellter;025;33
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fleckner-Olbermann;;Bergit Uta;;1957;;Diplom-Pädagogin;026;18
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Heuter;;Heinz Joachim;;1962;;Industriekaufmann;027;27
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Romich;;Jan Mathis;;1985;;Physiotherapeut;028;39
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fobbe;;Elke;;1968;;Volkswirtin;029;8
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Albes;;Burkhard Franz Götz;;1963;;selbst. Maler- und Lackierermeister;030;7
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Blödorn;;Sigrid Irene Maria;;1954;;Pflegefachkraft;031;28
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Uhlig;;Julia;;1995;;Wissenschaftliche Mitarbeiterin;032;12
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Heinz;;Philipp Daniel Günter;;1991;;Sozialversicherungsfachangestellter;033;35
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Mohrs;;Cornelia;;1958;;MTA;034;24
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;El Ghazali;;Hakim;;1985;;Sozialberater;035;9
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schrieber-Hruschka;;Anja;;1966;;Journalistin;036;38
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Spiller;;Ralf;;1973;;Hochschullehrer;037;31
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Peußer;;Thomas Michael;;1989;;Online Marketing Berater;038;17
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fockenbrock;;Martina Gertrud;;1957;;Lehrerin;039;20
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bohrmann;;Hans Jürgen;;1960;;Angestellter;040;29
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Holtmann-Schnieder;;Ursula;;1955;;Dipl. Pädagogin;041;4
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Geisel;;Thomas;;1963;;Oberbürgermeister;;1
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hartmann;;Melanie;;1985;;Pädagogische Fachkraft;;42
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Franzen;;Birgitta;;1972;;Dramaturgin;;44
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kreutler;;Peter;;1967;;Teamleiter im Bereich Monitoring;;45
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bönemann;;Astrid;;1966;;Verwaltungsangestellte;;46
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schreiber;;Oliver;;1982;;Oberregierungsrat;;47
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Iggena;;Thalke Etta-Marie;;1993;;Rechtsreferendarin;;48
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Fritz;;Jonas;;1995;;Student;;49
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wisbrun-Irmer;;Nicola;;1959;;Künstlerin;;50
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Nouraei;;Payam;;1982;;Lehrer;;51
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Düsedau;;Dorothea Margarete Therese;;1954;;Buchhändlerin;;52
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Krüger;;Ralf Thomas;;1968;;Leiter Kommunikation;;53
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Strand;;Dagmar Maria;;1956;;Dipl. Chem.;;54
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Itzigsohn;;Franko Günter;;1964;;Immobilien-Kaufmann;;55
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Henzler;;Simone Manuela;;1983;;Geschäftsführung mit projektleitenden Aufgaben;;56
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schnieder;;Burkhard Josef Wilhelm;;1955;;Beamter;;57
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hund;;Ulrike;;1947;;Schulamtsdirektorin a. D.;;58
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Pattberg;;Simon;;1999;;Student der Rechtswissenschaften;;59
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Drossel;;Claudia;;1962;;Finanzbuchhalterin;;60
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wagner;;Ingo;;1984;;Referent Klima- und Energie;;61
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;El Makrini;;Yousra;;1993;;Pharmaziestudentin;;62
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kreutzer;;Mario;;1988;;Rechtsanwalt;;63
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Growe;;Monika;;1961;;Beamtin im Vorruhestand;;64
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Dreist;;Markus;Dr.;1964;;Freiberuflicher Historiker;;65
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Steinbeck;;Viola;;1971;;Anthropologin;;66
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Vogels;;Emil;;1964;;Straßen- und U-Bahnfahrer;;67
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Kuschmiersz;;Melanie;;1970;;Wissenschaftliche Mitarbeiterin;;68
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Warden;;Axel;;1949;;Rentner;;69
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bertram;;Andrea;;1963;;IT Consultant;;70
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Pramel;;Fabian;;1986;;Stadtplaner;;71
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Warden;;Louisa Christine;;2000;;Studentin;;72
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Röseler;;Reinhard Hans Roland;;1951;;Rentner;;73
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Brinkmann;;Dagmar;;1960;;Hausmeisterin;;74
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Gestrich-Gerschermann;;Thomas Helmut Erich;;1963;;Berater für betriebliche Finanzierung;;75
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hülsen-Gärtner;;Birthe;;1984;;Controllerin;;76
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Lorberg;;Rafael Andreas;;1984;;Ingenieur;;77
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Wallraff;;Lena Maria;;1989;;Referentin;;78
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Naujoks;;Reinhard;;1944;;Pensionär;;79
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Krings;;Bettina Maria;;1963;;Bankkauffrau;;80
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Ritschel;;Wolfgang;;1951;;Industriekaufmann;;81
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Meiß;;Ruth;;1961;;Geschäftsführerin;;82
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Mondal;;Rajib;;1992;;Medizinstudent;;83
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Prang;;Tolke;;1962;;Groß- und Außenhandelskauffrau;;84
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Zimmermann;;Christian;;1986;;Auslieferungsfahrer;;85
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Sieghart-Edel;;Christiane Ursula;;1952;;Pensionärin;;86
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Tscholl;;Benjamin;;1983;;Ministerialbeamter;;87
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Warden;;Marion;;1958;;Kreisgeschäftsführerin;;88
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Meinke;;Sanna Milena;;1971;;Diplom-Sozialarbeiterin;;89
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Mellinghaus;;Frank;;1966;;Dipl.-Ing. Architekt;;90
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Schormann;;Dieter Günter August;;1956;;Gewerkschaftssekretär a.D.;;91
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Becker;;Daniel Fritz Walter;;1992;;Apotheker;;92
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Klement;;Marc-Thomas;;1979;;Versicherungskaufmann;;93
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Preiswerk;;Tim;;1981;;Projektmanager Apotheken-Marketing;;94
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Misango;;Assisi Josef Johnny;;1968;;Theologe;;95
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Leifgen;;Wolfgang Peter;;1955;;Privatier;;96
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Queitsch;;Peter Otto Paul;Dr.;1962;;Jurist für Umweltrecht;;97
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Spielmann;;Frank Johann;;1971;;Abteilungsleiter;;98
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Smyczek;;Wolfgang;;1954;;Pensionär;;99
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Demmert;;Oliver;;1972;;Gebrauchtwarenhändler;;100
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Reese;;Wilhelm;;1961;;Verwaltungsangestellter;;101
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Knäpper;;Peter Rene;;1954;;Bauassessor;;102
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Witzke;;Hans-Jochem;;1952;;Oberstudienrat a.D.;;103
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Hußmann;;Rainer;;1968;;Beamter;;104
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Bednorz;;Frank Erwin Jakob;Dr.;1965;;Lehrer;;105
+0.3;05111000;13.09.2020;Ratswahl NRW;SPD;Sozialdemokratische Partei Deutschlands;Speier;;Frank Hans Walter;;1942;;Physiker;;106
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Krüger;;Jürgen;;1964;;kfm. Angestellter;001;2
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Vidovic;;Mladenka;;1972;;Sekretärin;002;6
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Rimedio;;Kerstin Cornelia;;1966;;Büroangestellte;003;19
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Rimedio;;Patrizio;;1967;;Gastronom;004;24
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Herzmann;;Alice;;1956;;Rechtsanwaltsfachangestellte;005;13
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Mirza;;Sascha;;1975;;Sachbearbeiter;006;16
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Streck;;Rudolf;;1988;;Vertriebsleiter;007;37
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Runkel;;Sonja;;1958;;Finanzbuchhalterin;008;27
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Kara?;;Persa;;1987;;PR Managerin;009;18
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Kos;;Silvestar;;1983;;Kaufmann;010;23
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Westerich;;Mario;;1964;;Maler und Lackierer;011;36
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Buljan;;Bosiljka;;1950;;Rentnerin;012;17
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Sondenheimer;;Uwe;;1955;;Rentner;013;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Vidovic;;Niko;;1976;;Logistikmitarbeiter;014;22
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Trajanovski;;Sa?a;;1989;;Jurist;015;20
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Haumann;;Nicole;;1992;;Studentin;016;7
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Trajanovska;;Ana;;1989;;Lehrerin;017;4
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Brösel;;Christiane;;1947;;Rentnerin;018;31
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Alles;;Karel;;1965;;Dipl.Ing. Autom.Technik;019;35
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Stenger;;Birgit;;1969;;Dipl. Sportökonomin;020;14
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Keil;;Frank;;1961;;Altenpfleger;021;8
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Güde;;Lucie;;1998;;Rechnungsprüferin;022;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Führer;;Alexander Christian;;1966;;Berater;023;41
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Lemmer;;Karin;;1941;;Rentnerin;024;39
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Türkmen;;Kemal;;1971;;Straßenbahnfahrer;025;10
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Herzmann;;Stefanie;;1979;;Rechtsanwaltsfachangestellte;026;26
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Sondenheimer;;Julika;;1957;;Einzelhandelsverkäuferin;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Harting;;Burkhard;;1962;;Industriekaufmann;028;5
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Sonntag;;Hans-Dietrich;;1935;;Rentner;029;40
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Noth;;Markus;;1964;;Regioleiter Parkraumbewirtschaftung;030;15
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Lemmer;;Torsten;;1970;;Geschäftsführer;031;1
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Lemmer;;Sascha;;1992;;Elektroniker für Energie- und Gebäudetechnik;032;34
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Knott;;Ina;;1962;;kfm. Angestellte;033;25
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Kaden;;Brigitte;;1954;;Rentnerin;034;28
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Labuwy;;Susanne;;1966;;Einzelhandelskauffrau;035;32
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Ries;;Edeltraud;;1952;;Rentnerin;036;0
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Kloft;;Jürgen;;1954;;Kaufmann;037;12
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Stark;;Lena;;1995;;Erzieherin;038;29
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Labuwy;;Dirk;;1962;;RTF-Meister;039;38
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Grumbach;;Hans-Joachim;Dr.;1967;;Verwaltungsangestellter;040;3
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Ries;;Peter;;1956;;Journalist;041;11
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Buljan;;Sandra;;1974;;Sachbearbeiterin;;9
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Dischleid;;Luise;;1941;;Rentnerin;;30
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Nowack;;Heinz-Georg;;1951;;Rentner;;33
+0.3;05111000;13.09.2020;Ratswahl NRW;FREIE WÄHLER;Unabhängige Wählergemeinschaft für Düsseldorf;Brüggmann;;Wolfgang;;1949;;Senioren- und Demenzbegleiter;;42
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Wagener;;Hans-Markus;;1993;;Wissenschaftlicher Mitarbeiter;001;11
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Brüggemann;;Erik;;1988;;Rechtsreferendar;002;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Bartsch;;Isabelle;;1990;;akademische Sprachtherapeutin;003;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Jacob;;Sa?a Peter;Dr.;1975;;Referent für Ingenieurausbildung;004;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Herdt;;Andreas;;1991;;Rechtsreferendar;005;17
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Söns;;Julia;;1988;;Digital Marketing Specialist;006;16
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Hovestadt;;Paula Maria;;1999;;Studentin;007;2
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Ott-Forsyth;;Ina;;1995;;Studentin;008;8
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Kaluza;;Michael;;1992;;Recruiter;009;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Henke;;Christian Maximilian;;1994;;Krankenpfleger;010;21
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Marton;;Tim Benjamin;;1978;;Angestellter in Technik und Verwaltung;011;15
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Palaszewski;;Alexander;;1992;;Wissenschaftlicher Beschäftigter;012;25
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Urbanski;;Nora;;1993;;Business Developer;013;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Reinecke;;Jakob;;1992;;Wissenschaftlicher Mitarbeiter;014;7
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Ullrich;;Kaya Victoria;;1999;;Studentin;015;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Thörmer;;Falk;;1988;;Steuerberater;016;13
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Pollet;;Marius;Dr.;1987;;Wissenschaftlicher Mitarbeiter;017;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Schenk;;Mark;;1960;;selbständiger Unternehmensberater;018;3
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Verdugo Morales;;Alicia;;1992;;Rechtsreferendarin;019;18
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Nowitzki;;Kevin;;1992;;Business Plannung Specialist;020;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Panhaus;;Gottfried;Dr.;1965;;selbständiger Unternehmensberater;021;1
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Niemöller;;Till Philipp;;1995;;Student;022;23
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Schmeckebier;;Sascha Sebastian;;1982;;Business Analyst;023;19
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Scharpenberg;;Jennifer;;1991;;Lehrerin an Gesamtschule;024;4
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Diedrichs;;Jan;;1992;;Rechtsreferendar;025;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Möller;;Mattis;;1993;;Online Marketing Manager;026;27
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Dömer;;Diana;;1994;;Studentin;027;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Többen;;Florian;;1990;;Wirtschaftsingenieur;028;5
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Schalk;;Karl Wilhelm;;1943;;Dipl. Grafik-Designer;029;24
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Drießnack;;Marie;Dr.;1994;;Rechtsreferendarin;030;10
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Schenk;;Sebastian;;1994;;Unternehmensberater;031;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Wagner;;Meike Frederike;;1993;;Steuerberaterin;032;20
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Göbel;;Tobias;;1993;;Rechtsreferendar;033;9
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Armutat;;Saskia;;1995;;Manager Pricing & Payer Contracts;034;6
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Herzog;;Felix;;1998;;CRM Manager;035;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Meier;;Nils;;1999;;Trainee Communications;036;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Dehn;;Winny;Dr.;1953;;Medienwissenschaftlerin;037;12
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Schmeckebier;;Sara;;1983;;Sachbearbeiterin Versicherung;038;0
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Rehkemper;;Jaqueline;;1992;;IT-Projektmanagerin;039;14
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Rother;;Jan Alfred;;1990;;Senior Consultant;040;26
+0.3;05111000;13.09.2020;Ratswahl NRW;Volt;Volt Deutschland;Schmidt;;Pascal Niklas;;1997;;Student;041;0
+0.3;05111000;13.09.2020;Ratswahl NRW;;WIDERSTAND 2020 Wir für Düsseldorf;Ehrkamp;;Kirsten;;1965;;Dipl. Sozialpädagogin;015;3
+0.3;05111000;13.09.2020;Ratswahl NRW;;WIDERSTAND 2020 Wir für Düsseldorf;Gräf;;Holger;;1968;;Grafik- und Webdesigner;027;2
+0.3;05111000;13.09.2020;Ratswahl NRW;;WIDERSTAND 2020 Wir für Düsseldorf;Schulz;;Uwe;;1969;;Energieanlagenelektroniker;041;1
+0.3;05111000;13.09.2020;Ratswahl NRW;;WIDERSTAND 2020 Wir für Düsseldorf;Schulz;;Gabriele;;1960;;selbständig;;4
+0.3;05111000;13.09.2020;Ratswahl NRW;;WIDERSTAND 2020 Wir für Düsseldorf;Ociepa;;Pascal;;1998;;Finanz- und Versicherungsmanager;;5

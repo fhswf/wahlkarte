@@ -1,0 +1,3 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung;stimmzettel-position;partei-kurzname;partei-langname;partei-rgb-wert;partei-typ
+0.3;05111000;27.09.2020;Oberbürgermeisterstichwahl NRW;;Stichwahl des/der Oberbürgermeisters/in;1;CDU;Christlich Demokratische Union Deutschlands;#4b4b4b;P
+0.3;05111000;27.09.2020;Oberbürgermeisterstichwahl NRW;;Stichwahl des/der Oberbürgermeisters/in;2;SPD;Sozialdemokratische Partei Deutschlands;#d60029;P

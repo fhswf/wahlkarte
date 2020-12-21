@@ -1,0 +1,7 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung;stimmzettel-position;partei-kurzname;partei-langname;partei-rgb-wert;partei-typ
+0.2;05366024;13.09.2020;Ratswahl NRW;;Gemeinderat;1;CDU;Christlich Demokratische Union Deutschlands;#000000;P
+0.2;05366024;13.09.2020;Ratswahl NRW;;Gemeinderat;2;SPD;Sozialdemokratische Partei Deutschlands;#D60029;P
+0.2;05366024;13.09.2020;Ratswahl NRW;;Gemeinderat;3;FDP;Freie Demokratische Partei;#FBEE31;P
+0.2;05366024;13.09.2020;Ratswahl NRW;;Gemeinderat;4;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;#33CC00;P
+0.2;05366024;13.09.2020;Ratswahl NRW;;Gemeinderat;5;DIE LINKE;DIE LINKE;#D0238C;P
+0.2;05366024;13.09.2020;Ratswahl NRW;;Gemeinderat;6;AfD;Alternative für Deutschland;#009EE0;P

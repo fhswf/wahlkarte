@@ -1,0 +1,8 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung;stimmzettel-position;partei-kurzname;partei-langname;partei-rgb-wert;partei-typ
+0.2;05366004;13.09.2020;Ratswahl NRW;;Ratswahl;1;CDU;Christlich Demokratische Union Deutschlands;#000000;P
+0.2;05366004;13.09.2020;Ratswahl NRW;;Ratswahl;2;SPD;Sozialdemokratische Partei Deutschlands;#D60029;P
+0.2;05366004;13.09.2020;Ratswahl NRW;;Ratswahl;3;UWV;UWV-Unabhängige Wählervereinigung;#646464;P
+0.2;05366004;13.09.2020;Ratswahl NRW;;Ratswahl;4;FDP;Freie Demokratische Partei;#FBEE31;P
+0.2;05366004;13.09.2020;Ratswahl NRW;;Ratswahl;5;GRÜNE;BÜNDNIS 90/DIE GRÜNEN;#33CC00;P
+0.2;05366004;13.09.2020;Ratswahl NRW;;Ratswahl;6;DIE LINKE;DIE LINKE;#D0238C;P
+0.2;05366004;13.09.2020;Ratswahl NRW;;Ratswahl;7;Einzelbewerber Willi Hoever;Einzelbewerber Willi Hoever;#FD8B0D;E

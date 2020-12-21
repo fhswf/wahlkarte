@@ -1,0 +1,3 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;stimmzettel-gebiet-nr;stimmzettel-gebiet-bezeichnung;stimmzettel-position;partei-kurzname;partei-langname;partei-rgb-wert;partei-typ
+0.2;06414000;01.11.2020;Citybahn;;;1;Ja;Ja-Stimmen;#00ff00;P
+0.2;06414000;01.11.2020;Citybahn;;;2;Nein;Nein-Stimmen;#ff0000;P
