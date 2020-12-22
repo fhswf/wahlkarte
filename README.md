@@ -1,11 +1,11 @@
 # wahlkarte
 
-Die Anwendung entand bis Dezember 2020 im Rahmen einer Bachelorarbeit mit dem Titel "Interaktive geographische Darstellung von Wahlergebnissen unter Einsatz von Open Data".
+Die Anwendung ist bis Dezember 2020 im Rahmen einer Bachelorarbeit mit dem Titel "Interaktive geographische Darstellung von Wahlergebnissen unter Einsatz von Open Data" entstanden.
 
 Für Wahldaten wird der [Standard für Offene Wahldaten](https://offenewahldaten.de/) verwendet, der sich noch in Entwicklung befindet.  
 Projektpartner vom Wahldatenstandard sind u. a. der kommunale IT-Dienstleister [kdvz Rhein-Erft-Rur](https://www.kdvz-frechen.de/), die [Open Knowledge Foundation Deutschland](https://okfn.de/), und der führende Dienstleister [vote iT](https://vote-it.de/).
 
-Die Veröffentlichung der Bachelorarbeit soll zukünftig ebenfalls geschehen und ermöglicht einen vertiefenden Einblick in die Erkenntnisse und Schwierigkeiten im Umgang mit den Daten.
+Die Bachelorarbeit ist ebenfalls veröffentlicht, dies ermöglicht einen vertiefenden Einblick in die Erkenntnisse und Schwierigkeiten im Umgang mit den Daten: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4386794.svg)](https://doi.org/10.5281/zenodo.4386794)
 
 ---
 
