@@ -5,6 +5,7 @@ Die Anwendung ist bis Dezember 2020 im Rahmen einer Bachelorarbeit mit dem Titel
 Für Wahldaten wird der [Standard für Offene Wahldaten](https://offenewahldaten.de/) verwendet, der sich noch in Entwicklung befindet.  
 Projektpartner vom Wahldatenstandard sind u. a. der kommunale IT-Dienstleister [kdvz Rhein-Erft-Rur](https://www.kdvz-frechen.de/), die [Open Knowledge Foundation Deutschland](https://okfn.de/), und der führende Dienstleister [vote iT](https://vote-it.de/).
 
+Dieses Repositorium/Software zitieren: [![DOI](https://zenodo.org/badge/317960064.svg)](https://zenodo.org/badge/latestdoi/317960064)  
 Die Bachelorarbeit ist ebenfalls veröffentlicht, dies ermöglicht einen vertiefenden Einblick in die Erkenntnisse und Schwierigkeiten im Umgang mit den Daten: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4386794.svg)](https://doi.org/10.5281/zenodo.4386794)
 
 ---
