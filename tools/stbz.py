@@ -77,7 +77,6 @@ class Stimmbezirk:
                     "gebiet-ebene-2-nr", "gebiet-ebene-2-name",
                     "bezirk-nr", "bezirk-name", "bezirk-art",
                     "bezirk-repräsentativ",
-                    # Sinnlos? Naja, hier werden jetzt trotzdem redundant die Angaben für Ebene 2 gemacht.
                     "kandidat-gebiet-nr", "kandidat-gebiet-bezeichnung",
                     "stimmzettel-gebiet-nr", "stimmzettel-gebiet-bezeichnung"
             ))
