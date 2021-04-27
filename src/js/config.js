@@ -6,7 +6,7 @@
 // @flow
 import type { GesamtWahlConfigType, WahlTerminConfigType } from './wahl-controller';
 import type { EbeneConfigType } from './wahl-lib/wahl';
-import { ErgebnisKommunalwahlNRW, ErgebnisBuergerentscheid } from './wahl-lib/ergebnis';
+import { ErgebnisKommunalwahlNRW, ErgebnisLandtagswahlBW, ErgebnisBuergerentscheid } from './wahl-lib/ergebnis';
 
 /* -------------------------------------------------------------------------- */
 /*                                 Wahltermine                                */
@@ -353,6 +353,48 @@ let wahlTerminKallKWahl: WahlTerminConfigType = {
     ]
 };
 
+/* ------------------------------- Karlsruhe ------------------------------- */
+
+let ebenenKA: Map<string, EbeneConfigType> = new Map([
+    ["Wahlbezirk", {
+        geoJson: "WahlbezirkeLTW2021Karlsruhe.geojson",
+        keyProp: "WahlbezirkPadded",
+        uniqueId: true,
+    }],
+    ["Stadtteil", {
+        geoJson: "ka_stadtteile.geojson",
+        keyProp: "Stadtteilname",
+        uniqueId: true,
+    }],
+    ["Wahlkreis", {
+        geoJson: "WahlkreiseLTW2021Karlsruhe.geojson",
+        keyProp: "Wahlkreis",
+        uniqueId: true,
+    }],
+]);
+
+let wahlTerminKarlsruheLandtag: WahlTerminConfigType = {
+    name: "Karlsruhe: Landtagswahl 2021",
+    baseUrl: "./data/karlsruhe-ltw2021",
+    wahlDatumStr: "14.03.2021",
+    defaultCenter: [49.00844, 8.40897],
+    defaultZoom: 12.8,
+    wahlen: [
+        {
+            displayName: "Landtagswahl",
+            name: "Landtagswahl BW 2021",
+            parameterPath: "08212000_20210314_Landtagswahl-BW-2021_Wahlparameter_V0-3_20210427T000000.csv",
+            gebietePath: "08212000_20210314_Landtagswahl-BW-2021_Wahlgebietseinteilungen_V0-3_20210427T000000.csv",
+            stimmzettelPath: "08212000_20210314_Landtagswahl-BW-2021_Stimmzettel_V0-3_20210427T000000.csv",
+            kandidatPath: "08212000_20210314_Landtagswahl-BW-2021_Kandidaten_V0-3_20210427T000000.csv",
+            ergebnisPath: "08212000_20210314_Landtagswahl-BW-2021_Wahlergebnisse_V0-3_20210427T000000.csv",
+            ergebnisType: ErgebnisLandtagswahlBW,
+            ebenen: ebenenKA
+        },
+    ]
+};
+
+
 /* -------------------------------------------------------------------------- */
 /*                              Exported configs                              */
 /* -------------------------------------------------------------------------- */
@@ -365,5 +407,6 @@ export var wahlenConfig: GesamtWahlConfigType = {
         wahlTerminKrEuskirchenKWahl,
         wahlTerminBadMuenstereifelKWahl,
         wahlTerminKallKWahl,
+        wahlTerminKarlsruheLandtag,
     ]
 };

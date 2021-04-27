@@ -397,6 +397,70 @@ export class ErgebnisKommunalwahlNRW extends Ergebnis {
 }
 
 /**
+ * Defines static properties relevant for {@link WahlErgebnis} objects for elections with data in the style of "Landtagswahl BW 2021".
+ * ...
+ *
+ * @class ErgebnisLandtagswahlBW
+ * @see ErgebnisKommunalwahlNRW
+ * @augments {Ergebnis}
+ */
+export class ErgebnisLandtagswahlBW extends Ergebnis {
+    static constantProperties: { [key: string]: string } = {
+        wahlberechtigteOhneWahlschein: "A1",
+        wahlberechtigteMitWahlschein: "A2",
+        wahlberechtigteNichtImWaehlerverzeichnis: "A3",
+        wahlberechtigteGesamt: "A",
+        waehlendeGesamt: "B",
+        waehlendeMitWahlschein: "B1",
+    }
+
+    static properties: Array<FieldDescription> = [
+        new CollectedFieldDescription({
+            name: "Stimmen",
+            base: "D",
+            invalid: "C",
+            votesumProp: "waehlendeGesamt",
+            propName: "stimmen",
+            ergebnisType: this,
+            displayInTooltip: true,
+            defaultDataTypeAndArgsIfInitial: { type: collectedDataTypes[1], args: [1] },
+            dataTypes: collectedDataTypes,
+        }),
+        new CalculatedFieldDescription({
+            name: "Wahlbeteiligung",
+            isSum: () => false,
+            fn: (_1, _2) => _1 / _2,
+            args: ["waehlendeGesamt", "wahlberechtigteGesamt"],
+            propName: "wahlbeteiligung",
+            ergebnisType: this,
+            displayInTooltip: true,
+        }),
+        new CalculatedFieldDescription({
+            name: "Wahlscheinanteil",
+            description: "Stellt den geschätzten Anteil an Briefwählenden dar.",
+            isSum: () => false,
+            fn: (_1, _2) => _1 / _2,
+            args: ["wahlberechtigteMitWahlschein", "wahlberechtigteGesamt"],
+            propName: "wahlscheinAnteil",
+            ergebnisType: this,
+        }),
+        new ConstantFieldDescription({
+            name: "Wahlberechtigte",
+            propName: "wahlberechtigteGesamt",
+            ergebnisType: this,
+        }),
+    ];
+
+    static checks: { [key: string]: (o: ErgebnisLandtagswahlBW) => boolean } = {
+        "checkWahlberechtigte": (o) => (
+            o.wahlberechtigteOhneWahlschein
+            + o.wahlberechtigteMitWahlschein
+            + o.wahlberechtigteNichtImWaehlerverzeichnis
+        ) === o.wahlberechtigteGesamt,
+    }
+}
+
+/**
  * Defines static properties relevant for {@link WahlErgebnis} objects for elections with data in the style of "Bürgerentscheid" based on real data from Wiesbaden.
  * Not based on officially provided documentation. Very similar to {@link ErgebnisKommunalwahlNRW}. Only difference: "B1" instead of "B2". It has the same meaning. No difference in "B" values.
  * 
