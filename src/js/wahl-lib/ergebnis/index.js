@@ -7,7 +7,7 @@
 
 export {
     ConstantFieldDescription, CollectedFieldDescription, CalculatedFieldDescription,
-    Ergebnis, ErgebnisKommunalwahlNRW, ErgebnisBuergerentscheid,
+    Ergebnis, ErgebnisKommunalwahlNRW, ErgebnisBuergerentscheid, ErgebnisBundestagswahl
 } from './ergebnis';
 export type { FieldDescription, DataTypeType, DataTypeAndArgsType } from './ergebnis';
 
