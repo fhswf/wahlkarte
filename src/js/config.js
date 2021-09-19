@@ -6,7 +6,7 @@
 // @flow
 import type { GesamtWahlConfigType, WahlTerminConfigType } from './wahl-controller';
 import type { EbeneConfigType } from './wahl-lib/wahl';
-import { ErgebnisKommunalwahlNRW, ErgebnisBuergerentscheid } from './wahl-lib/ergebnis';
+import { ErgebnisKommunalwahlNRW, ErgebnisBuergerentscheid, ErgebnisBundestagswahl } from './wahl-lib/ergebnis';
 
 /* -------------------------------------------------------------------------- */
 /*                                 Wahltermine                                */
@@ -84,6 +84,48 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
             ergebnisPath: "05914000_20200913_BV-Wahl_Wahlergebnisse_V0-2_20201024T191200.csv",
             ergebnisType: ErgebnisKommunalwahlNRW,
             ebenen: ebenenHagen
+        },
+    ]
+};
+
+/* ---------------------------------- Hagen BTW ----------------------------- */
+
+let wahlTerminHagenBTW: WahlTerminConfigType = {
+    name: "Hagen: Bundestagswahl 2021",
+    baseUrl: "./data/hagen-btw2021/",
+    // in Zukunft evtl. das hier nur als Standard.
+    // Auswahl in UI dann nicht nur zwischen den "wahltermine"n sondern zwischen den Unterpunkten die es so gibt?? So als Tree-Ansicht irgendwie...?
+    // Info: Filter ist gerade sowieso deaktiviert!
+    wahlDatumStr: "26.09.2021",
+    defaultCenter: [51.37, 7.48],
+    defaultZoom: 12,
+    wahlen: [
+        {
+            displayName: "Bundestagswahl",
+            name: "Bundestagswahl",
+            parameterPath: "05914000_26.09.2021_Bundestagswahl_Wahlparameter_V0-3_15.09.2021 115820 523.csv",
+            gebietePath: "05914000_26.09.2021_Bundestagswahl_Wahlgebietseinteilungen_V0-3_15.09.2021 115907 145.csv",
+            stimmzettelPath: "05914000_26.09.2021_Bundestagswahl_Stimmzettel_V0-3_15.09.2021 115904 364.csv",
+            ergebnisPath: "05914000_26.09.2021_Bundestagswahl_Wahlergebnisse_V0-3_15.09.2021 115824 226.csv",
+            kandidatPath: "05914000_26.09.2021_Bundestagswahl_Kandidaten_V0-3_15.09.2021 115904 364.csv",
+            ergebnisType: ErgebnisBundestagswahl,
+            ebenen: new Map([
+                ["Wahlbezirk", {
+                    geoJson: "stimmbezirke.geojson",
+                    keyProp: "Stimmbezirk",
+                    uniqueId: true
+                }],
+                ["Stadtbezirk", {
+                    geoJson: "stadtbezirke.geojson",
+                    keyProp: "BEZEICHNUN",
+                    uniqueId: true
+                }],
+                ["Wahlkreis", {
+                    geoJson: undefined,
+                    keyProp: undefined,
+                    uniqueId: true
+                }],
+            ])
         },
     ]
 };
@@ -359,6 +401,7 @@ let wahlTerminKallKWahl: WahlTerminConfigType = {
 
 export var wahlenConfig: GesamtWahlConfigType = {
     wahltermine: [
+        wahlTerminHagenBTW,
         wahlTerminHagenKWahl,
         wahlTerminDuesseldorfKWahl,
         wahlTerminWiesbadenCitybahn,
