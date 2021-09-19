@@ -261,7 +261,7 @@ export default class WahlController {
         let _dataValues = data.data.reduce((p, v) => p+!!v, 0);
         // console.log(gs.serie, _dataValues);
         // reduce bin amount in some cases to avoid errors
-        let binNum = Math.max(1, Math.min(Math.floor(_dataValues/2), defaultBinNum));
+        let binNum = Math.min(Math.max(1, Math.min(Math.floor(_dataValues/2), defaultBinNum)), new Set(gs.serie).size);
         gs.getClassJenks(binNum);
         let singleColor = (data.classColors?.size <= 1 && data.classColors.values().next().value) || defaultColor;
         let defaultRange = chroma.scale([chroma.mix(baseColor, singleColor, baseMixProportion), singleColor]).domain([gs.min(), gs.max()]).correctLightness().colors(binNum);
