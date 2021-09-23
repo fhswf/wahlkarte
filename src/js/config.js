@@ -16,8 +16,8 @@ import { ErgebnisKommunalwahlNRW, ErgebnisBuergerentscheid, ErgebnisBundestagswa
 
 let ebenenHagen: Map<string, EbeneConfigType> = new Map([
     ["Stimmbezirk", {
-        geoJson: "stimmbezirke.geojson",
-        keyProp: "Stimmbezirk",
+        geoJson: "wahlbezirke_btw2021.json",
+        keyProp: "BEZIRKSNUM",
         uniqueId: true
     }],
     ["Wahlbezirk", {
@@ -93,9 +93,6 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
 let wahlTerminHagenBTW: WahlTerminConfigType = {
     name: "Hagen: Bundestagswahl 2021",
     baseUrl: "./data/hagen-btw2021/",
-    // in Zukunft evtl. das hier nur als Standard.
-    // Auswahl in UI dann nicht nur zwischen den "wahltermine"n sondern zwischen den Unterpunkten die es so gibt?? So als Tree-Ansicht irgendwie...?
-    // Info: Filter ist gerade sowieso deaktiviert!
     wahlDatumStr: "26.09.2021",
     defaultCenter: [51.37, 7.48],
     defaultZoom: 12,
@@ -111,8 +108,8 @@ let wahlTerminHagenBTW: WahlTerminConfigType = {
             ergebnisType: ErgebnisBundestagswahl,
             ebenen: new Map([
                 ["Wahlbezirk", {
-                    geoJson: "stimmbezirke.geojson",
-                    keyProp: "Stimmbezirk",
+                    geoJson: "wahlbezirke_btw2021.json",
+                    keyProp: "BEZIRKSNUM",
                     uniqueId: true
                 }],
                 ["Stadtbezirk", {
