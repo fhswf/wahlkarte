@@ -3,13 +3,11 @@
 
 from __future__ import annotations
 
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from csv import writer, reader, DictReader
 from dataclasses import dataclass
 from hashlib import md5
 from typing import List, Tuple, Any, Dict
 
-from bs4 import BeautifulSoup as BS
 from requests import get as r_get
 
 def r_json(url):

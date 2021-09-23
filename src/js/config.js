@@ -91,20 +91,20 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
 /* ---------------------------------- Hagen BTW ----------------------------- */
 
 let wahlTerminHagenBTW: WahlTerminConfigType = {
-    name: "Hagen: Bundestagswahl 2021",
+    name: "Hagen: Bundestagswahl 2021 [TESTDATEN]",
     baseUrl: "./data/hagen-btw2021/",
     wahlDatumStr: "26.09.2021",
     defaultCenter: [51.37, 7.48],
     defaultZoom: 12,
     wahlen: [
         {
-            displayName: "Bundestagswahl",
+            displayName: "Bundestagswahl [TESTDATEN]",
             name: "Bundestagswahl",
-            parameterPath: "05914000_26.09.2021_Bundestagswahl_Wahlparameter_V0-3_15.09.2021 115820 523.csv",
-            gebietePath: "05914000_26.09.2021_Bundestagswahl_Wahlgebietseinteilungen_V0-3_15.09.2021 115907 145.csv",
-            stimmzettelPath: "05914000_26.09.2021_Bundestagswahl_Stimmzettel_V0-3_15.09.2021 115904 364.csv",
-            ergebnisPath: "05914000_26.09.2021_Bundestagswahl_Wahlergebnisse_V0-3_15.09.2021 115824 226.csv",
-            kandidatPath: "05914000_26.09.2021_Bundestagswahl_Kandidaten_V0-3_15.09.2021 115904 364.csv",
+            parameterPath: "05914000_26.09.2021_Bundestagswahl_Wahlparameter_V0-3_21.09.2021 090559 713.csv",
+            gebietePath: "05914000_26.09.2021_Bundestagswahl_Wahlgebietseinteilungen_V0-3_23.09.2021 101222 499.csv",
+            stimmzettelPath: "05914000_26.09.2021_Bundestagswahl_Stimmzettel_V0-3_22.09.2021 092740 560.csv",
+            ergebnisPath: "05914000_26.09.2021_Bundestagswahl_Wahlergebnisse_V0-3_21.09.2021 090603 026.csv",
+            kandidatPath: "05914000_26.09.2021_Bundestagswahl_Kandidaten_V0-3_22.09.2021 092740 560.csv",
             ergebnisType: ErgebnisBundestagswahl,
             ebenen: new Map([
                 ["Wahlbezirk", {
