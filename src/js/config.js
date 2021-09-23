@@ -14,7 +14,7 @@ import { ErgebnisKommunalwahlNRW, ErgebnisLandtagswahlBW, ErgebnisBuergerentsche
 
 /* ---------------------------------- Hagen --------------------------------- */
 
-let ebenenHagen: Map<string, EbeneConfigType> = new Map([
+let ebenenHagenKWahl: Map<string, EbeneConfigType> = new Map([
     ["Stimmbezirk", {
         geoJson: "wahlbezirke_btw2021.json",
         keyProp: "BEZIRKSNUM",
@@ -50,7 +50,7 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
             stimmzettelPath: "05914000_20200913_RVR-Wahl_Stimmzettel_V0-2_20201024T191200.csv",
             ergebnisPath: "05914000_20200913_RVR-Wahl_Wahlergebnisse_V0-2_20201024T191200.csv",
             ergebnisType: ErgebnisKommunalwahlNRW,
-            ebenen: ebenenHagen
+            ebenen: ebenenHagenKWahl
         },
         {
             displayName: "OB-Wahl",
@@ -61,7 +61,7 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
             kandidatPath: "05914000_20200913_OB-Wahl_Kandidaten_V0-2_20201024T191200.csv",
             ergebnisPath: "05914000_20200913_OB-Wahl_Wahlergebnisse_V0-2_20201024T191200.csv",
             ergebnisType: ErgebnisKommunalwahlNRW,
-            ebenen: ebenenHagen
+            ebenen: ebenenHagenKWahl
         },
         {
             displayName: "Ratswahl",
@@ -72,7 +72,7 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
             kandidatPath: "05914000_20200913_Ratswahl_Kandidaten_V0-2_20201024T191200.csv",
             ergebnisPath: "05914000_20200913_Ratswahl_Wahlergebnisse_V0-2_20201024T191200.csv",
             ergebnisType: ErgebnisKommunalwahlNRW,
-            ebenen: ebenenHagen
+            ebenen: ebenenHagenKWahl
         },
         {
             displayName: "BV-Wahl", // todo in Daten
@@ -83,7 +83,7 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
             kandidatPath: "05914000_20200913_BV-Wahl_Kandidaten_V0-2_20201024T191200.csv",
             ergebnisPath: "05914000_20200913_BV-Wahl_Wahlergebnisse_V0-2_20201024T191200.csv",
             ergebnisType: ErgebnisKommunalwahlNRW,
-            ebenen: ebenenHagen
+            ebenen: ebenenHagenKWahl
         },
     ]
 };
@@ -120,6 +120,39 @@ let wahlTerminHagenBTW: WahlTerminConfigType = {
                 ["Wahlkreis", {
                     geoJson: undefined,
                     keyProp: undefined,
+                    uniqueId: true
+                }],
+            ])
+        },
+    ]
+};
+
+/* ------------------------ Hagen Europawahl 2019 ---------------------- */
+
+let wahlTerminHagenEU19: WahlTerminConfigType = {
+    name: "Hagen: Europawahl 2019",
+    baseUrl: "./data/hagen-eu2019/",
+    wahlDatumStr: "26.05.2019",
+    defaultCenter: [51.37, 7.48],
+    defaultZoom: 12,
+    wahlen: [
+        {
+            displayName: "Europawahl",
+            name: "Europawahl",
+            parameterPath: "05914000_20190526_Europawahl_Wahlparameter_V0-3_20210616T092400.csv",
+            gebietePath: "05914000_20190526_Europawahl_Wahlgebietseinteilungen_V0-3_20210616T092400.csv",
+            stimmzettelPath: "05914000_20190526_Europawahl_Stimmzettel_V0-3_20210616T092400.csv",
+            ergebnisPath: "05914000_20190526_Europawahl_Wahlergebnisse_V0-3_20210616T092400.csv",
+            ergebnisType: ErgebnisBuergerentscheid,
+            ebenen: new Map([
+                ["Wahlbezirk", {
+                    geoJson: "europawahl-geojson6.geojson",
+                    keyProp: "wb_bw_bezirksnummer",
+                    uniqueId: true
+                }],
+                ["Stadtbezirk", {
+                    geoJson: "stadtbezirke.geojson",
+                    keyProp: "Bez_Nr",
                     uniqueId: true
                 }],
             ])
@@ -442,6 +475,7 @@ export var wahlenConfig: GesamtWahlConfigType = {
     wahltermine: [
         wahlTerminHagenBTW,
         wahlTerminHagenKWahl,
+        wahlTerminHagenEU19,
         wahlTerminDuesseldorfKWahl,
         wahlTerminWiesbadenCitybahn,
         wahlTerminKrEuskirchenKWahl,

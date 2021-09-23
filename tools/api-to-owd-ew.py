@@ -15,7 +15,7 @@ def r_json(url):
     r.raise_for_status()
     return r.json()
 
-default_wahlName = "Bundestagswahl"
+default_wahlName = "Europawahl"
 
 @dataclass
 class Wahl:
@@ -36,10 +36,10 @@ class Wahlparameter:
     wahlBehoerdeGS: str = "05914000"
     wahlBehoerdeName: str = "Stadt Hagen"
     wahlName: str = default_wahlName
-    kandGebBez: str = "Wahlkreis"
+    kandGebBez: str = ""
     geb5: str = ""
     geb4: str = ""
-    geb3: str = "Wahlkreis"
+    geb3: str = ""
     geb2: str = "Stadtbezirk"
     bez: str = "Wahlbezirk"
 
@@ -74,10 +74,10 @@ class Wahlgebietseinteilungen:
     wahlLeiterGS: str = "05914000"
     wahlLeiterName: str = "Stadt Hagen"
     wahlName: str = default_wahlName
-    kandGebNr: str = "138"
-    kandGebBez: str = "138 Hagen - Ennepe-Ruhr-Kreis I"
-    stimmGebNr: str = "138"
-    stimmGebBez: str = "138 Hagen - Ennepe-Ruhr-Kreis I"
+    kandGebNr: str = ""
+    kandGebBez: str = ""
+    stimmGebNr: str = ""
+    stimmGebBez: str = ""
 
     def writeOWDcsv(self) -> None:
         with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName}_Wahlgebietseinteilungen_V0-3_{(self.uebersicht_data.get('file_timestamp') or self.uebersicht_data.get('zeitstempel')).replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
@@ -86,7 +86,7 @@ class Wahlgebietseinteilungen:
                 "version", "wahl-behoerde-gs", "wahl-datum", "wahl-name", "wahl-leiter-gs", "wahl-leiter-name",
                 "gebiet-ebene-5-nr", "gebiet-ebene-5-name", "gebiet-ebene-4-nr", "gebiet-ebene-4-name",
                 "gebiet-ebene-3-nr", "gebiet-ebene-3-name", "gebiet-ebene-2-nr", "gebiet-ebene-2-name",
-                "bezirk-nr", "bezirk-name", "BRIEFWAHLBEZIRK-NR", "bezirk-art", "bezirk-repräsentativ",
+                "bezirk-nr", "bezirk-name", "bezirk-art", "bezirk-repräsentativ",
                 "kandidat-gebiet-nr", "kandidat-gebiet-bezeichnung",
                 "stimmzettel-gebiet-nr", "stimmzettel-gebiet-bezeichnung"
             ))
@@ -110,15 +110,11 @@ class Wahlgebietseinteilungen:
 
                 bezirk_name = bezirk_data['Komponente']['info']['titel']
                 bezirk_id = _name_to_id(bezirk_name)
-                briefwahlbezirk_id = bezirk_id
-                if (letzte := gebietsverlinkung[-1])['titel'] != "Stimmbezirke":
-                    assert len(letzte['gebietslinks']) == 1
-                    briefwahlbezirk_id = _name_to_id(letzte['gebietslinks'][0]['title'])
 
                 csvw.writerow((
                     "0.3", self.wahlBehoerdeGS, self.datum, self.wahlName, self.wahlLeiterGS, self.wahlLeiterName,
                     nr_5, name_5, nr_4, name_4, nr_3, name_3, nr_2, name_2,
-                    bezirk_id, bezirk_name, briefwahlbezirk_id, "B" if "Briefwahlb" in bezirk_name else "W", "",
+                    bezirk_id, bezirk_name, "B" if "Briefwahlb" in bezirk_name else "W", "",
                     self.kandGebNr, self.kandGebBez,
                     self.stimmGebNr, self.stimmGebBez
                 ))
@@ -130,8 +126,8 @@ class Stimmzettel:
     alt_ts: str = ""
     wahlBehoerdeGS: str = "05914000"
     wahlName: str = default_wahlName
-    stimmGebNr: str = "138"
-    stimmGebBez: str = "138 Hagen - Ennepe-Ruhr-Kreis I"
+    stimmGebNr: str = ""
+    stimmGebBez: str = ""
 
     def writeOWDcsv(self) -> None:
         with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName}_Stimmzettel_V0-3_{(self.data.get('file_timestamp') or self.alt_ts).replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
@@ -155,7 +151,7 @@ class Kandidaturen:
     datum: str
     wahlBehoerdeGS: str = "05914000"
     wahlName: str = default_wahlName
-    kandGebNr: str = "138"
+    kandGebNr: str = ""
 
     def writeOWDcsv(self) -> None:
         with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName}_Kandidaten_V0-3_{self.data['file_timestamp'].replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
@@ -188,7 +184,7 @@ class Wahlergebnisse:
     datum: str
     wahlBehoerdeGS: str = "05914000"
     wahlName: str = default_wahlName
-    kandGebNr: str = "138"
+    kandGebNr: str = ""
 
     def writeOWDcsv(self) -> None:
         with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName}_Wahlergebnisse_V0-3_{self.file_timestamp.replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
@@ -209,8 +205,7 @@ class Wahlergebnisse:
 
 # Grundkonfiguration
 
-test = True
-base = f"http://wahlergebnisse.stadt-hagen.de/{'test' if test else 'prod'}/BW2021/05914000/"
+base = f"http://wahlergebnisse.stadt-hagen.de/prod/EW2019/05914000/"
 pr_base = f"{base}praesentation/"
 api_base = f"{base}/api/praesentation/"
 
