@@ -24,7 +24,6 @@ module.exports = merge(common, {
       }),
       new CssMinimizerPlugin({
         minimizerOptions: {
-          sourceMap: true,
           preset: [
             'default',
             {

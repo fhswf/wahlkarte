@@ -6,7 +6,7 @@
 // @flow
 import L from 'leaflet';
 
-import { LitElement, html, css, property, customElement, TemplateResult } from 'lit-element';
+import { LitElement, html, css, property, customElement } from 'lit-element';
 import 'weightless/button';
 import 'weightless/card';
 import 'weightless/expansion';
@@ -14,6 +14,7 @@ import 'weightless/title';
 import 'weightless/select';
 import { Select } from 'weightless/select';
 
+import type { TemplateResult } from 'lit-element';
 import type WahlController from '../wahl-controller';
 import { CollectedFieldDescription } from '../wahl-lib/ergebnis';
 import type { FieldDescription, DataTypeType } from '../wahl-lib/ergebnis';
@@ -65,15 +66,16 @@ class CustomSelectElement extends LitElement {
             this.select.value = val;
             if (oldVal !== val) this._noChangeEventYet = true;
         }
-        this.requestUpdate('value', oldVal);
+        this.requestUpdateAndHandle('value', oldVal);
     }
 
     firstUpdated() {
-        this.requestUpdate();
+        this.requestUpdateAndHandle();
     }
     
-    async requestUpdate(name, oldValue){ 
-        return super.requestUpdate(name, oldValue).then(()=>{this._handleChange()});
+    async requestUpdateAndHandle(name, oldValue){
+        this.requestUpdate(name, oldValue);
+        return this.updateComplete.then(()=>{this._handleChange()});
     }
 
     _handleChange(/*e*/) {
@@ -99,7 +101,7 @@ class CustomSelectElement extends LitElement {
                 <option value disabled selected></option>
                 ${this.shadowRoot.querySelector('slot') ? this._slotNodes.map(sE=>sE.cloneNode(true)) : ""}
             </wl-select>
-            <div style="display: none"><slot @slotchange=${()=>{ this.requestUpdate() }}></slot></div>`;
+            <div style="display: none"><slot @slotchange=${()=>{ this.requestUpdateAndHandle() }}></slot></div>`;
     }
 }
 
@@ -140,15 +142,16 @@ class AbstandSelectElement extends LitElement {
             this.selectTo.value = val?.[1];
             if (oldVal[0] !== val?.[0] || oldVal[1] !== val?.[1]) this._noChangeEventYet = true;
         }
-        this.requestUpdate('value', oldVal);
+        this.requestUpdateAndHandle('value', oldVal);
     }
 
     firstUpdated() {
-        this.requestUpdate();
+        this.requestUpdateAndHandle();
     }
     
-    async requestUpdate(name, oldValue){ 
-        return super.requestUpdate(name, oldValue).then(()=>{this._handleChange()});
+    async requestUpdateAndHandle(name, oldValue){
+        this.requestUpdate(name, oldValue);
+        return this.updateComplete.then(()=>{this._handleChange()});
     }
 
     _handleChange(/*e*/) {
@@ -181,7 +184,7 @@ class AbstandSelectElement extends LitElement {
                 <option value='1./2.'>1./2.</option>
                 ${this.shadowRoot.querySelector('slot') ? this._slotNodes.map(sE=>sE.cloneNode(true)) : ""}
             </wl-select>
-            <div style="display: none"><slot @slotchange=${()=>{ this.requestUpdate() }}></slot></div>`;
+            <div style="display: none"><slot @slotchange=${()=>{ this.requestUpdateAndHandle() }}></slot></div>`;
     }
 }
 
@@ -245,8 +248,9 @@ class ErgebnisPropElement extends LitElement {
         return this.wahlController.activeEAC[this.prop.propName][type.id].keys;
     }
 
-    async requestUpdate(name, oldValue) {
-        return super.requestUpdate(name, oldValue).then(this.renderRoot.querySelectorAll('.args-select-element').forEach(sE=>{sE.requestUpdate()}));
+    async requestUpdateAndHandle(name, oldValue) {
+        this.requestUpdate(name, oldValue);
+        return this.updateComplete.then(this.renderRoot.querySelectorAll('.args-select-element').forEach(sE=>{sE.requestUpdateAndHandle()}));
     }
 
     renderDataType(dT: DataTypeType): TemplateResult {

@@ -15,8 +15,11 @@ module.exports = merge(common, {
   ],
   devServer: {
     liveReload: true,
-    contentBase: path.resolve(__dirname, 'src'),
-    watchContentBase: true,
+    hot: false,
+    static: {
+      directory: path.resolve(__dirname, 'src'),
+      watch: true,
+    },
     open: true,
     port: devPort,
     host: devHost,

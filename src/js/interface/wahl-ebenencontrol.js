@@ -84,8 +84,10 @@ L.control.EbenenControl = L.Control.extend({
         elem.wahlController = this.getWahlController();
         elem.addEventListener('update', function(e) {
             // explicitly update the current tab indicator bar using the change event
-            this.requestUpdate()
-                .then(()=>{if (this.renderable) this.shadowRoot.getElementById("tab-group").dispatchEvent(new Event("change"))});
+            this.requestUpdate();
+            this.updateComplete.then(()=>{
+                if (this.renderable) this.shadowRoot.getElementById("tab-group").dispatchEvent(new Event("change"));
+            });
         });
         L.DomEvent.disableScrollPropagation(elem);
         L.DomEvent.disableClickPropagation(elem);

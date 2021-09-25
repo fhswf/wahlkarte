@@ -670,13 +670,13 @@ export default class WahlController {
     async updateErgebnisseControl() {
         let elem = this._ergebnisseControl?.getContainer();
         if (!elem) return;
-        return elem.requestUpdate()
-            .then(()=>{
-                elem.renderRoot.querySelectorAll("ergebnis-prop").forEach(eP=>{
-                    if(eP.prop !== elem.wahlController.activeProp) eP.resetArgsSelectElements();
-                    eP.requestUpdate();
-                });
+        elem.requestUpdate();
+        return elem.updateComplete.then(()=>{
+            elem.renderRoot.querySelectorAll("ergebnis-prop").forEach(eP=>{
+                if(eP.prop !== elem.wahlController.activeProp) eP.resetArgsSelectElements();
+                eP.requestUpdateAndHandle();
             });
+        });
     }
 
     /**

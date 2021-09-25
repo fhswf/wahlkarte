@@ -108,8 +108,8 @@ L.control.MainControl = L.Control.extend({
         elem.wahlController = this._wahlController;
         elem.addEventListener('update', function(e) {
             // explicitly update the current tab indicator bar using the change event
-            this.requestUpdate()
-                .then(()=>this.shadowRoot.getElementById("tab-group").dispatchEvent(new Event("change")));
+            this.requestUpdate();
+            this.updateComplete.then(() => this.shadowRoot.getElementById("tab-group").dispatchEvent(new Event("change")));
         });
         L.DomEvent.disableScrollPropagation(elem);
         L.DomEvent.disableClickPropagation(elem);

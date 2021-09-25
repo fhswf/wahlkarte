@@ -1,0 +1,16 @@
+diff --git a/node_modules/weightless/style/base/functions.scss b/node_modules/weightless/style/base/functions.scss
+index a4b3b03..7e1874a 100644
+--- a/node_modules/weightless/style/base/functions.scss
++++ b/node_modules/weightless/style/base/functions.scss
+@@ -19,9 +19,11 @@
+ 	@param {Number} $max - The maximum value
+ 	@return {Number} - The clammed value
+  */
++/*
+ @function clamp($value, $min, $max) {
+   @return if($value > $max, $max, if($value < $min, $min, $value));
+ }
++*/
+ 
+ /**
+ 	Ensures that a map has a set of required keys. Throws an error if the map does not have the required keys.

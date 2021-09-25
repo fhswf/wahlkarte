@@ -7,10 +7,12 @@
 import { LitElement, html, css, property, customElement } from 'lit-element';
 import 'weightless/card';
 import 'weightless/title';
-import Chart from 'chart.js';
+import { Chart, BarElement, BarController, LinearScale, CategoryScale, Tooltip } from 'chart.js';
 
 import type { ErgebnisAnalysis, CollectedFieldDescription } from '../wahl-lib/ergebnis';
 import type { Wahl } from '../wahl-lib/wahl';
+
+Chart.register( BarElement, BarController, LinearScale, CategoryScale, Tooltip );
 
 @customElement('ergebnis-chart')
 export default class ErgebnisChartElement extends LitElement {
@@ -50,39 +52,42 @@ export default class ErgebnisChartElement extends LitElement {
             options: {
                 animation: {
                     duration: 0,
-                },
-                responsiveAnimationDuration: 0,
-                legend: {
-                    display: false,
-                },
-                tooltips: {
-                    callbacks: {
-                        // https://www.chartjs.org/docs/latest/configuration/tooltip.html#label-callback
-                        label: (tooltipItem, data) => {
-                            var label = data.datasets[tooltipItem.datasetIndex].label || '';
-                            if (label) label += ': ';
-                            label += (tooltipItem.yLabel * 100).toFixed(2) + "%";
-                            return label;
-                        },
-                        afterBody: (tooltip) => {
-                            return `${rD.fieldDesc.name}: ${rD.results.get(tooltip[0].xLabel)}`;
-                        }
+                    resize: {
+                        duration: 0,
                     }
                 },
-                scaleShowValues: true,
+                plugins: {
+                    legend: {
+                        display: false,
+                    },
+                    tooltip: {
+                        callbacks: {
+                            // https://www.chartjs.org/docs/latest/configuration/tooltip.html#label-callback
+                            label: context => {
+                                var label = context.dataset.label || '';
+                                if (label) label += ': ';
+                                if (context.parsed.y !== null) label += (context.parsed.y * 100).toFixed(2) + "%";
+                                return label;
+                            },
+                            afterBody: context => `${rD.fieldDesc.name}: ${context[0].label && rD.results.get(context[0].label)}`,
+                        }
+                    },
+                },
                 scales: {
-                    xAxes: [{
+                    x: {
                         ticks: {
                             autoSkip: false,
-                            fontSize: 9,
+                            font: {
+                                size: 9,
+                            },
                         },
-                    }],
-                    yAxes: [{
+                    },
+                    y: {
+                        beginAtZero: true,
                         ticks: {
                             callback: (value, index, values) => { return (value*100) + "%"},
-                            beginAtZero: true,
                         }
-                    }]
+                    }
                 }
             },
         });
