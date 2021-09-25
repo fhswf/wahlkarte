@@ -112,6 +112,14 @@ let wahlTerminHagenBTW: WahlTerminConfigType = {
                     keyProp: "BEZIRKSNUM",
                     uniqueId: true
                 }],
+                ["Briefwahlbezirke", {
+                    geoJson: "wahlbezirke_btw2021.json",
+                    keyProp: "BEZIRKSNUM",
+                    virtual: true,
+                    virtualField: "BRIEFWAHLBEZIRK-NR", // custom csv field
+                    dissolve: true,
+                    uniqueId: true
+                }],
                 ["Stadtbezirk", {
                     geoJson: "stadtbezirke.geojson",
                     keyProp: "BEZEICHNUN",

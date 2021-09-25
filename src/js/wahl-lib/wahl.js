@@ -14,7 +14,10 @@ export type EbeneConfigType = {|
     geoJson: ?string,
     keyProp?: string,
     gsProp?: string, // required if not unique id
-    uniqueId: boolean
+    uniqueId: boolean,
+    virtual?: boolean,
+    virtualField?: string, // e. g. custom csv field
+    dissolve?: boolean,
 |};
 
 export type WahlConfigType = {|
@@ -47,6 +50,7 @@ export class Ebene extends Map<?string, Map<string, GebietInterface> | GebietInt
     get uniqueId(): boolean { return this.config.uniqueId }
     get hasGeoPath(): boolean { return !!this.config.geoJson }
     get isWahlEbene(): boolean { return this.ebene === 1}
+    get isVirtual(): boolean { return this.config.virtual }
 
     /**
      * Creates an instance of Ebene.
@@ -63,6 +67,8 @@ export class Ebene extends Map<?string, Map<string, GebietInterface> | GebietInt
         this.bezeichnung = bezeichnung;
         // todo config checks und getters
         this.config = config;
+        if (this.isVirtual && this.ebene <= 5) throw new TypeError("Ebene can't be virtual and at or below level 5");
+        if (this.isVirtual && !this.config.virtualField) throw new TypeError("Ebene config: virtualField required for virtual Ebene");
         this.wahl = wahl;
     }
 
@@ -545,6 +551,10 @@ export default class Wahl {
     }
 
     ebenen: Map<number, Ebene>;
+    get virtualEbenen(): Map<number, Ebene> {
+        return new Map([...this.ebenen].filter(([_, e]) => e.isVirtual));
+    }
+
     kandidaten: Map<?string, GebietKandidaturen>;
     get hasKandidaten(): boolean {
         return !!this.kandidaten.size;
@@ -616,7 +626,7 @@ export default class Wahl {
     get kandidatPath(): ?string { return this.config.kandidatPath }
     get ergebnisPath(): string { return this.config.ergebnisPath }
     get ergebnisType(): Class<Ergebnis> { return this.config.ergebnisType }
-    get ebenenConfigs(): Array<EbeneConfigType> { return this.config.ebenen }
+    get ebenenConfigs(): Map<string, EbeneConfigType> { return this.config.ebenen }
 
     get wahlBehoerdeGs(): ?string { return this.parameter?.["wahl-behoerde-gs"] }
     get wahlBehoerdeName(): ?string { return this.parameter?.["wahl-behoerde-name"] }
@@ -727,14 +737,22 @@ export default class Wahl {
         if (!this.parameter) throw new Error("no valid parameter data provided");
 
         this.ebenen.set(1, new Ebene(1, this.parameter["bezirk-bezeichnung"], this.ebenenConfigs.get(this.parameter["bezirk-bezeichnung"]), this));
-        let _knownNames = [this.parameter["bezirk-bezeichnung"]];
+        let _knownNames = new Set([this.parameter["bezirk-bezeichnung"]]);
         for (let _level = 2; _level <= 5; _level++) {
             let _bez = this.parameter[`gebiet-ebene-${_level}-bezeichnung`];
             if (!_bez) continue;
-            if (_knownNames.includes(_bez)) throw new Error(`duplicate gebiet-ebene-${_level}-bezeichnung ${_bez}!`);
+            if (_knownNames.has(_bez)) throw new Error(`duplicate gebiet-ebene-${_level}-bezeichnung ${_bez}!`);
             this.ebenen.set(_level, new Ebene(_level, _bez, this.ebenenConfigs.get(_bez), this));
-            _knownNames.push(_bez);
+            _knownNames.add(_bez);
         }
+
+        let _level = 90;
+        this.ebenenConfigs.forEach((eC, _bez) => {
+            if (!eC.virtual) return;
+            if (_knownNames?.has(_bez)) throw new Error(`duplicate Ebene bezeichnung ${_bez} while creating virtual Ebene`);
+            this.ebenen.set(_level, new Ebene(_level, _bez, eC, this));
+            _level++;
+        });
     }
 
     /**
@@ -893,6 +911,14 @@ export default class Wahl {
             _gebiet.set(_bezirk_id, wG);
         }
         this.ebenen.get(1).addWahlGebiet(wG);
+        this.virtualEbenen.forEach((_ebene) => {
+            let _id = wG[_ebene.config.virtualField];
+            if (!_id) return; // ? or make this an error?
+            // no separate name for now
+            _ebene.addGebiet(_id, _id, _gs);
+            let _gebiet: Gebiet = _ebene.getGebiet(_id, _gs);
+            _gebiet.set(_bezirk_id, wG);
+        });
     }
 
     /**

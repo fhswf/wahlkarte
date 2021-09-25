@@ -204,7 +204,7 @@ export class WahlGebiet extends WahlModel implements GebietInterface {
         "gebiet-ebene-2-name",
         "bezirk-nr",
         "bezirk-name",
-        "BRIEFWAHLBEZIRK-NR", // eigenes
+        "BRIEFWAHLBEZIRK-NR", // custom csv field
         "bezirk-art",
         "bezirk-repräsentativ",
         "kandidat-gebiet-nr",

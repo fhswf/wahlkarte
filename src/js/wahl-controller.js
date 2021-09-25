@@ -10,6 +10,8 @@ import geostats from 'geostats';
 //$FlowIgnore[cannot-resolve-module]
 import 'geostats/lib/geostats.css';
 import chroma from 'chroma-js';
+import dissolve from '@turf/dissolve';
+import { featureEach } from '@turf/meta';
 
 import './interface/wahl-maincontrol';
 import './interface/wahl-ebenencontrol';
@@ -25,8 +27,7 @@ import 'weightless/list-item';
 import 'weightless/progress-spinner';
 import { fetchGeoJson, newDialog, closeDialog } from './utils';
 
-import type { WahlConfigType } from './wahl-lib/wahl';
-import type { Stimmzettel } from './wahl-lib/wahl';
+import type { WahlConfigType, Stimmzettel, Ebene } from './wahl-lib/wahl';
 import type { ErgebnisAnalysisCollection, FieldDescription, DataTypeAndArgsType } from './wahl-lib/ergebnis';
 
 export type WahlTerminConfigType = {|
@@ -525,6 +526,20 @@ export default class WahlController {
                     this.activeEAC = undefined; // calls setter
                     this.removeGeoLayer();
                     return;
+                }
+                if (ebene.config.dissolve) {
+                    let dissolveField = ebene.config.keyProp;
+                    if (ebene.isVirtual) {
+                        featureEach(geoJson, feature => {
+                            let wG = this.activeWahl.wahlEbene.getGebiet(feature.properties[ebene.config.keyProp], !ebene.uniqueId && feature.properties[ebene.config.gsProp] );
+                            let pO = wG.partOf.get(ebene);
+                            if (pO.size !== 1) throw new Error(`Could not find 1 virtual Gebiet for ${feature}`);
+                            feature.properties[ebene.config.virtualField] = pO.values().next().value.nr;
+                        });
+                        dissolveField = ebene.config.virtualField;
+                    }
+                    geoJson = dissolve(geoJson, {propertyName: dissolveField});
+                    if (ebene.isVirtual) featureEach(geoJson, feature => { feature.properties[ebene.config.keyProp] = feature.properties[dissolveField]});
                 }
                 /* checks ... TODO
                     let keyId = feature.properties[ebene.config.keyProp];
