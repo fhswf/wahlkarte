@@ -120,7 +120,7 @@ export class Ebene extends Map<?string, Map<string, GebietInterface> | GebietInt
                 if (!this.has(gs)) this.set(gs, new Map());
                 this.get(gs).set(id, gebiet);
             } else this.set(id, gebiet);
-        } else if (this.getGebiet(id, gs).name != name) console.warn(`Different gebiet-..-name given for id ${id}! gs ${gs}`);
+        } else if (this.getGebiet(id, gs)._name != name) console.warn(`Different gebiet-..-name given for id ${id}! gs ${gs}`);
     }
 
     /**
@@ -214,7 +214,7 @@ export type GebietInterface = {
  */
 export class Gebiet extends Map<string, WahlGebiet> implements GebietInterface {
     nr: string;
-    name: string;
+    _name: string;
     gs: string;
     ebene: Ebene;
 
@@ -222,20 +222,23 @@ export class Gebiet extends Map<string, WahlGebiet> implements GebietInterface {
      * Creates an instance of Gebiet.
      * 
      * @param {string} nr District id
-     * @param {string} name District name
+     * @param {?string} name District name
      * @param {Ebene} ebene Ebene object this district is part of
      * @param {string} gs Municipality id, only used in case of Ebene !uniqueId
      */
-    constructor(nr: string, name: string, ebene: Ebene, gs: string) {
+    constructor(nr: string, name: ?string, ebene: Ebene, gs: string) {
         super();
-        if (!nr || !name || !ebene) throw new TypeError("Gebiet: nr _and_ name _and_ ebene required!");
+        if (!nr || !ebene) throw new TypeError("Gebiet: nr _and_ ebene required!");
         this.nr = nr;
-        this.name = name;
+        this._name = name;
         this.ebene = ebene;
         this.gs = gs; // only to be used if not uniqueId
     }
 
     get wahl(): Wahl { return this.ebene.wahl }
+    get name(): string {
+        return this._name ?? `${this.nr} (${[...this.values()].map(wG => wG.name).join(', ')})`;
+    }
 
     /** Get ErgebnisAnalysis for all {@link WahlGebiete} of this together via the associated {@link Wahl} object. */
     ergebnisAnalysis(stimmzettel: ?Stimmzettel): ErgebnisAnalysis {
@@ -913,9 +916,12 @@ export default class Wahl {
         this.ebenen.get(1).addWahlGebiet(wG);
         this.virtualEbenen.forEach((_ebene) => {
             let _id = wG[_ebene.config.virtualField];
-            if (!_id) return; // ? or make this an error?
-            // no separate name for now
-            _ebene.addGebiet(_id, _id, _gs);
+            if (!_id) {
+                console.warn( // ? or make this an error?
+                    `WahlGebiet ${wG}: no virtualField ${_ebene.config.virtualField} value (virtual Ebene ${_ebene})`);
+                return;
+            }
+            _ebene.addGebiet(_id, null, _gs); // name will be automatically generated
             let _gebiet: Gebiet = _ebene.getGebiet(_id, _gs);
             _gebiet.set(_bezirk_id, wG);
         });
