@@ -91,20 +91,20 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
 /* ---------------------------------- Hagen BTW ----------------------------- */
 
 let wahlTerminHagenBTW: WahlTerminConfigType = {
-    name: "Hagen: Bundestagswahl 2021 [TESTDATEN]",
+    name: "Hagen: Bundestagswahl 2021 (vorl.)",
     baseUrl: "./data/hagen-btw2021/",
     wahlDatumStr: "26.09.2021",
     defaultCenter: [51.37, 7.48],
     defaultZoom: 12,
     wahlen: [
         {
-            displayName: "Bundestagswahl [TESTDATEN]",
+            displayName: "Bundestagswahl",
             name: "Bundestagswahl",
-            parameterPath: "05914000_26.09.2021_Bundestagswahl_Wahlparameter_V0-3_21.09.2021 090559 713.csv",
-            gebietePath: "05914000_26.09.2021_Bundestagswahl_Wahlgebietseinteilungen_V0-3_23.09.2021 101222 499.csv",
-            stimmzettelPath: "05914000_26.09.2021_Bundestagswahl_Stimmzettel_V0-3_22.09.2021 092740 560.csv",
-            ergebnisPath: "05914000_26.09.2021_Bundestagswahl_Wahlergebnisse_V0-3_21.09.2021 090603 026.csv",
-            kandidatPath: "05914000_26.09.2021_Bundestagswahl_Kandidaten_V0-3_22.09.2021 092740 560.csv",
+            parameterPath: "05914000_20210926_Bundestagswahl_Wahlparameter_V0-3_20210926T232933.csv",
+            gebietePath: "05914000_20210926_Bundestagswahl_Wahlgebietseinteilungen_V0-3_20210926T232933.csv",
+            stimmzettelPath: "05914000_20210926_Bundestagswahl_Stimmzettel_V0-3_20210926T232933.csv",
+            ergebnisPath: "05914000_20210926_Bundestagswahl_Wahlergebnisse_V0-3_20210926T232933.csv",
+            kandidatPath: "05914000_20210926_Bundestagswahl_Kandidaten_V0-3_20210926T232933.csv",
             ergebnisType: ErgebnisBundestagswahl,
             ebenen: new Map([
                 ["Wahlbezirk", {
@@ -435,24 +435,6 @@ let wahlTerminKallKWahl: WahlTerminConfigType = {
 
 /* ------------------------------- Karlsruhe ------------------------------- */
 
-let ebenenKA: Map<string, EbeneConfigType> = new Map([
-    ["Wahlbezirk", {
-        geoJson: "WahlbezirkeLTW2021Karlsruhe.geojson",
-        keyProp: "WahlbezirkPadded",
-        uniqueId: true,
-    }],
-    ["Stadtteil", {
-        geoJson: "ka_stadtteile.geojson",
-        keyProp: "Stadtteilname",
-        uniqueId: true,
-    }],
-    ["Wahlkreis", {
-        geoJson: "WahlkreiseLTW2021Karlsruhe.geojson",
-        keyProp: "Wahlkreis",
-        uniqueId: true,
-    }],
-]);
-
 let wahlTerminKarlsruheLandtag: WahlTerminConfigType = {
     name: "Karlsruhe: Landtagswahl 2021",
     baseUrl: "./data/karlsruhe-ltw2021",
@@ -469,7 +451,60 @@ let wahlTerminKarlsruheLandtag: WahlTerminConfigType = {
             kandidatPath: "08212000_20210314_Landtagswahl-BW-2021_Kandidaten_V0-3_20210427T000000.csv",
             ergebnisPath: "08212000_20210314_Landtagswahl-BW-2021_Wahlergebnisse_V0-3_20210427T000000.csv",
             ergebnisType: ErgebnisLandtagswahlBW,
-            ebenen: ebenenKA
+            ebenen: new Map([
+                ["Wahlbezirk", {
+                    geoJson: "WahlbezirkeLTW2021Karlsruhe.geojson",
+                    keyProp: "WahlbezirkPadded",
+                    uniqueId: true,
+                }],
+                ["Stadtteil", {
+                    geoJson: "ka_stadtteile.geojson",
+                    keyProp: "Stadtteilname",
+                    uniqueId: true,
+                }],
+                ["Wahlkreis", {
+                    geoJson: "WahlkreiseLTW2021Karlsruhe.geojson",
+                    keyProp: "Wahlkreis",
+                    uniqueId: true,
+                }],
+            ]),
+        },
+    ]
+};
+
+let wahlTerminKarlsruheBTW: WahlTerminConfigType = {
+    name: "Karlsruhe: Bundestagswahl 2021 (vorl.)",
+    baseUrl: "./data/karlsruhe-btw2021",
+    wahlDatumStr: "26.09.2021",
+    defaultCenter: [49.00844, 8.40897],
+    defaultZoom: 12.8,
+    wahlen: [
+        {
+            displayName: "Bundestagswahl",
+            name: "Bundestagswahl",
+            parameterPath: "08212000_20210926_Bundestagswahl_Wahlparameter_V0-3_20210926T100308.csv",
+            gebietePath: "08212000_20210926_Bundestagswahl_Wahlgebietseinteilungen_V0-3_20210926T232046.csv",
+            stimmzettelPath: "08212000_20210926_Bundestagswahl_Stimmzettel_V0-3_20210926T193948.csv",
+            kandidatPath: "08212000_20210926_Bundestagswahl_Kandidaten_V0-3_20210926T193948.csv",
+            ergebnisPath: "08212000_20210926_Bundestagswahl_Wahlergebnisse_V0-3_20210926T232046.csv",
+            ergebnisType: ErgebnisBundestagswahl,
+            ebenen: new Map([
+                ["Wahlbezirk", {
+                    geoJson: "WahlbezirkeLTW2021Karlsruhe.geojson",
+                    keyProp: "WahlbezirkPadded",
+                    uniqueId: true,
+                }],
+                ["Stadtteile", {
+                    geoJson: "ka_stadtteile.geojson",
+                    keyProp: "Stadtteilname",
+                    uniqueId: true,
+                }],
+                ["Wahlkreis", {
+                    geoJson: "wahlkreise.geojson",
+                    keyProp: "WKR_NR",
+                    uniqueId: true,
+                }],
+            ]),
         },
     ]
 };
@@ -481,14 +516,15 @@ let wahlTerminKarlsruheLandtag: WahlTerminConfigType = {
 
 export var wahlenConfig: GesamtWahlConfigType = {
     wahltermine: [
+        wahlTerminKarlsruheBTW,
         wahlTerminHagenBTW,
         wahlTerminHagenKWahl,
         wahlTerminHagenEU19,
+        wahlTerminKarlsruheLandtag,
         wahlTerminDuesseldorfKWahl,
         wahlTerminWiesbadenCitybahn,
         wahlTerminKrEuskirchenKWahl,
         wahlTerminBadMuenstereifelKWahl,
         wahlTerminKallKWahl,
-        wahlTerminKarlsruheLandtag,
     ]
 };

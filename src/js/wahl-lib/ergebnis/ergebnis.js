@@ -97,6 +97,8 @@ export class CollectedFieldDescription implements FieldDescription {
     invalid: string;
     /** Property name (defined in {@link Ergebnis#constantProperties}) of total (invalid + valid) vote count */
     votesumProp: string;
+    /** suppression of candidate output in case of erststimmen/zweitstimmen split. use a different solution in the future? */
+    suppressCandidateOutput: ?boolean = false;
     /**
      * Creates an instance of CollectedFieldDescription.
      * 
@@ -562,6 +564,7 @@ export class ErgebnisBundestagswahl extends Ergebnis {
             displayInTooltip: true,
             defaultDataTypeAndArgsIfInitial: { type: collectedDataTypes[1], args: [1] },
             dataTypes: collectedDataTypes,
+            suppressCandidateOutput: true,
         }),
         new CalculatedFieldDescription({
             name: "Wahlbeteiligung",

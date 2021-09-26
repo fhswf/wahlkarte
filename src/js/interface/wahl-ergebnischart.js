@@ -178,6 +178,11 @@ export class ErgebnisTableElement extends LitElement {
             let listKandidatenContent, gebietKandidatenContent;
             let gesamtKandidaten = partei?.kandidaten?.(gesamtGKNrs); // always gesamt
             let kandidaten = partei?.kandidaten?.(gKNrs); // may also be gesamt
+            // suppression of candidate output in case of erststimmen/zweitstimmen split. use a different solution in the future?
+            if (this.prop.suppressCandidateOutput) {
+                gesamtKandidaten = false;
+                kandidaten = false;
+            }
             let relevantKandidatGebiete;
             if (kandidaten) {
                 let gebietKandidaten = new Set([...kandidaten].filter(wK=>(wK["kandidat-gebiet-nr"] || isNaN(wK["kandidat-listenplatz"]))));

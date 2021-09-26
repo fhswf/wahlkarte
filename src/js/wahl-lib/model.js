@@ -365,7 +365,7 @@ export class WahlKandidat extends WahlModel {
     get name(): string {
         let str = "";
         if (this["kandidat-akadgrad"]) str += this["kandidat-akadgrad"] + " ";
-        str += this["kandidat-vorname"] + " ";
+        if (this["kandidat-vorname"]) str += this["kandidat-vorname"] + " ";
         if (this["kandidat-namensvorsatz"]) str += this["kandidat-namensvorsatz"] + " ";
         str += this["kandidat-name"];
         return str;
