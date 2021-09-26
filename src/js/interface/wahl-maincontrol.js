@@ -54,6 +54,9 @@ class MainControlElement extends LitElement {
             wl-button {
                 flex-shrink: 0;
                 --button-fab-size: 1.5rem;
+                --button-border-outlined: 0.085rem solid currentColor;
+                margin: 0 0.3rem;
+                margin-bottom: 0.2em;
             }
             wl-tab-group {
                 display: inline-block;
@@ -65,7 +68,7 @@ class MainControlElement extends LitElement {
 
     render() {
         return html`<wl-title level="1">${this.mapTitle ?? this.wahlController.name}</wl-title>
-        <wl-button fab flat inverted @click=${()=>{ this.wahlController.wahlterminDialog() }}>&#709;</wl-button>
+        <wl-button fab flat inverted outlined @click=${()=>{ this.wahlController.wahlterminDialog() }}>&#709;</wl-button>
         <wl-tab-group id="tab-group">
             ${Array.from(this.wahlController.wahlen.values()).map((wahl)=>html`
                 <wl-tab
