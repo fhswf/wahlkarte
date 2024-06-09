@@ -11,6 +11,7 @@ import geostats from 'geostats';
 import 'geostats/lib/geostats.css';
 import chroma from 'chroma-js';
 import dissolve from '@turf/dissolve';
+import flatten from '@turf/flatten';
 import { featureEach } from '@turf/meta';
 
 import './interface/wahl-maincontrol';
@@ -541,7 +542,7 @@ export default class WahlController {
                         });
                         dissolveField = ebene.config.virtualField;
                     }
-                    geoJson = dissolve(geoJson, {propertyName: dissolveField});
+                    geoJson = dissolve(flatten(geoJson), {propertyName: dissolveField});
                     if (ebene.isVirtual) featureEach(geoJson, feature => { feature.properties[ebene.config.keyProp] = feature.properties[dissolveField]});
                 }
 
