@@ -119,11 +119,13 @@ export function clickGebiet(selection) {
 /*                                   Dialog                                   */
 /* -------------------------------------------------------------------------- */
 
-/** Close the currently globally referenced dialog */
+window.dialogRefs = [];
+
+/** Close the currently globally referenced dialogs */
 export function closeDialog(): void {
-    if (window.dialogRef && window.dialogRef.overlay.open) {
-        window.dialogRef.overlay.hide();
-    }
+    // if (window.dialogRef && window.dialogRef.overlay.open) {
+    window.dialogRefs.forEach((dialogRef) => {dialogRef.overlay.hide()});
+    window.dialogRefs = [];
 }
 
 type newDialogArgs = {header: string, headerLevel?: string, content?: TemplateResult, footer?: TemplateResult, size?: string, persistent?: boolean};
@@ -152,5 +154,5 @@ export async function newDialog({header, headerLevel = "3", content = "", footer
             <div slot="footer">
                 ${footer}
             </div>`
-    }).then((ref) => { window.dialogRef = ref });
+    }).then((ref) => { window.dialogRefs.push(ref) });
 }

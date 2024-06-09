@@ -402,13 +402,14 @@ export default class WahlController {
     async loadGeoJson(): Promise<Object> {
         if (!this.activeEbene) throw new Error("can't load GeoJSON for no active Ebene");
         if (!this.activeEbene.config.geoJson) return;
-        if (!(window.dialogRef && window.dialogRef.overlay.open)) await this.loadDataDialog();
+        if (!(window.dialogRefs.length && window.dialogRefs.some((dialogRef) => { return dialogRef.overlay.open } ))) await this.loadDataDialog();
         try {
             let result = await fetchGeoJson(this.activeEbene.config.geoJson, this.activeWahl.baseUrl);
             closeDialog();
             return result;
         }
         catch (err) {
+            closeDialog();
             this.handleDataError(err, this, this.loadGeoJson);
         }
     }
@@ -520,6 +521,7 @@ export default class WahlController {
         this._activeEbene = ebene;
         if (ebene) {
             this._activeEAC = undefined; // does not call setter
+            let warnings = [];
             this.loadGeoJson().then((geoJson)=>{
                 if (!geoJson) {
                     console.warn("no geodata for this Ebene", ebene);
@@ -527,6 +529,7 @@ export default class WahlController {
                     this.removeGeoLayer();
                     return;
                 }
+
                 if (ebene.config.dissolve) {
                     let dissolveField = ebene.config.keyProp;
                     if (ebene.isVirtual) {
@@ -541,21 +544,44 @@ export default class WahlController {
                     geoJson = dissolve(geoJson, {propertyName: dissolveField});
                     if (ebene.isVirtual) featureEach(geoJson, feature => { feature.properties[ebene.config.keyProp] = feature.properties[dissolveField]});
                 }
-                /* checks ... TODO
+
+                // let gebieteLayers = new Map();
+                featureEach(geoJson, (feature, featureIndex) => {
                     let keyId = feature.properties[ebene.config.keyProp];
                     let gs = ebene.uniqueId ? undefined : feature.properties[ebene.config.gsProp];
                     let gebiet;
+                    let featureIdentifier;
                     if (!keyId) {
-                        console.warn("keyId empty for feature", feature);
+                        let anyId = feature.properties["id"] ?? feature.id;
+                        featureIdentifier = anyId ? ("id " + anyId) : ("index " + featureIndex);
+                        let warningText = `keyId empty for feature ${featureIdentifier}`;
+                        warnings.push(warningText);
+                        console.warn(warningText, feature);
                     } else {
+                        featureIdentifier = `key ${keyId} gs ${gs}`;
                         gebiet = ebene.getGebiet(keyId, gs);
-                        if (!gebiet) console.warn(`GeoJSON Feature with key ${keyId} gs ${gs} not found in Ebene`, feature, ebene);
-                        if (gebieteLayers.has(gebiet)) throw new Error(`duplicate GeoJSON Feature for key ${keyId} gs ${gs}`);
+                        if (!gebiet) {
+                            let warningText = `GeoJSON Feature ${featureIdentifier} not found in Ebene`;
+                            warnings.push(warningText);
+                            console.warn(warningText, feature, ebene);
+                        } else {
+                            gebiet._feature = feature;
+                        }
+                        // the following is acceptable because of cases where one would otherwise expect a multipolygon
+                        // if (gebieteLayers.has(gebiet)) throw new Error(`duplicate GeoJSON Feature for key ${keyId} gs ${gs}`);
                     }
                     // feature.gebiet = gebiet;
-                    layer.gebiet = gebiet;
-                    if (gebiet) gebieteLayers.set(gebiet, layer);
-                */
+                    // if (gebiet) gebieteLayers.set(gebiet, feature);
+                });
+
+                ebene.flat.forEach(gebiet => {
+                    if (gebiet.geoExpected && !gebiet._feature) {
+                        let warningText = `Expected geodata for Gebiet ${gebiet.nr} (${gebiet.name}), not provided`;
+                        warnings.push(warningText);
+                        console.warn(warningText, gebiet);
+                    }
+                });
+
                 // Tangram calls updateConfig if source is new, otherwise we'll do it ourselves
                 let load = (this._layer.scene.config.sources["districts"] == null);
                 this.carefulFunction(async ()=>{
@@ -565,8 +591,20 @@ export default class WahlController {
                         this.activeEAC = ebene.ergebnisAnalysisCollection(this.stimmzettelGebietFilter);
                     });
                 });
-                // no geo gebiete liste? error if all gebiete no geo?
-            });//.finally, .catch, ...
+
+                if (warnings.length) {
+                    newDialog({
+                        header: "Es liegen Warnungen vor:",
+                        headerLevel: "3",
+                        content: html`<ul>${warnings.map(x => html`<li>${x}</li>`)}</ul>`,
+                        persistent: false});
+                }
+            }).catch((reason) => {
+                console.log(reason);
+                this.handleDataError(reason, this, () => { this.activeEbene = ebene });
+                this.activeEAC = undefined;
+                this.removeGeoLayer();
+            });
         } else {
             this.activeEAC = undefined;
             this.removeGeoLayer();
