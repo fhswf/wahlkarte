@@ -168,6 +168,118 @@ let wahlTerminHagenEU19: WahlTerminConfigType = {
     ]
 };
 
+/* ------------------------ Hagen Europawahl 2024 ---------------------- */
+
+let wahlTerminHagenEU24: WahlTerminConfigType = {
+    name: "Hagen: Europawahl 2024 (vorl.)",
+    baseUrl: "./data/hagen-eu2024/",
+    wahlDatumStr: "09.06.2024",
+    defaultCenter: [51.37, 7.48],
+    defaultZoom: 12,
+    wahlen: [
+        {
+            displayName: "Europawahl",
+            name: "Europawahl",
+            parameterPath: "05914000_09.06.2024_Europawahl_Wahlparameter_V0-3_07.06.2024 090325 728.csv",
+            gebietePath: "05914000_09.06.2024_Europawahl_Wahlgebietseinteilungen_V0-3_09.06.2024 231651 762.csv",
+            stimmzettelPath: "05914000_09.06.2024_Europawahl_Stimmzettel_V0-3_09.06.2024 231021 892.csv",
+            ergebnisPath: "05914000_09.06.2024_Europawahl_Wahlergebnisse_V0-3_07.06.2024 090329 029.csv",
+            ergebnisType: ErgebnisBuergerentscheid,
+            ebenen: new Map([
+                ["Wahlbezirk", {
+                    geoJson: "hagen-ew24-geografik_ebene_6.json",
+                    keyProp: "BEZIRKSNUM",
+                    uniqueId: true
+                }],
+                /*
+                = Kommunalwahlbezirk :)
+                  ["Briefwahlbezirk", {
+                    geoJson: "hagen-ew24-geografik_ebene_6.json",
+                    keyProp: "BEZIRKSNUM",
+                    virtual: true,
+                    virtualField: "BRIEFWAHLBEZIRK-NR", // custom csv field
+                    dissolve: true,
+                    uniqueId: true
+                }],
+                */
+                ["Kommunalwahlbezirk", {
+                    geoJson: "../hagen-kommunal2020/wahlbezirke.geojson",
+                    keyProp: "Wahlbezirk",
+                    uniqueId: true
+                }],
+            ])
+        },
+    ]
+};
+
+/* ------------------------ Göttingen Europawahl + Radentscheide 2024 ---------------------- */
+
+let wahlTerminGoettingenEURad24: WahlTerminConfigType = {
+    name: "Göttingen: Europawahl & Radentscheide (noch ohne Briefwahl) 2024 (vorl.)",
+    baseUrl: "./data/goettingen-eu-rad-2024/",
+    wahlDatumStr: "09.06.2024",
+    defaultCenter: [51.54, 9.92],
+    defaultZoom: 13,
+    wahlen: [
+        {
+            displayName: "Europawahl",
+            name: "Europawahl",
+            parameterPath: "03159016_09.06.2024_Europawahl_Wahlparameter_V0-3_09.06.2024 171212 063.csv",
+            gebietePath: "03159016_09.06.2024_Europawahl_Wahlgebietseinteilungen_V0-3_09.06.2024 214437 637.csv",
+            stimmzettelPath: "03159016_09.06.2024_Europawahl_Stimmzettel_V0-3_09.06.2024 192832 413.csv",
+            ergebnisPath: "03159016_09.06.2024_Europawahl_Wahlergebnisse_V0-3_09.06.2024 171213 210.csv",
+            ergebnisType: ErgebnisBuergerentscheid,
+            ebenen: new Map([
+                ["Wahlbezirke", {
+                    geoJson: "goettingen-wahlbezirke-filtered.geojson",
+                    keyProp: "WBEZ",
+                    uniqueId: true
+                }],
+                ["Briefwahlbezirke", {
+                    geoJson: "goettingen-wahlbezirke-filtered.geojson",
+                    keyProp: "WBEZ",
+                    virtual: true,
+                    virtualField: "BRIEFWAHLBEZIRK-NR", // custom csv field
+                    dissolve: true,
+                    uniqueId: true
+                }],
+            ])
+        },
+        {
+            displayName: "Radentscheid I - Allgemeine Strategien",
+            name: "„Radentscheid I - Allgemeine Strategien“",
+            parameterPath: "03159016_09.06.2024_„Radentscheid I - Allgemeine Strategien“_Wahlparameter_V0-3_09.06.2024 171212 095.csv",
+            gebietePath: "03159016_09.06.2024_„Radentscheid I - Allgemeine Strategien“_Wahlgebietseinteilungen_V0-3_09.06.2024 214843 977.csv",
+            stimmzettelPath: "03159016_09.06.2024_„Radentscheid I - Allgemeine Strategien“_Stimmzettel_V0-3_09.06.2024 195503 760.csv",
+            ergebnisPath: "03159016_09.06.2024_„Radentscheid I - Allgemeine Strategien“_Wahlergebnisse_V0-3_09.06.2024 171213 210.csv",
+            ergebnisType: ErgebnisBuergerentscheid,
+            ebenen: new Map([
+                ["Wahlbezirke", {
+                    geoJson: "goettingen-wahlbezirke-filtered.geojson",
+                    keyProp: "WBEZ",
+                    uniqueId: true
+                }]
+            ])
+        },
+        {
+            displayName: "Radentscheid II - Radverkehrsanlagen in der Kernstadt",
+            name: "„Radentscheid II - Radverkehrsanlagen in der Kernstadt“",
+            parameterPath: "03159016_09.06.2024_„Radentscheid II - Radverkehrsanlagen in der Kernstadt“_Wahlparameter_V0-3_09.06.2024 171212 110.csv",
+            gebietePath: "03159016_09.06.2024_„Radentscheid II - Radverkehrsanlagen in der Kernstadt“_Wahlgebietseinteilungen_V0-3_09.06.2024 215039 817.csv",
+            stimmzettelPath: "03159016_09.06.2024_„Radentscheid II - Radverkehrsanlagen in der Kernstadt“_Stimmzettel_V0-3_09.06.2024 202650 664.csv",
+            ergebnisPath: "03159016_09.06.2024_„Radentscheid II - Radverkehrsanlagen in der Kernstadt“_Wahlergebnisse_V0-3_09.06.2024 171213 210.csv",
+            ergebnisType: ErgebnisBuergerentscheid,
+            ebenen: new Map([
+                ["Wahlbezirke", {
+                    geoJson: "goettingen-wahlbezirke-filtered.geojson",
+                    keyProp: "WBEZ",
+                    uniqueId: true
+                }]
+            ])
+        },
+    ]
+};
+
 /* ------------------------------- Düsseldorf ------------------------------- */
 
 let ebenenDuesseldorf: Map<string, EbeneConfigType> = new Map([
@@ -509,6 +621,37 @@ let wahlTerminKarlsruheBTW: WahlTerminConfigType = {
     ]
 };
 
+let wahlTerminKarlsruheEUGemeinderat24: WahlTerminConfigType = {
+    name: "Karlsruhe: Europawahl + x 2024 (vorl.)",
+    baseUrl: "./data/karlsruhe-eu-gemeinderat-2024/",
+    wahlDatumStr: "09.06.2024",
+    defaultCenter: [49.00844, 8.40897],
+    defaultZoom: 12.8,
+    wahlen: [
+        {
+            displayName: "Europawahl",
+            name: "Europawahl 2024",
+            parameterPath: "08212000_09.06.2024_Europawahl 2024_Wahlparameter_V0-3_09.06.2024 223824 770.csv",
+            gebietePath: "08212000_09.06.2024_Europawahl 2024_Wahlgebietseinteilungen_V0-3_09.06.2024 213827 142.csv",
+            stimmzettelPath: "08212000_09.06.2024_Europawahl 2024_Stimmzettel_V0-3_09.06.2024 202811 556.csv",
+            ergebnisPath: "08212000_09.06.2024_Europawahl 2024_Wahlergebnisse_V0-3_07.06.2024 114341 521.csv",
+            ergebnisType: ErgebnisBuergerentscheid,
+            ebenen: new Map([
+                ["Wahlbezirke", {
+                    geoJson: "../karlsruhe-ltw2021/WahlbezirkeLTW2021Karlsruhe.geojson",
+                    keyProp: "WahlbezirkPadded",
+                    uniqueId: true
+                }],
+                ["Stadtteile", {
+                    geoJson: "../karlsruhe-btw2021/ka_stadtteile.geojson",
+                    keyProp: "Stadtteilname",
+                    uniqueId: true
+                }],
+            ])
+        },
+    ]
+};
+
 
 /* -------------------------------------------------------------------------- */
 /*                              Exported configs                              */
@@ -516,6 +659,9 @@ let wahlTerminKarlsruheBTW: WahlTerminConfigType = {
 
 export var wahlenConfig: GesamtWahlConfigType = {
     wahltermine: [
+        wahlTerminHagenEU24,
+        wahlTerminGoettingenEURad24,
+        wahlTerminKarlsruheEUGemeinderat24,
         wahlTerminKarlsruheBTW,
         wahlTerminHagenBTW,
         wahlTerminHagenKWahl,
