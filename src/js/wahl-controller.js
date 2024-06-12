@@ -406,11 +406,9 @@ export default class WahlController {
         if (!(window.dialogRefs.length && window.dialogRefs.some((dialogRef) => { return dialogRef.overlay.open } ))) await this.loadDataDialog();
         try {
             let result = await fetchGeoJson(this.activeEbene.config.geoJson, this.activeWahl.baseUrl);
-            closeDialog();
             return result;
         }
         catch (err) {
-            closeDialog();
             this.handleDataError(err, this, this.loadGeoJson);
         }
     }
@@ -590,16 +588,18 @@ export default class WahlController {
                         if (!load) this._layer.scene.updateConfig();
                         this.fitGeoBounds();
                         this.activeEAC = ebene.ergebnisAnalysisCollection(this.stimmzettelGebietFilter);
+                        if (warnings.length) {
+                            newDialog({
+                                header: "Es liegen Warnungen vor:",
+                                headerLevel: "3",
+                                content: html`<ul>${warnings.map(x => html`<li>${x}</li>`)}</ul>`,
+                                persistent: false});
+                        }
+                        else {
+                            closeDialog();
+                        }
                     });
                 });
-
-                if (warnings.length) {
-                    newDialog({
-                        header: "Es liegen Warnungen vor:",
-                        headerLevel: "3",
-                        content: html`<ul>${warnings.map(x => html`<li>${x}</li>`)}</ul>`,
-                        persistent: false});
-                }
             }).catch((reason) => {
                 console.log(reason);
                 this.handleDataError(reason, this, () => { this.activeEbene = ebene });
@@ -846,7 +846,6 @@ export default class WahlController {
      */
     handleDataSuccess(reloaded: boolean) {
         this.updateControls();
-        closeDialog();
         console.info((reloaded ? "freshly" : "") + " loaded Wahl", this.activeWahl);
         // select an ebene as default
         this.activeEbene = this.activeWahl.ebenen.values().next().value;
