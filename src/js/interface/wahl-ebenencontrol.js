@@ -6,7 +6,8 @@
 // @flow
 import L from 'leaflet';
 
-import { LitElement, html, css, property, customElement } from 'lit-element';
+import { LitElement, html, css } from 'lit';
+import { property, customElement } from 'lit/decorators.js';
 import 'weightless/tab-group';
 import 'weightless/tab';
 

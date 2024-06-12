@@ -74,7 +74,7 @@
     "html-webpack-plugin": "^5.3.2",
     "ky": "^0.28.5",
     "leaflet": "^1.7.1",
-    "lit-element": "^2.5.1",
+    "lit": "^2.8.0",
     "mini-css-extract-plugin": "^2.3.0",
     "node-sass": "^6.0.1",
     "postcss": "^8.3.8",
@@ -88,6 +88,11 @@
     "webpack-cli": "^4.8.0",
     "webpack-merge": "^5.8.0",
     "weightless": "0.0.37"
+  },
+  "overrides": {
+    "weightless": {
+      "lit": "^2.8.0"
+    }
   },
   "sideEffects": [
     "**/*.css",

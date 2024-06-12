@@ -9,8 +9,8 @@ import ky from 'ky';
 import L from 'leaflet';
 import ErgebnisElement from './interface/wahl-ergebniselement';
 
-import { html } from 'lit-element';
-import type { TemplateResult } from 'lit-element';
+import { html } from 'lit';
+import type { TemplateResult } from 'lit';
 import 'weightless/title';
 import 'weightless/dialog';
 import { showDialog } from 'weightless/dialog';

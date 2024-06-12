@@ -1,3 +1,983 @@
+diff --git a/node_modules/weightless/backdrop/backdrop.d.ts b/node_modules/weightless/backdrop/backdrop.d.ts
+index af25f48..11983c0 100644
+--- a/node_modules/weightless/backdrop/backdrop.d.ts
++++ b/node_modules/weightless/backdrop/backdrop.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ import { AriaRole } from "../util/aria";
+ /**
+  * Backdrop properties.
+@@ -10,7 +10,7 @@ export interface IBackdropProperties {
+  * @cssprop --backdrop-bg - Background.
+  */
+ export declare class Backdrop extends LitElement implements IBackdropProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Role of the backdrop.
+      * @attr
+diff --git a/node_modules/weightless/backdrop/backdrop.js b/node_modules/weightless/backdrop/backdrop.js
+index 8025a43..a4abca7 100644
+--- a/node_modules/weightless/backdrop/backdrop.js
++++ b/node_modules/weightless/backdrop/backdrop.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import styles from './backdrop.scss.js';
+diff --git a/node_modules/weightless/banner/banner.d.ts b/node_modules/weightless/banner/banner.d.ts
+index 7ccfa8c..2ca12ab 100644
+--- a/node_modules/weightless/banner/banner.d.ts
++++ b/node_modules/weightless/banner/banner.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ import { AriaRole } from "../util/aria";
+ /**
+  * Properties of the banner.
+@@ -19,7 +19,7 @@ export interface IBannerProperties {
+  * @cssprop --banner-bg - Background
+  */
+ export declare class Banner extends LitElement implements IBannerProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Role of the banner.
+      * @attr
+diff --git a/node_modules/weightless/banner/banner.js b/node_modules/weightless/banner/banner.js
+index 44498f1..1aa53ce 100644
+--- a/node_modules/weightless/banner/banner.js
++++ b/node_modules/weightless/banner/banner.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { sharedStyles } from '../style/shared.js';
+diff --git a/node_modules/weightless/behavior/button/button-behavior.d.ts b/node_modules/weightless/behavior/button/button-behavior.d.ts
+index 91a757d..31304b0 100644
+--- a/node_modules/weightless/behavior/button/button-behavior.d.ts
++++ b/node_modules/weightless/behavior/button/button-behavior.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { Ripple } from "../../ripple/ripple";
+ import { FormElementBehavior, IFormElementBehaviorProperties } from "../form-element/index";
+ /**
+@@ -11,7 +11,7 @@ export interface IButtonBehaviorProperties extends IFormElementBehaviorPropertie
+  * Provides button behavior.
+  */
+ export declare abstract class ButtonBehavior extends FormElementBehavior implements IButtonBehaviorProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Type of the button.
+      * @attr
+diff --git a/node_modules/weightless/behavior/button/button-behavior.js b/node_modules/weightless/behavior/button/button-behavior.js
+index 4b3f69b..0cb72fc 100644
+--- a/node_modules/weightless/behavior/button/button-behavior.js
++++ b/node_modules/weightless/behavior/button/button-behavior.js
+@@ -1,10 +1,11 @@
+-import { html, property } from 'lit-element';
++import { html } from 'lit';
++import { property } from 'lit/decorators.js';
+ import { cssResult } from '../../util/css.js';
+ import { addListener, stopEvent } from '../../util/event.js';
+ import { ENTER, SPACE } from '../../util/constant/keycode.js';
+ import { __decorate, __metadata } from 'tslib';
+ import '../../ripple/ripple.js';
+-import { ifDefined } from 'lit-html/directives/if-defined';
++import { ifDefined } from 'lit/directives/if-defined.js';
+ import { FormElementBehavior } from '../form-element/form-element-behavior.js';
+ import '../form-element/index.js';
+ import styles from './button-behavior.scss.js';
+diff --git a/node_modules/weightless/behavior/checkbox/checkbox-behavior.d.ts b/node_modules/weightless/behavior/checkbox/checkbox-behavior.d.ts
+index 4e595cd..2d33f1a 100644
+--- a/node_modules/weightless/behavior/checkbox/checkbox-behavior.d.ts
++++ b/node_modules/weightless/behavior/checkbox/checkbox-behavior.d.ts
+@@ -1,4 +1,4 @@
+-import { PropertyValues } from "lit-element";
++import { PropertyValues } from "lit";
+ import { ISwitchBehaviorProperties, SwitchBehavior } from "../switch/switch-behavior";
+ /**
+  * Properties of the checkbox behavior.
+@@ -9,7 +9,7 @@ export interface ICheckboxBehaviorProperties extends ISwitchBehaviorProperties {
+  * Provides checkbox behavior.
+  */
+ export declare abstract class CheckboxBehavior extends SwitchBehavior implements ICheckboxBehaviorProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Indeterminate checkbox state.
+      * @attr
+diff --git a/node_modules/weightless/behavior/checkbox/checkbox-behavior.js b/node_modules/weightless/behavior/checkbox/checkbox-behavior.js
+index b7b902f..1879938 100644
+--- a/node_modules/weightless/behavior/checkbox/checkbox-behavior.js
++++ b/node_modules/weightless/behavior/checkbox/checkbox-behavior.js
+@@ -1,4 +1,4 @@
+-import { property } from 'lit-element';
++import { property } from 'lit/decorators.js';
+ import { cssResult } from '../../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { SwitchBehavior } from '../switch/switch-behavior.js';
+diff --git a/node_modules/weightless/behavior/form-element/form-element-behavior.d.ts b/node_modules/weightless/behavior/form-element/form-element-behavior.d.ts
+index dd4bcfb..978e200 100644
+--- a/node_modules/weightless/behavior/form-element/form-element-behavior.d.ts
++++ b/node_modules/weightless/behavior/form-element/form-element-behavior.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement } from "lit-element";
++import { LitElement } from "lit";
+ import { EventListenerSubscription } from "../../util/event";
+ export declare type FormElement = (HTMLInputElement | HTMLOutputElement | HTMLButtonElement | HTMLObjectElement | HTMLSelectElement | HTMLTextAreaElement) & {
+     value: string;
+@@ -19,7 +19,7 @@ export interface IFormElementBehaviorProperties {
+  * in input elements. It also allows the user to user the constraint validation API.
+  */
+ export declare abstract class FormElementBehavior extends LitElement implements IFormElementBehaviorProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Disables the element.
+      * @attr
+diff --git a/node_modules/weightless/behavior/form-element/form-element-behavior.js b/node_modules/weightless/behavior/form-element/form-element-behavior.js
+index a130388..80525b5 100644
+--- a/node_modules/weightless/behavior/form-element/form-element-behavior.js
++++ b/node_modules/weightless/behavior/form-element/form-element-behavior.js
+@@ -1,5 +1,6 @@
+ import { updateTabindex } from '../../util/aria.js';
+-import { LitElement, property } from 'lit-element';
++import { LitElement } from 'lit';
++import { property } from 'lit/decorators.js';
+ import { cssResult } from '../../util/css.js';
+ import { renderAttributes } from '../../util/dom.js';
+ import { removeListeners } from '../../util/event.js';
+diff --git a/node_modules/weightless/behavior/input/input-behavior.d.ts b/node_modules/weightless/behavior/input/input-behavior.d.ts
+index 81675eb..18a21b3 100644
+--- a/node_modules/weightless/behavior/input/input-behavior.d.ts
++++ b/node_modules/weightless/behavior/input/input-behavior.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { AriaRole } from "../../util/aria";
+ import { FormElement, FormElementBehavior, IFormElementBehaviorProperties } from "../form-element/form-element-behavior";
+ /**
+@@ -54,7 +54,7 @@ export interface IInputBehaviorProperties extends IFormElementBehaviorProperties
+  * @cssprop --input-label-space - Space between label and input
+  */
+ export declare abstract class InputBehavior extends FormElementBehavior implements IInputBehaviorProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Whether autocomplete is on or off.
+      * @attr
+diff --git a/node_modules/weightless/behavior/input/input-behavior.js b/node_modules/weightless/behavior/input/input-behavior.js
+index c374fab..6dd7fe3 100644
+--- a/node_modules/weightless/behavior/input/input-behavior.js
++++ b/node_modules/weightless/behavior/input/input-behavior.js
+@@ -1,5 +1,6 @@
+ import '../../util/aria.js';
+-import { html, property } from 'lit-element';
++import { html } from 'lit';
++import { property } from 'lit/decorators.js';
+ import { cssResult } from '../../util/css.js';
+ import { renderAttributes } from '../../util/dom.js';
+ import { addListener } from '../../util/event.js';
+@@ -57,10 +58,12 @@ class InputBehavior extends FormElementBehavior {
+         this.refreshAttributes();
+     }
+     createRenderRoot() {
+-        return this.attachShadow({
++        let shadow = this.attachShadow({
+             mode: 'open',
+             delegatesFocus: true
+         });
++        shadow.adoptedStyleSheets = this.constructor.styles.map(s => s.styleSheet);
++        return shadow;
+     }
+     focus() {
+         this.$interactiveElement.focus();
+diff --git a/node_modules/weightless/behavior/overlay/overlay-behavior.d.ts b/node_modules/weightless/behavior/overlay/overlay-behavior.d.ts
+index f62eacf..1116bf0 100644
+--- a/node_modules/weightless/behavior/overlay/overlay-behavior.d.ts
++++ b/node_modules/weightless/behavior/overlay/overlay-behavior.d.ts
+@@ -1,5 +1,5 @@
+ import { FocusTrap } from "@a11y/focus-trap";
+-import { LitElement } from "lit-element";
++import { LitElement } from "lit";
+ import { EventListenerSubscription } from "../../util/event";
+ /**
+  * Events the overlay behavior can dispatch.
+@@ -38,7 +38,7 @@ export declare const DEFAULT_OVERLAY_SCROLL_CONTAINER: HTMLElement;
+  * @event didhide - Dispatches after the overlay has been hidden.
+  */
+ export declare abstract class OverlayBehavior<R, C extends Partial<IOverlayBehaviorBaseProperties>> extends LitElement implements IOverlayBehaviorProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Whether the overlay is open or not.
+      * @attr
+diff --git a/node_modules/weightless/behavior/overlay/overlay-behavior.js b/node_modules/weightless/behavior/overlay/overlay-behavior.js
+index 287192e..b723d98 100644
+--- a/node_modules/weightless/behavior/overlay/overlay-behavior.js
++++ b/node_modules/weightless/behavior/overlay/overlay-behavior.js
+@@ -1,5 +1,6 @@
+ import { pauseAnimations } from '../../util/animation.js';
+-import { LitElement, property } from 'lit-element';
++import { LitElement } from 'lit';
++import { property } from 'lit/decorators.js';
+ import { cssResult } from '../../util/css.js';
+ import { traverseActiveElements, renderAttributes } from '../../util/dom.js';
+ import { addListener, removeListeners, stopEvent } from '../../util/event.js';
+diff --git a/node_modules/weightless/behavior/overlay/show-overlay.d.ts b/node_modules/weightless/behavior/overlay/show-overlay.d.ts
+index 586122b..dfdee8f 100644
+--- a/node_modules/weightless/behavior/overlay/show-overlay.d.ts
++++ b/node_modules/weightless/behavior/overlay/show-overlay.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { IOverlayBehaviorBaseProperties, OverlayBehavior } from "./overlay-behavior";
+ export interface IOpenOverlayConfig {
+     container: Element | ShadowRoot;
+diff --git a/node_modules/weightless/behavior/overlay/show-overlay.js b/node_modules/weightless/behavior/overlay/show-overlay.js
+index 551a238..91da5a7 100644
+--- a/node_modules/weightless/behavior/overlay/show-overlay.js
++++ b/node_modules/weightless/behavior/overlay/show-overlay.js
+@@ -1,6 +1,6 @@
+ import { addListener } from '../../util/event.js';
+ import { OverlayBehaviorEvent } from './overlay-behavior.js';
+-import { render } from 'lit-html';
++import { render } from 'lit/html.js';
+ 
+ async function attachOverlay(config, create) {
+     const {template, container} = config;
+diff --git a/node_modules/weightless/behavior/progress/progress-behavior.d.ts b/node_modules/weightless/behavior/progress/progress-behavior.d.ts
+index 61fedce..739aadb 100644
+--- a/node_modules/weightless/behavior/progress/progress-behavior.d.ts
++++ b/node_modules/weightless/behavior/progress/progress-behavior.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement } from "lit-element";
++import { LitElement } from "lit";
+ import { AriaRole } from "../../util/aria";
+ /**
+  * Mode of the progress.
+@@ -24,7 +24,7 @@ export interface IProgressBehaviorProperties {
+  * Provides progress behavior.
+  */
+ export declare abstract class ProgressBehavior extends LitElement implements IProgressBehaviorProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Animation mode.
+      * @attr
+diff --git a/node_modules/weightless/behavior/progress/progress-behavior.js b/node_modules/weightless/behavior/progress/progress-behavior.js
+index 62aba17..a0794c8 100644
+--- a/node_modules/weightless/behavior/progress/progress-behavior.js
++++ b/node_modules/weightless/behavior/progress/progress-behavior.js
+@@ -1,5 +1,6 @@
+ import '../../util/aria.js';
+-import { LitElement, property } from 'lit-element';
++import { LitElement } from 'lit';
++import { property } from 'lit/decorators.js';
+ import { cssResult } from '../../util/css.js';
+ import { renderAttributes } from '../../util/dom.js';
+ import { clamp } from '../../util/number.js';
+diff --git a/node_modules/weightless/behavior/radio/radio-behavior.d.ts b/node_modules/weightless/behavior/radio/radio-behavior.d.ts
+index 7a448e5..236566d 100644
+--- a/node_modules/weightless/behavior/radio/radio-behavior.d.ts
++++ b/node_modules/weightless/behavior/radio/radio-behavior.d.ts
+@@ -7,7 +7,7 @@ export interface IRadioBehaviorProperties extends ISwitchBehaviorProperties {
+  * Radio behavior.
+  */
+ export declare abstract class RadioBehavior extends SwitchBehavior implements IRadioBehaviorProperties, IRowing<RadioBehavior> {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Role of the radio behavior.
+      * @attr
+diff --git a/node_modules/weightless/behavior/radio/radio-behavior.js b/node_modules/weightless/behavior/radio/radio-behavior.js
+index de6efce..e6c2ffb 100644
+--- a/node_modules/weightless/behavior/radio/radio-behavior.js
++++ b/node_modules/weightless/behavior/radio/radio-behavior.js
+@@ -1,5 +1,5 @@
+ import { updateTabindex } from '../../util/aria.js';
+-import { property } from 'lit-element';
++import { property } from 'lit/decorators.js';
+ import { cssResult } from '../../util/css.js';
+ import { queryParentRoots } from '../../util/dom.js';
+ import { __decorate, __metadata } from 'tslib';
+diff --git a/node_modules/weightless/behavior/switch/switch-behavior.d.ts b/node_modules/weightless/behavior/switch/switch-behavior.d.ts
+index d55010d..d1770d7 100644
+--- a/node_modules/weightless/behavior/switch/switch-behavior.d.ts
++++ b/node_modules/weightless/behavior/switch/switch-behavior.d.ts
+@@ -1,4 +1,4 @@
+-import { PropertyValues, TemplateResult } from "lit-element";
++import { PropertyValues, TemplateResult } from "lit";
+ import { AriaRole } from "../../util/aria";
+ import { FormElementBehavior, IFormElementBehaviorProperties } from "../form-element/index";
+ /**
+@@ -19,7 +19,7 @@ export interface ISwitchBehaviorProperties extends IFormElementBehaviorPropertie
+  * @event change - Dispatched when the checked property changes due to a user interaction.
+  */
+ export declare abstract class SwitchBehavior extends FormElementBehavior implements ISwitchBehaviorProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Checks the switch.
+      * @attr
+diff --git a/node_modules/weightless/behavior/switch/switch-behavior.js b/node_modules/weightless/behavior/switch/switch-behavior.js
+index 7dcf8b9..48ec08c 100644
+--- a/node_modules/weightless/behavior/switch/switch-behavior.js
++++ b/node_modules/weightless/behavior/switch/switch-behavior.js
+@@ -1,10 +1,11 @@
+ import '../../util/aria.js';
+-import { html, property } from 'lit-element';
++import { html } from 'lit';
++import { property } from 'lit/decorators.js';
+ import { cssResult } from '../../util/css.js';
+ import { addListener, stopEvent } from '../../util/event.js';
+ import { SPACE, ENTER } from '../../util/constant/keycode.js';
+ import { __decorate, __metadata } from 'tslib';
+-import { ifDefined } from 'lit-html/directives/if-defined';
++import { ifDefined } from 'lit/directives/if-defined.js';
+ import { FormElementBehavior } from '../form-element/form-element-behavior.js';
+ import '../form-element/index.js';
+ import styles from './switch-behavior.scss.js';
+diff --git a/node_modules/weightless/behavior/textfield/textfield-behavior.d.ts b/node_modules/weightless/behavior/textfield/textfield-behavior.d.ts
+index ef5d53e..144d8e4 100644
+--- a/node_modules/weightless/behavior/textfield/textfield-behavior.d.ts
++++ b/node_modules/weightless/behavior/textfield/textfield-behavior.d.ts
+@@ -12,7 +12,7 @@ export interface ITextfieldBehaviorProperties extends IInputBehaviorProperties {
+  * Text field behavior.
+  */
+ export declare abstract class TextfieldBehavior extends InputBehavior implements ITextfieldBehaviorProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Value pattern.
+      * @attr
+diff --git a/node_modules/weightless/behavior/textfield/textfield-behavior.js b/node_modules/weightless/behavior/textfield/textfield-behavior.js
+index b2ac4e9..beb514c 100644
+--- a/node_modules/weightless/behavior/textfield/textfield-behavior.js
++++ b/node_modules/weightless/behavior/textfield/textfield-behavior.js
+@@ -1,4 +1,4 @@
+-import { property } from 'lit-element';
++import { property } from 'lit/decorators.js';
+ import { cssResult } from '../../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { InputBehavior } from '../input/input-behavior.js';
+diff --git a/node_modules/weightless/button/button.d.ts b/node_modules/weightless/button/button.d.ts
+index 3d85457..52ffa43 100644
+--- a/node_modules/weightless/button/button.d.ts
++++ b/node_modules/weightless/button/button.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { ButtonBehavior, IButtonBehaviorProperties } from "../behavior/button/button-behavior";
+ import { Ripple } from "../ripple/ripple";
+ import { AriaRole } from "../util/aria";
+@@ -37,7 +37,7 @@ export interface IButtonProperties extends IButtonBehaviorProperties {
+  * @cssprop --button-border-outlined - Border when outlined attribute is present
+  */
+ export declare class Button extends ButtonBehavior implements IButtonProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Inverts the colors of the button.
+      * @attr
+diff --git a/node_modules/weightless/button/button.js b/node_modules/weightless/button/button.js
+index 8e367ad..3a4a482 100644
+--- a/node_modules/weightless/button/button.js
++++ b/node_modules/weightless/button/button.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { html, property, query, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, query, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { Ripple } from '../ripple/ripple.js';
+diff --git a/node_modules/weightless/card/card.d.ts b/node_modules/weightless/card/card.d.ts
+index 1af6140..75708b5 100644
+--- a/node_modules/weightless/card/card.d.ts
++++ b/node_modules/weightless/card/card.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ /**
+  * Properties of the card.
+  */
+@@ -24,7 +24,7 @@ export interface ICardProperties {
+  * @cssprop --card-bg - Background
+  */
+ export declare class Card extends LitElement implements ICardProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Makes the card hoverable.
+      * @attr
+diff --git a/node_modules/weightless/card/card.js b/node_modules/weightless/card/card.js
+index 86dd11e..15a7d64 100644
+--- a/node_modules/weightless/card/card.js
++++ b/node_modules/weightless/card/card.js
+@@ -1,4 +1,5 @@
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { sharedStyles } from '../style/shared.js';
+diff --git a/node_modules/weightless/checkbox/checkbox.d.ts b/node_modules/weightless/checkbox/checkbox.d.ts
+index 2621440..87e50e5 100644
+--- a/node_modules/weightless/checkbox/checkbox.d.ts
++++ b/node_modules/weightless/checkbox/checkbox.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { CheckboxBehavior } from "../behavior/checkbox/checkbox-behavior";
+ import { ISwitchBehaviorProperties } from "../behavior/switch/switch-behavior";
+ /**
+@@ -29,7 +29,7 @@ export interface ICheckboxProperties extends ISwitchBehaviorProperties {
+  * @cssprop --checkbox-ripple-transform - Transform of the ripple
+  */
+ export declare class Checkbox extends CheckboxBehavior implements ICheckboxProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Returns the template for the component.
+      */
+diff --git a/node_modules/weightless/checkbox/checkbox.js b/node_modules/weightless/checkbox/checkbox.js
+index 6d20338..6668090 100644
+--- a/node_modules/weightless/checkbox/checkbox.js
++++ b/node_modules/weightless/checkbox/checkbox.js
+@@ -1,4 +1,5 @@
+-import { html, customElement } from 'lit-element';
++import { html } from 'lit';
++import { customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate } from 'tslib';
+ import '../ripple/index.js';
+diff --git a/node_modules/weightless/dialog/dialog.d.ts b/node_modules/weightless/dialog/dialog.d.ts
+index 3961841..340e890 100644
+--- a/node_modules/weightless/dialog/dialog.d.ts
++++ b/node_modules/weightless/dialog/dialog.d.ts
+@@ -1,5 +1,5 @@
+ import { FocusTrap } from "@a11y/focus-trap";
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { Backdrop } from "../backdrop/backdrop";
+ import { IOverlayBehaviorBaseProperties, IOverlayBehaviorProperties, OverlayBehavior } from "../behavior/overlay/overlay-behavior";
+ import { AriaRole } from "../util/aria";
+@@ -68,7 +68,7 @@ export declare const defaultDialogConfig: IDialogConfig;
+  * @cssprop --dialog-footer-padding - Padding of the footer slot
+  */
+ export declare class Dialog<R = unknown> extends OverlayBehavior<R, Partial<IDialogProperties>> implements IDialogProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Size of the dialog.
+      * @attr
+diff --git a/node_modules/weightless/dialog/dialog.js b/node_modules/weightless/dialog/dialog.js
+index 7fe0c45..3ecae7c 100644
+--- a/node_modules/weightless/dialog/dialog.js
++++ b/node_modules/weightless/dialog/dialog.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { html, property, query, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, query, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { FocusTrap } from '@a11y/focus-trap';
+diff --git a/node_modules/weightless/divider/divider.d.ts b/node_modules/weightless/divider/divider.d.ts
+index 1a57cbb..b33647e 100644
+--- a/node_modules/weightless/divider/divider.d.ts
++++ b/node_modules/weightless/divider/divider.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ import { AriaRole } from "../util/aria";
+ /**
+  * Properties of the divider.
+@@ -12,7 +12,7 @@ export interface IDividerProperties {
+  * @cssprop --divider-size - Width or height of the divider
+  */
+ export declare class Divider extends LitElement implements IDividerProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Role of the backdrop.
+      * @attr
+diff --git a/node_modules/weightless/divider/divider.js b/node_modules/weightless/divider/divider.js
+index 577e160..4f6d438 100644
+--- a/node_modules/weightless/divider/divider.js
++++ b/node_modules/weightless/divider/divider.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { sharedStyles } from '../style/shared.js';
+diff --git a/node_modules/weightless/expansion/expansion.d.ts b/node_modules/weightless/expansion/expansion.d.ts
+index 4b0f426..44a2bfd 100644
+--- a/node_modules/weightless/expansion/expansion.d.ts
++++ b/node_modules/weightless/expansion/expansion.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { IRadioBehaviorProperties, RadioBehavior } from "../behavior/radio/radio-behavior";
+ import { Ripple } from "../ripple/ripple";
+ /**
+@@ -32,7 +32,7 @@ export interface IExpansionProperties extends IRadioBehaviorProperties {
+  * @cssprop --expansion-icon-transition - Transition of the icon
+  */
+ export declare class Expansion extends RadioBehavior implements IExpansionProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Opens the expansion.
+      * @attr - open
+diff --git a/node_modules/weightless/expansion/expansion.js b/node_modules/weightless/expansion/expansion.js
+index 970c8df..7897033 100644
+--- a/node_modules/weightless/expansion/expansion.js
++++ b/node_modules/weightless/expansion/expansion.js
+@@ -1,12 +1,13 @@
+-import { html, property, query, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, query, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { addListener } from '../util/event.js';
+ import { CUBIC_BEZIER } from '../util/constant/animation.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { Ripple } from '../ripple/ripple.js';
+-import { ifDefined } from 'lit-html/directives/if-defined';
++import { ifDefined } from 'lit/directives/if-defined.js';
+ import '../ripple/index.js';
+-import { nothing } from 'lit-html';
++import { nothing } from 'lit/html.js';
+ import '../icon/index.js';
+ import '../behavior/switch/switch-behavior.js';
+ import { RadioBehavior } from '../behavior/radio/radio-behavior.js';
+diff --git a/node_modules/weightless/icon/icon.d.ts b/node_modules/weightless/icon/icon.d.ts
+index 4affb19..1f7e90c 100644
+--- a/node_modules/weightless/icon/icon.d.ts
++++ b/node_modules/weightless/icon/icon.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ import { AriaRole } from "../util/aria";
+ /**
+  * Properties of the icon.
+@@ -13,7 +13,7 @@ export interface IIconProperties {
+  * @cssprop --icon-size - Width and height
+  */
+ export declare class Icon extends LitElement implements IIconProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Roles of the icon.
+      * @attr
+diff --git a/node_modules/weightless/icon/icon.js b/node_modules/weightless/icon/icon.js
+index 1e4700e..9e39bce 100644
+--- a/node_modules/weightless/icon/icon.js
++++ b/node_modules/weightless/icon/icon.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { sharedStyles } from '../style/shared.js';
+diff --git a/node_modules/weightless/label/label.d.ts b/node_modules/weightless/label/label.d.ts
+index c5e3e9d..2352332 100644
+--- a/node_modules/weightless/label/label.d.ts
++++ b/node_modules/weightless/label/label.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, PropertyValues, TemplateResult } from "lit-element";
++import { LitElement, PropertyValues, TemplateResult } from "lit";
+ import { EventListenerSubscription } from "../util/event";
+ /**
+  * Properties of the label.
+@@ -18,7 +18,7 @@ export interface ILabelProperties {
+  * @cssprop --label-required-color - Color of the required astrix
+  */
+ export declare class Label extends LitElement implements ILabelProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Styles the label as required.
+      * @attr
+diff --git a/node_modules/weightless/label/label.js b/node_modules/weightless/label/label.js
+index 36a000f..2c98447 100644
+--- a/node_modules/weightless/label/label.js
++++ b/node_modules/weightless/label/label.js
+@@ -1,4 +1,5 @@
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { getSlottedElements, queryParentRoots } from '../util/dom.js';
+ import { addListener, removeListeners } from '../util/event.js';
+diff --git a/node_modules/weightless/list-item/list-item.d.ts b/node_modules/weightless/list-item/list-item.d.ts
+index 1fca63c..d333141 100644
+--- a/node_modules/weightless/list-item/list-item.d.ts
++++ b/node_modules/weightless/list-item/list-item.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { ButtonBehavior } from "../behavior/button/button-behavior";
+ import { Ripple } from "../ripple/ripple";
+ import { AriaRole } from "../util/aria";
+@@ -36,7 +36,7 @@ export interface IListItemProperties {
+  * @cssprop --list-item-opacity-disabled - Opacity when disabled
+  */
+ export declare class ListItem extends ButtonBehavior implements IListItemProperties, IRowing<ListItem> {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Disables the element.
+      * @attr
+diff --git a/node_modules/weightless/list-item/list-item.js b/node_modules/weightless/list-item/list-item.js
+index e654210..7be89cc 100644
+--- a/node_modules/weightless/list-item/list-item.js
++++ b/node_modules/weightless/list-item/list-item.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { html, property, query, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, query, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { Ripple } from '../ripple/ripple.js';
+diff --git a/node_modules/weightless/nav/nav.d.ts b/node_modules/weightless/nav/nav.d.ts
+index ac731a4..5f36a55 100644
+--- a/node_modules/weightless/nav/nav.d.ts
++++ b/node_modules/weightless/nav/nav.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ import { AriaRole } from "../util/aria";
+ /**
+  * Properties of the nav.
+@@ -24,7 +24,7 @@ export interface INavProperties {
+  * @cssprop --nav-title-margin - Margin of the title slot
+  */
+ export declare class Nav extends LitElement implements INavProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Gives the nav a shadow.
+      * @attr
+diff --git a/node_modules/weightless/nav/nav.js b/node_modules/weightless/nav/nav.js
+index 3e827f6..25be262 100644
+--- a/node_modules/weightless/nav/nav.js
++++ b/node_modules/weightless/nav/nav.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { sharedStyles } from '../style/shared.js';
+diff --git a/node_modules/weightless/popover-card/popover-card.d.ts b/node_modules/weightless/popover-card/popover-card.d.ts
+index 64d36c1..d04883f 100644
+--- a/node_modules/weightless/popover-card/popover-card.d.ts
++++ b/node_modules/weightless/popover-card/popover-card.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ /**
+  * Properties of the popover card.
+  */
+@@ -13,7 +13,7 @@ export interface IPopoverCardProperties {
+  * @cssprop --popover-card-arrow-fill - Fill of the arrow
+  */
+ export declare class PopoverCard extends LitElement implements IPopoverCardProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Returns the template for the element.
+      */
+diff --git a/node_modules/weightless/popover-card/popover-card.js b/node_modules/weightless/popover-card/popover-card.js
+index 318c656..d482235 100644
+--- a/node_modules/weightless/popover-card/popover-card.js
++++ b/node_modules/weightless/popover-card/popover-card.js
+@@ -1,4 +1,5 @@
+-import { LitElement, html, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate } from 'tslib';
+ import { sharedStyles } from '../style/shared.js';
+diff --git a/node_modules/weightless/popover/popover.d.ts b/node_modules/weightless/popover/popover.d.ts
+index 58e5dd4..8f3bc14 100644
+--- a/node_modules/weightless/popover/popover.d.ts
++++ b/node_modules/weightless/popover/popover.d.ts
+@@ -1,5 +1,5 @@
+ import { FocusTrap } from "@a11y/focus-trap";
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { Backdrop } from "../backdrop/backdrop";
+ import { IOverlayBehaviorBaseProperties, IOverlayBehaviorProperties, OverlayBehavior } from "../behavior/overlay/overlay-behavior";
+ import { AriaRole } from "../util/aria";
+@@ -36,7 +36,7 @@ export declare const defaultPopoverConfig: IPopoverConfig;
+  * @cssprop --popover-z-index - z-index.
+  */
+ export declare class Popover<R = unknown> extends OverlayBehavior<R, IPopoverConfig> implements IPopoverProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Makes the popover close when it is clicked upon.
+      * @attr
+diff --git a/node_modules/weightless/popover/popover.js b/node_modules/weightless/popover/popover.js
+index afa3b4d..10f6d3d 100644
+--- a/node_modules/weightless/popover/popover.js
++++ b/node_modules/weightless/popover/popover.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { html, property, query, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, query, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { renderAttributes, setProperty, queryParentRoots } from '../util/dom.js';
+ import { removeListeners, addListener, addClickAwayListener } from '../util/event.js';
+diff --git a/node_modules/weightless/progress-bar/progress-bar.d.ts b/node_modules/weightless/progress-bar/progress-bar.d.ts
+index e87401d..c82813d 100644
+--- a/node_modules/weightless/progress-bar/progress-bar.d.ts
++++ b/node_modules/weightless/progress-bar/progress-bar.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { IProgressBehaviorProperties, ProgressBehavior } from "../behavior/progress/progress-behavior";
+ /**
+  * Properties of the progress bar.
+@@ -17,7 +17,7 @@ export interface IProgressBarProperties extends IProgressBehaviorProperties {
+  * @cssprop --progress-bar-indeterminate-timing-function - Timing function of the indeterminate animation
+  */
+ export declare class ProgressBar extends ProgressBehavior implements IProgressBarProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Returns the template for the element.
+      */
+diff --git a/node_modules/weightless/progress-bar/progress-bar.js b/node_modules/weightless/progress-bar/progress-bar.js
+index b511885..dbe7953 100644
+--- a/node_modules/weightless/progress-bar/progress-bar.js
++++ b/node_modules/weightless/progress-bar/progress-bar.js
+@@ -1,4 +1,5 @@
+-import { html, customElement } from 'lit-element';
++import { html } from 'lit';
++import { customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate } from 'tslib';
+ import { ProgressBehavior, ProgressMode } from '../behavior/progress/progress-behavior.js';
+diff --git a/node_modules/weightless/progress-spinner/progress-spinner.d.ts b/node_modules/weightless/progress-spinner/progress-spinner.d.ts
+index 4ec78f7..99d2f3d 100644
+--- a/node_modules/weightless/progress-spinner/progress-spinner.d.ts
++++ b/node_modules/weightless/progress-spinner/progress-spinner.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { IProgressBehaviorProperties, ProgressBehavior } from "../behavior/progress/progress-behavior";
+ /**
+  * Properties of the progress spinner.
+@@ -17,7 +17,7 @@ export interface IProgressSpinnerProperties extends IProgressBehaviorProperties
+  * @cssprop --progress-spinner-indeterminate-timing-function - Timing function of the indeterminate animation
+  */
+ export declare class ProgressSpinner extends ProgressBehavior implements IProgressSpinnerProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Returns the template for the element.
+      */
+diff --git a/node_modules/weightless/progress-spinner/progress-spinner.js b/node_modules/weightless/progress-spinner/progress-spinner.js
+index ec9dde1..72ff0ff 100644
+--- a/node_modules/weightless/progress-spinner/progress-spinner.js
++++ b/node_modules/weightless/progress-spinner/progress-spinner.js
+@@ -1,4 +1,5 @@
+-import { html, svg, customElement } from 'lit-element';
++import { html, svg } from 'lit';
++import { customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate } from 'tslib';
+ import { ProgressBehavior, ProgressMode } from '../behavior/progress/progress-behavior.js';
+diff --git a/node_modules/weightless/radio/radio.d.ts b/node_modules/weightless/radio/radio.d.ts
+index 20a941f..d94d8d7 100644
+--- a/node_modules/weightless/radio/radio.d.ts
++++ b/node_modules/weightless/radio/radio.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { IRadioBehaviorProperties, RadioBehavior } from "../behavior/radio/radio-behavior";
+ /**
+  * Properties of the radio.
+@@ -25,7 +25,7 @@ export interface IRadioProperties extends IRadioBehaviorProperties {
+  * @cssprop --radio-ripple-transform - Transform of the ripple
+  */
+ export declare class Radio extends RadioBehavior implements IRadioProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Returns the template for the element.
+      */
+diff --git a/node_modules/weightless/radio/radio.js b/node_modules/weightless/radio/radio.js
+index 9c326ca..8824db6 100644
+--- a/node_modules/weightless/radio/radio.js
++++ b/node_modules/weightless/radio/radio.js
+@@ -1,4 +1,5 @@
+-import { html, customElement } from 'lit-element';
++import { html } from 'lit';
++import { customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate } from 'tslib';
+ import '../ripple/index.js';
+diff --git a/node_modules/weightless/ripple/ripple.d.ts b/node_modules/weightless/ripple/ripple.d.ts
+index 373547b..32c0754 100644
+--- a/node_modules/weightless/ripple/ripple.d.ts
++++ b/node_modules/weightless/ripple/ripple.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ import { AriaRole } from "../util/aria";
+ /**
+  * Base properties of the ripple. Used when showing a ripple.
+@@ -47,7 +47,7 @@ export declare const RIPPLE_RELEASE_DURATION = 500;
+  * @cssprop --ripple-opacity - Opacity.
+  */
+ export declare class Ripple extends LitElement implements IRippleProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Makes the ripple visible outside the bounds.
+      * @attr
+diff --git a/node_modules/weightless/ripple/ripple.js b/node_modules/weightless/ripple/ripple.js
+index 0a2a244..f385469 100644
+--- a/node_modules/weightless/ripple/ripple.js
++++ b/node_modules/weightless/ripple/ripple.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { addListener, removeListeners } from '../util/event.js';
+ import { computeRadius } from '../util/number.js';
+diff --git a/node_modules/weightless/select/select.d.ts b/node_modules/weightless/select/select.d.ts
+index dfc1457..c71bbb6 100644
+--- a/node_modules/weightless/select/select.d.ts
++++ b/node_modules/weightless/select/select.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { IInputBehaviorProperties, InputBehavior } from "../behavior/input/input-behavior";
+ import { AriaRole } from "../util/aria";
+ /**
+@@ -12,7 +12,7 @@ export interface ISelectProperties extends IInputBehaviorProperties {
+  * @cssprop --select-arrow-height - Height of the arrow.
+  */
+ export declare class Select extends InputBehavior implements ISelectProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Role of the select.
+      */
+diff --git a/node_modules/weightless/select/select.js b/node_modules/weightless/select/select.js
+index cfa5e6c..03ecafc 100644
+--- a/node_modules/weightless/select/select.js
++++ b/node_modules/weightless/select/select.js
+@@ -1,10 +1,11 @@
+ import '../util/aria.js';
+-import { html, property, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { removeChildren } from '../util/dom.js';
+ import { addListener } from '../util/event.js';
+ import { __decorate, __metadata } from 'tslib';
+-import { ifDefined } from 'lit-html/directives/if-defined';
++import { ifDefined } from 'lit/directives/if-defined.js';
+ import { InputBehavior } from '../behavior/input/input-behavior.js';
+ import styles from './select.scss.js';
+ 
+diff --git a/node_modules/weightless/slider/slider.d.ts b/node_modules/weightless/slider/slider.d.ts
+index 1808094..4b980ec 100644
+--- a/node_modules/weightless/slider/slider.d.ts
++++ b/node_modules/weightless/slider/slider.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { FormElement } from "../behavior/form-element/form-element-behavior";
+ import { IInputBehaviorProperties, InputBehavior } from "../behavior/input/input-behavior";
+ import { AriaRole } from "../util/aria";
+@@ -41,7 +41,7 @@ export interface ISliderProperties extends IInputBehaviorProperties {
+  * @cssprop --slider-thumb-label-color - Color of the thumb label
+  */
+ export declare class Slider extends InputBehavior implements ISliderProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Role of the slider.
+      * @attr
+diff --git a/node_modules/weightless/slider/slider.js b/node_modules/weightless/slider/slider.js
+index 04817ee..3cc3a2f 100644
+--- a/node_modules/weightless/slider/slider.js
++++ b/node_modules/weightless/slider/slider.js
+@@ -1,10 +1,11 @@
+ import '../util/aria.js';
+-import { html, property, query, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, query, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+-import { ifDefined } from 'lit-html/directives/if-defined';
++import { ifDefined } from 'lit/directives/if-defined.js';
+ import '../behavior/form-element/form-element-behavior.js';
+-import { nothing } from 'lit-html';
++import { nothing } from 'lit/html.js';
+ import { InputBehavior } from '../behavior/input/input-behavior.js';
+ import styles from './slider.scss.js';
+ 
+diff --git a/node_modules/weightless/snackbar/snackbar.d.ts b/node_modules/weightless/snackbar/snackbar.d.ts
+index 90d5e40..1dc4615 100644
+--- a/node_modules/weightless/snackbar/snackbar.d.ts
++++ b/node_modules/weightless/snackbar/snackbar.d.ts
+@@ -1,5 +1,5 @@
+ import { FocusTrap } from "@a11y/focus-trap";
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { Backdrop } from "../backdrop/backdrop";
+ import { IOverlayBehaviorBaseProperties, IOverlayBehaviorProperties, OverlayBehavior } from "../behavior/overlay/overlay-behavior";
+ import { AriaRole } from "../util/aria";
+@@ -40,7 +40,7 @@ export declare const defaultSnackbarConfig: ISnackbarConfig;
+  * @cssprop --snackbar-bg - Background
+  */
+ export declare class Snackbar<R = unknown> extends OverlayBehavior<R, Partial<ISnackbarProperties>> implements ISnackbarProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Role of the snackbar.
+      * @attr
+diff --git a/node_modules/weightless/snackbar/snackbar.js b/node_modules/weightless/snackbar/snackbar.js
+index 07a6c65..44226f0 100644
+--- a/node_modules/weightless/snackbar/snackbar.js
++++ b/node_modules/weightless/snackbar/snackbar.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { html, property, query, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, query, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { FocusTrap } from '@a11y/focus-trap';
 diff --git a/node_modules/weightless/style/base/functions.scss b/node_modules/weightless/style/base/functions.scss
 index a4b3b03..7e1874a 100644
 --- a/node_modules/weightless/style/base/functions.scss
@@ -14,3 +994,293 @@ index a4b3b03..7e1874a 100644
  
  /**
  	Ensures that a map has a set of required keys. Throws an error if the map does not have the required keys.
+diff --git a/node_modules/weightless/style/shared.d.ts b/node_modules/weightless/style/shared.d.ts
+index ccdcd84..b05f6d2 100644
+--- a/node_modules/weightless/style/shared.d.ts
++++ b/node_modules/weightless/style/shared.d.ts
+@@ -1 +1 @@
+-export declare const sharedStyles: import("lit-element").CSSResult;
++export declare const sharedStyles: import("lit").CSSResult;
+diff --git a/node_modules/weightless/switch/switch.d.ts b/node_modules/weightless/switch/switch.d.ts
+index 3c43813..a9c1527 100644
+--- a/node_modules/weightless/switch/switch.d.ts
++++ b/node_modules/weightless/switch/switch.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { SwitchBehavior, ISwitchBehaviorProperties } from "../behavior/switch/switch-behavior";
+ /**
+  * Properties of the switch.
+@@ -26,7 +26,7 @@ export interface ISwitchProperties extends ISwitchBehaviorProperties {
+  * @cssprop --switch-ripple-transform - Transform of the ripple
+  */
+ export declare class Switch extends SwitchBehavior implements ISwitchProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Returns the template for the component.
+      */
+diff --git a/node_modules/weightless/switch/switch.js b/node_modules/weightless/switch/switch.js
+index 21b7ab7..80fd0f1 100644
+--- a/node_modules/weightless/switch/switch.js
++++ b/node_modules/weightless/switch/switch.js
+@@ -1,4 +1,5 @@
+-import { html, customElement } from 'lit-element';
++import { html } from 'lit';
++import { customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate } from 'tslib';
+ import '../ripple/index.js';
+diff --git a/node_modules/weightless/tab-group/tab-group.d.ts b/node_modules/weightless/tab-group/tab-group.d.ts
+index 645621f..5d620cb 100644
+--- a/node_modules/weightless/tab-group/tab-group.d.ts
++++ b/node_modules/weightless/tab-group/tab-group.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, PropertyValues, TemplateResult } from "lit-element";
++import { LitElement, PropertyValues, TemplateResult } from "lit";
+ import { AriaRole } from "../util/aria";
+ import { EventListenerSubscription } from "../util/event";
+ /**
+@@ -24,7 +24,7 @@ export declare type TabGroupAlignment = "start" | "center" | "end" | "stretch";
+  * @cssprop --tab-group-indicator-transition - Transition of the indicator
+  */
+ export declare class TabGroup extends LitElement implements ITabGroupProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Alignment of the tabs.
+      * @attr
+diff --git a/node_modules/weightless/tab-group/tab-group.js b/node_modules/weightless/tab-group/tab-group.js
+index ffc2933..fcbf438 100644
+--- a/node_modules/weightless/tab-group/tab-group.js
++++ b/node_modules/weightless/tab-group/tab-group.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { addListener, removeListeners } from '../util/event.js';
+ import { CAN_USE_RESIZE_OBSERVER, onSizeChanged } from '../util/resize.js';
+diff --git a/node_modules/weightless/tab/tab.d.ts b/node_modules/weightless/tab/tab.d.ts
+index 81f0127..811fc0c 100644
+--- a/node_modules/weightless/tab/tab.d.ts
++++ b/node_modules/weightless/tab/tab.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { IRadioBehaviorProperties, RadioBehavior } from "../behavior/radio/radio-behavior";
+ import { AriaRole } from "../util/aria";
+ /**
+@@ -40,7 +40,7 @@ export interface ITabProperties extends IRadioBehaviorProperties {
+  * @cssprop --tab-bg-disabled-filled - background when disabled and filled
+  */
+ export declare class Tab extends RadioBehavior implements ITabProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Role of the tab.
+      * @attr
+diff --git a/node_modules/weightless/tab/tab.js b/node_modules/weightless/tab/tab.js
+index 55dd924..5af7384 100644
+--- a/node_modules/weightless/tab/tab.js
++++ b/node_modules/weightless/tab/tab.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { html, property, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { sharedStyles } from '../style/shared.js';
+diff --git a/node_modules/weightless/text/text.d.ts b/node_modules/weightless/text/text.d.ts
+index 00a40cb..b62622c 100644
+--- a/node_modules/weightless/text/text.d.ts
++++ b/node_modules/weightless/text/text.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ import { AriaRole } from "../util/aria";
+ export declare type TextSize = "large" | "medium";
+ /**
+@@ -19,7 +19,7 @@ export interface ITextProperties {
+  * @cssprop --text-font-family - Font family
+  */
+ export declare class Text extends LitElement implements ITextProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Size of the text.
+      * @attr
+diff --git a/node_modules/weightless/text/text.js b/node_modules/weightless/text/text.js
+index b5e6dc7..c30ec57 100644
+--- a/node_modules/weightless/text/text.js
++++ b/node_modules/weightless/text/text.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+ import { sharedStyles } from '../style/shared.js';
+diff --git a/node_modules/weightless/textarea/textarea.d.ts b/node_modules/weightless/textarea/textarea.d.ts
+index 32f6615..f61134f 100644
+--- a/node_modules/weightless/textarea/textarea.d.ts
++++ b/node_modules/weightless/textarea/textarea.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { ITextfieldBehaviorProperties, TextfieldBehavior } from "../behavior/textfield/textfield-behavior";
+ /**
+  * Properties of the textarea.
+@@ -13,7 +13,7 @@ export interface ITextareaProperties extends ITextfieldBehaviorProperties {
+  * @cssprop --textarea-max-height - Max height
+  */
+ export declare class Textarea extends TextfieldBehavior implements ITextareaProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Hooks up the element.
+      */
+diff --git a/node_modules/weightless/textarea/textarea.js b/node_modules/weightless/textarea/textarea.js
+index d047fe8..4529b74 100644
+--- a/node_modules/weightless/textarea/textarea.js
++++ b/node_modules/weightless/textarea/textarea.js
+@@ -1,8 +1,9 @@
+-import { html, customElement } from 'lit-element';
++import { html } from 'lit';
++import { customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { isHidden } from '../util/dom.js';
+ import { __decorate } from 'tslib';
+-import { ifDefined } from 'lit-html/directives/if-defined';
++import { ifDefined } from 'lit/directives/if-defined.js';
+ import '../behavior/form-element/index.js';
+ import { TextfieldBehavior } from '../behavior/textfield/textfield-behavior.js';
+ import { Textfield } from '../textfield/textfield.js';
+diff --git a/node_modules/weightless/textfield/textfield.d.ts b/node_modules/weightless/textfield/textfield.d.ts
+index ec4595f..8ba2404 100644
+--- a/node_modules/weightless/textfield/textfield.d.ts
++++ b/node_modules/weightless/textfield/textfield.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { TextfieldType } from "./textfield-type";
+ import { ITextfieldBehaviorProperties, TextfieldBehavior } from "../behavior/textfield/textfield-behavior";
+ /**
+@@ -14,7 +14,7 @@ export interface ITextfieldProperties extends ITextfieldBehaviorProperties {
+  * Singleline text fields.
+  */
+ export declare class Textfield extends TextfieldBehavior implements ITextfieldProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Datalist id.
+      * @attr
+diff --git a/node_modules/weightless/textfield/textfield.js b/node_modules/weightless/textfield/textfield.js
+index 4a45e7b..66619e3 100644
+--- a/node_modules/weightless/textfield/textfield.js
++++ b/node_modules/weightless/textfield/textfield.js
+@@ -1,7 +1,8 @@
+-import { html, property, customElement } from 'lit-element';
++import { html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate, __metadata } from 'tslib';
+-import { ifDefined } from 'lit-html/directives/if-defined';
++import { ifDefined } from 'lit/directives/if-defined.js';
+ import './textfield-type.js';
+ import { TextfieldBehavior } from '../behavior/textfield/textfield-behavior.js';
+ import styles from './textfield.scss.js';
+diff --git a/node_modules/weightless/title/title.d.ts b/node_modules/weightless/title/title.d.ts
+index 13d8df7..e5cb256 100644
+--- a/node_modules/weightless/title/title.d.ts
++++ b/node_modules/weightless/title/title.d.ts
+@@ -1,4 +1,4 @@
+-import { LitElement, TemplateResult } from "lit-element";
++import { LitElement, TemplateResult } from "lit";
+ import { AriaRole } from "../util/aria";
+ /**
+  * Title levels.
+@@ -27,7 +27,7 @@ export interface ITitleProperties {
+  * @cssprop --title-font-size-level-6 - Font size of heading level 6
+  */
+ export declare class Title extends LitElement implements ITitleProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Level of the title.
+      * @attr
+diff --git a/node_modules/weightless/title/title.js b/node_modules/weightless/title/title.js
+index 7dae5d9..d285f79 100644
+--- a/node_modules/weightless/title/title.js
++++ b/node_modules/weightless/title/title.js
+@@ -1,5 +1,6 @@
+ import '../util/aria.js';
+-import { LitElement, html, property, customElement } from 'lit-element';
++import { LitElement, html } from 'lit';
++import { property, customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { renderAttributes } from '../util/dom.js';
+ import { __decorate, __metadata } from 'tslib';
+diff --git a/node_modules/weightless/tooltip/tooltip.d.ts b/node_modules/weightless/tooltip/tooltip.d.ts
+index d72714f..4d3ca88 100644
+--- a/node_modules/weightless/tooltip/tooltip.d.ts
++++ b/node_modules/weightless/tooltip/tooltip.d.ts
+@@ -1,4 +1,4 @@
+-import { TemplateResult } from "lit-element";
++import { TemplateResult } from "lit";
+ import { IPopoverProperties, Popover } from "../popover/popover";
+ /**
+  * Properties of the tooltip.
+@@ -12,7 +12,7 @@ export interface ITooltipProperties extends IPopoverProperties {
+  * @cssprop --tooltip-color - Color
+  */
+ export declare class Tooltip extends Popover implements ITooltipProperties {
+-    static styles: import("lit-element").CSSResult[];
++    static styles: import("lit").CSSResult[];
+     /**
+      * Renders the content.
+      */
+diff --git a/node_modules/weightless/tooltip/tooltip.js b/node_modules/weightless/tooltip/tooltip.js
+index 98852b3..698b040 100644
+--- a/node_modules/weightless/tooltip/tooltip.js
++++ b/node_modules/weightless/tooltip/tooltip.js
+@@ -1,4 +1,5 @@
+-import { html, customElement } from 'lit-element';
++import { html } from 'lit';
++import { customElement } from 'lit/decorators.js';
+ import { cssResult } from '../util/css.js';
+ import { __decorate } from 'tslib';
+ import { Popover } from '../popover/popover.js';
+diff --git a/node_modules/weightless/util/css.d.ts b/node_modules/weightless/util/css.d.ts
+index 5770742..ad66f7e 100644
+--- a/node_modules/weightless/util/css.d.ts
++++ b/node_modules/weightless/util/css.d.ts
+@@ -1,4 +1,4 @@
+-import { CSSResult } from "lit-element";
++import { CSSResult } from "lit";
+ /**
+  * Returns a string into a CSS result.
+  * @param cssText
+diff --git a/node_modules/weightless/util/css.js b/node_modules/weightless/util/css.js
+index 8e78072..03ebe8a 100644
+--- a/node_modules/weightless/util/css.js
++++ b/node_modules/weightless/util/css.js
+@@ -1,4 +1,4 @@
+-import { unsafeCSS } from 'lit-element';
++import { unsafeCSS } from 'lit';
+ 
+ function cssResult(cssText) {
+     return unsafeCSS(cssText);
+diff --git a/node_modules/weightless/util/style.d.ts b/node_modules/weightless/util/style.d.ts
+index 10b4d6a..2c4d840 100644
+--- a/node_modules/weightless/util/style.d.ts
++++ b/node_modules/weightless/util/style.d.ts
+@@ -1,4 +1,4 @@
+-import { StyleInfo } from "lit-html/directives/style-map";
++import { StyleInfo } from "lit/directives/style-map.js";
+ export declare function getWebkitMatrix(computedStyle: CSSStyleDeclaration): DOMMatrix;
+ /**
+  * Returns the translate X value in PX of the element.

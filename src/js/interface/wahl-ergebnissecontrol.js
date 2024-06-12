@@ -6,15 +6,16 @@
 // @flow
 import L from 'leaflet';
 
-import { LitElement, html, css, property, customElement } from 'lit-element';
+import { LitElement, html, css } from 'lit';
+import { property, customElement } from 'lit/decorators.js';
 import 'weightless/button';
 import 'weightless/card';
 import 'weightless/expansion';
 import 'weightless/title';
 import 'weightless/select';
-import { Select } from 'weightless/select';
 
-import type { TemplateResult } from 'lit-element';
+import type { Select } from 'weightless/select';
+import type { TemplateResult } from 'lit';
 import type WahlController from '../wahl-controller';
 import { CollectedFieldDescription } from '../wahl-lib/ergebnis';
 import type { FieldDescription, DataTypeType } from '../wahl-lib/ergebnis';

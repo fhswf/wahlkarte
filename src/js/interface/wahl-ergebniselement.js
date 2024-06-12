@@ -4,7 +4,8 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
  
 // @flow
-import { LitElement, html, css, property, customElement } from 'lit-element';
+import { LitElement, html, css } from 'lit';
+import { property, customElement } from 'lit/decorators.js';
 import 'weightless/card';
 import 'weightless/divider';
 import 'weightless/expansion';

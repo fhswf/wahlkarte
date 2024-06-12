@@ -19,7 +19,7 @@ import './interface/wahl-ebenencontrol';
 import './interface/wahl-ergebnissecontrol';
 import './interface/wahl-legendcontrol';
 import ErgebnisElement from './interface/wahl-ergebniselement';
-import { html } from 'lit-element';
+import { html } from 'lit';
 import 'weightless/text';
 import 'weightless/title';
 import 'weightless/button';
