@@ -93,8 +93,10 @@ export class CollectedFieldDescription implements FieldDescription {
     isSum: (?string) => boolean = (type) => type ? false : true; // could be customized
     /** Base string at the start of the field name. Only integers supported, no kumulieren & panaschieren etc. */
     base: string;
+    /** Field name of valid vote count if different to "base" */
+    valid: ?string;
     /** Field name of invalid vote count */
-    invalid: string;
+    invalid: ?string;
     /** Property name (defined in {@link Ergebnis#constantProperties}) of total (invalid + valid) vote count */
     votesumProp: string;
     /** suppression of candidate output in case of erststimmen/zweitstimmen split. use a different solution in the future? */
@@ -274,15 +276,16 @@ export class Ergebnis {
         }
         for (let fieldDesc of this.constructor.collectedProperties) {
             let _obj = {
-                valid: parseInt(this.wahlErgebnis[fieldDesc.base]),
-                invalid: parseInt(this.wahlErgebnis[fieldDesc.invalid]),
+                valid: parseInt(this.wahlErgebnis[fieldDesc.valid || fieldDesc.base]),
+                invalid: fieldDesc.invalid == null ? null : parseInt(this.wahlErgebnis[fieldDesc.invalid]),
                 votes: new Map(),
             };
             this["_"+fieldDesc.propName] = _obj;
             for (let [sourceName, sourceValue] of Object.entries(this.wahlErgebnis)) {
-                if (!(sourceName.startsWith(fieldDesc.base) && sourceName !== fieldDesc.base)) continue;
-                // only integers supported, no kumulieren & panaschieren etc.
-                let sourceNumber = parseInt(sourceName.replace(fieldDesc.base, ""));
+                // just Dn, no Dn_m here
+                let numberMatch = sourceName.match(new RegExp("^" + fieldDesc.base + "(\\d+)$"));
+                if (!numberMatch || numberMatch.length !== 2) continue; // error on > 1 ??
+                let sourceNumber = parseInt(numberMatch[1]);
                 let stimmzettelPartei = this.stimmzettel.get(sourceNumber);
                 if (!stimmzettelPartei) {
                     if (typeof sourceValue === "string" && sourceValue !== "") throw new TypeError(`value ${sourceValue} exists but partei for ${sourceNumber} (${sourceName}) not found`);
@@ -390,6 +393,91 @@ export class ErgebnisKommunalwahlNRW extends Ergebnis {
     ];
 
     static checks: { [key: string]: (o: ErgebnisKommunalwahlNRW) => boolean } = {
+        "checkWahlberechtigte": (o) => (
+            o.wahlberechtigteOhneWahlschein
+            + o.wahlberechtigteMitWahlschein
+            + o.wahlberechtigteNichtImWaehlerverzeichnis
+        ) === o.wahlberechtigteGesamt,
+    }
+}
+
+/**
+ * Defines static properties relevant for {@link WahlErgebnis} objects for elections with data in the style of e. g. Gemeinderatswahl Karlsruhe (B1+B2 + E + Dn_m).
+ * ...
+ *
+ * @class ErgebnisKommunalwahlBW
+ * @see ErgebnisKommunalwahlNRW
+ * @augments {Ergebnis}
+ */
+export class ErgebnisKommunalwahlBW extends Ergebnis {
+    static constantProperties: { [key: string]: string } = {
+        wahlberechtigteOhneWahlschein: "A1",
+        wahlberechtigteMitWahlschein: "A2",
+        wahlberechtigteNichtImWaehlerverzeichnis: "A3",
+        wahlberechtigteGesamt: "A",
+        waehlendeGesamt: "B",
+        waehlendeMitWahlschein: "B1",
+        waehlendeBriefwahl: "B2",
+        stimmzettelUngueltig: "C",
+        stimmenGesamt: "E",
+    }
+
+    static properties: Array<FieldDescription> = [
+        new CollectedFieldDescription({
+            name: "Stimmen",
+            base: "D",
+            valid: "E",
+            invalid: null, // nur bei Stimmzettel
+            votesumProp: "stimmenGesamt",
+            propName: "stimmen",
+            ergebnisType: this,
+            displayInTooltip: true,
+            defaultDataTypeAndArgsIfInitial: { type: collectedDataTypes[1], args: [1] },
+            dataTypes: collectedDataTypes,
+        }),
+        new CalculatedFieldDescription({
+            name: "Wahlbeteiligung",
+            isSum: () => false,
+            fn: (_1, _2) => _1 / _2,
+            args: ["waehlendeGesamt", "wahlberechtigteGesamt"],
+            propName: "wahlbeteiligung",
+            ergebnisType: this,
+            displayInTooltip: true,
+        }),
+        new CalculatedFieldDescription({
+            name: "Wahlscheinanteil",
+            description: "Stellt den geschätzten Anteil an Briefwählenden dar.",
+            isSum: () => false,
+            fn: (_1, _2) => _1 / _2,
+            args: ["wahlberechtigteMitWahlschein", "wahlberechtigteGesamt"],
+            propName: "wahlscheinAnteil",
+            ergebnisType: this,
+        }),
+        new CalculatedFieldDescription({
+            name: "Briefwahlanteil",
+            description: "Stellt den Anteil an Briefwählenden dar.",
+            isSum: () => false,
+            fn: (_1, _2) => _1 / _2,
+            args: ["waehlendeBriefwahl", "waehlendeGesamt"],
+            propName: "briefwahlAnteil",
+            ergebnisType: this,
+        }),
+        new ConstantFieldDescription({
+            name: "Wahlberechtigte",
+            propName: "wahlberechtigteGesamt",
+            ergebnisType: this,
+        }),
+        new CalculatedFieldDescription({
+            name: "Ungültige Stimmzettel",
+            isSum: () => false,
+            fn: (_1, _2) => _1 / _2,
+            args: ["stimmzettelUngueltig", "waehlendeGesamt"],
+            propName: "ungueltigAnteil",
+            ergebnisType: this,
+        }),
+    ];
+
+    static checks: { [key: string]: (o: ErgebnisKommunalwahlBW) => boolean } = {
         "checkWahlberechtigte": (o) => (
             o.wahlberechtigteOhneWahlschein
             + o.wahlberechtigteMitWahlschein

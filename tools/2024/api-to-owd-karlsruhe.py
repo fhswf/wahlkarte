@@ -179,6 +179,32 @@ class Kandidaturen:
                     self.kandGebNr, ""  # zurzeit keine Listeninformationen
                 ))
 
+class KandidaturenSub(Kandidaturen):
+    def writeOWDcsv(self) -> None:
+        with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName}_Kandidaten_V0-3_{self.data['file_timestamp'].replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
+            csvw = writer(csvf, delimiter=";")
+            csvw.writerow((
+                "version", "wahl-behoerde-gs", "wahl-datum", "wahl-name",
+                "partei-kurzname", "partei-langname",
+                "kandidat-name", "kandidat-namensvorsatz", "kandidat-vorname",
+                "kandidat-akadgrad", "kandidat-geburtsjahr", "kandidat-geschlecht", "kandidat-beruf",
+                "kandidat-gebiet-nr", "kandidat-listenplatz"
+            ))
+            for partei in self.data['Komponente']['tabelle']['zeilen']:
+                # if (kandidatur['zahl'] == '---'): continue  # ?
+                for ki, kandidatur in enumerate(partei['sub_zeilen'], start=1):
+                    nachname = kandidatur['label']['labelKurz'].removesuffix(f", {partei['label']['labelKurz']}")
+                    #if ',' in nachname:  # ausweichlösung
+                    #    nachname = nachname.split(',')[0]
+                    vorname = (kandidatur['label'].get('labelLang') or kandidatur['label'].get('labelKurz')).split(nachname if not ' ' in nachname else nachname.split(' ')[1])[0].removeprefix('' if not ' ' in nachname else nachname.split(' ')[0]).strip()
+                    csvw.writerow((
+                        "0.3", self.wahlBehoerdeGS, self.datum, self.wahlName,
+                        partei['label']['labelKurz'], partei['label'].get('labelLang'),
+                        nachname, "", vorname,
+                        "", "", "", "",  # zurzeit keine weiteren Details
+                        "", ki
+                    ))
+
 @dataclass
 class Wahlergebnisse:
     bezirke_csv: str
@@ -211,7 +237,7 @@ base = f"https://wahlergebnisse.komm.one/lb/produktion/wahltermin-20240609/08212
 pr_base = f"{base}praesentation/"
 api_base = f"{base}daten/api/"
 opendata_base = f"{base}daten/opendata/"
-filter_wahl_ids = {1763}
+filter_wahl_ids = {2015}
 
 # Welche Wahlen gibt es?
 termin_url = f"{api_base}termin.json"
@@ -272,6 +298,7 @@ for wahl_obj in wahl_objs:
     # Kandidaten-Datei (ohne Liste)
     # Unterscheidung: Erstmal nur, wenn mehrere Stimmentypen, dann nehme die mit Namen Erststimme oder die, die als erstes kommt.
     kandidaturen = None
+    '''
     if len(stimmentypen) > 1:
         type_kandidatur = 0
         for st in stimmentypen:
@@ -284,6 +311,9 @@ for wahl_obj in wahl_objs:
         kandidaturen_url = f"{wahl_base}ergebnis_{bezirk_ids[0]}_{type_kandidatur}.json"
         kandidaturen_json = r_json(kandidaturen_url)
         kandidaturen = Kandidaturen(kandidaturen_json, stimmzettel_json, datum=wahl_json.get('datum') or termin.get('datum'), wahlName=wahlparameter.wahlName)
+    '''
+    # karlsruhe kumulieren und panaschieren = stimmen für kandidierende
+    kandidaturen = KandidaturenSub(stimmzettel_json, stimmzettel_json, datum=wahl_json.get('datum') or termin.get('datum'), wahlName=wahlparameter.wahlName)
 
     # Wahlergebnisse-Datei
     # Quelle: open_data.json

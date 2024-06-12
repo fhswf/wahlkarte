@@ -6,7 +6,7 @@
 // @flow
 import type { GesamtWahlConfigType, WahlTerminConfigType } from './wahl-controller';
 import type { EbeneConfigType } from './wahl-lib/wahl';
-import { ErgebnisKommunalwahlNRW, ErgebnisLandtagswahlBW, ErgebnisBuergerentscheid, ErgebnisBundestagswahl } from './wahl-lib/ergebnis';
+import { ErgebnisKommunalwahlNRW, ErgebnisKommunalwahlBW, ErgebnisLandtagswahlBW, ErgebnisBuergerentscheid, ErgebnisBundestagswahl } from './wahl-lib/ergebnis';
 
 /* -------------------------------------------------------------------------- */
 /*                                 Wahltermine                                */
@@ -622,7 +622,7 @@ let wahlTerminKarlsruheBTW: WahlTerminConfigType = {
 };
 
 let wahlTerminKarlsruheEUGemeinderat24: WahlTerminConfigType = {
-    name: "Karlsruhe: Europawahl + x 2024 (vorl.)",
+    name: "Karlsruhe: Europawahl + Gemeinderat 2024 (vorl.)",
     baseUrl: "./data/karlsruhe-eu-gemeinderat-2024/",
     wahlDatumStr: "09.06.2024",
     defaultCenter: [49.00844, 8.40897],
@@ -636,6 +636,28 @@ let wahlTerminKarlsruheEUGemeinderat24: WahlTerminConfigType = {
             stimmzettelPath: "08212000_09.06.2024_Europawahl 2024_Stimmzettel_V0-3_09.06.2024 202811 556.csv",
             ergebnisPath: "08212000_09.06.2024_Europawahl 2024_Wahlergebnisse_V0-3_07.06.2024 114341 521.csv",
             ergebnisType: ErgebnisBuergerentscheid,
+            ebenen: new Map([
+                ["Wahlbezirke", {
+                    geoJson: "../karlsruhe-ltw2021/WahlbezirkeLTW2021Karlsruhe.geojson",
+                    keyProp: "WahlbezirkPadded",
+                    uniqueId: true
+                }],
+                ["Stadtteile", {
+                    geoJson: "../karlsruhe-btw2021/ka_stadtteile.geojson",
+                    keyProp: "Stadtteilname",
+                    uniqueId: true
+                }],
+            ])
+        },
+        {
+            displayName: "Gemeinderatswahl",
+            name: "Gemeinderatswahl 2024 Stadt Karlsruhe",
+            parameterPath: "08212000_09.06.2024_Gemeinderatswahl 2024 Stadt Karlsruhe_Wahlparameter_V0-3_11.06.2024 190331 662.csv",
+            gebietePath: "08212000_09.06.2024_Gemeinderatswahl 2024 Stadt Karlsruhe_Wahlgebietseinteilungen_V0-3_11.06.2024 141608 337.csv",
+            stimmzettelPath: "08212000_09.06.2024_Gemeinderatswahl 2024 Stadt Karlsruhe_Stimmzettel_V0-3_11.06.2024 121323 055.csv",
+            kandidatPath: "08212000_09.06.2024_Gemeinderatswahl 2024 Stadt Karlsruhe_Kandidaten_V0-3_11.06.2024 121323 055.csv",
+            ergebnisPath: "08212000_09.06.2024_Gemeinderatswahl 2024 Stadt Karlsruhe_Wahlergebnisse_V0-3_07.06.2024 114341 521.csv",
+            ergebnisType: ErgebnisKommunalwahlBW,
             ebenen: new Map([
                 ["Wahlbezirke", {
                     geoJson: "../karlsruhe-ltw2021/WahlbezirkeLTW2021Karlsruhe.geojson",

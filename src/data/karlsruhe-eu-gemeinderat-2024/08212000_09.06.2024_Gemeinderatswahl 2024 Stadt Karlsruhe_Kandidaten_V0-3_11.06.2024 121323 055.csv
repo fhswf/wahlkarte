@@ -1,0 +1,569 @@
+version;wahl-behoerde-gs;wahl-datum;wahl-name;partei-kurzname;partei-langname;kandidat-name;kandidat-namensvorsatz;kandidat-vorname;kandidat-akadgrad;kandidat-geburtsjahr;kandidat-geschlecht;kandidat-beruf;kandidat-gebiet-nr;kandidat-listenplatz
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Jorinda Fahringer;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Aljoscha Löffler;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Leonie Wolf;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Dr. Clemens Cremer;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Dr. Iris Sardarabady;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Benjamin Bauer;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Ceren Akbaba;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Ivo Dujmović;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Verena Uta Anlauf;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Thorsten Frewer;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Dr. Susanne Heynen;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Jesko Schwarz;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Sarah Dußler;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Bernd Belschner;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Annalena Litterst;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Christian Klinkhardt;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Christine Großmann;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Niko Riebel;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Petra Sander;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Gabriel Tessmer;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Dr. Sonja Klingert;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Bastian Schäffauer;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Victoria Link;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Hubert Kast;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Sarah Brassat;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Ralf Köster;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Sabine Just-Höpfinger;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Jonas Einsweiler;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Wilhelmine Kalle;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Martin Pötzsche;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Gundula Lüchtrath-Klöckner;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Philipp Sean Giesinger;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Ondine Dietz;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Dominic Neureuther;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Laura Splawski;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Gabriel Wilkes;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Ulrike Heiß;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Ralf-Roger Pilgrim;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Paula Josephine Friedrich;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Thomas von der Heyde;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Julia Jäger;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Jonas Knörr;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Miriam Sonnenbichler;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Jens Görisch;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Sophie Ebel;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Maximilian Liesegang;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Karoline Magerl-Feigl;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;GRÜNE;;Thorsten Kling;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Detlef Hofmann;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Katrin Schütz;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Tobias Bunk;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Bettina Meier-Augenstein;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Dirk Müller;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Dr. Rahsan Dogan;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Tilman Pfannkuch;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Hannah Uhlenbruck;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Sven Maier;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Jenny Kastalion;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Dr. Thomas Müller;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Inka Sarnow;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Johannes Krug;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Ani Aghabekyan;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Dr. Benedikt Bühler;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Sylvia Tröger;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Andreas Hörner;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Ulrike Dörflinger;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Jonas Schaufelberger;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Simone-Maria Brunner;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Dirk Rothweiler;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Maren Knebel;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Nicolas Schütz;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Melina Fischer;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Joachim Supper;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Luise Schettel;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Christian Grüninger;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Sanja Liebig-Schultz;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Sandro Rittershofer;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Sydney Fischer;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Hermann Brenk;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Veronika Pepper;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Sebastian Kreuter;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Marina Helbling;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Jan Döring;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Elke Graf;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Kristijan Lukić;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Martina Weinbrecht;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Michael Schröpfer;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Monika Rihm;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Massimo Ferrini;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Franziska Kopf;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;John-Marcel Dräger;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Andreas Kehrle;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Tobias Zorn;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Christel Amann;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Robin Schuster;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;CDU;;Ingo Wellenreuther;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Yvette Melchien;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Dr. Anton Huber;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Sibel Uysal;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Dr. Raphael Fechler;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Melis Schmid;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Mathias Tröndle;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Elke Ernemann;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Dr. Oliver Langewitz;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Irene Moser;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Artur Budnik;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Paulina Miliczek;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Michael Zeh;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Carina Perez;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Adrian Nicolas Keller;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Maren Göppert;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Felix Metzke;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Zahide Yeşil;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Nicolai Friedrich;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Yasmin Schweiger;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Alexander Linder;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Hanne Mutter;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Samuel Schrank;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Firdes Kaplaner;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Eric Lehmann;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Karin Weisser;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Christoph David Elsner;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Natascha Roth;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Davut Deligöz;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Yasemin Güler;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Harry Clausnizer;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Barbara Mehnert;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Edgardo Cañas Kurz;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Angela Hölzer;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Axel Wrtal;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Dr. Brigitte Schmid-Hagenmayer;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Arno Zürcher;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Sandra Dürr;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Nico Krebs;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Charlotte Mohr;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Lukas Wagner;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Tonja Čuić-Huber;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Dr. Dieter Daub;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Susanne Oppelt;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Aaron Zdarsky;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Judith Marvi;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Leo Hammerschmidt;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Dr. Martin Steffens;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;SPD;;Regina Schmidt-Kühner;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Hendrik van Ryk;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Annette Böringer;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Thomas Heinrich Hock;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Dr. Stefan Noe;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Norman Gaebel;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Blaženka Schäfer;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Patrik Mahlke;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Nikolai Ditzenbach;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Joachim Ernst Wohlfeil;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Lara Sophie Riggio;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Dr. Albert Augustin;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Marius Jäger;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Marcus Hillmer;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Jörg Breier;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Dirk Mattern;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Mario Viggiani;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Nicolas van Ryk;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Pascal Oudotte;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Veronika Noe;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Brandon Hannemann;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Andreas Wolf;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Maximilian Widmann;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Thomas Kalesse;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Dr. Angelika Fink-Sontag;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Bernd Weber;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Markus Ziegler;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Daniel Hailer;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Markus Werner;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Jeremy Petschner;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Ole Reher;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Hubert Lechner;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Carmen Janner-Werner;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Joachim Städter;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Matthias Menn;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Philipp Berner;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Andreas Fichtner;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Jürgen Morlock;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Thomas Nattrodt;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Abdul Razak Shoufan;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Jana Futterer;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Brigitte Rombach;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Harry Gärtner;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Felix Pfefferkorn;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Michael Kromer;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Marc-Aurel Schelly;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Thomas Keuthen;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Patrick Meier;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FDP;;Dr. Jürgen Morlok;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Dr. Paul Schmidt;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Oliver Schnell;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Marco Gottmann;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Rouven Simon Stolz;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Andreas Seidler;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Dr. Gerhard Lenz;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Ulrike Heidrun Rabold;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Uwe Winkler;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Axel Rathjen;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Timm Kempf;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Marco Rohn;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Peter Altmann;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Andreas Josef Graefenstein;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Manfred Kunzmann;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Michael Ruch;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Hannelore Nagel;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Bernd Freynhagen;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Thomas Lutz;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Markus Schäfer;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Thomas Schwan;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;David Willimzig;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Christiane Polixa;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Konrad Zimmer;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Frank Winkler;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Gábor Csaba Czakó;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Waltraud Kutz;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Agnes Maria Franziska Straub;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Sven Michael Ehrstein;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Dr. Corneliu Jänner;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Dr. Ulrich Sieben;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Marco Federici;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Joachim Reize;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Thomas Rettig;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Alfred Künzel;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Lutz Chmelik;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Herbert Duch;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Martin Berg;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Fabien Meid;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Siegfried Riebniger;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Jan Wilhelm Wettach;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Walter Hörnle;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Manfred Kutz;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Friederike Winter;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Jürgen Walter;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Manfred Jochum;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Hans Hoffmann;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Hans-Peter Graupner;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;AfD;;Marc Bernhard;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Franziska Buresch;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Christina Zacharias;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Anne-Kathrin Berghoff;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Tanja Kaufmann;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Serena Schmidt;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Jürgen Ringwald;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Anna Frey;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Johannes Schmidt;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Mathilde Göttel;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Philipp Frey;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Leyla Duran;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Elwis Capece;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Alexandria Dritschler;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Wolfgang Opferkuch;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Tuǧba Ayla Schlegel;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Rudolf Bürgel;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Dr. Sabine Skubsch;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Moritz Tremmel;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Karin Binder;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Sebastian Becker;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Anete Wellhöfer;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Roland Zöller;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Sabine Zürn;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Maximilian Hennecke;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Sibylle Nies de Alva;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Jean-Paul Marienfeld;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Julie Bürkle;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Alexander Dürrhauer;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Miriam Dieterich;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Sascha Gruber;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Silke Falk;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Matteo Foschi;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Franziska Bauer;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Andreas Hensel;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Ilayda Kohl;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Gerhard Lembach;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Isabel Limerov;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Daniel Wlostowski;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Alena Schmitt;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Maurice Knaus;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Silke Gilliard;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Klaus Krug-Beutner;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Edith Ringwald;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Daniel Oeffner;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Monika Bischof;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Nicolas Herrmann;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Claudia Wannersdorfer;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;DIE LINKE;;Dr. Gregor Klein;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Lüppo Cramer;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Sonja Döring;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Michael Haug;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Vera Schlenker;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Hannes Ludwig;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Michaela Mannhardt;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Matthias Dreisigacker;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Maike Etzold;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Uwe Lancier;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Klaus Fehrenbach;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Katharina Kaiser;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Friederich Weber;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Gnamba Dossoh-Ouno;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Ümit Karakus;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Beate Müller-Haug;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Matthias Vogel;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Dr. Jost Armbruster;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Sabine Speck;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Dr. Barbara Eberle;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Michael Salbeck;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Henriette Pößnecker;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Marcel Rangk;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Renate Fischer;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Elisabeth Dreyfus-Braasch;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Dr. Angelika Leist;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Lisa Gordon;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Michael Strippel;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Giuseppe Campanella;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Alina Waltenberger;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Christian Bundschuh;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Britta Velhagen;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Alma Unseld;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Rusen Kartaloglu;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Antje Schumacher;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Erik Rastetter;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Elena Kerl;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Karl Heinz Spengler;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Claudia Sewekow;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Rotraud von Treuenfels;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Simon Anderer;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Isabel Häuser;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Dr. Joachim Schulz;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Birgit Burger;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Werner Lochmann;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Ute Michalczyk-Harsch;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Dr. Abbas Salamat-Bakhch;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Dr. Eberhard Fischer;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAL;;Margot Döring;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Max Braun;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Lorenz Bierhalter;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Janina Kern;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Andrea Ospina Ocampo;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Frank Trippel;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Andreas Zimmermann;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Vanessa Schulz;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Jörg Lesser;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Laura Siggelkow;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Eduard Maier;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Patrick Kreft;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Daniel Barth;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Robert Fülle;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Uwe Matyschik;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Clara Heil;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Johannes Rückert;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Saskia Maier;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Matthias Dieckhoff;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Fabian Walz;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Kim Warth;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Lara Spangenberg;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Ina Braun;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Moritz Braun;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Zoe Leyser;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Emma Leyser;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Thorsten Eilers;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Torsten Dussinger;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Andrea Busemann;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Adama Bengaly;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Rica Hegemann;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Christian Kollmar;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Fiona Frey;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Martin Keller;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Jordi Kühn;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Nicole Wagenbach;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Till Wiethüchter;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Swantje Voigt;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Rainer Petry;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Louise Stüber;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Florian Liebig;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Adrian Florea;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Tamara Will;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Marco Morasch;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Barbara Hammer;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Anja Keller;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Moritz Löper;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Ramon Walter;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Die PARTEI;;Rebecca Ansin;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Petra Lorenz;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Dr. Hubert Keller;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Rena Thormann;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Peer Giemsch;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Tanja Schimkus;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Arnt-Martin Bokemüller;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Andreas Gold;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Marc Ephraim;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Dr. Kai Dördelmann;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Hans-Christian Arzt;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Antje Maria Abel;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Gudrun Mrozek-Großklaus;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Andre Schimkus;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Ullrich Müller;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Norbert Koch;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Torsten Scherer;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Ulrich Gehmann;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Michael Zimmermann;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Ulrike Zimmermann;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Dr. Andreas Spuller;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Natalie Pejić-Spuller;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Kevin Oster;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Toni Schweiger;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Andreas Bühler;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Manuela Meinzer;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Jennifer Warzecha;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Christian Kloß;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Rebecca Nowoczin;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Christian Nowoczin;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Andy Nguyen;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Christine Höger;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Sebastian Höger;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Thomas Kessel;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Jörg Schnaitmann;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Ulrike Sattler;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Fritz Katz;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Gabriele Speck;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Andreas Speck;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Andrea Markiewiez;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Sabine Dittner;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Christian Filsinger;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Edgar Filsinger;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Simon Kratil;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Benjamin Himmen;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Marcus Trojan;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Bernd Budig;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Rolf Apell;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FW KA e.V.;;Nadine Bartell;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Friedemann Kalmbach;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Markus Schneider;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Evodia Fetzer;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Micha Schlittenhardt;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Dagmar Hock;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Daniel Gräber;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Frederick Kassnel;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Daniela Schlittenhardt;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Erika Mosebach-Kornelsen;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Klaus-Jürgen Raphael;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Rüdiger Lörz;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Jasmin Strentzsch;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Marius Meger;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Ulrich Kuppinger;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Dr. Ulf Lenk;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Sarah Schönpflug;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Heiko Zinecker;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Pia Sabban;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Silvia Dahlke;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Graziano Gangi;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Nadia Fetzer;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Dr. Hans-Günther Schreiner;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Chiara Schubert;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Felix Kalmbach;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Peter Diez;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Annette Lörz;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Günter Kretz;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Kathrin Seifert;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Edwin Boschmann Klassen;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Cornelia Dages;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Barbara Kalmbach;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Tabea Hayer;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Maik Beltrame;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Klaus Schönpflug;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Tino Buscalferri;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Gabriele Kaiser-Beltrame;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Joël Thalmann;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Luca Schneider;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Manuel Mosebach;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Matthias Dages;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Uwe Dahlke;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Ulrich Eckert;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Sigrid Fritsche;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Jonas Hayer;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Ary Issaka;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Marvin Hock;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Andrea Spitzer;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;FÜR Karlsruhe;;Roland Kliewer;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Team Todenhöfer;;Kerem Bayrak;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Team Todenhöfer;;Ebubekir Öztürk;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Dr. David Schneider-Addae-Mensah;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Achim Kupferschmitt;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Dr. Birgit Rüdinger;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Stefan Welte;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Philippe Sebastian;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Bruno Mayer;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Ulrike Adeyemo;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Gregor Zawierucha;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Markus Pietrek;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Tabea Friedrich;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Tim Drees;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Ina Gronert;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Frederik Kokenge;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Diana Sayegh;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Sebastian Astor;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Michael Piehl;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Richard Sidaras;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Nora Frey;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Sabine Gungl;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Satu Heyer;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Tanja Meiser;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Alexandra Kolb;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Viola Mankin;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Armin Schmutzer;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Birgit Guggenberger;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Grit Lamprecht;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Manfred Meiser;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Demokratie und Aufklärung Karlsruhe;;Anna Elisabeth Risse;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;KAG;;Matthias Hofmann;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Fabian Gaukel;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Adina Geißinger;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Kiên Nguyen;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Jennifer Maahs;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Nils Spreyer;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Dr. Eva Schill;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Dr. Tassi Giannikopoulos;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Céline Borchers;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Cem Yusuf Kont;;;;;;;;9
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Alina-Alexandra Contra;;;;;;;;10
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Kai Robin Stricker;;;;;;;;11
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Katharina Sabel;;;;;;;;12
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Michael Vogtmann;;;;;;;;13
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Alisa Schill;;;;;;;;14
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Markus Mann;;;;;;;;15
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Kirsten Rode;;;;;;;;16
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Daniel Ritz;;;;;;;;17
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Rebecca Roberts;;;;;;;;18
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Markus Schulz;;;;;;;;19
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Anna Leonie Roth;;;;;;;;20
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Daniel Schuster;;;;;;;;21
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Alissa Schindler;;;;;;;;22
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Johannes Bier;;;;;;;;23
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Silke Horchheimer;;;;;;;;24
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Patrick Stahl;;;;;;;;25
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Barbara Friedrich;;;;;;;;26
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Wilhelm Altemeier;;;;;;;;27
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Lisa Neu;;;;;;;;28
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Maximilian Thore Amling;;;;;;;;29
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Maria Fritz;;;;;;;;30
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Josef Roth;;;;;;;;31
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Valentin Quapil;;;;;;;;32
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Jan Gerhardus;;;;;;;;33
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Max Lukas Ritz;;;;;;;;34
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Luca Vito Di Bari;;;;;;;;35
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Krzysztof Vogtmann;;;;;;;;36
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Florian Glock;;;;;;;;37
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Benjamin Bleidorn;;;;;;;;38
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Peter Zamarajew;;;;;;;;39
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Paulo Jorge Gregorio Alexandre;;;;;;;;40
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Bastien Chevallier;;;;;;;;41
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Philipp Lukas Danylak;;;;;;;;42
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Marco Bruno;;;;;;;;43
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Yannick Lorenz;;;;;;;;44
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Kevin Springmann;;;;;;;;45
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Roland Bizer;;;;;;;;46
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Philip Mathias Rolf Kohle;;;;;;;;47
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;Volt;;Dominik Schaak;;;;;;;;48
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;ÖDP;;Kevin Wendel;;;;;;;;1
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;ÖDP;;Lucas Winkler;;;;;;;;2
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;ÖDP;;Dirk Uehlein;;;;;;;;3
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;ÖDP;;Dr. Franz-Josef Behr;;;;;;;;4
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;ÖDP;;Kolja Bekker;;;;;;;;5
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;ÖDP;;Friedrich Layher;;;;;;;;6
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;ÖDP;;Michael Hoppe;;;;;;;;7
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;ÖDP;;Edmund Kurstak;;;;;;;;8
+0.3;08212000;09.06.2024;Gemeinderatswahl 2024 Stadt Karlsruhe;ÖDP;;Hildegard Calleja;;;;;;;;9
