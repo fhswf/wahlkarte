@@ -526,6 +526,7 @@ export default class WahlController {
                     console.warn("no geodata for this Ebene", ebene);
                     this.activeEAC = undefined; // calls setter
                     this.removeGeoLayer();
+                    closeDialog();
                     return;
                 }
 
@@ -609,6 +610,7 @@ export default class WahlController {
         } else {
             this.activeEAC = undefined;
             this.removeGeoLayer();
+            closeDialog();
         }
     }
 
