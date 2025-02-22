@@ -91,7 +91,7 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
 /* ---------------------------------- Hagen BTW ----------------------------- */
 
 let wahlTerminHagenBTW: WahlTerminConfigType = {
-    name: "Hagen: Bundestagswahl 2021 (vorl.)",
+    name: "Hagen: Bundestagswahl 2021",
     baseUrl: "./data/hagen-btw2021/",
     wahlDatumStr: "26.09.2021",
     defaultCenter: [51.37, 7.48],
@@ -99,28 +99,28 @@ let wahlTerminHagenBTW: WahlTerminConfigType = {
     wahlen: [
         {
             displayName: "Bundestagswahl",
-            name: "Bundestagswahl",
-            parameterPath: "05914000_20210926_Bundestagswahl_Wahlparameter_V0-3_20210926T232933.csv",
-            gebietePath: "05914000_20210926_Bundestagswahl_Wahlgebietseinteilungen_V0-3_20210926T232933.csv",
-            stimmzettelPath: "05914000_20210926_Bundestagswahl_Stimmzettel_V0-3_20210926T232933.csv",
-            ergebnisPath: "05914000_20210926_Bundestagswahl_Wahlergebnisse_V0-3_20210926T232933.csv",
-            kandidatPath: "05914000_20210926_Bundestagswahl_Kandidaten_V0-3_20210926T232933.csv",
+            name: "Wahl zum Deutschen Bundestag",
+            parameterPath: "05914000_26.09.2021_Wahl zum Deutschen Bundestag_Wahlparameter_V0-3_05.02.2025 090603 991.csv",
+            gebietePath: "05914000_26.09.2021_Wahl zum Deutschen Bundestag_Wahlgebietseinteilungen_V0-3_05.02.2025 090744 822.csv",
+            stimmzettelPath: "05914000_26.09.2021_Wahl zum Deutschen Bundestag_Stimmzettel_V0-3_05.02.2025 090714 586.csv",
+            ergebnisPath: "05914000_26.09.2021_Wahl zum Deutschen Bundestag_Wahlergebnisse_V0-3_05.02.2025 090606 833.csv",
+            kandidatPath: "05914000_26.09.2021_Wahl zum Deutschen Bundestag_Kandidaten_V0-3_05.02.2025 090714 582.csv",
             ergebnisType: ErgebnisBundestagswahl,
             ebenen: new Map([
-                ["Wahlbezirk", {
-                    geoJson: "wahlbezirke_btw2021.json",
+                ["Wahlbezirke", {
+                    geoJson: "05914000_26.09.2021_Wahl zum Deutschen Bundestag_ebene_6.geojson",
                     keyProp: "BEZIRKSNUM",
                     uniqueId: true
                 }],
                 ["Briefwahlbezirke", {
-                    geoJson: "wahlbezirke_btw2021.json",
+                    geoJson: "05914000_26.09.2021_Wahl zum Deutschen Bundestag_ebene_6.geojson",
                     keyProp: "BEZIRKSNUM",
                     virtual: true,
                     virtualField: "BRIEFWAHLBEZIRK-NR", // custom csv field
                     dissolve: true,
                     uniqueId: true
                 }],
-                ["Stadtbezirk", {
+                ["Stadtbezirke", {
                     geoJson: "stadtbezirke.geojson",
                     keyProp: "BEZEICHNUN",
                     uniqueId: true

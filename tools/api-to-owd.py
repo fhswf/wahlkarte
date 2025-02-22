@@ -6,63 +6,72 @@ from __future__ import annotations
 from csv import writer, reader, DictReader
 from dataclasses import dataclass
 from hashlib import md5
-from typing import List, Tuple, Any, Dict
+from typing import List, Tuple, Any, Dict, Optional
 
 from requests import get as r_get
 
-def r_json(url):
+# optional, aber empfohlen
+import requests_cache
+requests_cache.install_cache('api-to-owd-cache')
+
+def r_simple(url):
+    # print(url)
     r = r_get(url)
     r.raise_for_status()
-    return r.json()
+    return r
 
-default_wahlName = "Bundestagswahl"
+def r_json(url):
+    r = r_simple(url)
+    return r.json()
 
 @dataclass
 class Wahl:
     wahlparameter: Wahlparameter
     wahlgebietseinteilungen: Wahlgebietseinteilungen
     stimmzettel: Stimmzettel
-    kandidaturen: Kandidaturen
+    kandidaturen: Optional[Kandidaturen]
     wahlergebnisse: Wahlergebnisse
 
     def writeOWDcsv(self) -> None:
-        for obj in (self.wahlparameter, self.wahlgebietseinteilungen, self.stimmzettel, self.kandidaturen, self.wahlergebnisse):
+        # Reihenfolge ist jetzt erstmal wichtig geworden: Kandidaturen vor Stimmzettel.
+        for obj in (self.wahlparameter, self.wahlgebietseinteilungen, self.kandidaturen, self.stimmzettel, self.wahlergebnisse):
             if obj: obj.writeOWDcsv()
 
 @dataclass
 class Wahlparameter:
     data: Dict[str, Any]
     termin: Dict[str, Any]
-    wahlBehoerdeGS: str = "05914000"
-    wahlBehoerdeName: str = "Stadt Hagen"
-    wahlName: str = default_wahlName
-    kandGebBez: str = "Wahlkreis"
-    geb5: str = ""
-    geb4: str = ""
-    geb3: str = "Wahlkreis"
-    geb2: str = "Stadtbezirk"
-    bez: str = "Wahlbezirk"
+    wahlBehoerdeGS: str
+    wahlBehoerdeName: str
+    kandGebBez: str
+
+    @property
+    def wahlName(self):
+        return self.data['titel']
 
     @property
     def niedrigsteEbeneID(self):
         return self.data['menu_links'][-1]['id']
 
+    @property
+    def ebenen(self):
+        e = {}
+        for link_data in self.data['menu_links']:
+            if link_data['type'] != 'uebersicht': continue
+            e[link_data['id']] = link_data['title']
+        return e
+
     def writeOWDcsv(self) -> None:
-        with open(f"./{self.wahlBehoerdeGS}_{self.data.get('datum') or self.termin.get('datum')}_{self.wahlName}_Wahlparameter_V0-3_{self.data.get('file_timestamp', '').replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
+        with open(f"./{self.wahlBehoerdeGS}_{self.data.get('datum') or self.termin.get('datum')}_{self.wahlName.replace("/", "-")}_Wahlparameter_V0-3_{self.data.get('file_timestamp', '').replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
             csvw = writer(csvf, delimiter=";")
             csvw.writerow((
                 "version", "wahl-behoerde-gs", "wahl-behoerde-name", "wahl-datum", "wahl-name", "wahl-bezeichnung",
                 "kandidat-gebiet-bezeichnung", "gebiet-ebene-5-bezeichnung", "gebiet-ebene-4-bezeichnung",
                 "gebiet-ebene-3-bezeichnung", "gebiet-ebene-2-bezeichnung", "bezirk-bezeichnung"
             ))
-            #geb5 = self.data['menu_links'][-5]['title'] if self.data['menu_links'][-5] else ''
-            #geb4 = self.data['menu_links'][-4]['title'] if self.data['menu_links'][-4] else ''
-            #geb3 = self.data['menu_links'][-3]['title'] if self.data['menu_links'][-3] else ''
-            #geb2 = self.data['menu_links'][-2]['title'] if self.data['menu_links'][-2] else ''
-            #bez = self.data['menu_links'][-1]['title']
             csvw.writerow((
                 "0.3", self.wahlBehoerdeGS, self.wahlBehoerdeName, self.data.get('datum') or self.termin.get('datum'), self.wahlName, self.data['titel'],
-                self.kandGebBez, self.geb5, self.geb4, self.geb3, self.geb2, self.bez  # geb5, geb4, geb3, geb2, bez
+                self.kandGebBez, *(['']*(5-len(self.ebenen))), *self.ebenen.values()
             ))
 
 @dataclass
@@ -70,17 +79,17 @@ class Wahlgebietseinteilungen:
     uebersicht_data: Dict[str, Any]
     bezirke_data: Dict[str, Dict[str, Any]]
     datum: str
-    wahlBehoerdeGS: str = "05914000"
-    wahlLeiterGS: str = "05914000"
-    wahlLeiterName: str = "Stadt Hagen"
-    wahlName: str = default_wahlName
-    kandGebNr: str = "138"
-    kandGebBez: str = "138 Hagen - Ennepe-Ruhr-Kreis I"
-    stimmGebNr: str = "138"
-    stimmGebBez: str = "138 Hagen - Ennepe-Ruhr-Kreis I"
+    wahlName: str
+    wahlBehoerdeGS: str
+    wahlLeiterGS: str
+    wahlLeiterName: str
+    kandGebNr: str
+    kandGebBez: str
+    stimmGebNr: str = ""  # TODO
+    stimmGebBez: str = ""  # TODO
 
     def writeOWDcsv(self) -> None:
-        with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName}_Wahlgebietseinteilungen_V0-3_{(self.uebersicht_data.get('file_timestamp') or self.uebersicht_data.get('zeitstempel')).replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
+        with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName.replace("/", "-")}_Wahlgebietseinteilungen_V0-3_{(self.uebersicht_data.get('file_timestamp') or self.uebersicht_data.get('zeitstempel')).replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
             csvw = writer(csvf, delimiter=";")
             csvw.writerow((
                 "version", "wahl-behoerde-gs", "wahl-datum", "wahl-name", "wahl-leiter-gs", "wahl-leiter-name",
@@ -93,10 +102,12 @@ class Wahlgebietseinteilungen:
 
             def _name_to_id(name) -> str:
                 # wieso? weil wir nachher erstmal die open data csv verwenden und die gebiets IDs nicht die "internen" sind die wir hier sonst sehen
+                # es ist aber leider nicht direkt in den Daten vorhanden, müssen wir also nachahmen
                 assert name
-                return ''.join(_ for _ in name if _.isdigit()) or name
+                return ''.join(_ for _ in name.split(" ")[0] if _.isdigit()) or ''.join(_ for _ in name.split(" ")[-1] if _.isdigit()) or name
 
-            for bezirk_id_intern, bezirk_data in self.bezirke_data.items():
+            for bezirk_id_intern, bezirk_dict in self.bezirke_data.items():
+                bezirk_data = bezirk_dict['data']
                 gebietsverlinkung = bezirk_data['Komponente']['gebietsverlinkung']
                 # reihenfolge/anzahl sollte so sein wie in wahlparameter. häufig wohl manuelle anpassung notwendig (dort so machen wie es hier in daten ist)
                 name_5 = gebietsverlinkung[-5]['gebietslinks'][0]['title'] if len(gebietsverlinkung) >= 5 else ''
@@ -108,17 +119,18 @@ class Wahlgebietseinteilungen:
                 name_2 = gebietsverlinkung[-2]['gebietslinks'][0]['title'] if len(gebietsverlinkung) >= 2 else ''
                 nr_2 = _name_to_id(name_2) if name_2 else ''
 
-                bezirk_name = bezirk_data['Komponente']['info']['titel']
+                bezirk_name = bezirk_dict['name'] or bezirk_data['Komponente']['info']['titel']
                 bezirk_id = _name_to_id(bezirk_name)
                 briefwahlbezirk_id = bezirk_id
-                if (letzte := gebietsverlinkung[-1])['titel'] != "Stimmbezirke":
+                # vorsicht
+                if gebietsverlinkung and (letzte := gebietsverlinkung[-1])['titel'] != "Stimmbezirke":
                     assert len(letzte['gebietslinks']) == 1
                     briefwahlbezirk_id = _name_to_id(letzte['gebietslinks'][0]['title'])
 
                 csvw.writerow((
                     "0.3", self.wahlBehoerdeGS, self.datum, self.wahlName, self.wahlLeiterGS, self.wahlLeiterName,
                     nr_5, name_5, nr_4, name_4, nr_3, name_3, nr_2, name_2,
-                    bezirk_id, bezirk_name, briefwahlbezirk_id, "B" if "Briefwahlb" in bezirk_name else "W", "",
+                    bezirk_id, bezirk_name, briefwahlbezirk_id, "B" if "Briefwahl" in bezirk_name else "W", "",
                     self.kandGebNr, self.kandGebBez,
                     self.stimmGebNr, self.stimmGebBez
                 ))
@@ -127,21 +139,45 @@ class Wahlgebietseinteilungen:
 class Stimmzettel:
     data: Dict[str, Any]
     datum: str
-    alt_ts: str = ""
-    wahlBehoerdeGS: str = "05914000"
-    wahlName: str = default_wahlName
-    stimmGebNr: str = "138"
-    stimmGebBez: str = "138 Hagen - Ennepe-Ruhr-Kreis I"
+    wahlName: str
+    wahlBehoerdeGS: str
+    alt_ts: str
+    stimmGebNr: str = ""  # TODO
+    stimmGebBez: str = ""  # TODO
+    
+    def __post_init__(self):
+        self._fakes = {}
+
+    def get_or_fake(self, labelKurz, color=None):
+        # color dient nicht dem lookup sondern dem faken wenn es bewerber ohne liste gibt
+        # in Hagen ist das mit ---, in Karlsruhe fehlt der Eintrag bei den Zweitstimmen in der Tabelle.
+        for partei in self.entries:
+            if partei['label']['labelKurz'] == labelKurz:
+                return partei
+        self._fakes[labelKurz] = color
+        return self.fake_entry(labelKurz, color)
+
+    @staticmethod
+    def fake_entry(labelKurz, color):
+        return {'label': {'labelKurz': labelKurz}, 'color': color}
+
+    @property
+    def entries(self):
+        all_entries = []
+        all_entries.extend(self.data['Komponente']['tabelle']['zeilen'])
+        for fake_labelKurz, fake_color in self._fakes.items():
+            all_entries.append(Stimmzettel.fake_entry(fake_labelKurz, fake_color))
+        return all_entries
 
     def writeOWDcsv(self) -> None:
-        with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName}_Stimmzettel_V0-3_{(self.data.get('file_timestamp') or self.alt_ts).replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
+        with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName.replace("/", "-")}_Stimmzettel_V0-3_{(self.data.get('file_timestamp') or self.alt_ts).replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
             csvw = writer(csvf, delimiter=";")
             csvw.writerow((
                 "version", "wahl-behoerde-gs", "wahl-datum", "wahl-name",
                 "stimmzettel-gebiet-nr", "stimmzettel-gebiet-bezeichnung",
                 "stimmzettel-position", "partei-kurzname", "partei-langname", "partei-rgb-wert", "partei-typ"
             ))
-            for pos, partei in enumerate(self.data['Komponente']['tabelle']['zeilen'], 1):
+            for pos, partei in enumerate(self.entries, 1):
                 csvw.writerow((
                     "0.3", self.wahlBehoerdeGS, self.datum, self.wahlName,
                     self.stimmGebNr, self.stimmGebBez,
@@ -151,14 +187,14 @@ class Stimmzettel:
 @dataclass
 class Kandidaturen:
     data: Dict[str, Any]
-    stimmzettel_data: Dict[str, Any]
+    stimmzettel: Stimmzettel
     datum: str
-    wahlBehoerdeGS: str = "05914000"
-    wahlName: str = default_wahlName
-    kandGebNr: str = "138"
+    wahlName: str
+    wahlBehoerdeGS: str
+    kandGebNr: str
 
     def writeOWDcsv(self) -> None:
-        with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName}_Kandidaten_V0-3_{self.data['file_timestamp'].replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
+        with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName.replace("/", "-")}_Kandidaten_V0-3_{self.data['file_timestamp'].replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
             csvw = writer(csvf, delimiter=";")
             csvw.writerow((
                 "version", "wahl-behoerde-gs", "wahl-datum", "wahl-name",
@@ -167,11 +203,11 @@ class Kandidaturen:
                 "kandidat-akadgrad", "kandidat-geburtsjahr", "kandidat-geschlecht", "kandidat-beruf",
                 "kandidat-gebiet-nr", "kandidat-listenplatz"
             ))
-            for kandidatur, partei in zip(self.data['Komponente']['tabelle']['zeilen'], self.stimmzettel_data['Komponente']['tabelle']['zeilen']):
+            for kandidatur in self.data['Komponente']['tabelle']['zeilen']:
                 if (kandidatur['zahl'] == '---'): continue
-                nachname = kandidatur['label']['labelKurz'].removesuffix(f", {partei['label']['labelKurz']}")
-                #if ',' in nachname:  # ausweichlösung
-                #    nachname = nachname.split(',')[0]
+                nachname, parteiKurzLabel = kandidatur['label']['labelKurz'].split(", ")
+                partei = self.stimmzettel.get_or_fake(parteiKurzLabel, kandidatur['color'])
+                # ????
                 vorname = (kandidatur['label'].get('labelLang') or kandidatur['label'].get('labelKurz')).split(nachname if not ' ' in nachname else nachname.split(' ')[1])[0].removeprefix('' if not ' ' in nachname else nachname.split(' ')[0]).strip()
                 csvw.writerow((
                     "0.3", self.wahlBehoerdeGS, self.datum, self.wahlName,
@@ -186,12 +222,11 @@ class Wahlergebnisse:
     bezirke_csv: str
     file_timestamp: str
     datum: str
-    wahlBehoerdeGS: str = "05914000"
-    wahlName: str = default_wahlName
-    kandGebNr: str = "138"
+    wahlName: str
+    wahlBehoerdeGS: str
 
     def writeOWDcsv(self) -> None:
-        with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName}_Wahlergebnisse_V0-3_{self.file_timestamp.replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
+        with open(f"./{self.wahlBehoerdeGS}_{self.datum}_{self.wahlName.replace("/", "-")}_Wahlergebnisse_V0-3_{self.file_timestamp.replace(':', '')}.csv", "w", newline="", encoding="utf-8") as csvf:
             csvw = writer(csvf, delimiter=";")
             orig_head = next(reader(self.bezirke_csv.splitlines(), delimiter=';'))
             zahlen = [h for h in orig_head if h[0].isupper()]
@@ -208,11 +243,46 @@ class Wahlergebnisse:
                 ))
 
 # Grundkonfiguration
+wahlBehoerdeGS = "00000000"
+wahlBehoerdeName = ""
+kandGebBez = ""
+kandGebNr = ""
+kandGebBezName = ""
+# Die Werte werden nur in die csv geschrieben und nicht für den Abruf oder so genutzt. TODO: mehr automatisch ermitteln
 
-test = False
-base = f"http://wahlergebnisse.stadt-hagen.de/{'test' if test else 'prod'}/BW2021/05914000/"
+# Hagen Bundestagswahl 2021 - aktualisierte Linkstruktur
+wahlBehoerdeGS = "05914000"
+wahlBehoerdeName = "Stadt Hagen"
+base = f"https://wahlergebnisse.stadt-hagen.de/prod/BW2021/05914000/"
+api_base = f"{base}daten/api/"
 pr_base = f"{base}praesentation/"
-api_base = f"{base}/api/praesentation/"
+opendata_base = f"{base}daten/opendata/"
+opendata_json_base = opendata_base
+# Muss dem Namen einer Ebene entsprechen. Die Ebene muss ggf. manuell hinzugefügt werden
+# In diesem Beispiel wird es falsch ermittelt: "Gemeinden (Wahlkreis 138)" hat nix damit zu tun. Es gibt aber Gebietsverlinkung Wahlkreis..?
+# Die Lösung lautet also, manuell in der Wahlparameter-Datei die Ebene 3 umzubenenennen in Wahlkreis und hier entsprechend zu nennen:
+kandGebBez = "Wahlkreis"
+# Wenn es mehrere im betrachteten Gebiet gäbe, müssten wir natürlich besser unterscheiden.
+kandGebNr = "138"
+# Wie schrecklich! kandidat-gebiet-bezeichnung gibt es im Standard zwei Mal.
+kandGebBezName = "138 Hagen - Ennepe-Ruhr-Kreis I"
+# Noch nicht (nichtmal manuell) hier berücksichtigt: Wenn es unterschiedliche Stimmzettel gibt, wie bei Bezirksvertretungswahl. Oben als TODO markiert und stets leer.
+
+# Karlsruhe Bundestagswahl 2021
+# wahlBehoerdeGS = "08212000"
+# wahlBehoerdeName = "Stadt Karlsruhe"
+# base = f"https://wahlergebnisse.komm.one/lb/produktion/wahltermin-20210926/08212000/"
+# api_base = f"{base}api/praesentation/"
+# pr_base = f"{base}praesentation/"
+# opendata_base = pr_base
+# opendata_json_base = api_base
+# # In diesem Fall gibt es weder Gebietsverlinkung, noch fragwürdige Übersichtsebene.
+# # Das heißt der manuelle Eingriff der hier erforderlich wird ist eine Ebene 3 zu jeder Gebietseinteilung hinzuzufügen (Nummer und Name vom Wahlkreis sind ja eh alle gleich)
+# kandGebBez = "Wahlkreis"
+# kandGebNr = "271"
+# kandGebBezName = "271 Karlsruhe-Stadt"
+
+filter_wahl_ids = {}
 
 # Welche Wahlen gibt es?
 termin_url = f"{api_base}termin.json"
@@ -225,27 +295,47 @@ for wahleintrag in termin['wahleintraege']:
 
 wahlen = []
 for wahl_obj in wahl_objs:
-    wahl_base = f"{api_base}wahl_{wahl_obj['id']}/"
+    wahl_id = wahl_obj['id']
+    if filter_wahl_ids and wahl_id not in filter_wahl_ids: continue
+    wahl_base = f"{api_base}wahl_{wahl_id}/"
     
     # Wahlparameter-Datei
     wahl_url = f"{wahl_base}wahl.json"
     wahl_json = r_json(wahl_url)
-    wahlparameter = Wahlparameter(wahl_json, termin)
+    wahlparameter = Wahlparameter(wahl_json, termin, wahlBehoerdeGS, wahlBehoerdeName, kandGebBez)
+    if (gge := wahl_json.get('geografik_ebenen')):
+        print(f"INFO: Ebenen mit GeoGrafik: {', '.join(map(lambda _: f'ebene_{_}', gge))}")
+        for ggei in gge:
+            try:
+                print(f"Download GeoGrafik GeoJSON ebene_{ggei}")
+                gg_r = r_simple(f"{wahl_base}geografik_ebene_{ggei}.json")
+                with open(f"./{wahlparameter.wahlBehoerdeGS}_{wahlparameter.data.get('datum') or wahlparameter.termin.get('datum')}_{wahlparameter.wahlName.replace("/", "-")}_ebene_{ggei}.geojson",  "w") as f:
+                    f.write(gg_r.text)
+            except:
+                print("Download fehlgeschlagen, fahre fort")
 
     # Wahlgebietseinteilungen-Datei
     uebersicht_url = f"{wahl_base}uebersicht_{wahlparameter.niedrigsteEbeneID}_0.json"  # hier wird generell die 0 verwendet, da uns die genaue Art der Stimmen erstmal egal ist
     uebersicht_json = r_json(uebersicht_url)
     gebiete_ts = uebersicht_json.get('file_timestamp') or uebersicht_json.get('zeitstempel')
-    bezirk_ids = []
+    bezirke_data = {}
     for zeile in uebersicht_json['tabelle']['zeilen']:
         if not zeile['stimmbezirk']: continue
-        bezirk_ids.append(zeile['link']['id'])
-    bezirke_data = {}
-    for bezirk_id in bezirk_ids:
+        if zeile.get('link') is None:
+            print(f"keine Daten / Link für {zeile['label']}, wird komplett ignoriert!")
+        else:
+            bezirk_id = zeile['link']['id']
+            assert bezirk_id not in bezirke_data
+            bezirke_data[bezirk_id] = {'name': zeile['label'] or zeile['link'].get('title')}
+    for bezirk_id, bezirk_dict in bezirke_data.items():
         bezirk_url = f"{wahl_base}ergebnis_{bezirk_id}_0.json"  # erneut einfach nur die 0
         bezirk_json = r_json(bezirk_url)
-        bezirke_data[bezirk_id] = bezirk_json
-    wahlgebietseinteilungen = Wahlgebietseinteilungen(uebersicht_json, bezirke_data, datum=wahl_json.get('datum') or termin.get('datum'))
+        bezirk_dict['data'] = bezirk_json
+    wahlgebietseinteilungen = Wahlgebietseinteilungen(
+        uebersicht_json, bezirke_data, datum=wahl_json.get('datum') or termin.get('datum'),
+        wahlName=wahlparameter.wahlName, wahlBehoerdeGS=wahlBehoerdeGS, wahlLeiterGS=wahlBehoerdeGS, wahlLeiterName=wahlBehoerdeName,
+        kandGebNr=kandGebNr, kandGebBez=kandGebBezName,
+    )
 
     # Stimmzettel-Datei
     # Unterscheidung: Falls mehrere Stimmentypen, nehme die mit Namen Zweitstimme oder die die als zweites kommt, ansonsten nimm die eine
@@ -260,9 +350,10 @@ for wahl_obj in wahl_objs:
             print('Annahme: Stimmentyp 1 ist Zweitstimme')
             type_partei = 1
     # Quelle: erstes Gebiet, statt open_data.json, da mehr Informationsgehalt
-    stimmzettel_url = f"{wahl_base}ergebnis_{bezirk_ids[0]}_{type_partei}.json"
+    stimmzettel_url = f"{wahl_base}ergebnis_{next(iter(bezirke_data.keys()))}_{type_partei}.json"
     stimmzettel_json = r_json(stimmzettel_url)
-    stimmzettel = Stimmzettel(stimmzettel_json, datum=wahl_json.get('datum') or termin.get('datum'), alt_ts=uebersicht_json.get('file_timestamp') or uebersicht_json.get('zeitstempel'))
+    stimmzettel = Stimmzettel(stimmzettel_json, datum=wahl_json.get('datum') or termin.get('datum'), wahlName=wahlparameter.wahlName, alt_ts=uebersicht_json.get('file_timestamp') or uebersicht_json.get('zeitstempel'), wahlBehoerdeGS=wahlBehoerdeGS)
+    # Achtung: Das Stimmzettelobjekt wird von den Kandidaturen ggf. beeinflusst
 
     # Kandidaten-Datei (ohne Liste)
     # Unterscheidung: Erstmal nur, wenn mehrere Stimmentypen, dann nehme die mit Namen Erststimme oder die, die als erstes kommt.
@@ -276,19 +367,32 @@ for wahl_obj in wahl_objs:
         else:
             print('Annahme: Stimmentyp 0 ist Erststimme')
         # Quelle: erstes Gebiet
-        kandidaturen_url = f"{wahl_base}ergebnis_{bezirk_ids[0]}_{type_kandidatur}.json"
+        kandidaturen_url = f"{wahl_base}ergebnis_{next(iter(bezirke_data.keys()))}_{type_kandidatur}.json"
         kandidaturen_json = r_json(kandidaturen_url)
-        kandidaturen = Kandidaturen(kandidaturen_json, stimmzettel_json, datum=wahl_json.get('datum') or termin.get('datum'))
+        kandidaturen = Kandidaturen(kandidaturen_json, stimmzettel, datum=wahl_json.get('datum') or termin.get('datum'), wahlName=wahlparameter.wahlName, wahlBehoerdeGS=wahlBehoerdeGS, kandGebNr=kandGebNr)
 
     # Wahlergebnisse-Datei
     # Quelle: open_data.json
-    opendata_url = f"{api_base}open_data.json"
+    opendata_url = f"{opendata_json_base}open_data.json"
     opendata_json = r_json(opendata_url)
-    bezirke_csv_url = pr_base + [c for c in opendata_json['csvs'] if c['wahl'] == wahl_json['titel']][-1]['url']
+    wahl_csv_url = None
+    try:
+        wahl_csv_url = [c for c in opendata_json['csvs'] if c['wahl'] == wahl_json['titel']][-1]['url']
+    except IndexError:
+        for i, c in enumerate(opendata_json['csvs']):
+            print(f"[{i}]: {c['wahl']} - {c['ebene']}")
+        print(f"Zuordnung Ergebnisdatei fehlgeschlagen für Wahl mit Namen: {wahl_json['titel']}")
+        while not wahl_csv_url:
+            try:
+                selected_i = int(input("Bitte Zahl für richtige Datei (niedrigste Ebene z. B. Stimmbezirk) angeben: "))
+                wahl_csv_url = opendata_json['csvs'][selected_i]['url']
+            except:
+                print("Bitte erneut versuchen, nur Zahl eingeben")
+    bezirke_csv_url = opendata_base + wahl_csv_url
     bezirke_csv_r = r_get(bezirke_csv_url)
     bezirke_csv_r.raise_for_status()
     bezirke_csv = bezirke_csv_r.content.decode('utf-8')
-    wahlergebnisse = Wahlergebnisse(bezirke_csv, file_timestamp=opendata_json.get('file_timestamp') or uebersicht_json.get('file_timestamp') or uebersicht_json.get('zeitstempel'), datum=wahl_json.get('datum') or termin.get('datum'))
+    wahlergebnisse = Wahlergebnisse(bezirke_csv, file_timestamp=opendata_json.get('file_timestamp') or uebersicht_json.get('file_timestamp') or uebersicht_json.get('zeitstempel'), datum=wahl_json.get('datum') or termin.get('datum'), wahlName=wahlparameter.wahlName, wahlBehoerdeGS=wahlBehoerdeGS)
 
     wahl = Wahl(
         wahlparameter=wahlparameter,
