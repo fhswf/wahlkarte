@@ -6,7 +6,7 @@
 // @flow
 import Wahl from './wahl-lib/wahl';
 import L from 'leaflet';
-import geostats from 'geostats';
+import geostats from 'geostats/lib/geostats.js';
 //$FlowIgnore[cannot-resolve-module]
 import 'geostats/lib/geostats.css';
 import chroma from 'chroma-js';

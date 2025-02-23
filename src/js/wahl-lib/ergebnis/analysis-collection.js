@@ -140,8 +140,9 @@ export class ErgebnisAnalysisCollection extends Map<GebietInterface, ErgebnisAna
                     let votes = rD.results.get(key);
                     if (isNaN(votes) || !isFinite(votes)) continue;
                     let totalValid = rD.value;
+                    let percentage = totalValid ? (votes / totalValid)*100 : 0;
                     gebieteArr.push(gebiet);
-                    dataArr.push((votes / totalValid)*100);
+                    dataArr.push(percentage);
                     classArr.push(key);
                 }
                 return {
@@ -184,9 +185,10 @@ export class ErgebnisAnalysisCollection extends Map<GebietInterface, ErgebnisAna
                     let votes = placement.votes;
                     // checking for NaN here shouldn't be required anymore
                     let totalValid = placement.totalValid;
+                    let percentage = totalValid ? (votes / totalValid)*100 : 0;
                     let color = this.wahl.parteien.get(class_)?.rgbWert || "white"; // ggf. error falls kein = und trotzdem keine farbe in der map?
                     gebieteArr.push(gebiet);
-                    dataArr.push((votes / totalValid)*100);
+                    dataArr.push(percentage);
                     classArr.push(class_);
                     colors.set(class_, color);
                 }
