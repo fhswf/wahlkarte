@@ -101,9 +101,9 @@ let wahlTerminHagenBTW25: WahlTerminConfigType = {
             displayName: "Bundestagswahl",
             name: "Wahl zum Deutschen Bundestag",
             parameterPath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Wahlparameter_V0-3_23.02.2025 163420 186.csv",
-            gebietePath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Wahlgebietseinteilungen_V0-3_23.02.2025 230750 507.csv",
+            gebietePath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Wahlgebietseinteilungen_V0-3_24.02.2025 183616 154.csv",
             stimmzettelPath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Stimmzettel_V0-3_23.02.2025 193352 278.csv",
-            ergebnisPath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Wahlergebnisse_V0-3_23.02.2025 163422 780.csv",
+            ergebnisPath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Wahlergebnisse_V0-3_23.02.2025 163422 780_1.csv",
             kandidatPath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Kandidaten_V0-3_23.02.2025 193352 274.csv",
             ergebnisType: ErgebnisBundestagswahl,
             ebenen: new Map([
