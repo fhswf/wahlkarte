@@ -90,7 +90,52 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
 
 /* ---------------------------------- Hagen BTW ----------------------------- */
 
-let wahlTerminHagenBTW: WahlTerminConfigType = {
+let wahlTerminHagenBTW25: WahlTerminConfigType = {
+    name: "Hagen: Bundestagswahl 2025 (vorl.)",
+    baseUrl: "./data/hagen-btw2025/",
+    wahlDatumStr: "23.02.2025",
+    defaultCenter: [51.37, 7.48],
+    defaultZoom: 12,
+    wahlen: [
+        {
+            displayName: "Bundestagswahl",
+            name: "Wahl zum Deutschen Bundestag",
+            parameterPath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Wahlparameter_V0-3_23.02.2025 163420 186.csv",
+            gebietePath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Wahlgebietseinteilungen_V0-3_23.02.2025 230750 507.csv",
+            stimmzettelPath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Stimmzettel_V0-3_23.02.2025 193352 278.csv",
+            ergebnisPath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Wahlergebnisse_V0-3_23.02.2025 163422 780.csv",
+            kandidatPath: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_Kandidaten_V0-3_23.02.2025 193352 274.csv",
+            ergebnisType: ErgebnisBundestagswahl,
+            ebenen: new Map([
+                ["Wahlbezirke", {
+                    geoJson: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_ebene_6.geojson",
+                    keyProp: "BEZIRKSNUM",
+                    uniqueId: true
+                }],
+                ["Briefwahlbezirke", {
+                    geoJson: "05914000_23.02.2025_Wahl zum Deutschen Bundestag_ebene_6.geojson",
+                    keyProp: "BEZIRKSNUM",
+                    virtual: true,
+                    virtualField: "BRIEFWAHLBEZIRK-NR", // custom csv field
+                    dissolve: true,
+                    uniqueId: true
+                }],
+                ["Kommunalwahlbezirke", {
+                    geoJson: "kommunalwahlbezirke.geojson",
+                    keyProp: "Wahlbezirk",
+                    uniqueId: true
+                }],
+                ["Wahlkreis", {
+                    geoJson: undefined,
+                    keyProp: undefined,
+                    uniqueId: true
+                }],
+            ])
+        },
+    ]
+};
+
+let wahlTerminHagenBTW21: WahlTerminConfigType = {
     name: "Hagen: Bundestagswahl 2021",
     baseUrl: "./data/hagen-btw2021/",
     wahlDatumStr: "26.09.2021",
@@ -547,6 +592,43 @@ let wahlTerminKallKWahl: WahlTerminConfigType = {
 
 /* ------------------------------- Karlsruhe ------------------------------- */
 
+let wahlTerminKarlsruheBTW25: WahlTerminConfigType = {
+    name: "Karlsruhe: Bundestagswahl 2025 (vorl.)",
+    baseUrl: "./data/karlsruhe-btw2025",
+    wahlDatumStr: "23.02.2025",
+    defaultCenter: [49.00844, 8.40897],
+    defaultZoom: 12.8,
+    wahlen: [
+        {
+            displayName: "Bundestagswahl",
+            name: "Bundestagswahl 2025",
+            parameterPath: '08212000_23.02.2025_Bundestagswahl 2025_Wahlparameter_V0-3_23.02.2025 233728 641.csv',
+            gebietePath: '08212000_23.02.2025_Bundestagswahl 2025_Wahlgebietseinteilungen_V0-3_23.02.2025 232323 906.csv',
+            stimmzettelPath: '08212000_23.02.2025_Bundestagswahl 2025_Stimmzettel_V0-3_23.02.2025 192440 849.csv',
+            kandidatPath: '08212000_23.02.2025_Bundestagswahl 2025_Kandidaten_V0-3_23.02.2025 192440 830.csv',
+            ergebnisPath: '08212000_23.02.2025_Bundestagswahl 2025_Wahlergebnisse_V0-3_21.02.2025 081741 662.csv',
+            ergebnisType: ErgebnisBundestagswahl,
+            ebenen: new Map([
+                ["Wahlbezirke", {
+                    geoJson: "WahlbezirkeLTW2021Karlsruhe.geojson",
+                    keyProp: "WahlbezirkPadded",
+                    uniqueId: true,
+                }],
+                ["Stadtteile", {
+                    geoJson: "ka_stadtteile.geojson",
+                    keyProp: "Stadtteilname",
+                    uniqueId: true,
+                }],
+                ["Wahlkreis", {
+                    geoJson: undefined,
+                    keyProp: undefined,
+                    uniqueId: true,
+                }],
+            ]),
+        },
+    ]
+};
+
 let wahlTerminKarlsruheLandtag: WahlTerminConfigType = {
     name: "Karlsruhe: Landtagswahl 2021",
     baseUrl: "./data/karlsruhe-ltw2021",
@@ -584,7 +666,7 @@ let wahlTerminKarlsruheLandtag: WahlTerminConfigType = {
     ]
 };
 
-let wahlTerminKarlsruheBTW: WahlTerminConfigType = {
+let wahlTerminKarlsruheBTW21: WahlTerminConfigType = {
     name: "Karlsruhe: Bundestagswahl 2021 (vorl.)",
     baseUrl: "./data/karlsruhe-btw2021",
     wahlDatumStr: "26.09.2021",
@@ -681,11 +763,13 @@ let wahlTerminKarlsruheEUGemeinderat24: WahlTerminConfigType = {
 
 export var wahlenConfig: GesamtWahlConfigType = {
     wahltermine: [
+        wahlTerminHagenBTW25,
+        wahlTerminKarlsruheBTW25,
         wahlTerminHagenEU24,
         wahlTerminGoettingenEURad24,
         wahlTerminKarlsruheEUGemeinderat24,
-        wahlTerminKarlsruheBTW,
-        wahlTerminHagenBTW,
+        wahlTerminKarlsruheBTW21,
+        wahlTerminHagenBTW21,
         wahlTerminHagenKWahl,
         wahlTerminHagenEU19,
         wahlTerminKarlsruheLandtag,
