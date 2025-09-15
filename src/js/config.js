@@ -14,7 +14,89 @@ import { ErgebnisKommunalwahlNRW, ErgebnisKommunalwahlBW, ErgebnisLandtagswahlBW
 
 /* ---------------------------------- Hagen --------------------------------- */
 
-let ebenenHagenKWahl: Map<string, EbeneConfigType> = new Map([
+let ebenenHagenKWahl25: Map<string, EbeneConfigType> = new Map([
+    ["Stimmbezirke", {
+        geoJson: "ebene_6.geojson",
+        keyProp: "BEZIRKSNUM",
+        uniqueId: true
+    }],
+    ["Briefwahlbezirke", {
+        geoJson: "ebene_6.geojson",
+        keyProp: "BEZIRKSNUM",
+        virtual: true,
+        virtualField: "BRIEFWAHLBEZIRK-NR",
+        dissolve: true,
+        uniqueId: true
+    }],
+    ["Wahlbezirke", {
+        geoJson: "ebene_6.geojson",
+        keyProp: "BEZIRKSNUM",
+        virtual: false,
+        virtualField: "gebiet-ebene-2-nr",
+        dissolve: true,
+        uniqueId: true
+    }],
+    ["Stadtbezirke", {
+        geoJson: "stadtbezirke.geojson",
+        keyProp: "BEZEICHNUN",
+        uniqueId: true
+    }],
+]);
+
+let wahlTerminHagenKWahl25: WahlTerminConfigType = {
+    name: "Hagen: Kommunalwahlen 2025 (vorl.)",
+    baseUrl: "./data/hagen-kommunal2025/",
+    wahlDatumStr: "14.09.2025",
+    defaultCenter: [51.37, 7.48],
+    defaultZoom: 12,
+    wahlen: [
+        {
+            displayName: "OB-Wahl",
+            name: "Wahl des Oberbürgermeisters / der Oberbürgermeisterin",
+            parameterPath: '05914000_14.09.2025_Wahl des Oberbürgermeisters - der Oberbürgermeisterin_Wahlparameter_V0-3_15.09.2025 090307 625.csv',
+            gebietePath: '05914000_14.09.2025_Wahl des Oberbürgermeisters - der Oberbürgermeisterin_Wahlgebietseinteilungen_V0-3_15.09.2025 153153 065.csv',
+            stimmzettelPath: '05914000_14.09.2025_Wahl des Oberbürgermeisters - der Oberbürgermeisterin_Stimmzettel_V0-3_15.09.2025 090603 343.csv',
+            //kandidatPath: "05914000_20200913_OB-Wahl_Kandidaten_V0-2_20201024T191200.csv",
+            ergebnisPath: '05914000_14.09.2025_Wahl des Oberbürgermeisters - der Oberbürgermeisterin_Wahlergebnisse_V0-3_15.09.2025 090313 809.csv',
+            ergebnisType: ErgebnisKommunalwahlNRW,
+            ebenen: ebenenHagenKWahl25
+        },
+        {
+            displayName: "Ratswahl",
+            name: "Wahl der Vertretung der Gemeinde (Rat der Stadt Hagen)",
+            parameterPath: '05914000_14.09.2025_Wahl der Vertretung der Gemeinde (Rat der Stadt Hagen)_Wahlparameter_V0-3_15.09.2025 090307 839.csv',
+            gebietePath: '05914000_14.09.2025_Wahl der Vertretung der Gemeinde (Rat der Stadt Hagen)_Wahlgebietseinteilungen_V0-3_15.09.2025 090926 093.csv',
+            stimmzettelPath: '05914000_14.09.2025_Wahl der Vertretung der Gemeinde (Rat der Stadt Hagen)_Stimmzettel_V0-3_15.09.2025 090603 343.csv',
+            //kandidatPath: "05914000_20200913_Ratswahl_Kandidaten_V0-2_20201024T191200.csv",
+            ergebnisPath: '05914000_14.09.2025_Wahl der Vertretung der Gemeinde (Rat der Stadt Hagen)_Wahlergebnisse_V0-3_15.09.2025 090313 809.csv',
+            ergebnisType: ErgebnisKommunalwahlNRW,
+            ebenen: ebenenHagenKWahl25
+        },
+        {
+            displayName: "BV-Wahl",
+            name: "Wahl der Bezirksvertretung",
+            parameterPath: '05914000_14.09.2025_Wahl der Bezirksvertretung_Wahlparameter_V0-3_15.09.2025 090307 871.csv',
+            gebietePath: '05914000_14.09.2025_Wahl der Bezirksvertretung_Wahlgebietseinteilungen_V0-3_15.09.2025 090918 918.csv',
+            stimmzettelPath: '05914000_14.09.2025_Wahl der Bezirksvertretung_Stimmzettel_V0-3_15.09.2025 090632 134.csv',
+            //kandidatPath: "05914000_20200913_BV-Wahl_Kandidaten_V0-2_20201024T191200.csv",
+            ergebnisPath: '05914000_14.09.2025_Wahl der Bezirksvertretung_Wahlergebnisse_V0-3_15.09.2025 090313 809.csv',
+            ergebnisType: ErgebnisKommunalwahlNRW,
+            ebenen: ebenenHagenKWahl25
+        },
+        {
+            displayName: "RVR-Wahl",
+            name: "Wahl der Vertretung der Verbandsversammlung des Regionalverbandes Ruhr (RVR)",
+            parameterPath: '05914000_14.09.2025_Wahl der Vertretung der Verbandsversammlung des Regionalverbandes Ruhr (RVR)_Wahlparameter_V0-3_15.09.2025 090307 930.csv',
+            gebietePath: '05914000_14.09.2025_Wahl der Vertretung der Verbandsversammlung des Regionalverbandes Ruhr (RVR)_Wahlgebietseinteilungen_V0-3_15.09.2025 090920 186.csv',
+            stimmzettelPath: '05914000_14.09.2025_Wahl der Vertretung der Verbandsversammlung des Regionalverbandes Ruhr (RVR)_Stimmzettel_V0-3_15.09.2025 090632 209.csv',
+            ergebnisPath: '05914000_14.09.2025_Wahl der Vertretung der Verbandsversammlung des Regionalverbandes Ruhr (RVR)_Wahlergebnisse_V0-3_15.09.2025 090313 809.csv',
+            ergebnisType: ErgebnisKommunalwahlNRW,
+            ebenen: ebenenHagenKWahl25
+        },
+    ]
+};
+
+let ebenenHagenKWahl20: Map<string, EbeneConfigType> = new Map([
     ["Stimmbezirk", {
         geoJson: "wahlbezirke_btw2021.json",
         keyProp: "BEZIRKSNUM",
@@ -32,7 +114,7 @@ let ebenenHagenKWahl: Map<string, EbeneConfigType> = new Map([
     }],
 ]);
 
-let wahlTerminHagenKWahl: WahlTerminConfigType = {
+let wahlTerminHagenKWahl20: WahlTerminConfigType = {
     name: "Hagen: Kommunalwahlen 2020",
     baseUrl: "./data/hagen-kommunal2020/",
     // in Zukunft evtl. das hier nur als Standard.
@@ -50,7 +132,7 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
             stimmzettelPath: "05914000_20200913_RVR-Wahl_Stimmzettel_V0-2_20201024T191200.csv",
             ergebnisPath: "05914000_20200913_RVR-Wahl_Wahlergebnisse_V0-2_20201024T191200.csv",
             ergebnisType: ErgebnisKommunalwahlNRW,
-            ebenen: ebenenHagenKWahl
+            ebenen: ebenenHagenKWahl20
         },
         {
             displayName: "OB-Wahl",
@@ -61,7 +143,7 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
             kandidatPath: "05914000_20200913_OB-Wahl_Kandidaten_V0-2_20201024T191200.csv",
             ergebnisPath: "05914000_20200913_OB-Wahl_Wahlergebnisse_V0-2_20201024T191200.csv",
             ergebnisType: ErgebnisKommunalwahlNRW,
-            ebenen: ebenenHagenKWahl
+            ebenen: ebenenHagenKWahl20
         },
         {
             displayName: "Ratswahl",
@@ -72,7 +154,7 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
             kandidatPath: "05914000_20200913_Ratswahl_Kandidaten_V0-2_20201024T191200.csv",
             ergebnisPath: "05914000_20200913_Ratswahl_Wahlergebnisse_V0-2_20201024T191200.csv",
             ergebnisType: ErgebnisKommunalwahlNRW,
-            ebenen: ebenenHagenKWahl
+            ebenen: ebenenHagenKWahl20
         },
         {
             displayName: "BV-Wahl", // todo in Daten
@@ -83,7 +165,7 @@ let wahlTerminHagenKWahl: WahlTerminConfigType = {
             kandidatPath: "05914000_20200913_BV-Wahl_Kandidaten_V0-2_20201024T191200.csv",
             ergebnisPath: "05914000_20200913_BV-Wahl_Wahlergebnisse_V0-2_20201024T191200.csv",
             ergebnisType: ErgebnisKommunalwahlNRW,
-            ebenen: ebenenHagenKWahl
+            ebenen: ebenenHagenKWahl20
         },
     ]
 };
@@ -763,6 +845,7 @@ let wahlTerminKarlsruheEUGemeinderat24: WahlTerminConfigType = {
 
 export var wahlenConfig: GesamtWahlConfigType = {
     wahltermine: [
+        wahlTerminHagenKWahl25,
         wahlTerminHagenBTW25,
         wahlTerminKarlsruheBTW25,
         wahlTerminHagenEU24,
@@ -770,7 +853,7 @@ export var wahlenConfig: GesamtWahlConfigType = {
         wahlTerminKarlsruheEUGemeinderat24,
         wahlTerminKarlsruheBTW21,
         wahlTerminHagenBTW21,
-        wahlTerminHagenKWahl,
+        wahlTerminHagenKWahl20,
         wahlTerminHagenEU19,
         wahlTerminKarlsruheLandtag,
         wahlTerminDuesseldorfKWahl,

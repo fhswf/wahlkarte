@@ -531,18 +531,17 @@ export default class WahlController {
                 }
 
                 if (ebene.config.dissolve) {
+                    // dissolve ohne virtual.. geht auch?
                     let dissolveField = ebene.config.keyProp;
-                    if (ebene.isVirtual) {
-                        featureEach(geoJson, feature => {
-                            let wG = this.activeWahl.wahlEbene.getGebiet(feature.properties[ebene.config.keyProp], !ebene.uniqueId && feature.properties[ebene.config.gsProp] );
-                            let pO = wG.partOf.get(ebene);
-                            if (pO.size !== 1) throw new Error(`Could not find 1 virtual Gebiet for ${feature}`);
-                            feature.properties[ebene.config.virtualField] = pO.values().next().value.nr;
-                        });
-                        dissolveField = ebene.config.virtualField;
-                    }
+                    featureEach(geoJson, feature => {
+                        let wG = this.activeWahl.wahlEbene.getGebiet(feature.properties[ebene.config.keyProp], !ebene.uniqueId && feature.properties[ebene.config.gsProp] );
+                        let pO = wG.partOf.get(ebene);
+                        if (pO.size !== 1) throw new Error(`Could not find 1 virtual Gebiet for ${feature}`);
+                        feature.properties[ebene.config.virtualField] = pO.values().next().value.nr;
+                    });
+                    dissolveField = ebene.config.virtualField;
                     geoJson = dissolve(flatten(geoJson), {propertyName: dissolveField});
-                    if (ebene.isVirtual) featureEach(geoJson, feature => { feature.properties[ebene.config.keyProp] = feature.properties[dissolveField]});
+                    featureEach(geoJson, feature => { feature.properties[ebene.config.keyProp] = feature.properties[dissolveField]});
                 }
 
                 // let gebieteLayers = new Map();

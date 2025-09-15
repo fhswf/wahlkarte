@@ -152,4 +152,8 @@ document.addEventListener('DOMContentLoaded', () => {
     Lmap.invalidateSize();
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => { alert("Hinweis: Die Daten der am feinsten aufgelösten Ebene, bei Kommunalwahlen \"Stimmbezirke\", bei anderen Wahlen \"Wahlbezirke\", enthalten nur Stimmen aus der Urnenwahl. Die anderen Ebenen enthalten alle Stimmen.")}, 500);
+});
+
 window.wahlController = new WahlController(wahlenConfig, Lmap, layer);
